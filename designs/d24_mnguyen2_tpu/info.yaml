@@ -1,0 +1,12 @@
+---
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - tpu.sv
+    - register.sv
+    - counter.sv
+    - mac.sv
+    - matrix.sv
+  top_module:  "toplevel_chip"
+

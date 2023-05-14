@@ -1,0 +1,20 @@
+name = "word_count"
+
+# Program by Daniel Cristofani, CC-BY-SA
+program = """>>>+>>>>>+>>+>>+[<<],[
+    -[-[-[-[-[-[-[-[<+>-[>+<-[>-<-[-[-[<++[<++++++>-]<
+        [>>[-<]<[>]<-]>>[<+>-[<->[-]]]]]]]]]]]]]]]]
+    <[-<<[-]+>]<<[>>>>>>+<<<<<<-]>[>]>>>>>>>+>[
+        <+[
+            >+++++++++<-[>-<-]++>[<+++++++>-[<->-]+[+>>>>>>]]
+            <[>+<-]>[>>>>>++>[-]]+<
+        ]>[-<<<<<<]>>>>
+    ],
+]+<++>>>[[+++++>>>>>>]<+>+[[<++++++++>-]<.<<<<<]>>>>>>>>]
+[Counts lines, words, bytes. Assumes no-change-on-EOF or EOF->0.
+Daniel B Cristofani (cristofdathevanetdotcom)
+http://www.hevanet.com/cristofd/brainfuck/]"""
+
+input = "example 123\nasdf"
+input_end = 0
+output = "\t1\t3\t16\n"

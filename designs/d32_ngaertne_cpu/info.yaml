@@ -1,0 +1,7 @@
+--- 
+project:
+  source_files:
+    - cpu.sv
+  top_module:  "noahgaertner_cpu"
+
+  tt02_fmt: true

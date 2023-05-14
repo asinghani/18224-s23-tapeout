@@ -1,0 +1,84 @@
+set_io clk100 P7
+set_io reset_n P8
+
+set_io base_led[0] J11
+set_io base_led[1] K11
+set_io base_led[2] K12
+set_io base_led[3] K14
+set_io base_led[4] L12
+set_io base_led[5] L14
+set_io base_led[6] M12
+set_io base_led[7] N14
+
+set_io uart_rx P14
+set_io uart_tx M9
+
+set_io led[0] G14
+set_io led[1] F14
+set_io led[2] E12
+set_io led[3] E14
+set_io led[4] D14
+set_io led[5] C14
+set_io led[6] B14
+set_io led[7] A12
+set_io led[8] C10
+set_io led[9] C9
+set_io led[10] A11
+set_io led[11] A10
+set_io led[12] A7
+set_io led[13] A6
+set_io led[14] A4
+set_io led[15] A3
+set_io led[16] A2
+set_io led[17] A1
+set_io led[18] C3
+set_io led[19] D3
+set_io led[20] B1
+set_io led[21] C1
+set_io led[22] D1
+set_io led[23] E1
+
+set_io sw[0] G12
+set_io sw[1] F12
+set_io sw[2] F11
+set_io sw[3] E11
+set_io sw[4] D12
+set_io sw[5] D11
+set_io sw[6] C12
+set_io sw[7] C11
+set_io sw[8] D10
+set_io sw[9] D9
+set_io sw[10] D7
+set_io sw[11] D6
+set_io sw[12] C7
+set_io sw[13] C6
+set_io sw[14] A5
+set_io sw[15] C5
+set_io sw[16] D5
+set_io sw[17] C4
+set_io sw[18] D4
+set_io sw[19] E4
+set_io sw[20] F4
+set_io sw[21] F3
+set_io sw[22] H4
+set_io sw[23] G4
+
+set_io btn[0] G11
+set_io btn[1] H11
+set_io btn[2] H12
+set_io btn[3] J12
+set_io btn[4] P2
+
+set_io display_sel[0] G3
+set_io display_sel[1] G1
+set_io display_sel[2] H1
+set_io display_sel[3] H3
+
+set_io display[0] J1
+set_io display[1] J3
+set_io display[2] N1
+set_io display[3] K4
+set_io display[4] K3
+set_io display[5] L1
+set_io display[6] M1
+set_io display[7] P1

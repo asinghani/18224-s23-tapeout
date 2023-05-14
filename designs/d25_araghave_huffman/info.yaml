@@ -1,0 +1,9 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - decoder.v
+    - huff_enc.v
+  top_module:  "toplevel_chip"
+

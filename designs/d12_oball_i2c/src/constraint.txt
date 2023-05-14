@@ -1,0 +1,9 @@
+set_io clk100 P7
+set_io reset_n P8
+
+set_io SCL_in M1  // A2
+set_io SDA_in L1  // A3
+set_io SDA_out P1 //A49
+set_io i2c_reset J1 //A5
+
+

@@ -1,0 +1,19 @@
+name = "isort"
+
+# Program by Daniel Cristofani, CC-BY-SA
+program = """[isort.b -- insertion sort
+(c) 2016 Daniel B. Cristofani
+http://brainfuck.org/]
+
+>+[
+    <[
+        [>>+<<-]>[<<+<[->>+[<]]>>>[>]<<-]<<<
+    ]>>[<<+>>-]<[>+<-]>[>>]<,
+]<<<[<+<]>[>.>]
+
+[This program sorts bytes of input using insertion sort.]
+"""
+
+input = "43y 87th43gb4th43qiu haw4q"
+input_end = 0
+output = "  3334444478abghhhiqqttuwy"

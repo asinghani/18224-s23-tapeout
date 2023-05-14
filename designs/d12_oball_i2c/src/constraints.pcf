@@ -1,0 +1,32 @@
+set_io clk100 P7
+set_io reset_n P8
+
+set_io SCL_in M1
+set_io SDA_in L1
+set_io SDA_out J3
+set_io i2c_reset J1
+
+set_io led[0] P1
+set_io led[1] K4
+set_io led[2] H3
+set_io led[3] G4
+set_io led[4] F3
+set_io led[5] E4
+set_io led[6] C4
+set_io led[7] C5
+
+set_io parallel_in[0] M4
+set_io parallel_in[1] M3
+set_io parallel_in[2] P3
+set_io parallel_in[3] P2
+set_io parallel_in[4] L5
+set_io parallel_in[5] L4
+set_io parallel_in[6] P5
+set_io parallel_in[7] P4
+
+set_io PWM[0] G1
+set_io PWM[1] E1
+
+set_io UART C1
+set_io ADDR[0] D3
+set_io ADDR[1] A1

@@ -1,0 +1,8 @@
+---
+project:
+  source_files:
+    - top.sv
+    - async-fifo.sv
+  top_module:  "jonpaolo02_async_fifo"
+
+  tt02_fmt: true

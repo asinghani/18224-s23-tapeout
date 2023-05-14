@@ -1,0 +1,12 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - FSM.sv
+    - IO.sv
+    - datapath.sv
+    - library.sv
+    - I2C.sv
+  top_module:  "toplevel_chip"
+

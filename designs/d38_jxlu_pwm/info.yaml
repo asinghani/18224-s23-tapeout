@@ -1,0 +1,9 @@
+--- 
+project:
+  source_files:
+    - poisonninja_top.v
+    - pwm_generator.v
+  top_module:  "poisonninja_top"
+
+  tt02_fmt: true
+

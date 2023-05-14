@@ -1,0 +1,23 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - 8_bit_adder.sv
+    - DFF.sv
+    - add_accumulate.sv
+    - adder_20.sv
+    - carry_select4.sv
+    - fulladder.sv
+    - mac_controller.sv
+    - multiplicand.sv
+    - multiplier.sv
+    - multiplier_controller.sv
+    - register20.sv
+    - register8.sv
+    - ripple_carry_adder.sv
+    - top_multiplier.sv
+    
+    
+  top_module:  "toplevel_chip"
+

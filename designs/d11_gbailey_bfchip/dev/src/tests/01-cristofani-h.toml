@@ -1,0 +1,8 @@
+name = "H"
+
+# Program by Daniel Cristofani, CC-BY-SA
+# "Tests for several obscure problems. Should output an H."
+program = """[]++++++++++[>>+>+>++++++[<<+<+++>>>-]<<<<-]
+"A*$";?@![#>>+<<]>[>>]<<<<[>++<[-]]>.>."""
+
+output = "H\n"

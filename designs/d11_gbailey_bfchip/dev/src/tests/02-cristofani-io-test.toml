@@ -1,0 +1,10 @@
+# Verifies that the input and output streams are behaving as expected
+
+name = "io_test"
+
+# Program by Daniel Cristofani, CC-BY-SA
+program = ">,>+++++++++,>+++++++++++[<++++++<++++++<+>>>-]<<.>.<<-.>.>.<<."
+
+input = "\n"
+input_end = 0
+output = "LB\nLB\n" # L=newline, B=null

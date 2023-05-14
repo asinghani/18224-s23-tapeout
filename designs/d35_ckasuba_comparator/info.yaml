@@ -1,0 +1,8 @@
+---
+project:
+  source_files:
+    - cells.v
+    - wokwi.v
+  top_module:  "user_module_350155397606146642"
+
+  tt02_fmt: true

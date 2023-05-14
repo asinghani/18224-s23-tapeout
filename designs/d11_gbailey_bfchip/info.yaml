@@ -1,0 +1,6 @@
+---
+project:
+  source_files:
+    - toplevel_chip.v
+    - all_tapeout.v # file automatically generated
+  top_module:  "toplevel_chip"

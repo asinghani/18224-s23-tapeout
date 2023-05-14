@@ -1,0 +1,8 @@
+# Obligatory Hello World test. Ensures that cell interactions, loops, and
+# outputs are working.
+
+name = "hello_world"
+
+program = "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."
+
+output = "Hello World!\n"

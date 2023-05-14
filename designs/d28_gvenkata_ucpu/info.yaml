@@ -1,0 +1,13 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - mcpu.sv
+    - micro_reg.sv
+    - alu.v
+    - inst_mem.sv
+    - shared_bus.sv
+    - decode.sv
+  top_module:  "toplevel_chip"
+

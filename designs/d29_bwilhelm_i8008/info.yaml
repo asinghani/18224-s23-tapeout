@@ -1,0 +1,8 @@
+--- 
+project:
+  source_files:
+    - i8008_core.v
+    - toplevel_chip.v
+    - chip.sv
+    - decoder.v
+  top_module:  "toplevel_chip"

@@ -1,0 +1,8 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - perceptron.sv
+    - lib.v
+  top_module:  "toplevel_chip"

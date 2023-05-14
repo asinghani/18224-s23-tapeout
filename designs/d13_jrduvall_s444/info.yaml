@@ -1,0 +1,9 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - s444.sv
+    - library.sv
+  top_module:  "toplevel_chip"
+
