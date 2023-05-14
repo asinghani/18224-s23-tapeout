@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1670986280" />
+    <testcase name="test_chip" classname="test" file="/afs/ece.cmu.edu/usr/mmx/98154/tt02-verilog-demo/src/test.py" lineno="8" time="0.16474556922912598" sim_time_ns="10090000.001" ratio_time="61245956.70895986" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+--- 
+project:
+  source_files:
+    - stroucki_top.sv
+    - lfsr.v
+    - game.sv
+  top_module:  "stroucki_top"
+
+  tt02_fmt: true

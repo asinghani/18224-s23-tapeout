@@ -1,0 +1,8 @@
+--- 
+project:
+  source_files:
+    - chip.v
+  top_module:  "mmx_chip"
+
+  tt02_fmt: true
+
