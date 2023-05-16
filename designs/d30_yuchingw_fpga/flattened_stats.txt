@@ -1,0 +1,17 @@
+=== d30_yuchingw_fpga ===
+
+   Number of wires:                550
+   Number of wire bits:           1192
+   Number of public wires:         528
+   Number of public wire bits:    1170
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 40
+     $_ANDNOT_                       4
+     $_AND_                          2
+     $_MUX_                          4
+     $_ORNOT_                        4
+     $_OR_                          14
+     $_SDFFE_PP0N_                   8
+     $_SDFF_PP0_                     4

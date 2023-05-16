@@ -1,0 +1,22 @@
+=== d38_jxlu_pwm ===
+
+   Number of wires:                 56
+   Number of wire bits:            126
+   Number of public wires:          10
+   Number of public wire bits:      65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 63
+     $_ANDNOT_                      19
+     $_AND_                          2
+     $_DFFE_PN_                      1
+     $_NAND_                         6
+     $_NOT_                          1
+     $_ORNOT_                        4
+     $_OR_                           7
+     $_SDFFCE_PN0P_                  3
+     $_SDFFCE_PN1P_                  3
+     $_SDFF_PP0_                     6
+     $_XNOR_                         6
+     $_XOR_                          5

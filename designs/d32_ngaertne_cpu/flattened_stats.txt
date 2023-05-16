@@ -1,0 +1,22 @@
+=== d32_ngaertne_cpu ===
+
+   Number of wires:                541
+   Number of wire bits:            693
+   Number of public wires:          43
+   Number of public wire bits:     189
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                641
+     $_ANDNOT_                     119
+     $_AND_                         15
+     $_MUX_                        161
+     $_NAND_                         9
+     $_NOR_                         10
+     $_NOT_                         17
+     $_ORNOT_                       18
+     $_OR_                         135
+     $_SDFFE_PP0P_                 132
+     $_SDFF_PP0_                     5
+     $_XNOR_                         2
+     $_XOR_                         18

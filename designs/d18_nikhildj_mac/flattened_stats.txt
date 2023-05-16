@@ -1,0 +1,28 @@
+=== d18_nikhildj_mac ===
+
+   Number of wires:                825
+   Number of wire bits:           1663
+   Number of public wires:         538
+   Number of public wire bits:    1376
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                419
+     $_ANDNOT_                      98
+     $_AND_                         26
+     $_DFF_P_                       46
+     $_MUX_                         30
+     $_NAND_                        10
+     $_NOR_                         11
+     $_NOT_                         10
+     $_ORNOT_                       10
+     $_OR_                          65
+     $_SDFFE_NP0P_                   4
+     $_SDFFE_PP0N_                   1
+     $_SDFFE_PP0P_                  21
+     $_SDFFE_PP1P_                   2
+     $_SDFF_NP0_                    16
+     $_SDFF_PN0_                     1
+     $_SDFF_PP0_                    19
+     $_XNOR_                        14
+     $_XOR_                         35

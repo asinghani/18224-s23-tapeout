@@ -1,0 +1,22 @@
+=== d26_cjstange_perceptron ===
+
+   Number of wires:                676
+   Number of wire bits:           1027
+   Number of public wires:         121
+   Number of public wire bits:     470
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                663
+     $_ANDNOT_                     105
+     $_AND_                         21
+     $_DFF_P_                       11
+     $_MUX_                        204
+     $_NAND_                         6
+     $_NOR_                         34
+     $_NOT_                         53
+     $_ORNOT_                       21
+     $_OR_                          93
+     $_SDFFE_PP0P_                  50
+     $_XNOR_                        16
+     $_XOR_                         49

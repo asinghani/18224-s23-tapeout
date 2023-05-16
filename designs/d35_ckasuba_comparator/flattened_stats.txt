@@ -1,0 +1,16 @@
+=== d35_ckasuba_comparator ===
+
+   Number of wires:                 67
+   Number of wire bits:            107
+   Number of public wires:          42
+   Number of public wire bits:      82
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 29
+     $_ANDNOT_                      11
+     $_NAND_                         2
+     $_ORNOT_                        6
+     $_OR_                           8
+     $_XNOR_                         1
+     $_XOR_                          1

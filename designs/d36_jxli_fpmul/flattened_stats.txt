@@ -1,0 +1,24 @@
+=== d36_jxli_fpmul ===
+
+   Number of wires:                386
+   Number of wire bits:            513
+   Number of public wires:          21
+   Number of public wire bits:     137
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                439
+     $_ANDNOT_                     104
+     $_AND_                         35
+     $_DFFE_PP_                     41
+     $_DFF_P_                       12
+     $_MUX_                         32
+     $_NAND_                        13
+     $_NOR_                         20
+     $_NOT_                         12
+     $_ORNOT_                       19
+     $_OR_                          88
+     $_SDFFCE_PP0P_                  2
+     $_SDFFE_PP1P_                   8
+     $_XNOR_                        13
+     $_XOR_                         40

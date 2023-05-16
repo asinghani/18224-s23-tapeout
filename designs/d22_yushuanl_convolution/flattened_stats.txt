@@ -1,0 +1,23 @@
+=== d22_yushuanl_convolution ===
+
+   Number of wires:                 62
+   Number of wire bits:            163
+   Number of public wires:          32
+   Number of public wire bits:     131
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 61
+     $_ANDNOT_                       7
+     $_AND_                          1
+     $_DFFE_PP_                     18
+     $_MUX_                         14
+     $_NAND_                         1
+     $_NOR_                          1
+     $_NOT_                          4
+     $_ORNOT_                        4
+     $_OR_                           1
+     $_SDFFCE_PN0P_                  2
+     $_SDFF_PP0_                     3
+     $_XNOR_                         3
+     $_XOR_                          2

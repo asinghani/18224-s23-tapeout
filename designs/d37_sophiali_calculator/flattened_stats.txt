@@ -1,0 +1,22 @@
+=== d37_sophiali_calculator ===
+
+   Number of wires:                108
+   Number of wire bits:            158
+   Number of public wires:          12
+   Number of public wire bits:      55
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                113
+     $_ANDNOT_                      31
+     $_AND_                          3
+     $_MUX_                         27
+     $_NAND_                         4
+     $_NOR_                          4
+     $_NOT_                          2
+     $_ORNOT_                        2
+     $_OR_                          12
+     $_SDFFE_PP0P_                   8
+     $_SDFF_PP0_                     1
+     $_XNOR_                         8
+     $_XOR_                         11

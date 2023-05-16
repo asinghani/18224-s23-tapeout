@@ -1,0 +1,22 @@
+=== d11_gbailey_bfchip ===
+
+   Number of wires:                848
+   Number of wire bits:           1119
+   Number of public wires:          38
+   Number of public wire bits:     304
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                995
+     $_ANDNOT_                     311
+     $_AND_                         67
+     $_DFF_P_                        6
+     $_MUX_                          1
+     $_NAND_                        36
+     $_NOR_                         51
+     $_NOT_                         45
+     $_ORNOT_                       30
+     $_OR_                         260
+     $_SDFFE_PP0P_                  90
+     $_XNOR_                        12
+     $_XOR_                         86

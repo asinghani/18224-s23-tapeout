@@ -1,0 +1,26 @@
+=== d23_zhiyingm_turing ===
+
+   Number of wires:               1718
+   Number of wire bits:           2572
+   Number of public wires:         301
+   Number of public wire bits:    1149
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2161
+     $_ANDNOT_                     226
+     $_AND_                         34
+     $_DFFE_PP_                    660
+     $_DFF_P_                       30
+     $_MUX_                        683
+     $_NAND_                        20
+     $_NOR_                         17
+     $_NOT_                        145
+     $_ORNOT_                       22
+     $_OR_                         232
+     $_SDFFCE_PN0P_                  1
+     $_SDFFCE_PP0P_                  7
+     $_SDFFCE_PP1P_                  1
+     $_SDFFE_PP0P_                  18
+     $_XNOR_                        12
+     $_XOR_                         53

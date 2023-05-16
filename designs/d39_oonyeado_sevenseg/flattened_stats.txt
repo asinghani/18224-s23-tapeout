@@ -1,0 +1,18 @@
+=== d39_oonyeado_sevenseg ===
+
+   Number of wires:                116
+   Number of wire bits:            156
+   Number of public wires:          66
+   Number of public wire bits:     106
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 57
+     $_ANDNOT_                      15
+     $_AND_                          4
+     $_MUX_                          1
+     $_NAND_                         2
+     $_NOR_                          5
+     $_NOT_                          1
+     $_ORNOT_                        4
+     $_OR_                          25

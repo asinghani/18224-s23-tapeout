@@ -1,0 +1,23 @@
+=== d20_rashik_tetris ===
+
+   Number of wires:               2202
+   Number of wire bits:           2435
+   Number of public wires:          16
+   Number of public wire bits:     231
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2221
+     $_ANDNOT_                     543
+     $_AND_                         10
+     $_DFFE_PP_                      8
+     $_MUX_                        125
+     $_NAND_                        12
+     $_NOR_                         17
+     $_NOT_                         30
+     $_ORNOT_                      372
+     $_OR_                        1031
+     $_SDFFE_PP0P_                  11
+     $_SDFF_PP0_                     4
+     $_XNOR_                        13
+     $_XOR_                         45

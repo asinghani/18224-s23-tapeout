@@ -1,0 +1,16 @@
+=== d13_jrduvall_s444 ===
+
+   Number of wires:                299
+   Number of wire bits:            719
+   Number of public wires:         248
+   Number of public wire bits:     668
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                116
+     $_ANDNOT_                       2
+     $_AND_                          1
+     $_MUX_                         54
+     $_SDFFE_PP0P_                  56
+     $_SDFF_PP0_                     2
+     $_XOR_                          1

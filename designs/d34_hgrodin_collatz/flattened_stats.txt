@@ -1,0 +1,18 @@
+=== d34_hgrodin_collatz ===
+
+   Number of wires:                 30
+   Number of wire bits:            109
+   Number of public wires:          17
+   Number of public wire bits:      96
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 17
+     $_ANDNOT_                       4
+     $_AND_                          2
+     $_MUX_                          2
+     $_NAND_                         1
+     $_ORNOT_                        1
+     $_OR_                           1
+     $_XNOR_                         2
+     $_XOR_                          4

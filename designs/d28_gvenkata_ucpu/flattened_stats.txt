@@ -1,0 +1,25 @@
+=== d28_gvenkata_ucpu ===
+
+   Number of wires:                931
+   Number of wire bits:           1806
+   Number of public wires:         205
+   Number of public wire bits:    1067
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                985
+     $_ANDNOT_                     203
+     $_AND_                         17
+     $_DFFE_PP_                     32
+     $_DFF_P_                       12
+     $_MUX_                        178
+     $_NAND_                        27
+     $_NOR_                         23
+     $_NOT_                         50
+     $_ORNOT_                       35
+     $_OR_                         179
+     $_SDFFE_PP0P_                 137
+     $_SDFF_PP0_                    37
+     $_SDFF_PP1_                     1
+     $_XNOR_                        10
+     $_XOR_                         44

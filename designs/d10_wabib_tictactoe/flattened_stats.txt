@@ -1,0 +1,21 @@
+=== d10_wabib_tictactoe ===
+
+   Number of wires:                802
+   Number of wire bits:            965
+   Number of public wires:         231
+   Number of public wire bits:     394
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                667
+     $_ANDNOT_                     148
+     $_AND_                          6
+     $_DFF_P_                        4
+     $_MUX_                        114
+     $_NAND_                        35
+     $_NOR_                         10
+     $_NOT_                         15
+     $_ORNOT_                       28
+     $_OR_                         253
+     $_SDFFE_PP0P_                  36
+     $_SDFF_PP0_                    18

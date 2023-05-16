@@ -1,0 +1,22 @@
+=== d24_mnguyen2_tpu ===
+
+   Number of wires:                417
+   Number of wire bits:            644
+   Number of public wires:          64
+   Number of public wire bits:     291
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                447
+     $_ANDNOT_                     123
+     $_AND_                         20
+     $_MUX_                         26
+     $_NAND_                        25
+     $_NOR_                         11
+     $_NOT_                         35
+     $_ORNOT_                       10
+     $_OR_                          80
+     $_SDFFE_PP0N_                  14
+     $_SDFFE_PP0P_                  38
+     $_XNOR_                        19
+     $_XOR_                         46

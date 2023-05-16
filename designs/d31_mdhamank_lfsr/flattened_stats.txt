@@ -1,0 +1,16 @@
+=== d31_mdhamank_lfsr ===
+
+   Number of wires:                105
+   Number of wire bits:            145
+   Number of public wires:         102
+   Number of public wire bits:     142
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 22
+     $_DFFE_PN_                      8
+     $_DFF_P_                        8
+     $_NAND_                         1
+     $_NOT_                          2
+     $_XNOR_                         1
+     $_XOR_                          2

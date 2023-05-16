@@ -1,0 +1,24 @@
+=== d16_bgonzale_pll ===
+
+   Number of wires:                217
+   Number of wire bits:            335
+   Number of public wires:          34
+   Number of public wire bits:     136
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                219
+     $_ANDNOT_                      49
+     $_AND_                         18
+     $_DFFE_PN_                      1
+     $_MUX_                         16
+     $_NAND_                         9
+     $_NOR_                          9
+     $_NOT_                          9
+     $_ORNOT_                       10
+     $_OR_                          19
+     $_SDFFE_PP1P_                   1
+     $_SDFF_PN0_                    21
+     $_SDFF_PP0_                     4
+     $_XNOR_                        11
+     $_XOR_                         42

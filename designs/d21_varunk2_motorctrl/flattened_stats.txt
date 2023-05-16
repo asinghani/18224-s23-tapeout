@@ -1,0 +1,24 @@
+=== d21_varunk2_motorctrl ===
+
+   Number of wires:                488
+   Number of wire bits:            748
+   Number of public wires:          64
+   Number of public wire bits:     236
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                555
+     $_ANDNOT_                     198
+     $_AND_                         12
+     $_DFFE_PN_                      2
+     $_DFFE_PP_                     32
+     $_DFF_P_                        5
+     $_NAND_                        28
+     $_NOR_                         14
+     $_NOT_                         18
+     $_ORNOT_                       36
+     $_OR_                          52
+     $_SDFFE_PP0P_                   2
+     $_SDFF_PP0_                    50
+     $_XNOR_                         8
+     $_XOR_                         98

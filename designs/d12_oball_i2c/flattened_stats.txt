@@ -1,0 +1,28 @@
+=== d12_oball_i2c ===
+
+   Number of wires:               2035
+   Number of wire bits:           3254
+   Number of public wires:         144
+   Number of public wire bits:    1357
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1948
+     $_ANDNOT_                     662
+     $_AND_                        104
+     $_DFFE_PN_                     16
+     $_DFFE_PP_                      4
+     $_DFF_P_                        8
+     $_MUX_                         28
+     $_NAND_                        43
+     $_NOR_                         44
+     $_NOT_                         48
+     $_ORNOT_                      177
+     $_OR_                         365
+     $_SDFFE_PP0N_                  39
+     $_SDFFE_PP0P_                 203
+     $_SDFFE_PP1N_                   9
+     $_SDFF_PP0_                    32
+     $_SDFF_PP1_                     1
+     $_XNOR_                        27
+     $_XOR_                        138

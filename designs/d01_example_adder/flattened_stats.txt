@@ -1,0 +1,18 @@
+=== d01_example_adder ===
+
+   Number of wires:                 32
+   Number of wire bits:             80
+   Number of public wires:           6
+   Number of public wire bits:      54
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 33
+     $_ANDNOT_                      10
+     $_AND_                          1
+     $_NAND_                         5
+     $_NOR_                          2
+     $_ORNOT_                        2
+     $_OR_                           2
+     $_XNOR_                         3
+     $_XOR_                          8

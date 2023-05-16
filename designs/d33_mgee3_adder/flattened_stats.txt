@@ -1,0 +1,16 @@
+=== d33_mgee3_adder ===
+
+   Number of wires:                 42
+   Number of wire bits:             82
+   Number of public wires:          34
+   Number of public wire bits:      74
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 12
+     $_AND_                          3
+     $_NAND_                         1
+     $_NOR_                          1
+     $_OR_                           2
+     $_XNOR_                         1
+     $_XOR_                          4

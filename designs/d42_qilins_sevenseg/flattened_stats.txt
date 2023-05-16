@@ -1,0 +1,18 @@
+=== d42_qilins_sevenseg ===
+
+   Number of wires:                114
+   Number of wire bits:            154
+   Number of public wires:          69
+   Number of public wire bits:     109
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 53
+     $_ANDNOT_                      13
+     $_AND_                          4
+     $_MUX_                          6
+     $_NAND_                         2
+     $_NOR_                          7
+     $_NOT_                          1
+     $_ORNOT_                        2
+     $_OR_                          18

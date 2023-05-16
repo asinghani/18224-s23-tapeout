@@ -1,0 +1,24 @@
+=== d17_njayawar_tetris ===
+
+   Number of wires:               1200
+   Number of wire bits:           1738
+   Number of public wires:         112
+   Number of public wire bits:     475
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1334
+     $_ANDNOT_                     310
+     $_AND_                         71
+     $_DFF_P_                        9
+     $_MUX_                         45
+     $_NAND_                        58
+     $_NOR_                         66
+     $_NOT_                         34
+     $_ORNOT_                       38
+     $_OR_                         251
+     $_SDFFE_PP0P_                  59
+     $_SDFFE_PP1P_                  17
+     $_SDFF_PP0_                    62
+     $_XNOR_                        70
+     $_XOR_                        244

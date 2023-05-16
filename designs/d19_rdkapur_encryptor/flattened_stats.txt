@@ -1,0 +1,22 @@
+=== d19_rdkapur_encryptor ===
+
+   Number of wires:               6579
+   Number of wire bits:           7277
+   Number of public wires:         112
+   Number of public wire bits:     810
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6510
+     $_ANDNOT_                    2561
+     $_AND_                         96
+     $_DFFE_PP_                     32
+     $_MUX_                        519
+     $_NAND_                        98
+     $_NOR_                        371
+     $_NOT_                        185
+     $_ORNOT_                      205
+     $_OR_                        1551
+     $_SDFF_PP1_                     1
+     $_XNOR_                        32
+     $_XOR_                        859

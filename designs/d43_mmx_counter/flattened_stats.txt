@@ -1,0 +1,16 @@
+=== d43_mmx_counter ===
+
+   Number of wires:                 16
+   Number of wire bits:             74
+   Number of public wires:           7
+   Number of public wire bits:      53
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 21
+     $_ANDNOT_                       2
+     $_AND_                          3
+     $_NAND_                         2
+     $_NOT_                          1
+     $_SDFF_PP0_                     7
+     $_XOR_                          6

@@ -1,0 +1,26 @@
+=== d25_araghave_huffman ===
+
+   Number of wires:               1823
+   Number of wire bits:           2596
+   Number of public wires:          46
+   Number of public wire bits:     805
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2074
+     $_ANDNOT_                     407
+     $_AND_                         62
+     $_DFFE_PP_                     25
+     $_DFF_P_                       64
+     $_MUX_                        386
+     $_NAND_                        53
+     $_NOR_                         36
+     $_NOT_                         82
+     $_ORNOT_                       51
+     $_OR_                         365
+     $_SDFFCE_PN0P_                  7
+     $_SDFFCE_PN1P_                  2
+     $_SDFFE_PP0N_                  48
+     $_SDFFE_PP0P_                 147
+     $_XNOR_                        45
+     $_XOR_                        294

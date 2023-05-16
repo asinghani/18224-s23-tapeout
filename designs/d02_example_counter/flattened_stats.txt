@@ -1,0 +1,20 @@
+=== d02_example_counter ===
+
+   Number of wires:                 68
+   Number of wire bits:            127
+   Number of public wires:           8
+   Number of public wire bits:      56
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 83
+     $_ANDNOT_                      22
+     $_AND_                          3
+     $_NAND_                         3
+     $_NOR_                          3
+     $_NOT_                          1
+     $_ORNOT_                        1
+     $_OR_                          16
+     $_SDFFE_PP0P_                  12
+     $_XNOR_                         7
+     $_XOR_                         15

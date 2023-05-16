@@ -1,0 +1,26 @@
+=== d41_stroucki_corralgame ===
+
+   Number of wires:                172
+   Number of wire bits:            821
+   Number of public wires:          71
+   Number of public wire bits:     685
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                128
+     $_ANDNOT_                      41
+     $_AND_                          5
+     $_DFFE_PN_                      1
+     $_DFFE_PP_                      4
+     $_MUX_                          8
+     $_NAND_                         3
+     $_NOR_                         10
+     $_NOT_                          8
+     $_ORNOT_                        6
+     $_OR_                          17
+     $_SDFFCE_PP0P_                  7
+     $_SDFFE_PP1P_                   1
+     $_SDFF_PP0_                     2
+     $_SDFF_PP1_                     1
+     $_XNOR_                         1
+     $_XOR_                         13
