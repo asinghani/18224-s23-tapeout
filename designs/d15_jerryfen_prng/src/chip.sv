@@ -133,7 +133,7 @@ module control_path
         endcase
     end
 
-    always_ff @(posedge clock, posedge reset) begin
+    always_ff @(posedge clock) begin
 
         if (reset) begin
             curr_state <= reset_state;
@@ -175,7 +175,7 @@ module fibo_lsfr
 
     logic feedback;
 
-    always_ff @(posedge clk, posedge reset) begin
+    always_ff @(posedge clk) begin
 
         if(reset)
             state_out <= 8'b0;
@@ -222,7 +222,7 @@ module galo_lsfr
     // xor G2(state_out[5], state_out[4], nextbit);
     // xor G3(state_out[4], state_out[3], nextbit);
 
-    always_ff @(posedge clk, posedge reset) begin
+    always_ff @(posedge clk) begin
 
         if(reset)
             state_out <= 8'b0000_0000;

@@ -10,7 +10,7 @@ module counter (clk,
 	input wire clr;
 	output reg [WIDTH - 1:0] count;
 
-	always @(posedge clk or negedge reset_l)
+	always @(posedge clk)
 		if (!reset_l)
 			count <= 'b0;
 		else if (clr)
@@ -31,7 +31,7 @@ module register (clk,
 	input wire [WIDTH - 1:0] D;
 	output reg [WIDTH - 1:0] Q;
 
-	always @(posedge clk or negedge reset_l)
+	always @(posedge clk)
 		if (!reset_l)
 			Q <= 'b0;
 		else if (en)

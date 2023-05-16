@@ -12,7 +12,7 @@ module CONTROLLER (
     logic [2:0] temp_count;
     enum logic [3:0] {IDLE, INIT, TEST, ADD, SHIFT} state;
 
-    always_ff @(posedge clk or negedge reset) begin
+    always_ff @(posedge clk) begin
         if (!reset) begin
             state      <= IDLE;
             temp_count <= 3'b000;

@@ -152,7 +152,7 @@ module my_chip
       default: nextState = Start;
     endcase
   end
-  always_ff @(posedge clock, posedge reset)
+  always_ff @(posedge clock)
     if (reset)
       curState <= Start;
     else

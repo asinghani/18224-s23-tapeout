@@ -15,7 +15,7 @@ module MULTIPLIER_RESULT (
     logic [16:0] temp_register;
     logic temp_Add;
 
-    always_ff @(posedge clk or negedge reset) begin
+    always_ff @(posedge clk) begin
         if (!reset) begin
             temp_register <= '0;
             temp_Add     <= 1'b0;

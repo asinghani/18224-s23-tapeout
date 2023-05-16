@@ -13,7 +13,7 @@ module CONTROLLER_MAC (
     logic [3:0] temp_count;
     enum logic [2:0] {IDLE, INIT, LOAD, RUN, TEST, ADD} state;
 
-    always_ff @(posedge clk or negedge reset) begin
+    always_ff @(posedge clk) begin
         if (!reset) begin
             state      <= IDLE;
             temp_count <= 4'b1001;

@@ -211,7 +211,7 @@ module FSM (
   end
 
   // Asynchronous state reset
-  always_ff @(posedge clock, posedge reset)
+  always_ff @(posedge clock)
     if (reset)
       currState <= START;
     else

@@ -4,7 +4,7 @@ module counter
     (input  logic             clk, reset_l, en, clr,
      output logic [WIDTH-1:0] count);
 
-    always_ff @(posedge clk, negedge reset_l) begin
+    always_ff @(posedge clk) begin
         if (!reset_l)
             count <= 'b0;
         else if (clr)
@@ -22,7 +22,7 @@ module register
      input  logic [WIDTH-1:0]   D,
      output logic [WIDTH-1:0]   Q);
 
-    always_ff @(posedge clk, negedge reset_l) begin
+    always_ff @(posedge clk) begin
         if (!reset_l)
             Q <= 'b0;
         else if (en)

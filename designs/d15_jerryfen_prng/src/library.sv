@@ -122,7 +122,7 @@ module DFlipFlop
   (input logic D, preset_L, reset_L, clock,
    output logic Q);
 
-   always_ff @(posedge clock, negedge reset_L) begin
+   always_ff @(posedge clock) begin
      
      if(~preset_L)
        Q <= 1;
@@ -165,7 +165,7 @@ module width_FlipFlop
    input logic [WIDTH-1:0] D,
    output logic [WIDTH-1:0] Q);
 
-   always_ff @(posedge clock, negedge reset_L) begin
+   always_ff @(posedge clock) begin
      
      if(~preset_L)
        Q <= 8'b1;

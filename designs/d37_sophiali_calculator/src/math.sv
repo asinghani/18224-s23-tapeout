@@ -31,7 +31,7 @@ module sophialiCMU_math (
   enum logic {IDLE, GO} state, nextState;
 
   // ALU
-  always_ff @(posedge clock, posedge reset) begin
+  always_ff @(posedge clock) begin
     if (reset)
       io_out <= 0;
     else begin
@@ -46,7 +46,7 @@ module sophialiCMU_math (
   end
 
   // FF to ensure button for enable isn't continuously set
-  always_ff @(posedge clock, posedge reset) begin
+  always_ff @(posedge clock) begin
     if (reset)
       state <= IDLE;
     else begin

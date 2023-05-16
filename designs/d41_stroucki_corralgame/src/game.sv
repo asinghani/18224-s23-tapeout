@@ -190,7 +190,7 @@ module game
     end
 
   // state transition  
-  always @(posedge clock, negedge reset_n) begin
+  always @(posedge clock) begin
     if (~reset_n) begin
       lostwon <= 1;
       state <= SETUP;

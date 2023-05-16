@@ -6,7 +6,7 @@ module Register
     input logic [W-1:0] D,
     output logic [W-1:0] Q
 );
-    always_ff @(posedge clock, posedge reset) begin
+    always_ff @(posedge clock) begin
         if (reset) begin
             Q <= 'd0;
         end else if (en) begin
@@ -25,7 +25,7 @@ module Counter
     input logic reset, clock, en,
     output logic [W-1:0] Q
 );
-    always_ff @(posedge clock, posedge reset) begin
+    always_ff @(posedge clock) begin
         if (reset) begin
             Q <= 'd0;
         end else if (en) begin

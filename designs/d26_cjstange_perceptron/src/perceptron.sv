@@ -372,7 +372,7 @@ module fsm
         endcase
     end
 
-    always_ff @(posedge clk, negedge reset_l) begin
+    always_ff @(posedge clk) begin
         if (!reset_l)
             state <= INIT;
         else

@@ -49,7 +49,7 @@ module DFlipFlop // stores 1 bit value
    input  logic clock, reset_L, preset_L,
    output logic Q);
 
-  always_ff @(posedge clock, negedge reset_L, negedge preset_L) begin
+  always_ff @(posedge clock) begin
     // asynchronous reset and preset, active low
     if (~reset_L)
       Q <= 1'b0;

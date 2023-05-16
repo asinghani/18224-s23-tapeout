@@ -62,7 +62,7 @@ module stroucki_top
     endcase
   end
 
-  always @(posedge clock, negedge reset_n) begin
+  always @(posedge clock) begin
     if (~reset_n) begin
       state <= IDLE;
       data <= 4'b0;
