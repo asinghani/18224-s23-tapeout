@@ -1,0 +1,8 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - sbox.sv
+  top_module:  "toplevel_chip"
+
