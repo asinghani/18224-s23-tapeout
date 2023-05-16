@@ -1,5 +1,14 @@
 `default_nettype none
 
+module collatz_top (
+    input [7:0] io_in,
+    output [7:0] io_out
+);
+
+    collatz c (.n(io_in), .out(io_out));
+
+endmodule
+
 module collatz (
   input wire [3:0] n,
   output wire [3:0] out

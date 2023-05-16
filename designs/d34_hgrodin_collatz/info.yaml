@@ -2,6 +2,6 @@
 project:
   source_files:
     - collatz.v
-  top_module:  "collatz"
+  top_module:  "collatz_top"
 
   tt02_fmt: true
