@@ -1,0 +1,21 @@
+`default_nettype none
+
+module design_instantiations (
+	input logic [11:0] io_in,
+	output logic [11:0] io_out,
+
+	input logic [5:0] des_sel,
+	input logic hold_if_not_sel,
+
+	input logic clock, reset
+);
+
+	logic [11:0] des_io_in[0:63];
+	logic [11:0] des_io_out[0:63];
+	logic des_reset[0:63];
+
+    multiplexer mux (.*);
+
+{INSTANCES}
+
+endmodule
