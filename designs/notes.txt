@@ -1,0 +1,2 @@
+for x in sorted(list(glob.glob("d*"))): print(x, end=" "); _ = os.system(f'yosys -p "read_verilog {x}/flattened.v; synth_ecp5" | grep "LUT4" | tail -n 1 | tr -d " " | sed "s/LUT4//g"')
+

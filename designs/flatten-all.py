@@ -1,6 +1,7 @@
 import glob
 import subprocess
 import yaml
+import sys
 
 def yosys_script(name, files):
     files = " ".join([f"{name}/src/{fn}" for fn in files])
@@ -31,7 +32,12 @@ def write_wrapper(name, topname):
     with open(f"{name}/src/wrapper.v", "w+") as f:
         f.write(wrapper)
 
-for des in sorted(list(glob.glob("d*"))):
+if len(sys.argv) > 1:
+    g = sys.argv[1]
+else:
+    g = "d*"
+
+for des in sorted(list(glob.glob(g))):
     with open(f"{des}/info.yaml") as f:
         data = yaml.load(f, Loader=yaml.Loader)
 
