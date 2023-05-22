@@ -5,8 +5,9 @@ module tb;
 
     wire [7:0] chr;
 
-    d05_meta_info chip (
-        .io_in({reset, clock, proj_idx, chr_idx}),
+    my_chip chip (
+        .reset, .clock,
+        .io_in({proj_idx, chr_idx}),
         .io_out(chr)
     );
 

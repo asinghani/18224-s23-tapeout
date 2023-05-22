@@ -21,24 +21,24 @@ module multiplexer (
     end
 
     integer i;
-    always_comb begin
-        io_out = '0;
+    always_ff @(posedge clock) begin
+        io_out <= '0;
 
         for (i = 0; i < 64; i++) begin
             if (des_sel_dec[i]) begin
-                io_out = des_io_out[i];
+                io_out <= des_io_out[i];
             end
 
-            // hold_if_not_sel will hold all others
+            // hold_if_not_sel will hold all other designs
             // in reset with all-zero inputs when set
             if (hold_if_not_sel && (!des_sel_dec[i])) begin
-                des_io_in[i] = '0;
-                des_reset[i] = '1;
+                des_io_in[i] <= '0;
+                des_reset[i] <= '1;
             end
 
             else begin
-                des_io_in[i] = io_in;
-                des_reset[i] = reset;
+                des_io_in[i] <= io_in;
+                des_reset[i] <= reset;
             end
         end
     end
