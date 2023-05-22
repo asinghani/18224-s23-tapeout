@@ -23,9 +23,9 @@ module prng_chip (
           cntr_load, shifted_eight, cnt_en, fib_load, gal_load;
     logic [7:0] lsfr_rand_num, reg_rand_num, AES_out_num, shift_cnt;
 
-    fibo_lsfr fibo1 (.clk(clk), .reset(reset), .load(fib_load), .seed(seed), .out_num(fibo_out));
+    fibo_lsfr fibo1 (.clk(clk), .reset(reset), .load(fib_load), .seed(reg_rand_num ^ seed), .out_num(fibo_out));
 
-    galo_lsfr galo1 (.clk(clk), .reset(reset), .load(gal_load), .seed(seed), .out_num(galo_out));
+    galo_lsfr galo1 (.clk(clk), .reset(reset), .load(gal_load), .seed(reg_rand_num ^ seed), .out_num(galo_out));
 
     Mux2to1 #(1) mux1 (.I0(fibo_out), .I1(galo_out), .S(sel), .Y(serial_input));
 
@@ -119,7 +119,7 @@ module control_path
                 end
             end 
             done: begin
-                next_state = reset_state ? reset_state : done;
+                next_state = reset_state;
                 cntr_load = 0;
                 fib_load = 0;
                 gal_load = 0;

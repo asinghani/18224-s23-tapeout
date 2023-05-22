@@ -8,7 +8,6 @@ module d15_jerryfen_prng(io_in, io_out);
   wire _002_;
   wire _003_;
   wire _004_;
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire _005_;
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire _006_;
@@ -24,6 +23,7 @@ module d15_jerryfen_prng(io_in, io_out);
   wire _011_;
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire _012_;
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire _013_;
   wire _014_;
   wire _015_;
@@ -40,7 +40,7 @@ module d15_jerryfen_prng(io_in, io_out);
   wire _026_;
   wire _027_;
   wire _028_;
-  reg _029_;
+  wire _029_;
   reg _030_;
   reg _031_;
   reg _032_;
@@ -48,7 +48,7 @@ module d15_jerryfen_prng(io_in, io_out);
   reg _034_;
   reg _035_;
   reg _036_;
-  wire _037_;
+  reg _037_;
   wire _038_;
   wire _039_;
   wire _040_;
@@ -207,6 +207,13 @@ module d15_jerryfen_prng(io_in, io_out);
   wire _193_;
   wire _194_;
   wire _195_;
+  wire _196_;
+  wire _197_;
+  wire _198_;
+  wire _199_;
+  wire _200_;
+  wire _201_;
+  wire _202_;
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:5.18-5.23" */
   input [13:0] io_in;
   wire [13:0] io_in;
@@ -328,34 +335,28 @@ module d15_jerryfen_prng(io_in, io_out);
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:15.24-15.26|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.en ;
   /* hdlname = "mchip prng_chip_one fibo1 clk" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:151.17-151.20|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:151.17-151.20|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.fibo1.clk ;
   /* hdlname = "mchip prng_chip_one fibo1 reset" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:151.22-151.27|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:151.22-151.27|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.fibo1.reset ;
-  /* hdlname = "mchip prng_chip_one fibo1 seed" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:152.23-152.27|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
-  wire [7:0] \mchip.prng_chip_one.fibo1.seed ;
   /* hdlname = "mchip prng_chip_one fibo1 state_out" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:157.17-157.26|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:157.17-157.26|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   reg [7:0] \mchip.prng_chip_one.fibo1.state_out ;
   /* hdlname = "mchip prng_chip_one galo1 clk" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:199.17-199.20|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:199.17-199.20|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.galo1.clk ;
   /* hdlname = "mchip prng_chip_one galo1 feedback" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:206.11-206.19|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:206.11-206.19|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.galo1.feedback ;
   /* hdlname = "mchip prng_chip_one galo1 out_num" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:201.18-201.25|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:201.18-201.25|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.galo1.out_num ;
   /* hdlname = "mchip prng_chip_one galo1 reset" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:199.22-199.27|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:199.22-199.27|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   wire \mchip.prng_chip_one.galo1.reset ;
-  /* hdlname = "mchip prng_chip_one galo1 seed" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:200.23-200.27|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
-  wire [7:0] \mchip.prng_chip_one.galo1.seed ;
   /* hdlname = "mchip prng_chip_one galo1 state_out" */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:205.17-205.26|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:205.17-205.26|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   reg [7:0] \mchip.prng_chip_one.galo1.state_out ;
   /* hdlname = "mchip prng_chip_one galo_out" */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:22.52-22.60|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
@@ -438,205 +439,212 @@ module d15_jerryfen_prng(io_in, io_out);
   /* hdlname = "mchip reset" */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:7.17-7.22" */
   wire \mchip.reset ;
-  assign _184_ = io_in[13] | ~(io_in[0]);
-  assign _185_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [2] & ~(_184_);
-  assign _186_ = _030_ & ~(io_in[13]);
-  assign _187_ = _029_ & ~(io_in[13]);
-  assign _188_ = ~(_187_ | _186_);
-  assign _189_ = _031_ & ~(io_in[13]);
-  assign _190_ = io_in[13] | ~(_032_);
-  assign _191_ = _190_ | _189_;
-  assign _192_ = _188_ & ~(_191_);
-  assign _193_ = _036_ & ~(io_in[13]);
-  assign _194_ = _035_ & ~(io_in[13]);
-  assign _195_ = _194_ | _193_;
-  assign _037_ = _034_ & ~(io_in[13]);
-  assign _038_ = _033_ & ~(io_in[13]);
-  assign _039_ = _038_ | _037_;
-  assign _040_ = _039_ | _195_;
-  assign _041_ = _192_ & ~(_040_);
-  assign _042_ = _041_ | io_in[13];
-  assign _043_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [1] & ~(_042_);
-  assign _000_ = _043_ | _185_;
-  assign _044_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [0] | \mchip.prng_chip_one.ctrl_pth1.curr_state [2];
-  assign _045_ = _044_ | \mchip.prng_chip_one.ctrl_pth1.curr_state [3];
-  assign \mchip.prng_chip_one.ctrl_pth1.reg_en  = _041_ & ~(_045_);
-  assign _003_ = \mchip.prng_chip_one.ctrl_pth1.reg_en  | io_in[13];
-  assign _046_ = \mchip.prng_chip_one.fibo1.state_out [4] ^ \mchip.prng_chip_one.fibo1.state_out [7];
-  assign _047_ = _046_ ^ \mchip.prng_chip_one.fibo1.state_out [2];
-  assign \mchip.prng_chip_one.sr_sipo1.serial  = io_in[1] ? \mchip.prng_chip_one.galo1.state_out [7] : _047_;
-  assign _048_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [0] | \mchip.prng_chip_one.ctrl_pth1.curr_state [1];
-  assign _049_ = _048_ | \mchip.prng_chip_one.ctrl_pth1.curr_state [3];
-  assign _050_ = io_in[0] & ~(_049_);
-  assign _013_ = _050_ ? io_in[2] : _047_;
-  assign _014_ = _050_ ? io_in[3] : \mchip.prng_chip_one.fibo1.state_out [0];
-  assign _015_ = _050_ ? io_in[4] : \mchip.prng_chip_one.fibo1.state_out [1];
-  assign _016_ = _050_ ? io_in[5] : \mchip.prng_chip_one.fibo1.state_out [2];
-  assign _017_ = _050_ ? io_in[6] : \mchip.prng_chip_one.fibo1.state_out [3];
-  assign _018_ = _050_ ? io_in[7] : \mchip.prng_chip_one.fibo1.state_out [4];
-  assign _019_ = _050_ ? io_in[8] : \mchip.prng_chip_one.fibo1.state_out [5];
-  assign _020_ = _050_ ? io_in[9] : \mchip.prng_chip_one.fibo1.state_out [6];
-  assign _028_ = _050_ ? io_in[9] : \mchip.prng_chip_one.galo1.state_out [6];
-  assign _051_ = \mchip.prng_chip_one.galo1.state_out [5] ^ \mchip.prng_chip_one.galo1.state_out [7];
-  assign _027_ = _050_ ? io_in[8] : _051_;
-  assign _052_ = \mchip.prng_chip_one.galo1.state_out [4] ^ \mchip.prng_chip_one.galo1.state_out [7];
-  assign _026_ = _050_ ? io_in[7] : _052_;
-  assign _022_ = _050_ ? io_in[2] : \mchip.prng_chip_one.galo1.state_out [7];
-  assign _023_ = _050_ ? io_in[3] : \mchip.prng_chip_one.galo1.state_out [0];
-  assign _024_ = _050_ ? io_in[4] : \mchip.prng_chip_one.galo1.state_out [1];
-  assign _025_ = _050_ ? io_in[5] : \mchip.prng_chip_one.galo1.state_out [2];
-  assign _053_ = \mchip.prng_chip_one.galo1.state_out [3] ^ \mchip.prng_chip_one.galo1.state_out [7];
-  assign _021_ = _050_ ? io_in[6] : _053_;
-  assign _005_ = ~(_050_ | _187_);
-  assign _054_ = _187_ ^ _186_;
-  assign _006_ = _054_ & ~(_050_);
-  assign _055_ = _187_ & _186_;
-  assign _056_ = _055_ ^ _189_;
-  assign _007_ = _056_ & ~(_050_);
-  assign _057_ = ~_050_;
-  assign _058_ = _055_ & _189_;
-  assign _059_ = _058_ ^ _190_;
-  assign _008_ = _057_ & ~(_059_);
-  assign _060_ = ~_038_;
-  assign _061_ = _190_ | ~(_189_);
-  assign _062_ = _055_ & ~(_061_);
-  assign _063_ = _062_ ^ _060_;
-  assign _009_ = _057_ & ~(_063_);
-  assign _064_ = ~(_062_ & _038_);
-  assign _065_ = _064_ ^ _037_;
-  assign _010_ = _057_ & ~(_065_);
-  assign _066_ = ~(_038_ & _037_);
-  assign _067_ = _062_ & ~(_066_);
-  assign _068_ = ~(_067_ ^ _194_);
-  assign _011_ = _057_ & ~(_068_);
-  assign _069_ = ~(_067_ & _194_);
-  assign _070_ = _069_ ^ _193_;
-  assign _012_ = _057_ & ~(_070_);
-  assign _071_ = ~(\mchip.prng_chip_one.reg1.Q [2] ^ \mchip.prng_chip_one.reg1.Q [7]);
-  assign _072_ = \mchip.prng_chip_one.reg1.Q [1] ^ \mchip.prng_chip_one.reg1.Q [7];
-  assign _073_ = \mchip.prng_chip_one.reg1.Q [4] ^ \mchip.prng_chip_one.reg1.Q [2];
-  assign _074_ = _073_ ^ _072_;
-  assign _075_ = _074_ ^ \mchip.prng_chip_one.reg1.Q [3];
-  assign _076_ = ~(_075_ ^ \mchip.prng_chip_one.reg1.Q [6]);
-  assign _077_ = \mchip.prng_chip_one.reg1.Q [4] ^ \mchip.prng_chip_one.reg1.Q [7];
-  assign _078_ = _077_ ^ _076_;
-  assign _079_ = \mchip.prng_chip_one.reg1.Q [6] ^ \mchip.prng_chip_one.reg1.Q [5];
-  assign _080_ = _079_ ^ _078_;
-  assign _081_ = _080_ ^ _072_;
-  assign _082_ = _072_ & ~(_080_);
-  assign _083_ = _079_ ^ \mchip.prng_chip_one.reg1.Q [0];
-  assign _084_ = \mchip.prng_chip_one.reg1.Q [1] | ~(_083_);
-  assign _085_ = _084_ ^ _082_;
-  assign _086_ = _075_ ^ \mchip.prng_chip_one.reg1.Q [2];
-  assign _087_ = _086_ ^ _079_;
-  assign _088_ = _087_ ^ _078_;
-  assign _089_ = _073_ & ~(_088_);
-  assign _090_ = ~(_077_ & _076_);
-  assign _091_ = ~(_090_ ^ _089_);
-  assign _092_ = _091_ ^ _085_;
-  assign _093_ = _092_ ^ _081_;
-  assign _094_ = _083_ ^ \mchip.prng_chip_one.reg1.Q [1];
-  assign _095_ = _094_ ^ _071_;
-  assign _096_ = ~\mchip.prng_chip_one.reg1.Q [0];
-  assign _097_ = _086_ ^ _096_;
-  assign _098_ = _097_ | _095_;
-  assign _099_ = _086_ & _074_;
-  assign _100_ = _099_ ^ _098_;
-  assign _101_ = _100_ ^ _076_;
-  assign _102_ = ~(_101_ ^ _091_);
-  assign _103_ = _093_ & ~(_102_);
-  assign _104_ = _087_ ^ _071_;
-  assign _105_ = _087_ & ~(_071_);
-  assign _106_ = _105_ ^ _090_;
-  assign _107_ = ~(_083_ ^ \mchip.prng_chip_one.reg1.Q [4]);
-  assign _108_ = \mchip.prng_chip_one.reg1.Q [0] & ~(_107_);
-  assign _109_ = _108_ ^ _099_;
-  assign _110_ = _109_ ^ _106_;
-  assign _111_ = _110_ ^ _104_;
-  assign _112_ = _111_ ^ _103_;
-  assign _113_ = _080_ ^ \mchip.prng_chip_one.reg1.Q [7];
-  assign _114_ = _083_ ^ \mchip.prng_chip_one.reg1.Q [7];
-  assign _115_ = _078_ ^ \mchip.prng_chip_one.reg1.Q [0];
-  assign _116_ = _114_ & ~(_115_);
-  assign _117_ = _116_ ^ _082_;
-  assign _118_ = _117_ ^ _106_;
-  assign _119_ = _118_ ^ _113_;
-  assign _120_ = _112_ ? _093_ : _119_;
-  assign _121_ = _120_ ^ _093_;
-  assign _122_ = ~_093_;
-  assign _123_ = ~_119_;
-  assign _124_ = _112_ ? _122_ : _123_;
-  assign _125_ = _119_ ^ _103_;
-  assign _126_ = _125_ ^ _124_;
-  assign _127_ = _119_ & ~(_126_);
-  assign _128_ = ~(_127_ ^ _121_);
-  assign _129_ = ~_111_;
-  assign _130_ = _125_ ? _102_ : _129_;
-  assign _131_ = _119_ ? _120_ : _125_;
-  assign _132_ = _131_ & ~(_130_);
-  assign _133_ = ~(_111_ ^ _102_);
-  assign _134_ = _133_ ^ _132_;
-  assign _135_ = _134_ ^ _128_;
-  assign _136_ = _135_ | _071_;
-  assign _137_ = _130_ ^ _120_;
-  assign _138_ = ~(_137_ | _078_);
-  assign _139_ = ~(_134_ & _083_);
-  assign _140_ = _134_ ^ _130_;
-  assign _141_ = ~(_140_ | _080_);
-  assign _142_ = ~(_141_ ^ _139_);
-  assign _143_ = ~(_137_ ^ _135_);
-  assign _144_ = ~(_143_ | _088_);
-  assign _145_ = _144_ ^ _142_;
-  assign _146_ = _145_ ^ _138_;
-  assign _147_ = _077_ & ~(_137_);
-  assign _148_ = _147_ ^ _146_;
-  assign _149_ = _120_ & ~(_096_);
-  assign _150_ = ~(_128_ ^ _124_);
-  assign _151_ = _086_ & ~(_150_);
-  assign _152_ = _151_ ^ _149_;
-  assign _153_ = _072_ & ~(_140_);
-  assign _154_ = _153_ ^ _152_;
-  assign _155_ = _087_ & ~(_135_);
-  assign _156_ = _155_ ^ _154_;
-  assign _157_ = ~(_156_ ^ _145_);
-  assign _158_ = _130_ | ~(_114_);
-  assign _159_ = _158_ ^ _157_;
-  assign _160_ = _159_ ^ _148_;
-  assign \mchip.prng_chip_one.Sbox1.S2  = _160_ ^ _136_;
-  assign _161_ = ~(_128_ | _097_);
-  assign _162_ = _161_ ^ _151_;
-  assign _163_ = ~(_162_ ^ _142_);
-  assign _164_ = _073_ & ~(_143_);
-  assign _165_ = ~(_164_ ^ _147_);
-  assign _166_ = _128_ | _095_;
-  assign _167_ = _166_ ^ _165_;
-  assign _168_ = _074_ & ~(_150_);
-  assign _169_ = _168_ ^ _167_;
-  assign \mchip.prng_chip_one.Sbox1.S3  = ~(_169_ ^ _163_);
-  assign \mchip.prng_chip_one.Sbox1.S1  = ~(\mchip.prng_chip_one.Sbox1.S3  ^ _146_);
-  assign _170_ = ~(_130_ | _115_);
-  assign _171_ = _170_ ^ _141_;
-  assign _172_ = _171_ ^ _152_;
-  assign _173_ = _134_ & _094_;
-  assign _174_ = ~(_173_ ^ _165_);
-  assign _175_ = _174_ ^ _172_;
-  assign \mchip.prng_chip_one.Sbox1.S6  = _175_ ^ _157_;
-  assign \mchip.prng_chip_one.Sbox1.S7  = ~(_175_ ^ _153_);
-  assign _176_ = ~(_124_ | _107_);
-  assign _177_ = _176_ ^ _167_;
-  assign \mchip.prng_chip_one.Sbox1.S5  = _177_ ^ _159_;
-  assign \mchip.prng_chip_one.Sbox1.S4  = _172_ ^ \mchip.prng_chip_one.Sbox1.S3 ;
-  assign \mchip.prng_chip_one.Sbox1.S0  = _169_ ^ _146_;
-  assign \mchip.prng_chip_one.counter1.en  = ~(_045_ | _041_);
-  assign _004_ = \mchip.prng_chip_one.counter1.en  | ~(_057_);
-  assign _178_ = io_in[13] | ~(_041_);
-  assign _179_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [1] & ~(_178_);
-  assign _180_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [3] & ~(io_in[13]);
-  assign _002_ = _180_ | _179_;
-  assign _181_ = io_in[0] | io_in[13];
-  assign _182_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [2] & ~(_181_);
-  assign _183_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [0] & ~(io_in[13]);
-  assign _001_ = _183_ | _182_;
+  assign _193_ = io_in[0] | io_in[13];
+  assign _194_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [2] & ~(_193_);
+  assign _195_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [0] & ~(io_in[13]);
+  assign _003_ = _195_ | _194_;
+  assign _196_ = io_in[13] | ~(io_in[0]);
+  assign _197_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [2] & ~(_196_);
+  assign _198_ = io_in[13] | ~(_031_);
+  assign _199_ = _030_ & ~(io_in[13]);
+  assign _200_ = _198_ & ~(_199_);
+  assign _201_ = _032_ & ~(io_in[13]);
+  assign _202_ = io_in[13] | ~(_033_);
+  assign _038_ = _202_ | _201_;
+  assign _039_ = _200_ & ~(_038_);
+  assign _040_ = _037_ & ~(io_in[13]);
+  assign _041_ = _036_ & ~(io_in[13]);
+  assign _042_ = _041_ | _040_;
+  assign _043_ = _035_ & ~(io_in[13]);
+  assign _044_ = _034_ & ~(io_in[13]);
+  assign _045_ = _044_ | _043_;
+  assign _046_ = _045_ | _042_;
+  assign _047_ = _039_ & ~(_046_);
+  assign _048_ = _047_ | io_in[13];
+  assign _049_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [1] & ~(_048_);
+  assign _002_ = _049_ | _197_;
+  assign _050_ = \mchip.prng_chip_one.fibo1.state_out [4] ^ \mchip.prng_chip_one.fibo1.state_out [7];
+  assign _051_ = _050_ ^ \mchip.prng_chip_one.fibo1.state_out [2];
+  assign \mchip.prng_chip_one.sr_sipo1.serial  = io_in[1] ? \mchip.prng_chip_one.galo1.state_out [7] : _051_;
+  assign _052_ = \mchip.prng_chip_one.reg1.Q [0] ^ io_in[2];
+  assign _053_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [0] | \mchip.prng_chip_one.ctrl_pth1.curr_state [1];
+  assign _054_ = ~(_053_ | \mchip.prng_chip_one.ctrl_pth1.curr_state [3]);
+  assign _055_ = ~(_054_ & io_in[0]);
+  assign _014_ = _055_ ? _051_ : _052_;
+  assign _056_ = \mchip.prng_chip_one.reg1.Q [1] ^ io_in[3];
+  assign _015_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [0] : _056_;
+  assign _057_ = \mchip.prng_chip_one.reg1.Q [2] ^ io_in[4];
+  assign _016_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [1] : _057_;
+  assign _058_ = \mchip.prng_chip_one.reg1.Q [3] ^ io_in[5];
+  assign _017_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [2] : _058_;
+  assign _059_ = \mchip.prng_chip_one.reg1.Q [4] ^ io_in[6];
+  assign _018_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [3] : _059_;
+  assign _060_ = \mchip.prng_chip_one.reg1.Q [5] ^ io_in[7];
+  assign _019_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [4] : _060_;
+  assign _061_ = \mchip.prng_chip_one.reg1.Q [6] ^ io_in[8];
+  assign _020_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [5] : _061_;
+  assign _062_ = \mchip.prng_chip_one.reg1.Q [7] ^ io_in[9];
+  assign _021_ = _055_ ? \mchip.prng_chip_one.fibo1.state_out [6] : _062_;
+  assign _029_ = _055_ ? \mchip.prng_chip_one.galo1.state_out [6] : _062_;
+  assign _063_ = \mchip.prng_chip_one.galo1.state_out [5] ^ \mchip.prng_chip_one.galo1.state_out [7];
+  assign _028_ = _055_ ? _063_ : _061_;
+  assign _064_ = \mchip.prng_chip_one.galo1.state_out [4] ^ \mchip.prng_chip_one.galo1.state_out [7];
+  assign _027_ = _055_ ? _064_ : _060_;
+  assign _023_ = _055_ ? \mchip.prng_chip_one.galo1.state_out [7] : _052_;
+  assign _024_ = _055_ ? \mchip.prng_chip_one.galo1.state_out [0] : _056_;
+  assign _025_ = _055_ ? \mchip.prng_chip_one.galo1.state_out [1] : _057_;
+  assign _026_ = _055_ ? \mchip.prng_chip_one.galo1.state_out [2] : _058_;
+  assign _065_ = \mchip.prng_chip_one.galo1.state_out [3] ^ \mchip.prng_chip_one.galo1.state_out [7];
+  assign _022_ = _055_ ? _065_ : _059_;
+  assign _006_ = _055_ & ~(_199_);
+  assign _066_ = _199_ & ~(_198_);
+  assign _067_ = _066_ | _200_;
+  assign _007_ = _055_ & ~(_067_);
+  assign _068_ = ~_201_;
+  assign _069_ = _066_ ^ _068_;
+  assign _008_ = _055_ & ~(_069_);
+  assign _070_ = _066_ & ~(_068_);
+  assign _071_ = _070_ ^ _202_;
+  assign _009_ = _055_ & ~(_071_);
+  assign _072_ = ~_044_;
+  assign _073_ = _202_ | ~(_201_);
+  assign _074_ = _066_ & ~(_073_);
+  assign _075_ = _074_ ^ _072_;
+  assign _010_ = _055_ & ~(_075_);
+  assign _076_ = ~(_074_ & _044_);
+  assign _077_ = _076_ ^ _043_;
+  assign _011_ = _055_ & ~(_077_);
+  assign _078_ = ~(_044_ & _043_);
+  assign _079_ = _074_ & ~(_078_);
+  assign _080_ = ~(_079_ ^ _041_);
+  assign _012_ = _055_ & ~(_080_);
+  assign _081_ = ~(_079_ & _041_);
+  assign _082_ = _081_ ^ _040_;
+  assign _013_ = _055_ & ~(_082_);
+  assign _083_ = ~(\mchip.prng_chip_one.reg1.Q [7] ^ \mchip.prng_chip_one.reg1.Q [2]);
+  assign _084_ = \mchip.prng_chip_one.reg1.Q [7] ^ \mchip.prng_chip_one.reg1.Q [1];
+  assign _085_ = \mchip.prng_chip_one.reg1.Q [4] ^ \mchip.prng_chip_one.reg1.Q [2];
+  assign _086_ = _085_ ^ _084_;
+  assign _087_ = _086_ ^ \mchip.prng_chip_one.reg1.Q [3];
+  assign _088_ = ~(_087_ ^ \mchip.prng_chip_one.reg1.Q [6]);
+  assign _089_ = \mchip.prng_chip_one.reg1.Q [7] ^ \mchip.prng_chip_one.reg1.Q [4];
+  assign _090_ = _089_ ^ _088_;
+  assign _091_ = \mchip.prng_chip_one.reg1.Q [6] ^ \mchip.prng_chip_one.reg1.Q [5];
+  assign _092_ = _091_ ^ _090_;
+  assign _093_ = _092_ ^ _084_;
+  assign _094_ = _084_ & ~(_092_);
+  assign _095_ = _091_ ^ \mchip.prng_chip_one.reg1.Q [0];
+  assign _096_ = \mchip.prng_chip_one.reg1.Q [1] | ~(_095_);
+  assign _097_ = _096_ ^ _094_;
+  assign _098_ = _087_ ^ \mchip.prng_chip_one.reg1.Q [2];
+  assign _099_ = _098_ ^ _091_;
+  assign _100_ = _099_ ^ _090_;
+  assign _101_ = _085_ & ~(_100_);
+  assign _102_ = ~(_089_ & _088_);
+  assign _103_ = ~(_102_ ^ _101_);
+  assign _104_ = _103_ ^ _097_;
+  assign _105_ = _104_ ^ _093_;
+  assign _106_ = _095_ ^ \mchip.prng_chip_one.reg1.Q [1];
+  assign _107_ = _106_ ^ _083_;
+  assign _108_ = ~\mchip.prng_chip_one.reg1.Q [0];
+  assign _109_ = _098_ ^ _108_;
+  assign _110_ = _109_ | _107_;
+  assign _111_ = _098_ & _086_;
+  assign _112_ = _111_ ^ _110_;
+  assign _113_ = _112_ ^ _088_;
+  assign _114_ = ~(_113_ ^ _103_);
+  assign _115_ = _105_ & ~(_114_);
+  assign _116_ = _099_ ^ _083_;
+  assign _117_ = _099_ & ~(_083_);
+  assign _118_ = _117_ ^ _102_;
+  assign _119_ = ~(_095_ ^ \mchip.prng_chip_one.reg1.Q [4]);
+  assign _120_ = \mchip.prng_chip_one.reg1.Q [0] & ~(_119_);
+  assign _121_ = _120_ ^ _111_;
+  assign _122_ = _121_ ^ _118_;
+  assign _123_ = _122_ ^ _116_;
+  assign _124_ = _123_ ^ _115_;
+  assign _125_ = _092_ ^ \mchip.prng_chip_one.reg1.Q [7];
+  assign _126_ = _095_ ^ \mchip.prng_chip_one.reg1.Q [7];
+  assign _127_ = _090_ ^ \mchip.prng_chip_one.reg1.Q [0];
+  assign _128_ = _126_ & ~(_127_);
+  assign _129_ = _128_ ^ _094_;
+  assign _130_ = _129_ ^ _118_;
+  assign _131_ = _130_ ^ _125_;
+  assign _132_ = _124_ ? _105_ : _131_;
+  assign _133_ = _132_ ^ _105_;
+  assign _134_ = ~_105_;
+  assign _135_ = ~_131_;
+  assign _136_ = _124_ ? _134_ : _135_;
+  assign _137_ = _131_ ^ _115_;
+  assign _138_ = _137_ ^ _136_;
+  assign _139_ = _131_ & ~(_138_);
+  assign _140_ = ~(_139_ ^ _133_);
+  assign _141_ = ~_123_;
+  assign _142_ = _137_ ? _114_ : _141_;
+  assign _143_ = _131_ ? _132_ : _137_;
+  assign _144_ = _143_ & ~(_142_);
+  assign _145_ = ~(_123_ ^ _114_);
+  assign _146_ = _145_ ^ _144_;
+  assign _147_ = _146_ ^ _140_;
+  assign _148_ = _147_ | _083_;
+  assign _149_ = _142_ ^ _132_;
+  assign _150_ = ~(_149_ | _090_);
+  assign _151_ = ~(_146_ & _095_);
+  assign _152_ = _146_ ^ _142_;
+  assign _153_ = ~(_152_ | _092_);
+  assign _154_ = ~(_153_ ^ _151_);
+  assign _155_ = ~(_149_ ^ _147_);
+  assign _156_ = ~(_155_ | _100_);
+  assign _157_ = _156_ ^ _154_;
+  assign _158_ = _157_ ^ _150_;
+  assign _159_ = _089_ & ~(_149_);
+  assign _160_ = _159_ ^ _158_;
+  assign _161_ = _132_ & ~(_108_);
+  assign _162_ = ~(_140_ ^ _136_);
+  assign _163_ = _098_ & ~(_162_);
+  assign _164_ = _163_ ^ _161_;
+  assign _165_ = _084_ & ~(_152_);
+  assign _166_ = _165_ ^ _164_;
+  assign _167_ = _099_ & ~(_147_);
+  assign _168_ = _167_ ^ _166_;
+  assign _169_ = ~(_168_ ^ _157_);
+  assign _170_ = _142_ | ~(_126_);
+  assign _171_ = _170_ ^ _169_;
+  assign _172_ = _171_ ^ _160_;
+  assign \mchip.prng_chip_one.Sbox1.S2  = _172_ ^ _148_;
+  assign _173_ = ~(_140_ | _109_);
+  assign _174_ = _173_ ^ _163_;
+  assign _175_ = ~(_174_ ^ _154_);
+  assign _176_ = _085_ & ~(_155_);
+  assign _177_ = ~(_176_ ^ _159_);
+  assign _178_ = _140_ | _107_;
+  assign _179_ = _178_ ^ _177_;
+  assign _180_ = _086_ & ~(_162_);
+  assign _181_ = _180_ ^ _179_;
+  assign \mchip.prng_chip_one.Sbox1.S3  = ~(_181_ ^ _175_);
+  assign \mchip.prng_chip_one.Sbox1.S1  = ~(\mchip.prng_chip_one.Sbox1.S3  ^ _158_);
+  assign _182_ = ~(_142_ | _127_);
+  assign _183_ = _182_ ^ _153_;
+  assign _184_ = _183_ ^ _164_;
+  assign _185_ = _146_ & _106_;
+  assign _186_ = ~(_185_ ^ _177_);
+  assign _187_ = _186_ ^ _184_;
+  assign \mchip.prng_chip_one.Sbox1.S6  = _187_ ^ _169_;
+  assign \mchip.prng_chip_one.Sbox1.S7  = ~(_187_ ^ _165_);
+  assign _188_ = io_in[13] | ~(_047_);
+  assign _000_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [1] & ~(_188_);
+  assign _189_ = ~(_136_ | _119_);
+  assign _190_ = _189_ ^ _179_;
+  assign \mchip.prng_chip_one.Sbox1.S5  = _190_ ^ _171_;
+  assign \mchip.prng_chip_one.Sbox1.S4  = _184_ ^ \mchip.prng_chip_one.Sbox1.S3 ;
+  assign \mchip.prng_chip_one.Sbox1.S0  = _181_ ^ _158_;
+  assign _191_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [0] | \mchip.prng_chip_one.ctrl_pth1.curr_state [2];
+  assign _192_ = _191_ | \mchip.prng_chip_one.ctrl_pth1.curr_state [3];
+  assign \mchip.prng_chip_one.counter1.en  = ~(_192_ | _047_);
+  assign _005_ = \mchip.prng_chip_one.counter1.en  | ~(_055_);
+  assign \mchip.prng_chip_one.ctrl_pth1.reg_en  = _047_ & ~(_192_);
+  assign _004_ = \mchip.prng_chip_one.ctrl_pth1.reg_en  | io_in[13];
+  assign _001_ = \mchip.prng_chip_one.ctrl_pth1.curr_state [3] | io_in[13];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:32.29-32.130|d15_jerryfen_prng/src/library.sv:274.4-285.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
@@ -680,179 +688,179 @@ module d15_jerryfen_prng(io_in, io_out);
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (io_in[13]) _029_ <= 1'h0;
-    else if (_004_) _029_ <= _005_;
-  /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
-  always @(posedge io_in[12])
     if (io_in[13]) _030_ <= 1'h0;
-    else if (_004_) _030_ <= _006_;
+    else if (_005_) _030_ <= _006_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) _031_ <= 1'h0;
-    else if (_004_) _031_ <= _007_;
+    else if (_005_) _031_ <= _007_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) _032_ <= 1'h0;
-    else if (_004_) _032_ <= _008_;
+    else if (_005_) _032_ <= _008_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) _033_ <= 1'h0;
-    else if (_004_) _033_ <= _009_;
+    else if (_005_) _033_ <= _009_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) _034_ <= 1'h0;
-    else if (_004_) _034_ <= _010_;
+    else if (_005_) _034_ <= _010_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) _035_ <= 1'h0;
-    else if (_004_) _035_ <= _011_;
+    else if (_005_) _035_ <= _011_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) _036_ <= 1'h0;
-    else if (_004_) _036_ <= _012_;
+    else if (_005_) _036_ <= _012_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:38.18-38.122|d15_jerryfen_prng/src/library.sv:198.3-208.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  always @(posedge io_in[12])
+    if (io_in[13]) _037_ <= 1'h0;
+    else if (_005_) _037_ <= _013_;
+  /* \always_ff  = 32'd1 */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [0] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [0] <= _013_;
+    else \mchip.prng_chip_one.fibo1.state_out [0] <= _014_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [1] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [1] <= _014_;
+    else \mchip.prng_chip_one.fibo1.state_out [1] <= _015_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [2] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [2] <= _015_;
+    else \mchip.prng_chip_one.fibo1.state_out [2] <= _016_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [3] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [3] <= _016_;
+    else \mchip.prng_chip_one.fibo1.state_out [3] <= _017_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [4] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [4] <= _017_;
+    else \mchip.prng_chip_one.fibo1.state_out [4] <= _018_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [5] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [5] <= _018_;
+    else \mchip.prng_chip_one.fibo1.state_out [5] <= _019_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [6] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [6] <= _019_;
+    else \mchip.prng_chip_one.fibo1.state_out [6] <= _020_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.97|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:26.15-26.112|d15_jerryfen_prng/src/chip.sv:178.5-187.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.fibo1.state_out [7] <= 1'h0;
-    else \mchip.prng_chip_one.fibo1.state_out [7] <= _020_;
+    else \mchip.prng_chip_one.fibo1.state_out [7] <= _021_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [0] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [0] <= _022_;
+    else \mchip.prng_chip_one.galo1.state_out [0] <= _023_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [1] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [1] <= _023_;
+    else \mchip.prng_chip_one.galo1.state_out [1] <= _024_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [2] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [2] <= _024_;
+    else \mchip.prng_chip_one.galo1.state_out [2] <= _025_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [3] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [3] <= _025_;
+    else \mchip.prng_chip_one.galo1.state_out [3] <= _026_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [4] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [4] <= _021_;
+    else \mchip.prng_chip_one.galo1.state_out [4] <= _022_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [5] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [5] <= _026_;
+    else \mchip.prng_chip_one.galo1.state_out [5] <= _027_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [6] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [6] <= _027_;
+    else \mchip.prng_chip_one.galo1.state_out [6] <= _028_;
   /* \always_ff  = 32'd1 */
-  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.97|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
+  /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:28.15-28.112|d15_jerryfen_prng/src/chip.sv:225.5-239.8|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
     if (io_in[13]) \mchip.prng_chip_one.galo1.state_out [7] <= 1'h0;
-    else \mchip.prng_chip_one.galo1.state_out [7] <= _028_;
+    else \mchip.prng_chip_one.galo1.state_out [7] <= _029_;
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [0] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [0] <= \mchip.prng_chip_one.sr_sipo1.Q [0];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [1] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [1] <= \mchip.prng_chip_one.sr_sipo1.Q [1];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [2] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [2] <= \mchip.prng_chip_one.sr_sipo1.Q [2];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [3] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [3] <= \mchip.prng_chip_one.sr_sipo1.Q [3];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [4] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [4] <= \mchip.prng_chip_one.sr_sipo1.Q [4];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [5] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [5] <= \mchip.prng_chip_one.sr_sipo1.Q [5];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [6] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [6] <= \mchip.prng_chip_one.sr_sipo1.Q [6];
   /* \always_ff  = 32'd1 */
   /* src = "d15_jerryfen_prng/src/toplevel_chip.v:9.13-14.6|d15_jerryfen_prng/src/chip.sv:34.19-34.102|d15_jerryfen_prng/src/library.sv:147.4-154.9|d15_jerryfen_prng/src/chip.sv:10.15-10.150" */
   always @(posedge io_in[12])
-    if (_003_)
+    if (_004_)
       if (!\mchip.prng_chip_one.ctrl_pth1.reg_en ) \mchip.prng_chip_one.reg1.Q [7] <= 1'h0;
       else \mchip.prng_chip_one.reg1.Q [7] <= \mchip.prng_chip_one.sr_sipo1.Q [7];
   always @(posedge io_in[12])
-    \mchip.prng_chip_one.ctrl_pth1.curr_state [0] <= io_in[13];
+    \mchip.prng_chip_one.ctrl_pth1.curr_state [0] <= _001_;
   always @(posedge io_in[12])
-    \mchip.prng_chip_one.ctrl_pth1.curr_state [1] <= _000_;
+    \mchip.prng_chip_one.ctrl_pth1.curr_state [1] <= _002_;
   always @(posedge io_in[12])
-    \mchip.prng_chip_one.ctrl_pth1.curr_state [2] <= _001_;
+    \mchip.prng_chip_one.ctrl_pth1.curr_state [2] <= _003_;
   always @(posedge io_in[12])
-    \mchip.prng_chip_one.ctrl_pth1.curr_state [3] <= _002_;
+    \mchip.prng_chip_one.ctrl_pth1.curr_state [3] <= _000_;
   assign io_out = { 5'h00, \mchip.prng_chip_one.ctrl_pth1.curr_state [3], \mchip.prng_chip_one.Sbox1.S3 , \mchip.prng_chip_one.Sbox1.S7 , \mchip.prng_chip_one.Sbox1.S0 , \mchip.prng_chip_one.Sbox1.S6 , \mchip.prng_chip_one.Sbox1.S4 , \mchip.prng_chip_one.Sbox1.S1 , \mchip.prng_chip_one.Sbox1.S2 , \mchip.prng_chip_one.Sbox1.S5  };
   assign \mchip.clock  = io_in[12];
   assign \mchip.io_in  = io_in[11:0];
@@ -883,12 +891,10 @@ module d15_jerryfen_prng(io_in, io_out);
   assign \mchip.prng_chip_one.en  = io_in[0];
   assign \mchip.prng_chip_one.fibo1.clk  = io_in[12];
   assign \mchip.prng_chip_one.fibo1.reset  = io_in[13];
-  assign \mchip.prng_chip_one.fibo1.seed  = io_in[9:2];
   assign \mchip.prng_chip_one.galo1.clk  = io_in[12];
   assign \mchip.prng_chip_one.galo1.feedback  = \mchip.prng_chip_one.galo1.state_out [7];
   assign \mchip.prng_chip_one.galo1.out_num  = \mchip.prng_chip_one.galo1.state_out [7];
   assign \mchip.prng_chip_one.galo1.reset  = io_in[13];
-  assign \mchip.prng_chip_one.galo1.seed  = io_in[9:2];
   assign \mchip.prng_chip_one.galo_out  = \mchip.prng_chip_one.galo1.state_out [7];
   assign \mchip.prng_chip_one.lsfr_rand_num  = \mchip.prng_chip_one.sr_sipo1.Q ;
   assign \mchip.prng_chip_one.magcomp1.B  = 8'h08;

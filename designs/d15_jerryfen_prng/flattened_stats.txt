@@ -1,25 +1,25 @@
 === d15_jerryfen_prng ===
 
-   Number of wires:                273
-   Number of wire bits:            443
-   Number of public wires:          77
-   Number of public wire bits:     247
+   Number of wires:                278
+   Number of wire bits:            434
+   Number of public wires:          75
+   Number of public wire bits:     231
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                243
-     $_ANDNOT_                      41
-     $_AND_                          4
+   Number of cells:                250
+     $_ANDNOT_                      42
+     $_AND_                          2
      $_DFF_P_                        4
      $_MUX_                         21
-     $_NAND_                         5
-     $_NOR_                          9
+     $_NAND_                         6
+     $_NOR_                          8
      $_NOT_                          6
-     $_ORNOT_                        7
+     $_ORNOT_                        8
      $_OR_                          17
      $_SDFFCE_PN0P_                  8
      $_SDFFE_PP0P_                   8
      $_SDFF_PN0_                     8
      $_SDFF_PP0_                    16
      $_XNOR_                        18
-     $_XOR_                         71
+     $_XOR_                         78
