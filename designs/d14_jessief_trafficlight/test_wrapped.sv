@@ -28,13 +28,16 @@ module test ();
 
     clock_maker clocky(.*);
 
+    logic [11:0] io_out;
+    assign {red1, yellow1, green1, 
+            red2, yellow2, green2,
+            red3, yellow3, green3,
+            turn, orange, white} = io_out;
+
     my_chip mchip (
         .clock, .reset,
         .io_in({7'b0, car1, car2, car3, car4, button}),
-        .io_out({red1, yellow1, green1, 
-                red2, yellow2, green2,
-                red3, yellow3, green3,
-                turn, orange, white})
+        .io_out
     );
 
   initial begin
@@ -56,43 +59,46 @@ module test ();
       "                      |            car %b    |                            \n", car2);
     
     //initialize
-    button <= 1'b0;
-    car1 <= 1'b0;
-    car2 <= 1'b0;
-    car3 <= 1'b0;
-    car4 <= 1'b0;
-    reset <= 1'b0;
+    button = 1'b0;
+    car1 = 1'b0;
+    car2 = 1'b0;
+    car3 = 1'b0;
+    car4 = 1'b0;
+
+    reset = 1'b1;
     @(posedge clock);
-    reset <= 1'b1;
     @(posedge clock);
-    reset <= 1'b0;
+    @(posedge clock);
+    @(posedge clock);
+    reset = 1'b0;
+    @(posedge clock);
     @(posedge clock);
 
     //test each car/ped individually
-    button <= 1'b1;
+    button = 1'b1;
     @(posedge clock);
-    car1 <= 1'b1;
-    @(posedge clock);
-    @(posedge clock);
-    @(posedge clock);
-    @(posedge clock);
-    button <= 1'b0;
-    car1 <= 1'b0;
+    car1 = 1'b1;
     @(posedge clock);
     @(posedge clock);
     @(posedge clock);
     @(posedge clock);
-    car2 <= 1'b1;
-    @(posedge clock);
-    @(posedge clock);
-    @(posedge clock);
-    car2 <= 1'b0;
+    button = 1'b0;
+    car1 = 1'b0;
     @(posedge clock);
     @(posedge clock);
     @(posedge clock);
     @(posedge clock);
-    car3 <= 1'b1;
-    car4 <= 1'b1;
+    car2 = 1'b1;
+    @(posedge clock);
+    @(posedge clock);
+    @(posedge clock);
+    car2 = 1'b0;
+    @(posedge clock);
+    @(posedge clock);
+    @(posedge clock);
+    @(posedge clock);
+    car3 = 1'b1;
+    car4 = 1'b1;
     @(posedge clock);
     @(posedge clock);
     @(posedge clock);
