@@ -3,6 +3,7 @@ module CONTROLLER_MAC (
     input  logic clk,
     input  logic START,
     input  logic End_mul,
+    input  logic do_next,
     output logic Finish,
     output logic RESET_cmd,
     output logic Load_op,
@@ -11,9 +12,12 @@ module CONTROLLER_MAC (
 );
 
     logic [3:0] temp_count;
-    enum logic [2:0] {IDLE, INIT, LOAD, RUN, TEST, ADD} state;
+    enum logic [2:0] {IDLE, INIT, LOAD, RUN, TEST, ADD, WAIT} state;
 
+    logic _do_next;
     always_ff @(posedge clk) begin
+        _do_next <= do_next;
+
         if (!reset) begin
             state      <= IDLE;
             temp_count <= 4'b1001;
@@ -51,6 +55,11 @@ module CONTROLLER_MAC (
                         state      <= IDLE;
                     end
                     else begin
+                        state <= WAIT;
+                    end
+                end
+                WAIT: begin
+                    if (do_next && !_do_next) begin
                         temp_count <= temp_count - 1;
                         state      <= LOAD;
                     end

@@ -16,58 +16,37 @@ module my_chip (
      logic mac_carry_out;
      logic Finish;
     logic End_mul;
-    bit input_done = 1'b0;
-    bit output_done = 1'b0;
+    logic do_next;
 
-assign reset_n = !reset;
-assign START = io_in[11];  
-assign  mac_carry_out =  io_out[11];
-assign Finish = io_out[10];
-    assign input_done = io_in[8];
-    assign output_done = io_out[8];
-    assign End_mul = io_out[7];
-    
-    assign io_in[7:0] = 8'd0;
-    assign io_out[6:0] = 8'd0;
-    
+    assign reset_n = !reset;
+    assign START = io_in[11];  
+    assign do_next = io_in[7];
 
-integer i,j;
+    assign io_out[11] = mac_carry_out;
+    assign io_out[10] = Finish;
+    assign io_out[9] = shiftout[0];
+    assign io_out[8] = End_mul;
+    
+    assign io_out[7:0] = 8'd0;
     
     
+    reg [19:0] shiftout;
+    reg shiftin;
+    reg _Finish;
     
     always@(posedge clock) begin
-        
-        for (i=0;i<8;i = i+1) begin
-            op_a_in[i] <= io_in[10];
-            op_b_in[i] <= io_in[9];
+        shiftin <= io_in[8];
+        _Finish <= Finish;
+
+        if (io_in[8] && !shiftin) begin
+            op_a_in <= {op_a_in, io_in[10]};
+            op_b_in <= {op_b_in, io_in[9]};
+            shiftout <= shiftout[19:1];
         end
-        
-        if (i == 8) begin
-            input_done <= 1'b1;
+
+        if (Finish && ~_Finish) begin
+            shiftout <= mac_res;
         end
-        
-        else begin 
-            input_done <= 1'b0;
-        end
-        
-        if (Finish) begin
-            for (j=0;j<20;j=j+1) begin
-                io_out[9] <=  mac_res[j];
-            end
-        end
-        else begin
-            io_out[9] <= 1'b0;
-        end
-            
-        
-        if (j == 20) begin
-            output_done <= 1'b1;
-        end
-        
-        else begin 
-            output_done <= 1'b0;
-        end
-        
         
     end
     
@@ -100,7 +79,8 @@ CONTROLLER_MAC control (
     .RESET_cmd(control_reset),
     .Load_op(Load_op),
     .Begin_mul(Begin_mul),
-    .add(add)
+    .add(add),
+    .do_next(do_next)
 );
 
 register8 opa (

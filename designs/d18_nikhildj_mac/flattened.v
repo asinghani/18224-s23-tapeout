@@ -31,35 +31,53 @@ module d18_nikhildj_mac(io_in, io_out);
   wire _025_;
   wire _026_;
   wire _027_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _028_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _029_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _030_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _031_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _032_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _033_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _034_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _035_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _036_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _037_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _038_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _039_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _040_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _041_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _042_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _043_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _044_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _045_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
   wire _046_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:42.13-42.33" */
   wire _047_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:48.13-48.31" */
   wire _048_;
   wire _049_;
   wire _050_;
   wire _051_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
   wire _052_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
   wire _053_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
   wire _054_;
   wire _055_;
   wire _056_;
@@ -259,40 +277,6 @@ module d18_nikhildj_mac(io_in, io_out);
   wire _250_;
   wire _251_;
   wire _252_;
-  wire _253_;
-  wire _254_;
-  wire _255_;
-  wire _256_;
-  wire _257_;
-  wire _258_;
-  wire _259_;
-  wire _260_;
-  wire _261_;
-  wire _262_;
-  wire _263_;
-  wire _264_;
-  wire _265_;
-  wire _266_;
-  wire _267_;
-  wire _268_;
-  wire _269_;
-  wire _270_;
-  wire _271_;
-  wire _272_;
-  wire _273_;
-  wire _274_;
-  wire _275_;
-  wire _276_;
-  wire _277_;
-  wire _278_;
-  wire _279_;
-  wire _280_;
-  wire _281_;
-  wire _282_;
-  wire _283_;
-  wire _284_;
-  wire _285_;
-  wire _286_;
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:5.18-5.23" */
   input [13:0] io_in;
   wire [13:0] io_in;
@@ -300,7 +284,7 @@ module d18_nikhildj_mac(io_in, io_out);
   output [13:0] io_out;
   wire [13:0] io_out;
   /* hdlname = "mchip Begin_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:80.7-80.16" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:60.7-60.16" */
   wire \mchip.Begin_mul ;
   /* hdlname = "mchip End_mul" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:18.11-18.18" */
@@ -309,1039 +293,1043 @@ module d18_nikhildj_mac(io_in, io_out);
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:17.12-17.18" */
   wire \mchip.Finish ;
   /* hdlname = "mchip Load_op" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:82.7-82.14" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:62.7-62.14" */
   wire \mchip.Load_op ;
   /* hdlname = "mchip START" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:12.13-12.18" */
   wire \mchip.START ;
+  /* hdlname = "mchip _Finish" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:35.9-35.16" */
+  reg \mchip._Finish ;
   /* hdlname = "mchip aa accmulate dff_gen[0].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[0].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[0].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[0].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[10].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[10].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[10].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[10].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[11].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[11].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[11].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[11].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[12].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[12].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[12].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[12].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[13].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[13].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[13].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[13].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[14].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[14].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[14].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[14].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[15].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[15].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[15].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[15].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[16].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[16].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[17].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[17].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[18].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[18].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[19].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[19].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[1].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[1].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[1].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[1].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[2].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[2].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[2].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[2].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[3].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[3].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[3].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[3].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[4].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[4].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[4].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[4].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[5].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[5].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[5].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[5].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[6].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[6].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[6].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[6].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[7].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[7].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[7].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[7].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[8].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[8].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[8].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[8].d2.Q ;
   /* hdlname = "mchip aa accmulate dff_gen[9].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.accmulate.dff_gen[9].d2.D ;
   /* hdlname = "mchip aa accmulate dff_gen[9].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.accmulate.dff_gen[9].d2.Q ;
   /* hdlname = "mchip aa accmulate in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/register20.sv:2.23-2.25|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/register20.sv:2.23-2.25|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.accmulate.in ;
   /* hdlname = "mchip aa accmulate out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/register20.sv:5.24-5.27|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/register20.sv:5.24-5.27|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.accmulate.out ;
   /* hdlname = "mchip aa accmulate temp_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/register20.sv:9.14-9.22|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/register20.sv:9.14-9.22|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.accmulate.temp_out ;
   /* hdlname = "mchip aa add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:4.17-4.20|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:4.17-4.20|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.add ;
   /* hdlname = "mchip aa add_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:14.14-14.20|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:14.14-14.20|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.add_in ;
   /* hdlname = "mchip aa add_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:13.14-13.21|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:13.14-13.21|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.add_out ;
   /* hdlname = "mchip aa adder S0 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.S0.a ;
   /* hdlname = "mchip aa adder S0 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.S0.b ;
   /* hdlname = "mchip aa adder S0 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.carry_in ;
   /* hdlname = "mchip aa adder S0 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa0.a ;
   /* hdlname = "mchip aa adder S0 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa0.b ;
   /* hdlname = "mchip aa adder S0 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa0.carry_in ;
   /* hdlname = "mchip aa adder S0 S0 fa0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa0.sum ;
   /* hdlname = "mchip aa adder S0 S0 fa0 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa0.w1 ;
   /* hdlname = "mchip aa adder S0 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa0.w3 ;
   /* hdlname = "mchip aa adder S0 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa1.a ;
   /* hdlname = "mchip aa adder S0 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa1.b ;
   /* hdlname = "mchip aa adder S0 S0 fa1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa1.sum ;
   /* hdlname = "mchip aa adder S0 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa2.a ;
   /* hdlname = "mchip aa adder S0 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa2.b ;
   /* hdlname = "mchip aa adder S0 S0 fa2 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa2.sum ;
   /* hdlname = "mchip aa adder S0 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa3.a ;
   /* hdlname = "mchip aa adder S0 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa3.b ;
   /* hdlname = "mchip aa adder S0 S0 fa3 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S0.fa3.sum ;
   /* hdlname = "mchip aa adder S0 S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.S0.sum ;
   /* hdlname = "mchip aa adder S0 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.S1.a ;
   /* hdlname = "mchip aa adder S0 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.S1.b ;
   /* hdlname = "mchip aa adder S0 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.carry_in ;
   /* hdlname = "mchip aa adder S0 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa0.a ;
   /* hdlname = "mchip aa adder S0 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa0.b ;
   /* hdlname = "mchip aa adder S0 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa0.carry_in ;
   /* hdlname = "mchip aa adder S0 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa1.a ;
   /* hdlname = "mchip aa adder S0 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa1.b ;
   /* hdlname = "mchip aa adder S0 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa2.a ;
   /* hdlname = "mchip aa adder S0 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa2.b ;
   /* hdlname = "mchip aa adder S0 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa3.a ;
   /* hdlname = "mchip aa adder S0 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.S1.fa3.b ;
   /* hdlname = "mchip aa adder S0 SUM0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.SUM0 ;
   /* hdlname = "mchip aa adder S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.a ;
   /* hdlname = "mchip aa adder S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.b ;
   /* hdlname = "mchip aa adder S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:3.17-3.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:3.17-3.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S0.carry_in ;
   /* hdlname = "mchip aa adder S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:11.17-11.106|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S0.sum ;
   /* hdlname = "mchip aa adder S1 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.S0.a ;
   /* hdlname = "mchip aa adder S1 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.S0.b ;
   /* hdlname = "mchip aa adder S1 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.carry_in ;
   /* hdlname = "mchip aa adder S1 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa0.a ;
   /* hdlname = "mchip aa adder S1 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa0.b ;
   /* hdlname = "mchip aa adder S1 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa0.carry_in ;
   /* hdlname = "mchip aa adder S1 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa0.w3 ;
   /* hdlname = "mchip aa adder S1 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa1.a ;
   /* hdlname = "mchip aa adder S1 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa1.b ;
   /* hdlname = "mchip aa adder S1 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa2.a ;
   /* hdlname = "mchip aa adder S1 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa2.b ;
   /* hdlname = "mchip aa adder S1 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa3.a ;
   /* hdlname = "mchip aa adder S1 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S0.fa3.b ;
   /* hdlname = "mchip aa adder S1 S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.S0.sum ;
   /* hdlname = "mchip aa adder S1 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.S1.a ;
   /* hdlname = "mchip aa adder S1 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.S1.b ;
   /* hdlname = "mchip aa adder S1 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.carry_in ;
   /* hdlname = "mchip aa adder S1 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa0.a ;
   /* hdlname = "mchip aa adder S1 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa0.b ;
   /* hdlname = "mchip aa adder S1 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa0.carry_in ;
   /* hdlname = "mchip aa adder S1 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa1.a ;
   /* hdlname = "mchip aa adder S1 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa1.b ;
   /* hdlname = "mchip aa adder S1 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa2.a ;
   /* hdlname = "mchip aa adder S1 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa2.b ;
   /* hdlname = "mchip aa adder S1 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa3.a ;
   /* hdlname = "mchip aa adder S1 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S1.S1.fa3.b ;
   /* hdlname = "mchip aa adder S1 S1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.S1.sum ;
   /* hdlname = "mchip aa adder S1 SUM0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.SUM0 ;
   /* hdlname = "mchip aa adder S1 SUM1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.SUM1 ;
   /* hdlname = "mchip aa adder S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.a ;
   /* hdlname = "mchip aa adder S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.b ;
   /* hdlname = "mchip aa adder S1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:12.17-12.109|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S1.sum ;
   /* hdlname = "mchip aa adder S2 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.S0.a ;
   /* hdlname = "mchip aa adder S2 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.S0.b ;
   /* hdlname = "mchip aa adder S2 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.carry_in ;
   /* hdlname = "mchip aa adder S2 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa0.a ;
   /* hdlname = "mchip aa adder S2 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa0.b ;
   /* hdlname = "mchip aa adder S2 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa0.carry_in ;
   /* hdlname = "mchip aa adder S2 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa0.w3 ;
   /* hdlname = "mchip aa adder S2 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa1.a ;
   /* hdlname = "mchip aa adder S2 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa1.b ;
   /* hdlname = "mchip aa adder S2 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa2.a ;
   /* hdlname = "mchip aa adder S2 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa2.b ;
   /* hdlname = "mchip aa adder S2 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa3.a ;
   /* hdlname = "mchip aa adder S2 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S0.fa3.b ;
   /* hdlname = "mchip aa adder S2 S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.S0.sum ;
   /* hdlname = "mchip aa adder S2 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.S1.a ;
   /* hdlname = "mchip aa adder S2 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.S1.b ;
   /* hdlname = "mchip aa adder S2 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.carry_in ;
   /* hdlname = "mchip aa adder S2 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa0.a ;
   /* hdlname = "mchip aa adder S2 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa0.b ;
   /* hdlname = "mchip aa adder S2 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa0.carry_in ;
   /* hdlname = "mchip aa adder S2 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa1.a ;
   /* hdlname = "mchip aa adder S2 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa1.b ;
   /* hdlname = "mchip aa adder S2 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa2.a ;
   /* hdlname = "mchip aa adder S2 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa2.b ;
   /* hdlname = "mchip aa adder S2 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa3.a ;
   /* hdlname = "mchip aa adder S2 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S2.S1.fa3.b ;
   /* hdlname = "mchip aa adder S2 S1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.S1.sum ;
   /* hdlname = "mchip aa adder S2 SUM0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.SUM0 ;
   /* hdlname = "mchip aa adder S2 SUM1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.SUM1 ;
   /* hdlname = "mchip aa adder S2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.a ;
   /* hdlname = "mchip aa adder S2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.b ;
   /* hdlname = "mchip aa adder S2 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:13.17-13.112|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S2.sum ;
   /* hdlname = "mchip aa adder S3 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.S0.a ;
   /* hdlname = "mchip aa adder S3 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.S0.b ;
   /* hdlname = "mchip aa adder S3 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.carry_in ;
   /* hdlname = "mchip aa adder S3 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa0.a ;
   /* hdlname = "mchip aa adder S3 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa0.b ;
   /* hdlname = "mchip aa adder S3 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa0.carry_in ;
   /* hdlname = "mchip aa adder S3 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa0.w3 ;
   /* hdlname = "mchip aa adder S3 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa1.a ;
   /* hdlname = "mchip aa adder S3 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa1.b ;
   /* hdlname = "mchip aa adder S3 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa2.a ;
   /* hdlname = "mchip aa adder S3 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa2.b ;
   /* hdlname = "mchip aa adder S3 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa3.a ;
   /* hdlname = "mchip aa adder S3 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S0.fa3.b ;
   /* hdlname = "mchip aa adder S3 S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.S0.sum ;
   /* hdlname = "mchip aa adder S3 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.S1.a ;
   /* hdlname = "mchip aa adder S3 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.S1.b ;
   /* hdlname = "mchip aa adder S3 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.carry_in ;
   /* hdlname = "mchip aa adder S3 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa0.a ;
   /* hdlname = "mchip aa adder S3 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa0.b ;
   /* hdlname = "mchip aa adder S3 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa0.carry_in ;
   /* hdlname = "mchip aa adder S3 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa1.a ;
   /* hdlname = "mchip aa adder S3 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa1.b ;
   /* hdlname = "mchip aa adder S3 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa2.a ;
   /* hdlname = "mchip aa adder S3 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa2.b ;
   /* hdlname = "mchip aa adder S3 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa3.a ;
   /* hdlname = "mchip aa adder S3 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.S1.fa3.b ;
   /* hdlname = "mchip aa adder S3 S1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.S1.sum ;
   /* hdlname = "mchip aa adder S3 SUM0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.SUM0 ;
   /* hdlname = "mchip aa adder S3 SUM1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.SUM1 ;
   /* hdlname = "mchip aa adder S3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.a ;
   /* hdlname = "mchip aa adder S3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.b ;
   /* hdlname = "mchip aa adder S3 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:5.18-5.27|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:5.18-5.27|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S3.carry_out ;
   /* hdlname = "mchip aa adder S3 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:4.22-4.25|d18_nikhildj_mac/src/adder_20.sv:14.17-14.115|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S3.sum ;
   /* hdlname = "mchip aa adder S4 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.S0.a ;
   /* hdlname = "mchip aa adder S4 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.S0.b ;
   /* hdlname = "mchip aa adder S4 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.carry_in ;
   /* hdlname = "mchip aa adder S4 S0 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:6.16-6.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:6.16-6.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.carry_out ;
   /* hdlname = "mchip aa adder S4 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.a ;
   /* hdlname = "mchip aa adder S4 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.b ;
   /* hdlname = "mchip aa adder S4 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.carry_in ;
   /* hdlname = "mchip aa adder S4 S0 fa0 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.carry_out ;
   /* hdlname = "mchip aa adder S4 S0 fa0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.sum ;
   /* hdlname = "mchip aa adder S4 S0 fa0 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.w1 ;
   /* hdlname = "mchip aa adder S4 S0 fa0 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.w2 ;
   /* hdlname = "mchip aa adder S4 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa0.w3 ;
   /* hdlname = "mchip aa adder S4 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.a ;
   /* hdlname = "mchip aa adder S4 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.b ;
   /* hdlname = "mchip aa adder S4 S0 fa1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.carry_in ;
   /* hdlname = "mchip aa adder S4 S0 fa1 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.carry_out ;
   /* hdlname = "mchip aa adder S4 S0 fa1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.sum ;
   /* hdlname = "mchip aa adder S4 S0 fa1 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.w1 ;
   /* hdlname = "mchip aa adder S4 S0 fa1 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.w2 ;
   /* hdlname = "mchip aa adder S4 S0 fa1 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa1.w3 ;
   /* hdlname = "mchip aa adder S4 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.a ;
   /* hdlname = "mchip aa adder S4 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.b ;
   /* hdlname = "mchip aa adder S4 S0 fa2 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.carry_in ;
   /* hdlname = "mchip aa adder S4 S0 fa2 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.carry_out ;
   /* hdlname = "mchip aa adder S4 S0 fa2 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.sum ;
   /* hdlname = "mchip aa adder S4 S0 fa2 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.w1 ;
   /* hdlname = "mchip aa adder S4 S0 fa2 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.w2 ;
   /* hdlname = "mchip aa adder S4 S0 fa2 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa2.w3 ;
   /* hdlname = "mchip aa adder S4 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.a ;
   /* hdlname = "mchip aa adder S4 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.b ;
   /* hdlname = "mchip aa adder S4 S0 fa3 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.carry_in ;
   /* hdlname = "mchip aa adder S4 S0 fa3 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.carry_out ;
   /* hdlname = "mchip aa adder S4 S0 fa3 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.sum ;
   /* hdlname = "mchip aa adder S4 S0 fa3 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.w1 ;
   /* hdlname = "mchip aa adder S4 S0 fa3 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.w2 ;
   /* hdlname = "mchip aa adder S4 S0 fa3 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.fa3.w3 ;
   /* hdlname = "mchip aa adder S4 S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.S0.sum ;
   /* hdlname = "mchip aa adder S4 S0 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.8-9.10|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.8-9.10|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.w1 ;
   /* hdlname = "mchip aa adder S4 S0 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.12-9.14|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.12-9.14|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.w2 ;
   /* hdlname = "mchip aa adder S4 S0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.16-9.18|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.16-9.18|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S0.w3 ;
   /* hdlname = "mchip aa adder S4 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.S1.a ;
   /* hdlname = "mchip aa adder S4 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.S1.b ;
   /* hdlname = "mchip aa adder S4 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.carry_in ;
   /* hdlname = "mchip aa adder S4 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.a ;
   /* hdlname = "mchip aa adder S4 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.b ;
   /* hdlname = "mchip aa adder S4 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.carry_in ;
   /* hdlname = "mchip aa adder S4 S1 fa0 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.13-3.22|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.carry_out ;
   /* hdlname = "mchip aa adder S4 S1 fa0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.sum ;
   /* hdlname = "mchip aa adder S4 S1 fa0 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.w1 ;
   /* hdlname = "mchip aa adder S4 S1 fa0 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.w2 ;
   /* hdlname = "mchip aa adder S4 S1 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa0.w3 ;
   /* hdlname = "mchip aa adder S4 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa1.a ;
   /* hdlname = "mchip aa adder S4 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa1.b ;
   /* hdlname = "mchip aa adder S4 S1 fa1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa1.carry_in ;
   /* hdlname = "mchip aa adder S4 S1 fa1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa1.sum ;
   /* hdlname = "mchip aa adder S4 S1 fa1 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa1.w1 ;
   /* hdlname = "mchip aa adder S4 S1 fa1 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa1.w2 ;
   /* hdlname = "mchip aa adder S4 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa2.a ;
   /* hdlname = "mchip aa adder S4 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa2.b ;
   /* hdlname = "mchip aa adder S4 S1 fa2 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa2.sum ;
   /* hdlname = "mchip aa adder S4 S1 fa2 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa2.w1 ;
   /* hdlname = "mchip aa adder S4 S1 fa2 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa2.w2 ;
   /* hdlname = "mchip aa adder S4 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa3.a ;
   /* hdlname = "mchip aa adder S4 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa3.b ;
   /* hdlname = "mchip aa adder S4 S1 fa3 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:3.8-3.11|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa3.sum ;
   /* hdlname = "mchip aa adder S4 S1 fa3 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.8-7.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa3.w1 ;
   /* hdlname = "mchip aa adder S4 S1 fa3 w2" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:7.11-7.13|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.fa3.w2 ;
   /* hdlname = "mchip aa adder S4 S1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.S1.sum ;
   /* hdlname = "mchip aa adder S4 S1 w1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.8-9.10|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:9.8-9.10|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.S1.w1 ;
   /* hdlname = "mchip aa adder S4 SUM0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.SUM0 ;
   /* hdlname = "mchip aa adder S4 SUM1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.SUM1 ;
   /* hdlname = "mchip aa adder S4 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.a ;
   /* hdlname = "mchip aa adder S4 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [3:0] \mchip.aa.adder.S4.b ;
   /* hdlname = "mchip aa adder S4 carry0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:8.7-8.13|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:8.7-8.13|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.carry0 ;
   /* hdlname = "mchip aa adder S4 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:3.17-3.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:3.17-3.25|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.carry_in ;
   /* hdlname = "mchip aa adder S4 carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:5.18-5.27|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/carry_select4.sv:5.18-5.27|d18_nikhildj_mac/src/adder_20.sv:15.17-15.113|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.S4.carry_out ;
   /* hdlname = "mchip aa adder a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:3.22-3.23|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:3.22-3.23|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.adder.a ;
   /* hdlname = "mchip aa adder b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:3.25-3.26|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:3.25-3.26|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.adder.b ;
   /* hdlname = "mchip aa adder carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:4.17-4.25|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:4.17-4.25|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.carry_in ;
   /* hdlname = "mchip aa adder carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:6.18-6.27|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:6.18-6.27|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.carry_out ;
   /* hdlname = "mchip aa adder sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:5.23-5.26|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:5.23-5.26|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.adder.sum ;
   /* hdlname = "mchip aa adder temp_carry4" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:8.42-8.53|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:30.16-38.2|d18_nikhildj_mac/src/adder_20.sv:8.42-8.53|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.adder.temp_carry4 ;
   /* hdlname = "mchip aa i0 add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.add ;
   /* hdlname = "mchip aa i0 dff_gen[0].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[0].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[0].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[0].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[0].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[0].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[10].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[10].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[10].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[10].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[10].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[10].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[11].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[11].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[11].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[11].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[11].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[11].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[12].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[12].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[12].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[12].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[12].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[12].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[13].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[13].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[13].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[13].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[13].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[13].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[14].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[14].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[14].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[14].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[14].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[14].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[15].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[15].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[15].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[15].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[15].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[15].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[16].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[16].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[16].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[16].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[16].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[16].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[17].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[17].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[17].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[17].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[17].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[17].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[18].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[18].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[18].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[18].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[18].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[18].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[19].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[19].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[19].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[19].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[19].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[19].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[1].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[1].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[1].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[1].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[1].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[1].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[2].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[2].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[2].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[2].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[2].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[2].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[3].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[3].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[3].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[3].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[3].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[3].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[4].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[4].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[4].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[4].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[4].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[4].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[5].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[5].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[5].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[5].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[5].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[5].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[6].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[6].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[6].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[6].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[6].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[6].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[7].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[7].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[7].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[7].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[7].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[7].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[8].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[8].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[8].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[8].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[8].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[8].d2.clk ;
   /* hdlname = "mchip aa i0 dff_gen[9].d2 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[9].d2.D ;
   /* hdlname = "mchip aa i0 dff_gen[9].d2 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   reg \mchip.aa.i0.dff_gen[9].d2.Q ;
   /* hdlname = "mchip aa i0 dff_gen[9].d2 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.i0.dff_gen[9].d2.clk ;
   /* hdlname = "mchip aa i0 in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:2.23-2.25|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:2.23-2.25|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.i0.in ;
   /* hdlname = "mchip aa i0 out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:5.24-5.27|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:5.24-5.27|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.i0.out ;
   /* hdlname = "mchip aa i0 temp_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:9.14-9.22|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/register20.sv:9.14-9.22|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.i0.temp_out ;
   /* hdlname = "mchip aa mult_res_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:3.24-3.35|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:3.24-3.35|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [15:0] \mchip.aa.mult_res_in ;
   /* hdlname = "mchip aa mult_res_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:12.14-12.26|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:12.14-12.26|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.mult_res_out ;
   /* hdlname = "mchip aa result" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:6.25-6.31|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:6.25-6.31|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.result ;
   /* hdlname = "mchip aa result_carry_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:7.18-7.34|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:7.18-7.34|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire \mchip.aa.result_carry_out ;
   /* hdlname = "mchip aa temp_mult_res_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:11.14-11.30|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:11.14-11.30|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.temp_mult_res_in ;
   /* hdlname = "mchip aa temp_result" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:15.14-15.25|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:15.14-15.25|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
   wire [19:0] \mchip.aa.temp_result ;
   /* hdlname = "mchip add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:81.7-81.10" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:61.7-61.10" */
   wire \mchip.add ;
   /* hdlname = "mchip clock" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:6.17-6.22" */
   wire \mchip.clock ;
   /* hdlname = "mchip control Begin_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:9.18-9.27|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:10.18-10.27|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.Begin_mul ;
   /* hdlname = "mchip control End_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:5.18-5.25|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:5.18-5.25|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.End_mul ;
   /* hdlname = "mchip control Finish" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:6.18-6.24|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:7.18-7.24|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.Finish ;
   /* hdlname = "mchip control Load_op" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:8.18-8.25|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:9.18-9.25|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.Load_op ;
   /* hdlname = "mchip control START" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:4.18-4.23|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:4.18-4.23|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.START ;
+  /* hdlname = "mchip control _do_next" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:17.11-17.19|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  reg \mchip.control._do_next ;
   /* hdlname = "mchip control add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:10.18-10.21|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:11.18-11.21|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.add ;
   /* hdlname = "mchip control clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:3.18-3.21|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:3.18-3.21|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   wire \mchip.control.clk ;
+  /* hdlname = "mchip control do_next" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:6.18-6.25|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  wire \mchip.control.do_next ;
   /* onehot = 32'd1 */
-  reg [5:0] \mchip.control.state ;
+  reg [6:0] \mchip.control.state ;
   /* hdlname = "mchip control temp_count" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:13.17-13.27|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:14.17-14.27|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
   reg [3:0] \mchip.control.temp_count ;
-  /* hdlname = "mchip input_done" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:19.9-19.19" */
-  /* unused_bits = "0" */
-  wire \mchip.input_done ;
+  /* hdlname = "mchip do_next" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:19.11-19.18" */
+  wire \mchip.do_next ;
   /* hdlname = "mchip io_in" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:4.24-4.29" */
-  /* unused_bits = "8" */
+  /* unused_bits = "0 1 2 3 4 5 6" */
   wire [11:0] \mchip.io_in ;
   /* hdlname = "mchip io_out" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:5.25-5.31" */
   wire [11:0] \mchip.io_out ;
-  /* fsm_encoding = "auto" */
-  /* hdlname = "mchip j" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:34.11-34.12" */
-  reg [31:0] \mchip.j ;
   /* hdlname = "mchip mac_carry_out" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:16.12-16.25" */
   wire \mchip.mac_carry_out ;
@@ -1349,1061 +1337,1074 @@ module d18_nikhildj_mac(io_in, io_out);
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:15.18-15.25" */
   wire [19:0] \mchip.mac_res ;
   /* hdlname = "mchip mult Begin_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:6.17-6.26|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:6.17-6.26|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.Begin_mul ;
   /* hdlname = "mchip mult End_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:8.18-8.25|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:8.18-8.25|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.End_mul ;
   /* hdlname = "mchip mult LSB" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:13.7-13.10|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:13.7-13.10|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.LSB ;
   /* hdlname = "mchip mult Load_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:14.7-14.15|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:14.7-14.15|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.Load_mul ;
   /* hdlname = "mchip mult a_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:2.23-2.27|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:2.23-2.27|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.a_in ;
   /* hdlname = "mchip mult a_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:18.12-18.17|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:18.12-18.17|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.a_out ;
   /* hdlname = "mchip mult b_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:3.23-3.27|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:3.23-3.27|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.b_in ;
   /* hdlname = "mchip mult b_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:17.13-17.18|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:17.13-17.18|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.b_out ;
   /* hdlname = "mchip mult clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:5.17-5.20|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:5.17-5.20|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.clk ;
   /* hdlname = "mchip mult do_add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:11.7-11.13|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:11.7-11.13|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.do_add ;
   /* hdlname = "mchip mult do_shift" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:12.7-12.15|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:12.7-12.15|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.do_shift ;
   /* hdlname = "mchip mult i0 Begin_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:4.18-4.27|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:4.18-4.27|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.Begin_mul ;
   /* hdlname = "mchip mult i0 End_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:9.18-9.25|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:9.18-9.25|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.End_mul ;
   /* hdlname = "mchip mult i0 LSB" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:5.18-5.21|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:5.18-5.21|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.LSB ;
   /* hdlname = "mchip mult i0 Load_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:8.18-8.26|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:8.18-8.26|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.Load_mul ;
   /* hdlname = "mchip mult i0 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:3.18-3.21|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:3.18-3.21|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.clk ;
   /* hdlname = "mchip mult i0 do_add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:6.18-6.24|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:6.18-6.24|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.do_add ;
   /* hdlname = "mchip mult i0 do_shift" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:7.18-7.26|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:7.18-7.26|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i0.do_shift ;
   /* onehot = 32'd1 */
   reg [4:0] \mchip.mult.i0.state ;
   /* hdlname = "mchip mult i0 temp_count" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:12.17-12.27|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:12.17-12.27|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   reg [2:0] \mchip.mult.i0.temp_count ;
   /* hdlname = "mchip mult i1 Load_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/multiplicand.sv:3.17-3.25|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/multiplicand.sv:3.17-3.25|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.Load_mul ;
   /* hdlname = "mchip mult i1 a_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/multiplicand.sv:2.22-2.26|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/multiplicand.sv:2.22-2.26|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i1.a_in ;
   /* hdlname = "mchip mult i1 a_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/multiplicand.sv:5.23-5.28|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/multiplicand.sv:5.23-5.28|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i1.a_out ;
   /* hdlname = "mchip mult i1 r1 Load_op" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:3.17-3.24|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:3.17-3.24|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.Load_op ;
   /* hdlname = "mchip mult i1 r1 dff_gen[0].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[0].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[0].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[0].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[0].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[0].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[0].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[1].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[1].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[1].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[1].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[1].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[1].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[1].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[2].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[2].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[2].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[2].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[2].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[2].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[2].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[3].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[3].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[3].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[3].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[3].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[3].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[3].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[4].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[4].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[4].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[4].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[4].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[4].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[4].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[5].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[5].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[5].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[5].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[5].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[5].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[5].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[6].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[6].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[6].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  wire \mchip.mult.i1.r1.dff_gen[6].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  reg \mchip.mult.i1.r1.dff_gen[6].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[6].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[6].d1.clk ;
   /* hdlname = "mchip mult i1 r1 dff_gen[7].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[7].d1.D ;
   /* hdlname = "mchip mult i1 r1 dff_gen[7].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   reg \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
   /* hdlname = "mchip mult i1 r1 dff_gen[7].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i1.r1.dff_gen[7].d1.clk ;
   /* hdlname = "mchip mult i1 r1 in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:2.22-2.24|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:2.22-2.24|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i1.r1.in ;
   /* hdlname = "mchip mult i1 r1 out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:5.23-5.26|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:5.23-5.26|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i1.r1.out ;
   /* hdlname = "mchip mult i1 r1 temp_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:9.13-9.21|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:9.13-9.21|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i1.r1.temp_out ;
   /* hdlname = "mchip mult i2 S0 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S0.S0.a ;
   /* hdlname = "mchip mult i2 S0 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S0.S0.b ;
   /* hdlname = "mchip mult i2 S0 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.carry_in ;
   /* hdlname = "mchip mult i2 S0 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa0.a ;
   /* hdlname = "mchip mult i2 S0 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa0.b ;
   /* hdlname = "mchip mult i2 S0 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa0.carry_in ;
   /* hdlname = "mchip mult i2 S0 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa0.w3 ;
   /* hdlname = "mchip mult i2 S0 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa1.a ;
   /* hdlname = "mchip mult i2 S0 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa1.b ;
   /* hdlname = "mchip mult i2 S0 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa2.a ;
   /* hdlname = "mchip mult i2 S0 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa2.b ;
   /* hdlname = "mchip mult i2 S0 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa3.a ;
   /* hdlname = "mchip mult i2 S0 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S0.fa3.b ;
   /* hdlname = "mchip mult i2 S0 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S0.S1.a ;
   /* hdlname = "mchip mult i2 S0 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S0.S1.b ;
   /* hdlname = "mchip mult i2 S0 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.carry_in ;
   /* hdlname = "mchip mult i2 S0 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa0.a ;
   /* hdlname = "mchip mult i2 S0 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa0.b ;
   /* hdlname = "mchip mult i2 S0 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa0.carry_in ;
   /* hdlname = "mchip mult i2 S0 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa1.a ;
   /* hdlname = "mchip mult i2 S0 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa1.b ;
   /* hdlname = "mchip mult i2 S0 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa2.a ;
   /* hdlname = "mchip mult i2 S0 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa2.b ;
   /* hdlname = "mchip mult i2 S0 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa3.a ;
   /* hdlname = "mchip mult i2 S0 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.S1.fa3.b ;
   /* hdlname = "mchip mult i2 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S0.a ;
   /* hdlname = "mchip mult i2 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S0.b ;
   /* hdlname = "mchip mult i2 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:3.17-3.25|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:3.17-3.25|d18_nikhildj_mac/src/8_bit_adder.sv:11.17-11.105|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S0.carry_in ;
   /* hdlname = "mchip mult i2 S1 S0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.S0.a ;
   /* hdlname = "mchip mult i2 S1 S0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.S0.b ;
   /* hdlname = "mchip mult i2 S1 S0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.carry_in ;
   /* hdlname = "mchip mult i2 S1 S0 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa0.a ;
   /* hdlname = "mchip mult i2 S1 S0 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa0.b ;
   /* hdlname = "mchip mult i2 S1 S0 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa0.carry_in ;
   /* hdlname = "mchip mult i2 S1 S0 fa0 w3" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:7.14-7.16|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa0.w3 ;
   /* hdlname = "mchip mult i2 S1 S0 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa1.a ;
   /* hdlname = "mchip mult i2 S1 S0 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa1.b ;
   /* hdlname = "mchip mult i2 S1 S0 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa2.a ;
   /* hdlname = "mchip mult i2 S1 S0 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa2.b ;
   /* hdlname = "mchip mult i2 S1 S0 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa3.a ;
   /* hdlname = "mchip mult i2 S1 S0 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S0.fa3.b ;
   /* hdlname = "mchip mult i2 S1 S0 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:11.22-11.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.S0.sum ;
   /* hdlname = "mchip mult i2 S1 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.S1.a ;
   /* hdlname = "mchip mult i2 S1 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:3.21-3.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.S1.b ;
   /* hdlname = "mchip mult i2 S1 S1 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:4.15-4.23|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.carry_in ;
   /* hdlname = "mchip mult i2 S1 S1 fa0 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa0.a ;
   /* hdlname = "mchip mult i2 S1 S1 fa0 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa0.b ;
   /* hdlname = "mchip mult i2 S1 S1 fa0 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.11-2.19|d18_nikhildj_mac/src/ripple_carry_adder.sv:10.13-10.49|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa0.carry_in ;
   /* hdlname = "mchip mult i2 S1 S1 fa1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa1.a ;
   /* hdlname = "mchip mult i2 S1 S1 fa1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:11.13-11.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa1.b ;
   /* hdlname = "mchip mult i2 S1 S1 fa2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa2.a ;
   /* hdlname = "mchip mult i2 S1 S1 fa2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:12.13-12.44|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa2.b ;
   /* hdlname = "mchip mult i2 S1 S1 fa3 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.7-2.8|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa3.a ;
   /* hdlname = "mchip mult i2 S1 S1 fa3 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/fulladder.sv:2.9-2.10|d18_nikhildj_mac/src/ripple_carry_adder.sv:13.13-13.51|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.S1.S1.fa3.b ;
   /* hdlname = "mchip mult i2 S1 S1 sum" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:12.22-12.88|d18_nikhildj_mac/src/ripple_carry_adder.sv:5.22-5.25|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.S1.sum ;
   /* hdlname = "mchip mult i2 S1 SUM0" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:7.13-7.17|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.SUM0 ;
   /* hdlname = "mchip mult i2 S1 SUM1" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:7.19-7.23|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.SUM1 ;
   /* hdlname = "mchip mult i2 S1 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.21-2.22|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.a ;
   /* hdlname = "mchip mult i2 S1 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/carry_select4.sv:2.24-2.25|d18_nikhildj_mac/src/8_bit_adder.sv:12.17-12.106|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [3:0] \mchip.mult.i2.S1.b ;
   /* hdlname = "mchip mult i2 a" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/8_bit_adder.sv:3.21-3.22|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/8_bit_adder.sv:3.21-3.22|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i2.a ;
   /* hdlname = "mchip mult i2 b" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/8_bit_adder.sv:3.24-3.25|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/8_bit_adder.sv:3.24-3.25|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i2.b ;
   /* hdlname = "mchip mult i2 carry_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/8_bit_adder.sv:4.17-4.25|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:45.15-51.2|d18_nikhildj_mac/src/8_bit_adder.sv:4.17-4.25|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i2.carry_in ;
   /* hdlname = "mchip mult i3 LSB" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:11.18-11.21|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:11.18-11.21|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i3.LSB ;
   /* hdlname = "mchip mult i3 Load_mul" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:5.18-5.26|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:5.18-5.26|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i3.Load_mul ;
   /* hdlname = "mchip mult i3 b_in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:4.24-4.28|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:4.24-4.28|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i3.b_in ;
   /* hdlname = "mchip mult i3 b_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:12.24-12.29|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:12.24-12.29|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [7:0] \mchip.mult.i3.b_out ;
   /* hdlname = "mchip mult i3 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:3.18-3.21|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:3.18-3.21|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i3.clk ;
   /* hdlname = "mchip mult i3 do_add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:7.18-7.24|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:7.18-7.24|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i3.do_add ;
   /* hdlname = "mchip mult i3 do_shift" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:6.18-6.26|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:6.18-6.26|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire \mchip.mult.i3.do_shift ;
   /* hdlname = "mchip mult i3 mult_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:10.25-10.33|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:10.25-10.33|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [15:0] \mchip.mult.i3.mult_out ;
   /* hdlname = "mchip mult i3 temp_Add" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:16.11-16.19|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:16.11-16.19|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   reg \mchip.mult.i3.temp_Add ;
   /* hdlname = "mchip mult i3 temp_register" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:15.18-15.31|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:15.18-15.31|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [16:0] \mchip.mult.i3.temp_register ;
   /* hdlname = "mchip mult mult_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:7.25-7.33|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:7.25-7.33|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   wire [15:0] \mchip.mult.mult_out ;
   /* hdlname = "mchip mult_res" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:90.14-90.22" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:70.14-70.22" */
   wire [15:0] \mchip.mult_res ;
   /* hdlname = "mchip op_a_in" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:13.17-13.24" */
-  wire [7:0] \mchip.op_a_in ;
+  reg [7:0] \mchip.op_a_in ;
   /* hdlname = "mchip op_a_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:86.13-86.21" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:66.13-66.21" */
   wire [7:0] \mchip.op_a_out ;
   /* hdlname = "mchip op_b_in" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:14.17-14.24" */
-  wire [7:0] \mchip.op_b_in ;
+  reg [7:0] \mchip.op_b_in ;
   /* hdlname = "mchip op_b_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:87.13-87.21" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:67.13-67.21" */
   wire [7:0] \mchip.op_b_out ;
   /* hdlname = "mchip opa Load_op" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:3.17-3.24|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:3.17-3.24|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.Load_op ;
   /* hdlname = "mchip opa dff_gen[0].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[0].d1.D ;
   /* hdlname = "mchip opa dff_gen[0].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[0].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[0].d1.Q ;
   /* hdlname = "mchip opa dff_gen[0].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[0].d1.clk ;
   /* hdlname = "mchip opa dff_gen[1].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[1].d1.D ;
   /* hdlname = "mchip opa dff_gen[1].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[1].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[1].d1.Q ;
   /* hdlname = "mchip opa dff_gen[1].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[1].d1.clk ;
   /* hdlname = "mchip opa dff_gen[2].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[2].d1.D ;
   /* hdlname = "mchip opa dff_gen[2].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[2].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[2].d1.Q ;
   /* hdlname = "mchip opa dff_gen[2].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[2].d1.clk ;
   /* hdlname = "mchip opa dff_gen[3].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[3].d1.D ;
   /* hdlname = "mchip opa dff_gen[3].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[3].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[3].d1.Q ;
   /* hdlname = "mchip opa dff_gen[3].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[3].d1.clk ;
   /* hdlname = "mchip opa dff_gen[4].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[4].d1.D ;
   /* hdlname = "mchip opa dff_gen[4].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[4].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[4].d1.Q ;
   /* hdlname = "mchip opa dff_gen[4].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[4].d1.clk ;
   /* hdlname = "mchip opa dff_gen[5].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[5].d1.D ;
   /* hdlname = "mchip opa dff_gen[5].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[5].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[5].d1.Q ;
   /* hdlname = "mchip opa dff_gen[5].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[5].d1.clk ;
   /* hdlname = "mchip opa dff_gen[6].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[6].d1.D ;
   /* hdlname = "mchip opa dff_gen[6].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  wire \mchip.opa.dff_gen[6].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  reg \mchip.opa.dff_gen[6].d1.Q ;
   /* hdlname = "mchip opa dff_gen[6].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[6].d1.clk ;
   /* hdlname = "mchip opa dff_gen[7].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[7].d1.D ;
   /* hdlname = "mchip opa dff_gen[7].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   reg \mchip.opa.dff_gen[7].d1.Q ;
   /* hdlname = "mchip opa dff_gen[7].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire \mchip.opa.dff_gen[7].d1.clk ;
   /* hdlname = "mchip opa in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:2.22-2.24|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:2.22-2.24|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire [7:0] \mchip.opa.in ;
   /* hdlname = "mchip opa out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:5.23-5.26|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:5.23-5.26|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire [7:0] \mchip.opa.out ;
   /* hdlname = "mchip opa temp_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:9.13-9.21|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:9.13-9.21|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
   wire [7:0] \mchip.opa.temp_out ;
   /* hdlname = "mchip opb Load_op" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:3.17-3.24|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:3.17-3.24|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.Load_op ;
   /* hdlname = "mchip opb dff_gen[0].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[0].d1.D ;
   /* hdlname = "mchip opb dff_gen[0].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[0].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[0].d1.Q ;
   /* hdlname = "mchip opb dff_gen[0].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[0].d1.clk ;
   /* hdlname = "mchip opb dff_gen[1].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[1].d1.D ;
   /* hdlname = "mchip opb dff_gen[1].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[1].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[1].d1.Q ;
   /* hdlname = "mchip opb dff_gen[1].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[1].d1.clk ;
   /* hdlname = "mchip opb dff_gen[2].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[2].d1.D ;
   /* hdlname = "mchip opb dff_gen[2].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[2].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[2].d1.Q ;
   /* hdlname = "mchip opb dff_gen[2].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[2].d1.clk ;
   /* hdlname = "mchip opb dff_gen[3].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[3].d1.D ;
   /* hdlname = "mchip opb dff_gen[3].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[3].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[3].d1.Q ;
   /* hdlname = "mchip opb dff_gen[3].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[3].d1.clk ;
   /* hdlname = "mchip opb dff_gen[4].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[4].d1.D ;
   /* hdlname = "mchip opb dff_gen[4].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[4].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[4].d1.Q ;
   /* hdlname = "mchip opb dff_gen[4].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[4].d1.clk ;
   /* hdlname = "mchip opb dff_gen[5].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[5].d1.D ;
   /* hdlname = "mchip opb dff_gen[5].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[5].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[5].d1.Q ;
   /* hdlname = "mchip opb dff_gen[5].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[5].d1.clk ;
   /* hdlname = "mchip opb dff_gen[6].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[6].d1.D ;
   /* hdlname = "mchip opb dff_gen[6].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
-  wire \mchip.opb.dff_gen[6].d1.Q ;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  reg \mchip.opb.dff_gen[6].d1.Q ;
   /* hdlname = "mchip opb dff_gen[6].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[6].d1.clk ;
   /* hdlname = "mchip opb dff_gen[7].d1 D" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:4.17-4.18|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[7].d1.D ;
   /* hdlname = "mchip opb dff_gen[7].d1 Q" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:5.18-5.19|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   reg \mchip.opb.dff_gen[7].d1.Q ;
   /* hdlname = "mchip opb dff_gen[7].d1 clk" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:3.17-3.20|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire \mchip.opb.dff_gen[7].d1.clk ;
   /* hdlname = "mchip opb in" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:2.22-2.24|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:2.22-2.24|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire [7:0] \mchip.opb.in ;
   /* hdlname = "mchip opb out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:5.23-5.26|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:5.23-5.26|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire [7:0] \mchip.opb.out ;
   /* hdlname = "mchip opb temp_out" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:9.13-9.21|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:9.13-9.21|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   wire [7:0] \mchip.opb.temp_out ;
-  /* hdlname = "mchip output_done" */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:20.9-20.20" */
-  reg \mchip.output_done  = 1'h0;
   /* hdlname = "mchip reset" */
   /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:7.17-7.22" */
   wire \mchip.reset ;
-  assign _071_ = ~(\mchip.control.state [0] | \mchip.j [4]);
-  assign _053_ = ~_071_;
-  assign _072_ = ~(\mchip.j [2] | \mchip.control.state [0]);
-  assign _052_ = ~_072_;
-  assign _011_ = io_in[13] | \mchip.control.state [3];
-  assign _073_ = \mchip.mult.i0.temp_count [0] & \mchip.mult.i0.temp_count [1];
-  assign _074_ = _073_ & \mchip.mult.i0.temp_count [2];
-  assign _075_ = _074_ | _011_;
-  assign _076_ = \mchip.mult.i0.state [1] & ~(_075_);
-  assign _077_ = \mchip.mult.i0.state [3] & ~(_011_);
-  assign _010_ = _077_ | _076_;
-  assign _078_ = _011_ | ~(_074_);
-  assign _079_ = \mchip.mult.i0.state [1] & ~(_078_);
-  assign _080_ = _011_ | \mchip.control.state [5];
-  assign _081_ = \mchip.mult.i0.state [0] & ~(_080_);
-  assign _082_ = _081_ | _011_;
-  assign _008_ = _082_ | _079_;
-  assign _083_ = \mchip.mult.i0.state [4] & ~(_011_);
-  assign _084_ = _011_ | \mchip.mult.i3.temp_register [0];
-  assign _085_ = \mchip.mult.i0.state [2] & ~(_084_);
-  assign _009_ = _085_ | _083_;
-  assign _013_ = _011_ | \mchip.mult.i0.state [3];
-  assign _086_ = ~(\mchip.control.temp_count [1] | \mchip.control.temp_count [0]);
-  assign _087_ = \mchip.control.temp_count [2] | \mchip.control.temp_count [3];
-  assign _088_ = _086_ & ~(_087_);
-  assign _089_ = io_in[13] | ~(_088_);
-  assign _090_ = \mchip.control.state [4] & ~(_089_);
-  assign _091_ = io_in[11] | io_in[13];
-  assign _092_ = \mchip.control.state [0] & ~(_091_);
-  assign _093_ = _092_ | io_in[13];
-  assign _005_ = _093_ | _090_;
-  assign _012_ = \mchip.mult.i0.state [1] | \mchip.mult.i0.state [3];
-  assign _094_ = _088_ | io_in[13];
-  assign _095_ = \mchip.control.state [4] & ~(_094_);
-  assign _096_ = \mchip.control.state [3] & ~(io_in[13]);
-  assign _007_ = _096_ | _095_;
-  assign _097_ = \mchip.control.state [5] & ~(io_in[13]);
-  assign _098_ = \mchip.mult.i0.state [0] | io_in[13];
-  assign _099_ = \mchip.control.state [1] & ~(_098_);
-  assign _006_ = _099_ | _097_;
-  assign _014_ = \mchip.j [0] & ~(\mchip.control.state [0]);
-  assign _025_ = \mchip.j [1] & ~(\mchip.control.state [0]);
-  assign _038_ = \mchip.j [3] & ~(\mchip.control.state [0]);
-  assign _039_ = \mchip.j [5] & ~(\mchip.control.state [0]);
-  assign _040_ = \mchip.j [6] & ~(\mchip.control.state [0]);
-  assign _041_ = \mchip.j [7] & ~(\mchip.control.state [0]);
-  assign _042_ = \mchip.j [8] & ~(\mchip.control.state [0]);
-  assign _043_ = \mchip.j [9] & ~(\mchip.control.state [0]);
-  assign _015_ = \mchip.j [10] & ~(\mchip.control.state [0]);
-  assign _016_ = \mchip.j [11] & ~(\mchip.control.state [0]);
-  assign _017_ = \mchip.j [12] & ~(\mchip.control.state [0]);
-  assign _018_ = \mchip.j [13] & ~(\mchip.control.state [0]);
-  assign _019_ = \mchip.j [14] & ~(\mchip.control.state [0]);
-  assign _020_ = \mchip.j [15] & ~(\mchip.control.state [0]);
-  assign _021_ = \mchip.j [16] & ~(\mchip.control.state [0]);
-  assign _022_ = \mchip.j [17] & ~(\mchip.control.state [0]);
-  assign _023_ = \mchip.j [18] & ~(\mchip.control.state [0]);
-  assign _024_ = \mchip.j [19] & ~(\mchip.control.state [0]);
-  assign _026_ = \mchip.j [20] & ~(\mchip.control.state [0]);
-  assign _027_ = \mchip.j [21] & ~(\mchip.control.state [0]);
-  assign _028_ = \mchip.j [22] & ~(\mchip.control.state [0]);
-  assign _029_ = \mchip.j [23] & ~(\mchip.control.state [0]);
-  assign _030_ = \mchip.j [24] & ~(\mchip.control.state [0]);
-  assign _031_ = \mchip.j [25] & ~(\mchip.control.state [0]);
-  assign _032_ = \mchip.j [26] & ~(\mchip.control.state [0]);
-  assign _033_ = \mchip.j [27] & ~(\mchip.control.state [0]);
-  assign _034_ = \mchip.j [28] & ~(\mchip.control.state [0]);
-  assign _035_ = \mchip.j [29] & ~(\mchip.control.state [0]);
-  assign _036_ = \mchip.j [30] & ~(\mchip.control.state [0]);
-  assign _037_ = \mchip.j [31] & ~(\mchip.control.state [0]);
-  assign _100_ = ~(_025_ | _014_);
-  assign _101_ = _038_ | _072_;
-  assign _102_ = _100_ & ~(_101_);
-  assign _103_ = _041_ | _040_;
-  assign _104_ = _039_ | _071_;
-  assign _105_ = _104_ | _103_;
-  assign _106_ = _102_ & ~(_105_);
-  assign _107_ = _020_ | _019_;
-  assign _108_ = _018_ | _017_;
-  assign _109_ = _108_ | _107_;
-  assign _110_ = _016_ | _015_;
-  assign _111_ = _043_ | _042_;
-  assign _112_ = _111_ | _110_;
-  assign _113_ = _112_ | _109_;
-  assign _114_ = _106_ & ~(_113_);
-  assign _115_ = _037_ | _036_;
-  assign _116_ = _035_ | _034_;
-  assign _117_ = _116_ | _115_;
-  assign _118_ = _033_ | _032_;
-  assign _119_ = _031_ | _030_;
-  assign _120_ = _119_ | _118_;
-  assign _121_ = _120_ | _117_;
-  assign _122_ = _029_ | _028_;
-  assign _123_ = _027_ | _026_;
-  assign _124_ = _123_ | _122_;
-  assign _125_ = _024_ | _023_;
-  assign _126_ = _022_ | _021_;
-  assign _127_ = _126_ | _125_;
-  assign _128_ = _127_ | _124_;
-  assign _129_ = _128_ | _121_;
-  assign _054_ = _114_ & ~(_129_);
-  assign _130_ = \mchip.aa.i0.dff_gen[11].d2.Q  & \mchip.aa.accmulate.dff_gen[11].d2.Q ;
-  assign _131_ = \mchip.aa.i0.dff_gen[10].d2.Q  & \mchip.aa.accmulate.dff_gen[10].d2.Q ;
-  assign _132_ = \mchip.aa.i0.dff_gen[10].d2.Q  ^ \mchip.aa.accmulate.dff_gen[10].d2.Q ;
-  assign _133_ = ~(\mchip.aa.i0.dff_gen[9].d2.Q  & \mchip.aa.accmulate.dff_gen[9].d2.Q );
-  assign _134_ = \mchip.aa.i0.dff_gen[9].d2.Q  ^ \mchip.aa.accmulate.dff_gen[9].d2.Q ;
-  assign _135_ = ~(\mchip.aa.i0.dff_gen[8].d2.Q  | \mchip.aa.accmulate.dff_gen[8].d2.Q );
-  assign _136_ = _134_ & ~(_135_);
-  assign _137_ = _133_ & ~(_136_);
-  assign _138_ = _132_ & ~(_137_);
-  assign _139_ = _138_ | _131_;
-  assign _140_ = \mchip.aa.i0.dff_gen[11].d2.Q  ^ \mchip.aa.accmulate.dff_gen[11].d2.Q ;
-  assign _141_ = _140_ & _139_;
-  assign _142_ = ~(_141_ | _130_);
-  assign _143_ = \mchip.aa.i0.dff_gen[6].d2.Q  & \mchip.aa.accmulate.dff_gen[6].d2.Q ;
-  assign _144_ = \mchip.aa.i0.dff_gen[6].d2.Q  ^ \mchip.aa.accmulate.dff_gen[6].d2.Q ;
-  assign _145_ = ~(\mchip.aa.i0.dff_gen[5].d2.Q  & \mchip.aa.accmulate.dff_gen[5].d2.Q );
-  assign _146_ = \mchip.aa.i0.dff_gen[5].d2.Q  ^ \mchip.aa.accmulate.dff_gen[5].d2.Q ;
-  assign _147_ = ~(\mchip.aa.i0.dff_gen[4].d2.Q  | \mchip.aa.accmulate.dff_gen[4].d2.Q );
-  assign _148_ = _146_ & ~(_147_);
-  assign _149_ = _145_ & ~(_148_);
-  assign _150_ = _144_ & ~(_149_);
-  assign _151_ = _150_ | _143_;
-  assign _152_ = \mchip.aa.i0.dff_gen[7].d2.Q  ^ \mchip.aa.accmulate.dff_gen[7].d2.Q ;
-  assign _153_ = ~(_152_ & _151_);
-  assign _154_ = \mchip.aa.i0.dff_gen[7].d2.Q  & \mchip.aa.accmulate.dff_gen[7].d2.Q ;
-  assign _155_ = _153_ & ~(_154_);
-  assign _156_ = \mchip.aa.i0.dff_gen[3].d2.Q  ^ \mchip.aa.accmulate.dff_gen[3].d2.Q ;
-  assign _157_ = ~(\mchip.aa.i0.dff_gen[2].d2.Q  & \mchip.aa.accmulate.dff_gen[2].d2.Q );
-  assign _158_ = \mchip.aa.i0.dff_gen[2].d2.Q  ^ \mchip.aa.accmulate.dff_gen[2].d2.Q ;
-  assign _159_ = ~(\mchip.aa.i0.dff_gen[1].d2.Q  & \mchip.aa.accmulate.dff_gen[1].d2.Q );
-  assign _160_ = \mchip.aa.i0.dff_gen[1].d2.Q  ^ \mchip.aa.accmulate.dff_gen[1].d2.Q ;
-  assign _161_ = ~(\mchip.aa.i0.dff_gen[0].d2.Q  & \mchip.aa.accmulate.dff_gen[0].d2.Q );
-  assign _162_ = _160_ & ~(_161_);
-  assign _163_ = _159_ & ~(_162_);
-  assign _164_ = _158_ & ~(_163_);
-  assign _165_ = _157_ & ~(_164_);
-  assign _166_ = _156_ & ~(_165_);
-  assign _167_ = \mchip.aa.i0.dff_gen[3].d2.Q  & \mchip.aa.accmulate.dff_gen[3].d2.Q ;
-  assign _168_ = _167_ | _166_;
-  assign _169_ = _168_ & ~(_155_);
-  assign _170_ = ~(\mchip.aa.i0.dff_gen[4].d2.Q  & \mchip.aa.accmulate.dff_gen[4].d2.Q );
-  assign _171_ = _146_ & ~(_170_);
-  assign _172_ = _145_ & ~(_171_);
-  assign _173_ = _144_ & ~(_172_);
-  assign _174_ = ~(_173_ | _143_);
-  assign _175_ = _152_ & ~(_174_);
-  assign _176_ = _175_ | _154_;
-  assign _177_ = _176_ | _169_;
-  assign _178_ = _142_ | ~(_177_);
-  assign _179_ = ~(\mchip.aa.i0.dff_gen[8].d2.Q  & \mchip.aa.accmulate.dff_gen[8].d2.Q );
-  assign _180_ = _134_ & ~(_179_);
-  assign _181_ = _133_ & ~(_180_);
-  assign _182_ = _132_ & ~(_181_);
-  assign _183_ = ~(_182_ | _131_);
-  assign _184_ = _140_ & ~(_183_);
-  assign _185_ = _184_ | _130_;
-  assign _186_ = _185_ | ~(_178_);
-  assign _187_ = \mchip.aa.i0.dff_gen[12].d2.Q  | \mchip.aa.accmulate.dff_gen[12].d2.Q ;
-  assign _188_ = \mchip.aa.i0.dff_gen[12].d2.Q  & \mchip.aa.accmulate.dff_gen[12].d2.Q ;
-  assign _189_ = _187_ & ~(_188_);
-  assign \mchip.aa.accmulate.dff_gen[12].d2.D  = _189_ ^ _186_;
-  assign _190_ = _179_ & ~(_135_);
-  assign \mchip.aa.accmulate.dff_gen[8].d2.D  = _190_ ^ _177_;
-  assign _191_ = _170_ & ~(_147_);
-  assign \mchip.aa.accmulate.dff_gen[4].d2.D  = _191_ ^ _168_;
-  assign _059_ = ~(_074_ | \mchip.mult.i0.temp_count [0]);
-  assign _060_ = \mchip.mult.i0.temp_count [0] ^ \mchip.mult.i0.temp_count [1];
-  assign _061_ = _073_ ^ \mchip.mult.i0.temp_count [2];
-  assign _192_ = ~\mchip.mult.i0.state [1];
-  assign _062_ = \mchip.mult.i3.temp_Add  ? _192_ : \mchip.mult.i0.state [4];
-  assign _063_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [1];
-  assign _064_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [2];
-  assign _065_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [3];
-  assign _066_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [4];
-  assign _067_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [5];
-  assign _068_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [6];
-  assign _069_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : \mchip.mult.i3.temp_register [7];
-  assign _193_ = \mchip.mult.i3.temp_register [8] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _194_ = \mchip.mult.i3.temp_Add  ? _193_ : \mchip.mult.i3.temp_register [8];
-  assign _070_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : _194_;
-  assign _195_ = \mchip.mult.i3.temp_register [8] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _196_ = ~(\mchip.mult.i3.temp_register [9] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q );
-  assign _197_ = ~(_196_ ^ _195_);
-  assign _044_ = \mchip.mult.i3.temp_Add  ? _197_ : \mchip.mult.i3.temp_register [9];
-  assign _198_ = \mchip.mult.i3.temp_register [9] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _199_ = _195_ & ~(_196_);
-  assign _200_ = _199_ | _198_;
-  assign _201_ = \mchip.mult.i3.temp_register [10] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _202_ = _201_ ^ _200_;
-  assign _045_ = \mchip.mult.i3.temp_Add  ? _202_ : \mchip.mult.i3.temp_register [10];
-  assign _203_ = \mchip.mult.i3.temp_register [10] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _204_ = _201_ & _200_;
-  assign _205_ = _204_ | _203_;
-  assign _206_ = \mchip.mult.i3.temp_register [11] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _207_ = _206_ ^ _205_;
-  assign _046_ = \mchip.mult.i3.temp_Add  ? _207_ : \mchip.mult.i3.temp_register [11];
-  assign _208_ = \mchip.mult.i3.temp_register [11] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _209_ = _206_ & _205_;
-  assign _210_ = _209_ | _208_;
-  assign _211_ = \mchip.mult.i3.temp_register [12] | \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _212_ = \mchip.mult.i3.temp_register [12] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _213_ = _211_ & ~(_212_);
-  assign _214_ = _213_ ^ _210_;
-  assign _047_ = \mchip.mult.i3.temp_Add  ? _214_ : \mchip.mult.i3.temp_register [12];
-  assign _215_ = _210_ ? _211_ : _212_;
-  assign _216_ = ~(\mchip.mult.i3.temp_register [13] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q );
-  assign _217_ = ~(_216_ ^ _215_);
-  assign _048_ = \mchip.mult.i3.temp_Add  ? _217_ : \mchip.mult.i3.temp_register [13];
-  assign _218_ = \mchip.mult.i3.temp_register [13] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _219_ = _211_ & ~(_216_);
-  assign _220_ = _219_ | _218_;
-  assign _221_ = _212_ & ~(_216_);
-  assign _222_ = _221_ | _218_;
-  assign _223_ = _210_ ? _220_ : _222_;
-  assign _224_ = \mchip.mult.i3.temp_register [14] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _225_ = _224_ ^ _223_;
-  assign _049_ = \mchip.mult.i3.temp_Add  ? _225_ : \mchip.mult.i3.temp_register [14];
-  assign _226_ = \mchip.mult.i3.temp_register [14] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _227_ = ~_224_;
-  assign _228_ = _220_ & ~(_227_);
-  assign _229_ = _228_ | _226_;
-  assign _230_ = _222_ & ~(_227_);
-  assign _231_ = _230_ | _226_;
-  assign _232_ = _210_ ? _229_ : _231_;
-  assign _233_ = \mchip.mult.i3.temp_register [15] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _234_ = _233_ ^ _232_;
-  assign _050_ = \mchip.mult.i3.temp_Add  ? _234_ : \mchip.mult.i3.temp_register [15];
-  assign _235_ = \mchip.mult.i3.temp_register [15] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
-  assign _236_ = ~_233_;
-  assign _237_ = _229_ & ~(_236_);
-  assign _238_ = _237_ | _235_;
-  assign _239_ = ~(_238_ & _210_);
-  assign _240_ = _231_ & ~(_236_);
-  assign _241_ = _240_ | _235_;
-  assign _242_ = _239_ & ~(_241_);
-  assign _051_ = \mchip.mult.i3.temp_Add  & ~(_242_);
-  assign _055_ = _088_ | ~(\mchip.control.temp_count [0]);
-  assign _243_ = \mchip.control.temp_count [1] & \mchip.control.temp_count [0];
-  assign _056_ = _086_ ? _087_ : _243_;
-  assign _244_ = _086_ ^ \mchip.control.temp_count [2];
-  assign _057_ = _244_ & ~(_088_);
-  assign _245_ = _086_ & ~(\mchip.control.temp_count [2]);
-  assign _246_ = _245_ ^ \mchip.control.temp_count [3];
-  assign _058_ = _246_ | _088_;
+  /* hdlname = "mchip shiftin" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:34.9-34.16" */
+  reg \mchip.shiftin ;
+  /* hdlname = "mchip shiftout" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:33.16-33.24" */
+  reg [19:0] \mchip.shiftout ;
+  assign _012_ = io_in[13] | \mchip.control.state [4];
+  assign _062_ = \mchip.mult.i0.temp_count [0] & \mchip.mult.i0.temp_count [1];
+  assign _063_ = _062_ & \mchip.mult.i0.temp_count [2];
+  assign _064_ = _063_ | _012_;
+  assign _065_ = \mchip.mult.i0.state [1] & ~(_064_);
+  assign _066_ = \mchip.mult.i0.state [3] & ~(_012_);
+  assign _011_ = _066_ | _065_;
+  assign _048_ = \mchip.control.state [0] & ~(\mchip._Finish );
+  assign _047_ = io_in[8] & ~(\mchip.shiftin );
+  assign _014_ = _047_ | _048_;
+  assign _067_ = ~(\mchip.control.temp_count [1] | \mchip.control.temp_count [0]);
+  assign _068_ = \mchip.control.temp_count [3] | \mchip.control.temp_count [2];
+  assign _069_ = _067_ & ~(_068_);
+  assign _070_ = \mchip.control.state [5] ? _069_ : \mchip.control.state [3];
+  assign _071_ = io_in[7] & ~(\mchip.control._do_next );
+  assign _072_ = \mchip.control.state [3] & ~(_071_);
+  assign _015_ = _070_ & ~(_072_);
+  assign _073_ = \mchip.mult.i0.state [4] & ~(_012_);
+  assign _074_ = _012_ | \mchip.mult.i3.temp_register [0];
+  assign _075_ = \mchip.mult.i0.state [2] & ~(_074_);
+  assign _010_ = _075_ | _073_;
+  assign _076_ = _012_ | ~(_063_);
+  assign _077_ = \mchip.mult.i0.state [1] & ~(_076_);
+  assign _078_ = _012_ | \mchip.control.state [6];
+  assign _079_ = \mchip.mult.i0.state [0] & ~(_078_);
+  assign _080_ = _079_ | _077_;
+  assign _009_ = _080_ | _012_;
+  assign _081_ = io_in[11] | io_in[13];
+  assign _082_ = \mchip.control.state [0] & ~(_081_);
+  assign _083_ = io_in[13] | ~(_069_);
+  assign _084_ = \mchip.control.state [5] & ~(_083_);
+  assign _085_ = _084_ | io_in[13];
+  assign _005_ = _085_ | _082_;
+  assign _086_ = \mchip.mult.i0.state [0] | io_in[13];
+  assign _087_ = \mchip.control.state [1] & ~(_086_);
+  assign _088_ = \mchip.control.state [6] & ~(io_in[13]);
+  assign _006_ = _088_ | _087_;
+  assign _016_ = _012_ | \mchip.mult.i0.state [3];
+  assign _013_ = \mchip.mult.i0.state [1] | \mchip.mult.i0.state [3];
+  assign _089_ = _069_ | io_in[13];
+  assign _090_ = \mchip.control.state [5] & ~(_089_);
+  assign _091_ = _071_ | io_in[13];
+  assign _092_ = \mchip.control.state [3] & ~(_091_);
+  assign _008_ = _092_ | _090_;
+  assign _093_ = io_in[13] | ~(_071_);
+  assign _094_ = \mchip.control.state [3] & ~(_093_);
+  assign _095_ = \mchip.control.state [4] & ~(io_in[13]);
+  assign _007_ = _095_ | _094_;
+  assign _096_ = \mchip.control.temp_count [1] ^ \mchip.control.temp_count [0];
+  assign _050_ = \mchip.control.state [3] & ~(_096_);
+  assign _097_ = ~(_067_ ^ \mchip.control.temp_count [2]);
+  assign _051_ = \mchip.control.state [3] & ~(_097_);
+  assign _098_ = _067_ & ~(\mchip.control.temp_count [2]);
+  assign _099_ = ~(_098_ ^ \mchip.control.temp_count [3]);
+  assign _052_ = ~(_099_ & \mchip.control.state [3]);
+  assign _028_ = _048_ ? \mchip.aa.accmulate.dff_gen[0].d2.Q  : \mchip.shiftout [1];
+  assign _038_ = _048_ ? \mchip.aa.accmulate.dff_gen[1].d2.Q  : \mchip.shiftout [2];
+  assign _039_ = _048_ ? \mchip.aa.accmulate.dff_gen[2].d2.Q  : \mchip.shiftout [3];
+  assign _040_ = _048_ ? \mchip.aa.accmulate.dff_gen[3].d2.Q  : \mchip.shiftout [4];
+  assign _041_ = _048_ ? \mchip.aa.accmulate.dff_gen[4].d2.Q  : \mchip.shiftout [5];
+  assign _042_ = _048_ ? \mchip.aa.accmulate.dff_gen[5].d2.Q  : \mchip.shiftout [6];
+  assign _043_ = _048_ ? \mchip.aa.accmulate.dff_gen[6].d2.Q  : \mchip.shiftout [7];
+  assign _044_ = _048_ ? \mchip.aa.accmulate.dff_gen[7].d2.Q  : \mchip.shiftout [8];
+  assign _045_ = _048_ ? \mchip.aa.accmulate.dff_gen[8].d2.Q  : \mchip.shiftout [9];
+  assign _046_ = _048_ ? \mchip.aa.accmulate.dff_gen[9].d2.Q  : \mchip.shiftout [10];
+  assign _029_ = _048_ ? \mchip.aa.accmulate.dff_gen[10].d2.Q  : \mchip.shiftout [11];
+  assign _030_ = _048_ ? \mchip.aa.accmulate.dff_gen[11].d2.Q  : \mchip.shiftout [12];
+  assign _031_ = _048_ ? \mchip.aa.accmulate.dff_gen[12].d2.Q  : \mchip.shiftout [13];
+  assign _032_ = _048_ ? \mchip.aa.accmulate.dff_gen[13].d2.Q  : \mchip.shiftout [14];
+  assign _033_ = _048_ ? \mchip.aa.accmulate.dff_gen[14].d2.Q  : \mchip.shiftout [15];
+  assign _034_ = _048_ ? \mchip.aa.accmulate.dff_gen[15].d2.Q  : \mchip.shiftout [16];
+  assign _035_ = _048_ ? \mchip.aa.accmulate.dff_gen[16].d2.Q  : \mchip.shiftout [17];
+  assign _036_ = _048_ ? \mchip.aa.accmulate.dff_gen[17].d2.Q  : \mchip.shiftout [18];
+  assign _037_ = _048_ ? \mchip.aa.accmulate.dff_gen[18].d2.Q  : \mchip.shiftout [19];
+  assign _100_ = \mchip.aa.i0.dff_gen[11].d2.Q  & \mchip.aa.accmulate.dff_gen[11].d2.Q ;
+  assign _101_ = \mchip.aa.i0.dff_gen[10].d2.Q  & \mchip.aa.accmulate.dff_gen[10].d2.Q ;
+  assign _102_ = \mchip.aa.i0.dff_gen[10].d2.Q  ^ \mchip.aa.accmulate.dff_gen[10].d2.Q ;
+  assign _103_ = ~(\mchip.aa.i0.dff_gen[9].d2.Q  & \mchip.aa.accmulate.dff_gen[9].d2.Q );
+  assign _104_ = \mchip.aa.i0.dff_gen[9].d2.Q  ^ \mchip.aa.accmulate.dff_gen[9].d2.Q ;
+  assign _105_ = ~(\mchip.aa.i0.dff_gen[8].d2.Q  | \mchip.aa.accmulate.dff_gen[8].d2.Q );
+  assign _106_ = _104_ & ~(_105_);
+  assign _107_ = _103_ & ~(_106_);
+  assign _108_ = _102_ & ~(_107_);
+  assign _109_ = _108_ | _101_;
+  assign _110_ = \mchip.aa.i0.dff_gen[11].d2.Q  ^ \mchip.aa.accmulate.dff_gen[11].d2.Q ;
+  assign _111_ = _110_ & _109_;
+  assign _112_ = ~(_111_ | _100_);
+  assign _113_ = \mchip.aa.i0.dff_gen[6].d2.Q  & \mchip.aa.accmulate.dff_gen[6].d2.Q ;
+  assign _114_ = \mchip.aa.i0.dff_gen[6].d2.Q  ^ \mchip.aa.accmulate.dff_gen[6].d2.Q ;
+  assign _115_ = ~(\mchip.aa.i0.dff_gen[5].d2.Q  & \mchip.aa.accmulate.dff_gen[5].d2.Q );
+  assign _116_ = \mchip.aa.i0.dff_gen[5].d2.Q  ^ \mchip.aa.accmulate.dff_gen[5].d2.Q ;
+  assign _117_ = ~(\mchip.aa.i0.dff_gen[4].d2.Q  | \mchip.aa.accmulate.dff_gen[4].d2.Q );
+  assign _118_ = _116_ & ~(_117_);
+  assign _119_ = _115_ & ~(_118_);
+  assign _120_ = _114_ & ~(_119_);
+  assign _121_ = _120_ | _113_;
+  assign _122_ = \mchip.aa.i0.dff_gen[7].d2.Q  ^ \mchip.aa.accmulate.dff_gen[7].d2.Q ;
+  assign _123_ = ~(_122_ & _121_);
+  assign _124_ = \mchip.aa.i0.dff_gen[7].d2.Q  & \mchip.aa.accmulate.dff_gen[7].d2.Q ;
+  assign _125_ = _123_ & ~(_124_);
+  assign _126_ = \mchip.aa.i0.dff_gen[3].d2.Q  ^ \mchip.aa.accmulate.dff_gen[3].d2.Q ;
+  assign _127_ = ~(\mchip.aa.i0.dff_gen[2].d2.Q  & \mchip.aa.accmulate.dff_gen[2].d2.Q );
+  assign _128_ = \mchip.aa.i0.dff_gen[2].d2.Q  ^ \mchip.aa.accmulate.dff_gen[2].d2.Q ;
+  assign _129_ = ~(\mchip.aa.i0.dff_gen[1].d2.Q  & \mchip.aa.accmulate.dff_gen[1].d2.Q );
+  assign _130_ = \mchip.aa.i0.dff_gen[1].d2.Q  ^ \mchip.aa.accmulate.dff_gen[1].d2.Q ;
+  assign _131_ = ~(\mchip.aa.i0.dff_gen[0].d2.Q  & \mchip.aa.accmulate.dff_gen[0].d2.Q );
+  assign _132_ = _130_ & ~(_131_);
+  assign _133_ = _129_ & ~(_132_);
+  assign _134_ = _128_ & ~(_133_);
+  assign _135_ = _127_ & ~(_134_);
+  assign _136_ = _126_ & ~(_135_);
+  assign _137_ = \mchip.aa.i0.dff_gen[3].d2.Q  & \mchip.aa.accmulate.dff_gen[3].d2.Q ;
+  assign _138_ = _137_ | _136_;
+  assign _139_ = _138_ & ~(_125_);
+  assign _140_ = ~(\mchip.aa.i0.dff_gen[4].d2.Q  & \mchip.aa.accmulate.dff_gen[4].d2.Q );
+  assign _141_ = _116_ & ~(_140_);
+  assign _142_ = _115_ & ~(_141_);
+  assign _143_ = _114_ & ~(_142_);
+  assign _144_ = ~(_143_ | _113_);
+  assign _145_ = _122_ & ~(_144_);
+  assign _146_ = _145_ | _124_;
+  assign _147_ = _146_ | _139_;
+  assign _148_ = _112_ | ~(_147_);
+  assign _149_ = ~(\mchip.aa.i0.dff_gen[8].d2.Q  & \mchip.aa.accmulate.dff_gen[8].d2.Q );
+  assign _150_ = _104_ & ~(_149_);
+  assign _151_ = _103_ & ~(_150_);
+  assign _152_ = _102_ & ~(_151_);
+  assign _153_ = ~(_152_ | _101_);
+  assign _154_ = _110_ & ~(_153_);
+  assign _155_ = _154_ | _100_;
+  assign _156_ = _155_ | ~(_148_);
+  assign _157_ = \mchip.aa.i0.dff_gen[12].d2.Q  | \mchip.aa.accmulate.dff_gen[12].d2.Q ;
+  assign _158_ = \mchip.aa.i0.dff_gen[12].d2.Q  & \mchip.aa.accmulate.dff_gen[12].d2.Q ;
+  assign _159_ = _157_ & ~(_158_);
+  assign \mchip.aa.accmulate.dff_gen[12].d2.D  = _159_ ^ _156_;
+  assign _160_ = _149_ & ~(_105_);
+  assign \mchip.aa.accmulate.dff_gen[8].d2.D  = _160_ ^ _147_;
+  assign _161_ = _140_ & ~(_117_);
+  assign \mchip.aa.accmulate.dff_gen[4].d2.D  = _161_ ^ _138_;
+  assign _017_ = ~(_063_ | \mchip.mult.i0.temp_count [0]);
+  assign _018_ = \mchip.mult.i0.temp_count [0] ^ \mchip.mult.i0.temp_count [1];
+  assign _019_ = _062_ ^ \mchip.mult.i0.temp_count [2];
+  assign _162_ = ~\mchip.mult.i0.state [1];
+  assign _053_ = \mchip.mult.i3.temp_Add  ? _162_ : \mchip.mult.i0.state [4];
+  assign _054_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[0].d1.Q  : \mchip.mult.i3.temp_register [1];
+  assign _055_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[1].d1.Q  : \mchip.mult.i3.temp_register [2];
+  assign _056_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[2].d1.Q  : \mchip.mult.i3.temp_register [3];
+  assign _057_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[3].d1.Q  : \mchip.mult.i3.temp_register [4];
+  assign _058_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[4].d1.Q  : \mchip.mult.i3.temp_register [5];
+  assign _059_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[5].d1.Q  : \mchip.mult.i3.temp_register [6];
+  assign _060_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[6].d1.Q  : \mchip.mult.i3.temp_register [7];
+  assign _163_ = \mchip.mult.i3.temp_register [8] ^ \mchip.mult.i1.r1.dff_gen[0].d1.Q ;
+  assign _164_ = \mchip.mult.i3.temp_Add  ? _163_ : \mchip.mult.i3.temp_register [8];
+  assign _061_ = \mchip.mult.i0.state [3] ? \mchip.opb.dff_gen[7].d1.Q  : _164_;
+  assign _165_ = \mchip.mult.i3.temp_register [8] & \mchip.mult.i1.r1.dff_gen[0].d1.Q ;
+  assign _166_ = ~(\mchip.mult.i3.temp_register [9] ^ \mchip.mult.i1.r1.dff_gen[1].d1.Q );
+  assign _167_ = ~(_166_ ^ _165_);
+  assign _020_ = \mchip.mult.i3.temp_Add  ? _167_ : \mchip.mult.i3.temp_register [9];
+  assign _168_ = \mchip.mult.i3.temp_register [9] & \mchip.mult.i1.r1.dff_gen[1].d1.Q ;
+  assign _169_ = _165_ & ~(_166_);
+  assign _170_ = _169_ | _168_;
+  assign _171_ = \mchip.mult.i3.temp_register [10] ^ \mchip.mult.i1.r1.dff_gen[2].d1.Q ;
+  assign _172_ = _171_ ^ _170_;
+  assign _021_ = \mchip.mult.i3.temp_Add  ? _172_ : \mchip.mult.i3.temp_register [10];
+  assign _173_ = \mchip.mult.i3.temp_register [10] & \mchip.mult.i1.r1.dff_gen[2].d1.Q ;
+  assign _174_ = _171_ & _170_;
+  assign _175_ = _174_ | _173_;
+  assign _176_ = \mchip.mult.i3.temp_register [11] ^ \mchip.mult.i1.r1.dff_gen[3].d1.Q ;
+  assign _177_ = _176_ ^ _175_;
+  assign _022_ = \mchip.mult.i3.temp_Add  ? _177_ : \mchip.mult.i3.temp_register [11];
+  assign _178_ = \mchip.mult.i3.temp_register [11] & \mchip.mult.i1.r1.dff_gen[3].d1.Q ;
+  assign _179_ = _176_ & _175_;
+  assign _180_ = _179_ | _178_;
+  assign _181_ = \mchip.mult.i3.temp_register [12] | \mchip.mult.i1.r1.dff_gen[4].d1.Q ;
+  assign _182_ = \mchip.mult.i3.temp_register [12] & \mchip.mult.i1.r1.dff_gen[4].d1.Q ;
+  assign _183_ = _181_ & ~(_182_);
+  assign _184_ = _183_ ^ _180_;
+  assign _023_ = \mchip.mult.i3.temp_Add  ? _184_ : \mchip.mult.i3.temp_register [12];
+  assign _185_ = _180_ ? _181_ : _182_;
+  assign _186_ = ~(\mchip.mult.i3.temp_register [13] ^ \mchip.mult.i1.r1.dff_gen[5].d1.Q );
+  assign _187_ = ~(_186_ ^ _185_);
+  assign _024_ = \mchip.mult.i3.temp_Add  ? _187_ : \mchip.mult.i3.temp_register [13];
+  assign _188_ = \mchip.mult.i3.temp_register [13] & \mchip.mult.i1.r1.dff_gen[5].d1.Q ;
+  assign _189_ = _181_ & ~(_186_);
+  assign _190_ = _189_ | _188_;
+  assign _191_ = _182_ & ~(_186_);
+  assign _192_ = _191_ | _188_;
+  assign _193_ = _180_ ? _190_ : _192_;
+  assign _194_ = \mchip.mult.i3.temp_register [14] ^ \mchip.mult.i1.r1.dff_gen[6].d1.Q ;
+  assign _195_ = _194_ ^ _193_;
+  assign _025_ = \mchip.mult.i3.temp_Add  ? _195_ : \mchip.mult.i3.temp_register [14];
+  assign _196_ = \mchip.mult.i3.temp_register [14] & \mchip.mult.i1.r1.dff_gen[6].d1.Q ;
+  assign _197_ = ~_194_;
+  assign _198_ = _190_ & ~(_197_);
+  assign _199_ = _198_ | _196_;
+  assign _200_ = _192_ & ~(_197_);
+  assign _201_ = _200_ | _196_;
+  assign _202_ = _180_ ? _199_ : _201_;
+  assign _203_ = \mchip.mult.i3.temp_register [15] ^ \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign _204_ = _203_ ^ _202_;
+  assign _026_ = \mchip.mult.i3.temp_Add  ? _204_ : \mchip.mult.i3.temp_register [15];
+  assign _205_ = \mchip.mult.i3.temp_register [15] & \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign _206_ = ~_203_;
+  assign _207_ = _199_ & ~(_206_);
+  assign _208_ = _207_ | _205_;
+  assign _209_ = ~(_208_ & _180_);
+  assign _210_ = _201_ & ~(_206_);
+  assign _211_ = _210_ | _205_;
+  assign _212_ = _209_ & ~(_211_);
+  assign _027_ = \mchip.mult.i3.temp_Add  & ~(_212_);
+  assign _049_ = ~(\mchip.control.state [3] & \mchip.control.temp_count [0]);
   assign \mchip.aa.adder.S4.S1.fa0.sum  = ~\mchip.aa.accmulate.dff_gen[16].d2.Q ;
-  assign _247_ = _011_ | ~(\mchip.mult.i3.temp_register [0]);
-  assign _004_ = \mchip.mult.i0.state [2] & ~(_247_);
-  assign _248_ = _011_ | ~(\mchip.control.state [5]);
-  assign _003_ = \mchip.mult.i0.state [0] & ~(_248_);
+  assign _213_ = _012_ | ~(\mchip.mult.i3.temp_register [0]);
+  assign _004_ = \mchip.mult.i0.state [2] & ~(_213_);
+  assign _214_ = _012_ | ~(\mchip.control.state [6]);
+  assign _003_ = \mchip.mult.i0.state [0] & ~(_214_);
   assign \mchip.aa.accmulate.dff_gen[0].d2.D  = \mchip.aa.i0.dff_gen[0].d2.Q  ^ \mchip.aa.accmulate.dff_gen[0].d2.Q ;
-  assign _249_ = \mchip.aa.i0.dff_gen[15].d2.Q  & \mchip.aa.accmulate.dff_gen[15].d2.Q ;
-  assign _250_ = \mchip.aa.i0.dff_gen[14].d2.Q  & \mchip.aa.accmulate.dff_gen[14].d2.Q ;
-  assign _251_ = \mchip.aa.i0.dff_gen[14].d2.Q  ^ \mchip.aa.accmulate.dff_gen[14].d2.Q ;
-  assign _252_ = \mchip.aa.i0.dff_gen[13].d2.Q  & \mchip.aa.accmulate.dff_gen[13].d2.Q ;
-  assign _253_ = ~_252_;
-  assign _254_ = ~(\mchip.aa.i0.dff_gen[13].d2.Q  ^ \mchip.aa.accmulate.dff_gen[13].d2.Q );
-  assign _255_ = _188_ & ~(_254_);
-  assign _256_ = _253_ & ~(_255_);
-  assign _257_ = _251_ & ~(_256_);
-  assign _258_ = _257_ | _250_;
-  assign _259_ = \mchip.aa.i0.dff_gen[15].d2.Q  ^ \mchip.aa.accmulate.dff_gen[15].d2.Q ;
-  assign _260_ = _259_ & _258_;
-  assign _261_ = _260_ | _249_;
-  assign _262_ = _187_ & ~(_254_);
-  assign _263_ = _253_ & ~(_262_);
-  assign _264_ = _251_ & ~(_263_);
-  assign _265_ = ~(_264_ | _250_);
-  assign _266_ = _265_ | ~(_259_);
-  assign _267_ = _266_ & ~(_249_);
-  assign _268_ = _186_ & ~(_267_);
-  assign \mchip.aa.adder.S4.carry_in  = _268_ | _261_;
-  assign _269_ = \mchip.aa.accmulate.dff_gen[17].d2.Q  & \mchip.aa.accmulate.dff_gen[16].d2.Q ;
-  assign _270_ = _269_ & \mchip.aa.accmulate.dff_gen[18].d2.Q ;
-  assign _271_ = ~(_270_ & \mchip.aa.accmulate.dff_gen[19].d2.Q );
-  assign \mchip.aa.adder.S4.carry_out  = \mchip.aa.adder.S4.carry_in  & ~(_271_);
-  assign \mchip.aa.adder.S4.S1.fa3.sum  = _270_ ^ \mchip.aa.accmulate.dff_gen[19].d2.Q ;
-  assign \mchip.aa.adder.S4.S1.fa2.sum  = _269_ ^ \mchip.aa.accmulate.dff_gen[18].d2.Q ;
-  assign \mchip.aa.adder.S4.S1.fa1.sum  = \mchip.aa.accmulate.dff_gen[17].d2.Q  ^ \mchip.aa.accmulate.dff_gen[16].d2.Q ;
-  assign _272_ = _178_ & ~(_185_);
-  assign _273_ = ~_265_;
-  assign _274_ = _272_ ? _258_ : _273_;
-  assign \mchip.aa.accmulate.dff_gen[15].d2.D  = _274_ ^ _259_;
-  assign _275_ = _272_ ? _256_ : _263_;
-  assign \mchip.aa.accmulate.dff_gen[14].d2.D  = ~(_275_ ^ _251_);
-  assign _276_ = _186_ ? _187_ : _188_;
-  assign \mchip.aa.accmulate.dff_gen[13].d2.D  = ~(_276_ ^ _254_);
-  assign _277_ = ~_183_;
-  assign _278_ = _177_ ? _139_ : _277_;
-  assign \mchip.aa.accmulate.dff_gen[11].d2.D  = _278_ ^ _140_;
-  assign _279_ = _177_ ? _137_ : _181_;
-  assign \mchip.aa.accmulate.dff_gen[10].d2.D  = ~(_279_ ^ _132_);
-  assign _280_ = _177_ ? _135_ : _179_;
-  assign \mchip.aa.accmulate.dff_gen[9].d2.D  = ~(_280_ ^ _134_);
-  assign _281_ = ~_174_;
-  assign _282_ = _168_ ? _151_ : _281_;
-  assign \mchip.aa.accmulate.dff_gen[7].d2.D  = _282_ ^ _152_;
-  assign _283_ = _168_ ? _149_ : _172_;
-  assign \mchip.aa.accmulate.dff_gen[6].d2.D  = ~(_283_ ^ _144_);
-  assign _284_ = _168_ ? _147_ : _170_;
-  assign \mchip.aa.accmulate.dff_gen[5].d2.D  = ~(_284_ ^ _146_);
-  assign \mchip.aa.accmulate.dff_gen[3].d2.D  = ~(_165_ ^ _156_);
-  assign \mchip.aa.accmulate.dff_gen[2].d2.D  = ~(_163_ ^ _158_);
-  assign \mchip.aa.accmulate.dff_gen[1].d2.D  = ~(_161_ ^ _160_);
+  assign _215_ = \mchip.aa.i0.dff_gen[15].d2.Q  & \mchip.aa.accmulate.dff_gen[15].d2.Q ;
+  assign _216_ = \mchip.aa.i0.dff_gen[14].d2.Q  & \mchip.aa.accmulate.dff_gen[14].d2.Q ;
+  assign _217_ = \mchip.aa.i0.dff_gen[14].d2.Q  ^ \mchip.aa.accmulate.dff_gen[14].d2.Q ;
+  assign _218_ = \mchip.aa.i0.dff_gen[13].d2.Q  & \mchip.aa.accmulate.dff_gen[13].d2.Q ;
+  assign _219_ = ~_218_;
+  assign _220_ = ~(\mchip.aa.i0.dff_gen[13].d2.Q  ^ \mchip.aa.accmulate.dff_gen[13].d2.Q );
+  assign _221_ = _158_ & ~(_220_);
+  assign _222_ = _219_ & ~(_221_);
+  assign _223_ = _217_ & ~(_222_);
+  assign _224_ = _223_ | _216_;
+  assign _225_ = \mchip.aa.i0.dff_gen[15].d2.Q  ^ \mchip.aa.accmulate.dff_gen[15].d2.Q ;
+  assign _226_ = _225_ & _224_;
+  assign _227_ = _226_ | _215_;
+  assign _228_ = _157_ & ~(_220_);
+  assign _229_ = _219_ & ~(_228_);
+  assign _230_ = _217_ & ~(_229_);
+  assign _231_ = ~(_230_ | _216_);
+  assign _232_ = _231_ | ~(_225_);
+  assign _233_ = _232_ & ~(_215_);
+  assign _234_ = _156_ & ~(_233_);
+  assign \mchip.aa.adder.S4.carry_in  = _234_ | _227_;
+  assign _235_ = \mchip.aa.accmulate.dff_gen[17].d2.Q  & \mchip.aa.accmulate.dff_gen[16].d2.Q ;
+  assign _236_ = _235_ & \mchip.aa.accmulate.dff_gen[18].d2.Q ;
+  assign _237_ = ~(_236_ & \mchip.aa.accmulate.dff_gen[19].d2.Q );
+  assign \mchip.aa.adder.S4.carry_out  = \mchip.aa.adder.S4.carry_in  & ~(_237_);
   assign _002_ = \mchip.control.state [2] & ~(io_in[13]);
-  assign _285_ = io_in[13] | ~(\mchip.mult.i0.state [0]);
-  assign _001_ = \mchip.control.state [1] & ~(_285_);
-  assign _286_ = io_in[13] | ~(io_in[11]);
-  assign _000_ = \mchip.control.state [0] & ~(_286_);
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [0] <= _014_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [1] <= _025_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [2] <= _052_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [3] <= _038_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [4] <= _053_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [5] <= _039_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [6] <= _040_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [7] <= _041_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [8] <= _042_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [9] <= _043_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [10] <= _015_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [11] <= _016_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [12] <= _017_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [13] <= _018_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [14] <= _019_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [15] <= _020_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [16] <= _021_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [17] <= _022_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [18] <= _023_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [19] <= _024_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [20] <= _026_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [21] <= _027_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [22] <= _028_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [23] <= _029_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [24] <= _030_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [25] <= _031_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [26] <= _032_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [27] <= _033_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [28] <= _034_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [29] <= _035_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [30] <= _036_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.j [31] <= _037_;
+  assign _238_ = io_in[13] | ~(\mchip.mult.i0.state [0]);
+  assign _001_ = \mchip.control.state [1] & ~(_238_);
+  assign \mchip.aa.adder.S4.S1.fa3.sum  = _236_ ^ \mchip.aa.accmulate.dff_gen[19].d2.Q ;
+  assign \mchip.aa.adder.S4.S1.fa2.sum  = _235_ ^ \mchip.aa.accmulate.dff_gen[18].d2.Q ;
+  assign \mchip.aa.adder.S4.S1.fa1.sum  = \mchip.aa.accmulate.dff_gen[17].d2.Q  ^ \mchip.aa.accmulate.dff_gen[16].d2.Q ;
+  assign _239_ = _148_ & ~(_155_);
+  assign _240_ = ~_231_;
+  assign _241_ = _239_ ? _224_ : _240_;
+  assign \mchip.aa.accmulate.dff_gen[15].d2.D  = _241_ ^ _225_;
+  assign _242_ = _239_ ? _222_ : _229_;
+  assign \mchip.aa.accmulate.dff_gen[14].d2.D  = ~(_242_ ^ _217_);
+  assign _243_ = _156_ ? _157_ : _158_;
+  assign \mchip.aa.accmulate.dff_gen[13].d2.D  = ~(_243_ ^ _220_);
+  assign _244_ = ~_153_;
+  assign _245_ = _147_ ? _109_ : _244_;
+  assign \mchip.aa.accmulate.dff_gen[11].d2.D  = _245_ ^ _110_;
+  assign _246_ = _147_ ? _107_ : _151_;
+  assign \mchip.aa.accmulate.dff_gen[10].d2.D  = ~(_246_ ^ _102_);
+  assign _247_ = _147_ ? _105_ : _149_;
+  assign \mchip.aa.accmulate.dff_gen[9].d2.D  = ~(_247_ ^ _104_);
+  assign _248_ = ~_144_;
+  assign _249_ = _138_ ? _121_ : _248_;
+  assign \mchip.aa.accmulate.dff_gen[7].d2.D  = _249_ ^ _122_;
+  assign _250_ = _138_ ? _119_ : _142_;
+  assign \mchip.aa.accmulate.dff_gen[6].d2.D  = ~(_250_ ^ _114_);
+  assign _251_ = _138_ ? _117_ : _140_;
+  assign \mchip.aa.accmulate.dff_gen[5].d2.D  = ~(_251_ ^ _116_);
+  assign \mchip.aa.accmulate.dff_gen[3].d2.D  = ~(_135_ ^ _126_);
+  assign \mchip.aa.accmulate.dff_gen[2].d2.D  = ~(_133_ ^ _128_);
+  assign \mchip.aa.accmulate.dff_gen[1].d2.D  = ~(_131_ ^ _130_);
+  assign _252_ = io_in[13] | ~(io_in[11]);
+  assign _000_ = \mchip.control.state [0] & ~(_252_);
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:114.11-120.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:18.5-72.8|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  always @(posedge io_in[12])
+    if (io_in[13]) \mchip.control.temp_count [0] <= 1'h1;
+    else if (_015_) \mchip.control.temp_count [0] <= _049_;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:18.5-72.8|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  always @(posedge io_in[12])
+    if (io_in[13]) \mchip.control.temp_count [1] <= 1'h0;
+    else if (_015_) \mchip.control.temp_count [1] <= _050_;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:18.5-72.8|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  always @(posedge io_in[12])
+    if (io_in[13]) \mchip.control.temp_count [2] <= 1'h0;
+    else if (_015_) \mchip.control.temp_count [2] <= _051_;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:18.5-72.8|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  always @(posedge io_in[12])
+    if (io_in[13]) \mchip.control.temp_count [3] <= 1'h1;
+    else if (_015_) \mchip.control.temp_count [3] <= _052_;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:18.5-72.8|d18_nikhildj_mac/src/chip.sv:73.16-85.2" */
+  always @(posedge io_in[12])
+    \mchip.control._do_next  <= io_in[7];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    \mchip._Finish  <= \mchip.control.state [0];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    \mchip.shiftin  <= io_in[8];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [0] <= io_in[9];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [1] <= \mchip.op_b_in [0];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [2] <= \mchip.op_b_in [1];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [3] <= \mchip.op_b_in [2];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [4] <= \mchip.op_b_in [3];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [5] <= \mchip.op_b_in [4];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [6] <= \mchip.op_b_in [5];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_b_in [7] <= \mchip.op_b_in [6];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [0] <= io_in[10];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [1] <= \mchip.op_a_in [0];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [2] <= \mchip.op_a_in [1];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [3] <= \mchip.op_a_in [2];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [4] <= \mchip.op_a_in [3];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [5] <= \mchip.op_a_in [4];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [6] <= \mchip.op_a_in [5];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_047_) \mchip.op_a_in [7] <= \mchip.op_a_in [6];
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [0] <= _028_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [1] <= _038_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [2] <= _039_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [3] <= _040_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [4] <= _041_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [5] <= _042_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [6] <= _043_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [7] <= _044_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [8] <= _045_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [9] <= _046_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [10] <= _029_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [11] <= _030_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [12] <= _031_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [13] <= _032_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [14] <= _033_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [15] <= _034_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [16] <= _035_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [17] <= _036_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_) \mchip.shiftout [18] <= _037_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:37.5-52.8" */
+  always @(posedge io_in[12])
+    if (_014_)
+      if (!_048_) \mchip.shiftout [19] <= 1'h0;
+      else \mchip.shiftout [19] <= \mchip.aa.accmulate.dff_gen[19].d2.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
   always @(posedge \mchip.control.state [2])
-    if (_011_) \mchip.opb.dff_gen[7].d1.Q  <= 1'h0;
-    else \mchip.opb.dff_gen[7].d1.Q  <= \mchip.op_b_in [0];
+    if (_012_) \mchip.opb.dff_gen[7].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[7].d1.Q  <= \mchip.op_b_in [7];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[14].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[14].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[14].d2.Q  <= \mchip.mult.i3.temp_register [14];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[13].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[13].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[13].d2.Q  <= \mchip.mult.i3.temp_register [13];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[12].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[12].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[12].d2.Q  <= \mchip.mult.i3.temp_register [12];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[11].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[11].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[11].d2.Q  <= \mchip.mult.i3.temp_register [11];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[10].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[10].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[10].d2.Q  <= \mchip.mult.i3.temp_register [10];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[0].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[0].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[0].d2.Q  <= \mchip.mult.i3.temp_register [0];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[8].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[8].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[8].d2.Q  <= \mchip.mult.i3.temp_register [8];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[7].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[7].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[7].d2.Q  <= \mchip.mult.i3.temp_register [7];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[6].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[6].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[6].d2.Q  <= \mchip.mult.i3.temp_register [6];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[5].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[5].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[5].d2.Q  <= \mchip.mult.i3.temp_register [5];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[4].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[4].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[4].d2.Q  <= \mchip.mult.i3.temp_register [4];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[3].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[3].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[3].d2.Q  <= \mchip.mult.i3.temp_register [3];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[2].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[2].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[2].d2.Q  <= \mchip.mult.i3.temp_register [2];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[1].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[1].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[1].d2.Q  <= \mchip.mult.i3.temp_register [1];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[15].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[15].d2.Q  <= 1'h0;
     else \mchip.aa.i0.dff_gen[15].d2.Q  <= \mchip.mult.i3.temp_register [15];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[9].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[9].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[9].d2.Q  <= \mchip.aa.accmulate.dff_gen[9].d2.D ;
   always @(posedge io_in[12])
-    \mchip.mult.i0.state [0] <= _008_;
+    \mchip.mult.i0.state [0] <= _009_;
   always @(posedge io_in[12])
-    \mchip.mult.i0.state [1] <= _009_;
+    \mchip.mult.i0.state [1] <= _010_;
   always @(posedge io_in[12])
-    \mchip.mult.i0.state [2] <= _010_;
+    \mchip.mult.i0.state [2] <= _011_;
   always @(posedge io_in[12])
     \mchip.mult.i0.state [3] <= _003_;
   always @(posedge io_in[12])
@@ -2415,295 +2416,362 @@ module d18_nikhildj_mac(io_in, io_out);
   always @(posedge io_in[12])
     \mchip.control.state [2] <= _007_;
   always @(posedge io_in[12])
-    \mchip.control.state [3] <= _000_;
+    \mchip.control.state [3] <= _008_;
   always @(posedge io_in[12])
-    \mchip.control.state [4] <= _001_;
+    \mchip.control.state [4] <= _000_;
   always @(posedge io_in[12])
-    \mchip.control.state [5] <= _002_;
+    \mchip.control.state [5] <= _001_;
+  always @(posedge io_in[12])
+    \mchip.control.state [6] <= _002_;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[19].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[19].d2.Q  <= 1'h0;
     else if (\mchip.aa.adder.S4.carry_in ) \mchip.aa.accmulate.dff_gen[19].d2.Q  <= \mchip.aa.adder.S4.S1.fa3.sum ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[18].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[18].d2.Q  <= 1'h0;
     else if (\mchip.aa.adder.S4.carry_in ) \mchip.aa.accmulate.dff_gen[18].d2.Q  <= \mchip.aa.adder.S4.S1.fa2.sum ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[17].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[17].d2.Q  <= 1'h0;
     else if (\mchip.aa.adder.S4.carry_in ) \mchip.aa.accmulate.dff_gen[17].d2.Q  <= \mchip.aa.adder.S4.S1.fa1.sum ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[16].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[16].d2.Q  <= 1'h0;
     else if (\mchip.aa.adder.S4.carry_in ) \mchip.aa.accmulate.dff_gen[16].d2.Q  <= \mchip.aa.adder.S4.S1.fa0.sum ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[14].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[14].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[14].d2.Q  <= \mchip.aa.accmulate.dff_gen[14].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[13].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[13].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[13].d2.Q  <= \mchip.aa.accmulate.dff_gen[13].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[12].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[12].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[12].d2.Q  <= \mchip.aa.accmulate.dff_gen[12].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[11].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[11].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[11].d2.Q  <= \mchip.aa.accmulate.dff_gen[11].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[10].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[10].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[10].d2.Q  <= \mchip.aa.accmulate.dff_gen[10].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[0].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[0].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[0].d2.Q  <= \mchip.aa.accmulate.dff_gen[0].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[8].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[8].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[8].d2.Q  <= \mchip.aa.accmulate.dff_gen[8].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[7].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[7].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[7].d2.Q  <= \mchip.aa.accmulate.dff_gen[7].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[6].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[6].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[6].d2.Q  <= \mchip.aa.accmulate.dff_gen[6].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[5].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[5].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[5].d2.Q  <= \mchip.aa.accmulate.dff_gen[5].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[4].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[4].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[4].d2.Q  <= \mchip.aa.accmulate.dff_gen[4].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[3].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[3].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[3].d2.Q  <= \mchip.aa.accmulate.dff_gen[3].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[2].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[2].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[2].d2.Q  <= \mchip.aa.accmulate.dff_gen[2].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[1].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[1].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[1].d2.Q  <= \mchip.aa.accmulate.dff_gen[1].d2.D ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(negedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.accmulate.dff_gen[15].d2.Q  <= 1'h0;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:39.12-45.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(negedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.accmulate.dff_gen[15].d2.Q  <= 1'h0;
     else \mchip.aa.accmulate.dff_gen[15].d2.Q  <= \mchip.aa.accmulate.dff_gen[15].d2.D ;
-  reg \mchip.io_out_reg[9] ;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    if (!\mchip.control.state [0]) \mchip.io_out_reg[9]  <= 1'h0;
-    else \mchip.io_out_reg[9]  <= \mchip.aa.accmulate.dff_gen[19].d2.Q ;
-  assign \mchip.io_out [9] = \mchip.io_out_reg[9] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:15.5-59.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:15.5-59.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i0.temp_count [0] <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i0.temp_count [0] <= _059_;
+    if (_012_) \mchip.mult.i0.temp_count [0] <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i0.temp_count [0] <= _017_;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:15.5-59.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:15.5-59.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i0.temp_count [1] <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i0.temp_count [1] <= _060_;
+    if (_012_) \mchip.mult.i0.temp_count [1] <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i0.temp_count [1] <= _018_;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:15.5-59.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:25.12-35.2|d18_nikhildj_mac/src/multiplier_controller.sv:15.5-59.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i0.temp_count [2] <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i0.temp_count [2] <= _061_;
-  /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:133.16-141.2" */
-  always @(posedge \mchip.control.state [4])
-    if (_011_) \mchip.aa.i0.dff_gen[9].d2.Q  <= 1'h0;
-    else \mchip.aa.i0.dff_gen[9].d2.Q  <= \mchip.mult.i3.temp_register [9];
+    if (_012_) \mchip.mult.i0.temp_count [2] <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i0.temp_count [2] <= _019_;
   reg \mchip.mult.i3.temp_register_reg[8] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[8]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[8]  <= _044_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[8]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[8]  <= _020_;
   assign \mchip.mult.i3.temp_register [8] = \mchip.mult.i3.temp_register_reg[8] ;
   reg \mchip.mult.i3.temp_register_reg[9] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[9]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[9]  <= _045_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[9]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[9]  <= _021_;
   assign \mchip.mult.i3.temp_register [9] = \mchip.mult.i3.temp_register_reg[9] ;
   reg \mchip.mult.i3.temp_register_reg[10] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[10]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[10]  <= _046_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[10]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[10]  <= _022_;
   assign \mchip.mult.i3.temp_register [10] = \mchip.mult.i3.temp_register_reg[10] ;
   reg \mchip.mult.i3.temp_register_reg[11] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[11]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[11]  <= _047_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[11]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[11]  <= _023_;
   assign \mchip.mult.i3.temp_register [11] = \mchip.mult.i3.temp_register_reg[11] ;
   reg \mchip.mult.i3.temp_register_reg[12] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[12]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[12]  <= _048_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[12]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[12]  <= _024_;
   assign \mchip.mult.i3.temp_register [12] = \mchip.mult.i3.temp_register_reg[12] ;
   reg \mchip.mult.i3.temp_register_reg[13] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[13]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[13]  <= _049_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[13]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[13]  <= _025_;
   assign \mchip.mult.i3.temp_register [13] = \mchip.mult.i3.temp_register_reg[13] ;
   reg \mchip.mult.i3.temp_register_reg[14] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[14]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[14]  <= _050_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[14]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[14]  <= _026_;
   assign \mchip.mult.i3.temp_register [14] = \mchip.mult.i3.temp_register_reg[14] ;
   reg \mchip.mult.i3.temp_register_reg[15] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_013_) \mchip.mult.i3.temp_register_reg[15]  <= 1'h0;
-    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[15]  <= _051_;
+    if (_016_) \mchip.mult.i3.temp_register_reg[15]  <= 1'h0;
+    else if (\mchip.mult.i0.state [1]) \mchip.mult.i3.temp_register_reg[15]  <= _027_;
   assign \mchip.mult.i3.temp_register [15] = \mchip.mult.i3.temp_register_reg[15] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
-  always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_Add  <= 1'h0;
-    else if (!\mchip.mult.i0.state [3]) \mchip.mult.i3.temp_Add  <= _062_;
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/add_accumulate.sv:22.12-28.2|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/register20.sv:15.9-20.6|d18_nikhildj_mac/src/chip.sv:114.16-122.2" */
+  always @(posedge \mchip.control.state [5])
+    if (_012_) \mchip.aa.i0.dff_gen[9].d2.Q  <= 1'h0;
+    else \mchip.aa.i0.dff_gen[9].d2.Q  <= \mchip.mult.i3.temp_register [9];
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:106.11-112.2" */
-  always @(posedge \mchip.control.state [2])
-    if (_011_) \mchip.opa.dff_gen[7].d1.Q  <= 1'h0;
-    else \mchip.opa.dff_gen[7].d1.Q  <= \mchip.op_a_in [0];
-  /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge \mchip.mult.i0.state [3])
-    if (_011_) \mchip.mult.i1.r1.dff_gen[7].d1.Q  <= 1'h0;
+    if (_012_) \mchip.mult.i1.r1.dff_gen[0].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[0].d1.Q  <= \mchip.opa.dff_gen[0].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[1].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[1].d1.Q  <= \mchip.opa.dff_gen[1].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[2].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[2].d1.Q  <= \mchip.opa.dff_gen[2].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[3].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[3].d1.Q  <= \mchip.opa.dff_gen[3].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[4].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[4].d1.Q  <= \mchip.opa.dff_gen[4].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[5].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[5].d1.Q  <= \mchip.opa.dff_gen[5].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[6].d1.Q  <= 1'h0;
+    else \mchip.mult.i1.r1.dff_gen[6].d1.Q  <= \mchip.opa.dff_gen[6].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge io_in[12])
+    if (_012_) \mchip.mult.i3.temp_Add  <= 1'h0;
+    else if (!\mchip.mult.i0.state [3]) \mchip.mult.i3.temp_Add  <= _053_;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[7].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[7].d1.Q  <= \mchip.op_a_in [7];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[0].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[0].d1.Q  <= \mchip.op_b_in [0];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[1].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[1].d1.Q  <= \mchip.op_b_in [1];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[2].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[2].d1.Q  <= \mchip.op_b_in [2];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[3].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[3].d1.Q  <= \mchip.op_b_in [3];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[4].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[4].d1.Q  <= \mchip.op_b_in [4];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[5].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[5].d1.Q  <= \mchip.op_b_in [5];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:95.11-101.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opb.dff_gen[6].d1.Q  <= 1'h0;
+    else \mchip.opb.dff_gen[6].d1.Q  <= \mchip.op_b_in [6];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:37.14-43.2|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/multiplicand.sv:10.11-16.2|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
+  always @(posedge \mchip.mult.i0.state [3])
+    if (_012_) \mchip.mult.i1.r1.dff_gen[7].d1.Q  <= 1'h0;
     else \mchip.mult.i1.r1.dff_gen[7].d1.Q  <= \mchip.opa.dff_gen[7].d1.Q ;
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[0].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[0].d1.Q  <= \mchip.op_a_in [0];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[1].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[1].d1.Q  <= \mchip.op_a_in [1];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[2].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[2].d1.Q  <= \mchip.op_a_in [2];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[3].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[3].d1.Q  <= \mchip.op_a_in [3];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[4].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[4].d1.Q  <= \mchip.op_a_in [4];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[5].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[5].d1.Q  <= \mchip.op_a_in [5];
+  /* \always_ff  = 32'd1 */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/register8.sv:15.9-20.6|d18_nikhildj_mac/src/DFF.sv:7.5-13.8|d18_nikhildj_mac/src/chip.sv:87.11-93.2" */
+  always @(posedge \mchip.control.state [2])
+    if (_012_) \mchip.opa.dff_gen[6].d1.Q  <= 1'h0;
+    else \mchip.opa.dff_gen[6].d1.Q  <= \mchip.op_a_in [6];
   reg \mchip.mult.i3.temp_register_reg[0] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[0]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[0]  <= _063_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[0]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[0]  <= _054_;
   assign \mchip.mult.i3.temp_register [0] = \mchip.mult.i3.temp_register_reg[0] ;
   reg \mchip.mult.i3.temp_register_reg[1] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[1]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[1]  <= _064_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[1]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[1]  <= _055_;
   assign \mchip.mult.i3.temp_register [1] = \mchip.mult.i3.temp_register_reg[1] ;
   reg \mchip.mult.i3.temp_register_reg[2] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[2]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[2]  <= _065_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[2]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[2]  <= _056_;
   assign \mchip.mult.i3.temp_register [2] = \mchip.mult.i3.temp_register_reg[2] ;
   reg \mchip.mult.i3.temp_register_reg[3] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[3]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[3]  <= _066_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[3]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[3]  <= _057_;
   assign \mchip.mult.i3.temp_register [3] = \mchip.mult.i3.temp_register_reg[3] ;
   reg \mchip.mult.i3.temp_register_reg[4] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[4]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[4]  <= _067_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[4]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[4]  <= _058_;
   assign \mchip.mult.i3.temp_register [4] = \mchip.mult.i3.temp_register_reg[4] ;
   reg \mchip.mult.i3.temp_register_reg[5] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[5]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[5]  <= _068_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[5]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[5]  <= _059_;
   assign \mchip.mult.i3.temp_register [5] = \mchip.mult.i3.temp_register_reg[5] ;
   reg \mchip.mult.i3.temp_register_reg[6] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[6]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[6]  <= _069_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[6]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[6]  <= _060_;
   assign \mchip.mult.i3.temp_register [6] = \mchip.mult.i3.temp_register_reg[6] ;
   reg \mchip.mult.i3.temp_register_reg[7] ;
   /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:122.16-131.2" */
+  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/top_multiplier.sv:53.19-66.2|d18_nikhildj_mac/src/multiplier.sv:18.5-44.8|d18_nikhildj_mac/src/chip.sv:103.16-112.2" */
   always @(posedge io_in[12])
-    if (_011_) \mchip.mult.i3.temp_register_reg[7]  <= 1'h0;
-    else if (_012_) \mchip.mult.i3.temp_register_reg[7]  <= _070_;
+    if (_012_) \mchip.mult.i3.temp_register_reg[7]  <= 1'h0;
+    else if (_013_) \mchip.mult.i3.temp_register_reg[7]  <= _061_;
   assign \mchip.mult.i3.temp_register [7] = \mchip.mult.i3.temp_register_reg[7] ;
-  /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:16.5-63.8|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
-  always @(posedge io_in[12])
-    if (io_in[13]) \mchip.control.temp_count [0] <= 1'h1;
-    else if (\mchip.control.state [4]) \mchip.control.temp_count [0] <= _055_;
-  /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:16.5-63.8|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
-  always @(posedge io_in[12])
-    if (io_in[13]) \mchip.control.temp_count [1] <= 1'h0;
-    else if (\mchip.control.state [4]) \mchip.control.temp_count [1] <= _056_;
-  /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:16.5-63.8|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
-  always @(posedge io_in[12])
-    if (io_in[13]) \mchip.control.temp_count [2] <= 1'h0;
-    else if (\mchip.control.state [4]) \mchip.control.temp_count [2] <= _057_;
-  /* \always_ff  = 32'd1 */
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/mac_controller.sv:16.5-63.8|d18_nikhildj_mac/src/chip.sv:93.16-104.2" */
-  always @(posedge io_in[12])
-    if (io_in[13]) \mchip.control.temp_count [3] <= 1'h1;
-    else if (\mchip.control.state [4]) \mchip.control.temp_count [3] <= _058_;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.output_done  <= _054_;
-  reg \mchip.op_b_in_reg[0] ;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.op_b_in_reg[0]  <= io_in[9];
-  assign \mchip.op_b_in [0] = \mchip.op_b_in_reg[0] ;
-  reg \mchip.op_a_in_reg[0] ;
-  /* src = "d18_nikhildj_mac/src/toplevel_chip.v:9.13-14.6|d18_nikhildj_mac/src/chip.sv:38.5-72.8" */
-  always @(posedge io_in[12])
-    \mchip.op_a_in_reg[0]  <= io_in[10];
-  assign \mchip.op_a_in [0] = \mchip.op_a_in_reg[0] ;
-  assign io_in[7:0] = 8'h00;
-  assign io_out = { 2'h0, \mchip.aa.adder.S4.carry_out , \mchip.control.state [0], \mchip.io_out [9], \mchip.output_done , \mchip.mult.i0.state [0], 7'h00 };
-  assign \mchip.Begin_mul  = \mchip.control.state [5];
+  assign io_out = { 2'h0, \mchip.aa.adder.S4.carry_out , \mchip.control.state [0], \mchip.shiftout [0], \mchip.mult.i0.state [0], 8'h00 };
+  assign \mchip.Begin_mul  = \mchip.control.state [6];
   assign \mchip.End_mul  = \mchip.mult.i0.state [0];
   assign \mchip.Finish  = \mchip.control.state [0];
   assign \mchip.Load_op  = \mchip.control.state [2];
@@ -2711,7 +2779,7 @@ module d18_nikhildj_mac(io_in, io_out);
   assign \mchip.aa.accmulate.in  = { 4'h0, \mchip.aa.accmulate.dff_gen[15].d2.D , \mchip.aa.accmulate.dff_gen[14].d2.D , \mchip.aa.accmulate.dff_gen[13].d2.D , \mchip.aa.accmulate.dff_gen[12].d2.D , \mchip.aa.accmulate.dff_gen[11].d2.D , \mchip.aa.accmulate.dff_gen[10].d2.D , \mchip.aa.accmulate.dff_gen[9].d2.D , \mchip.aa.accmulate.dff_gen[8].d2.D , \mchip.aa.accmulate.dff_gen[7].d2.D , \mchip.aa.accmulate.dff_gen[6].d2.D , \mchip.aa.accmulate.dff_gen[5].d2.D , \mchip.aa.accmulate.dff_gen[4].d2.D , \mchip.aa.accmulate.dff_gen[3].d2.D , \mchip.aa.accmulate.dff_gen[2].d2.D , \mchip.aa.accmulate.dff_gen[1].d2.D , \mchip.aa.accmulate.dff_gen[0].d2.D  };
   assign \mchip.aa.accmulate.out  = { \mchip.aa.accmulate.dff_gen[19].d2.Q , \mchip.aa.accmulate.dff_gen[18].d2.Q , \mchip.aa.accmulate.dff_gen[17].d2.Q , \mchip.aa.accmulate.dff_gen[16].d2.Q , \mchip.aa.accmulate.dff_gen[15].d2.Q , \mchip.aa.accmulate.dff_gen[14].d2.Q , \mchip.aa.accmulate.dff_gen[13].d2.Q , \mchip.aa.accmulate.dff_gen[12].d2.Q , \mchip.aa.accmulate.dff_gen[11].d2.Q , \mchip.aa.accmulate.dff_gen[10].d2.Q , \mchip.aa.accmulate.dff_gen[9].d2.Q , \mchip.aa.accmulate.dff_gen[8].d2.Q , \mchip.aa.accmulate.dff_gen[7].d2.Q , \mchip.aa.accmulate.dff_gen[6].d2.Q , \mchip.aa.accmulate.dff_gen[5].d2.Q , \mchip.aa.accmulate.dff_gen[4].d2.Q , \mchip.aa.accmulate.dff_gen[3].d2.Q , \mchip.aa.accmulate.dff_gen[2].d2.Q , \mchip.aa.accmulate.dff_gen[1].d2.Q , \mchip.aa.accmulate.dff_gen[0].d2.Q  };
   assign \mchip.aa.accmulate.temp_out  = { \mchip.aa.accmulate.dff_gen[19].d2.Q , \mchip.aa.accmulate.dff_gen[18].d2.Q , \mchip.aa.accmulate.dff_gen[17].d2.Q , \mchip.aa.accmulate.dff_gen[16].d2.Q , \mchip.aa.accmulate.dff_gen[15].d2.Q , \mchip.aa.accmulate.dff_gen[14].d2.Q , \mchip.aa.accmulate.dff_gen[13].d2.Q , \mchip.aa.accmulate.dff_gen[12].d2.Q , \mchip.aa.accmulate.dff_gen[11].d2.Q , \mchip.aa.accmulate.dff_gen[10].d2.Q , \mchip.aa.accmulate.dff_gen[9].d2.Q , \mchip.aa.accmulate.dff_gen[8].d2.Q , \mchip.aa.accmulate.dff_gen[7].d2.Q , \mchip.aa.accmulate.dff_gen[6].d2.Q , \mchip.aa.accmulate.dff_gen[5].d2.Q , \mchip.aa.accmulate.dff_gen[4].d2.Q , \mchip.aa.accmulate.dff_gen[3].d2.Q , \mchip.aa.accmulate.dff_gen[2].d2.Q , \mchip.aa.accmulate.dff_gen[1].d2.Q , \mchip.aa.accmulate.dff_gen[0].d2.Q  };
-  assign \mchip.aa.add  = \mchip.control.state [4];
+  assign \mchip.aa.add  = \mchip.control.state [5];
   assign \mchip.aa.add_in  = { \mchip.aa.accmulate.dff_gen[19].d2.Q , \mchip.aa.accmulate.dff_gen[18].d2.Q , \mchip.aa.accmulate.dff_gen[17].d2.Q , \mchip.aa.accmulate.dff_gen[16].d2.Q , \mchip.aa.accmulate.dff_gen[15].d2.Q , \mchip.aa.accmulate.dff_gen[14].d2.Q , \mchip.aa.accmulate.dff_gen[13].d2.Q , \mchip.aa.accmulate.dff_gen[12].d2.Q , \mchip.aa.accmulate.dff_gen[11].d2.Q , \mchip.aa.accmulate.dff_gen[10].d2.Q , \mchip.aa.accmulate.dff_gen[9].d2.Q , \mchip.aa.accmulate.dff_gen[8].d2.Q , \mchip.aa.accmulate.dff_gen[7].d2.Q , \mchip.aa.accmulate.dff_gen[6].d2.Q , \mchip.aa.accmulate.dff_gen[5].d2.Q , \mchip.aa.accmulate.dff_gen[4].d2.Q , \mchip.aa.accmulate.dff_gen[3].d2.Q , \mchip.aa.accmulate.dff_gen[2].d2.Q , \mchip.aa.accmulate.dff_gen[1].d2.Q , \mchip.aa.accmulate.dff_gen[0].d2.Q  };
   assign \mchip.aa.add_out  = { 4'h0, \mchip.aa.accmulate.dff_gen[15].d2.D , \mchip.aa.accmulate.dff_gen[14].d2.D , \mchip.aa.accmulate.dff_gen[13].d2.D , \mchip.aa.accmulate.dff_gen[12].d2.D , \mchip.aa.accmulate.dff_gen[11].d2.D , \mchip.aa.accmulate.dff_gen[10].d2.D , \mchip.aa.accmulate.dff_gen[9].d2.D , \mchip.aa.accmulate.dff_gen[8].d2.D , \mchip.aa.accmulate.dff_gen[7].d2.D , \mchip.aa.accmulate.dff_gen[6].d2.D , \mchip.aa.accmulate.dff_gen[5].d2.D , \mchip.aa.accmulate.dff_gen[4].d2.D , \mchip.aa.accmulate.dff_gen[3].d2.D , \mchip.aa.accmulate.dff_gen[2].d2.D , \mchip.aa.accmulate.dff_gen[1].d2.D , \mchip.aa.accmulate.dff_gen[0].d2.D  };
   assign \mchip.aa.adder.S0.S0.a  = { \mchip.aa.i0.dff_gen[3].d2.Q , \mchip.aa.i0.dff_gen[2].d2.Q , \mchip.aa.i0.dff_gen[1].d2.Q , \mchip.aa.i0.dff_gen[0].d2.Q  };
@@ -2923,51 +2991,51 @@ module d18_nikhildj_mac(io_in, io_out);
   assign \mchip.aa.adder.carry_out  = \mchip.aa.adder.S4.carry_out ;
   assign \mchip.aa.adder.sum  = { 4'h0, \mchip.aa.accmulate.dff_gen[15].d2.D , \mchip.aa.accmulate.dff_gen[14].d2.D , \mchip.aa.accmulate.dff_gen[13].d2.D , \mchip.aa.accmulate.dff_gen[12].d2.D , \mchip.aa.accmulate.dff_gen[11].d2.D , \mchip.aa.accmulate.dff_gen[10].d2.D , \mchip.aa.accmulate.dff_gen[9].d2.D , \mchip.aa.accmulate.dff_gen[8].d2.D , \mchip.aa.accmulate.dff_gen[7].d2.D , \mchip.aa.accmulate.dff_gen[6].d2.D , \mchip.aa.accmulate.dff_gen[5].d2.D , \mchip.aa.accmulate.dff_gen[4].d2.D , \mchip.aa.accmulate.dff_gen[3].d2.D , \mchip.aa.accmulate.dff_gen[2].d2.D , \mchip.aa.accmulate.dff_gen[1].d2.D , \mchip.aa.accmulate.dff_gen[0].d2.D  };
   assign \mchip.aa.adder.temp_carry4  = \mchip.aa.adder.S4.carry_in ;
-  assign \mchip.aa.i0.add  = \mchip.control.state [4];
+  assign \mchip.aa.i0.add  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[0].d2.D  = \mchip.mult.i3.temp_register [0];
-  assign \mchip.aa.i0.dff_gen[0].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[0].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[10].d2.D  = \mchip.mult.i3.temp_register [10];
-  assign \mchip.aa.i0.dff_gen[10].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[10].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[11].d2.D  = \mchip.mult.i3.temp_register [11];
-  assign \mchip.aa.i0.dff_gen[11].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[11].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[12].d2.D  = \mchip.mult.i3.temp_register [12];
-  assign \mchip.aa.i0.dff_gen[12].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[12].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[13].d2.D  = \mchip.mult.i3.temp_register [13];
-  assign \mchip.aa.i0.dff_gen[13].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[13].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[14].d2.D  = \mchip.mult.i3.temp_register [14];
-  assign \mchip.aa.i0.dff_gen[14].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[14].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[15].d2.D  = \mchip.mult.i3.temp_register [15];
-  assign \mchip.aa.i0.dff_gen[15].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[15].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[16].d2.D  = 1'h0;
   assign \mchip.aa.i0.dff_gen[16].d2.Q  = 1'h0;
-  assign \mchip.aa.i0.dff_gen[16].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[16].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[17].d2.D  = 1'h0;
   assign \mchip.aa.i0.dff_gen[17].d2.Q  = 1'h0;
-  assign \mchip.aa.i0.dff_gen[17].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[17].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[18].d2.D  = 1'h0;
   assign \mchip.aa.i0.dff_gen[18].d2.Q  = 1'h0;
-  assign \mchip.aa.i0.dff_gen[18].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[18].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[19].d2.D  = 1'h0;
   assign \mchip.aa.i0.dff_gen[19].d2.Q  = 1'h0;
-  assign \mchip.aa.i0.dff_gen[19].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[19].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[1].d2.D  = \mchip.mult.i3.temp_register [1];
-  assign \mchip.aa.i0.dff_gen[1].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[1].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[2].d2.D  = \mchip.mult.i3.temp_register [2];
-  assign \mchip.aa.i0.dff_gen[2].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[2].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[3].d2.D  = \mchip.mult.i3.temp_register [3];
-  assign \mchip.aa.i0.dff_gen[3].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[3].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[4].d2.D  = \mchip.mult.i3.temp_register [4];
-  assign \mchip.aa.i0.dff_gen[4].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[4].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[5].d2.D  = \mchip.mult.i3.temp_register [5];
-  assign \mchip.aa.i0.dff_gen[5].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[5].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[6].d2.D  = \mchip.mult.i3.temp_register [6];
-  assign \mchip.aa.i0.dff_gen[6].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[6].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[7].d2.D  = \mchip.mult.i3.temp_register [7];
-  assign \mchip.aa.i0.dff_gen[7].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[7].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[8].d2.D  = \mchip.mult.i3.temp_register [8];
-  assign \mchip.aa.i0.dff_gen[8].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[8].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.dff_gen[9].d2.D  = \mchip.mult.i3.temp_register [9];
-  assign \mchip.aa.i0.dff_gen[9].d2.clk  = \mchip.control.state [4];
+  assign \mchip.aa.i0.dff_gen[9].d2.clk  = \mchip.control.state [5];
   assign \mchip.aa.i0.in  = { 4'h0, \mchip.mult.i3.temp_register [15:0] };
   assign \mchip.aa.i0.out  = { 4'h0, \mchip.aa.i0.dff_gen[15].d2.Q , \mchip.aa.i0.dff_gen[14].d2.Q , \mchip.aa.i0.dff_gen[13].d2.Q , \mchip.aa.i0.dff_gen[12].d2.Q , \mchip.aa.i0.dff_gen[11].d2.Q , \mchip.aa.i0.dff_gen[10].d2.Q , \mchip.aa.i0.dff_gen[9].d2.Q , \mchip.aa.i0.dff_gen[8].d2.Q , \mchip.aa.i0.dff_gen[7].d2.Q , \mchip.aa.i0.dff_gen[6].d2.Q , \mchip.aa.i0.dff_gen[5].d2.Q , \mchip.aa.i0.dff_gen[4].d2.Q , \mchip.aa.i0.dff_gen[3].d2.Q , \mchip.aa.i0.dff_gen[2].d2.Q , \mchip.aa.i0.dff_gen[1].d2.Q , \mchip.aa.i0.dff_gen[0].d2.Q  };
   assign \mchip.aa.i0.temp_out  = { 4'h0, \mchip.aa.i0.dff_gen[15].d2.Q , \mchip.aa.i0.dff_gen[14].d2.Q , \mchip.aa.i0.dff_gen[13].d2.Q , \mchip.aa.i0.dff_gen[12].d2.Q , \mchip.aa.i0.dff_gen[11].d2.Q , \mchip.aa.i0.dff_gen[10].d2.Q , \mchip.aa.i0.dff_gen[9].d2.Q , \mchip.aa.i0.dff_gen[8].d2.Q , \mchip.aa.i0.dff_gen[7].d2.Q , \mchip.aa.i0.dff_gen[6].d2.Q , \mchip.aa.i0.dff_gen[5].d2.Q , \mchip.aa.i0.dff_gen[4].d2.Q , \mchip.aa.i0.dff_gen[3].d2.Q , \mchip.aa.i0.dff_gen[2].d2.Q , \mchip.aa.i0.dff_gen[1].d2.Q , \mchip.aa.i0.dff_gen[0].d2.Q  };
@@ -2977,32 +3045,33 @@ module d18_nikhildj_mac(io_in, io_out);
   assign \mchip.aa.result_carry_out  = \mchip.aa.adder.S4.carry_out ;
   assign \mchip.aa.temp_mult_res_in  = { 4'h0, \mchip.mult.i3.temp_register [15:0] };
   assign \mchip.aa.temp_result  = { \mchip.aa.accmulate.dff_gen[19].d2.Q , \mchip.aa.accmulate.dff_gen[18].d2.Q , \mchip.aa.accmulate.dff_gen[17].d2.Q , \mchip.aa.accmulate.dff_gen[16].d2.Q , \mchip.aa.accmulate.dff_gen[15].d2.Q , \mchip.aa.accmulate.dff_gen[14].d2.Q , \mchip.aa.accmulate.dff_gen[13].d2.Q , \mchip.aa.accmulate.dff_gen[12].d2.Q , \mchip.aa.accmulate.dff_gen[11].d2.Q , \mchip.aa.accmulate.dff_gen[10].d2.Q , \mchip.aa.accmulate.dff_gen[9].d2.Q , \mchip.aa.accmulate.dff_gen[8].d2.Q , \mchip.aa.accmulate.dff_gen[7].d2.Q , \mchip.aa.accmulate.dff_gen[6].d2.Q , \mchip.aa.accmulate.dff_gen[5].d2.Q , \mchip.aa.accmulate.dff_gen[4].d2.Q , \mchip.aa.accmulate.dff_gen[3].d2.Q , \mchip.aa.accmulate.dff_gen[2].d2.Q , \mchip.aa.accmulate.dff_gen[1].d2.Q , \mchip.aa.accmulate.dff_gen[0].d2.Q  };
-  assign \mchip.add  = \mchip.control.state [4];
+  assign \mchip.add  = \mchip.control.state [5];
   assign \mchip.clock  = io_in[12];
-  assign \mchip.control.Begin_mul  = \mchip.control.state [5];
+  assign \mchip.control.Begin_mul  = \mchip.control.state [6];
   assign \mchip.control.End_mul  = \mchip.mult.i0.state [0];
   assign \mchip.control.Finish  = \mchip.control.state [0];
   assign \mchip.control.Load_op  = \mchip.control.state [2];
   assign \mchip.control.START  = io_in[11];
-  assign \mchip.control.add  = \mchip.control.state [4];
+  assign \mchip.control.add  = \mchip.control.state [5];
   assign \mchip.control.clk  = io_in[12];
-  assign \mchip.input_done  = io_in[8];
-  assign \mchip.io_in  = { io_in[11:8], 8'h00 };
-  assign { \mchip.io_out [11:10], \mchip.io_out [8:0] } = { \mchip.aa.adder.S4.carry_out , \mchip.control.state [0], \mchip.output_done , \mchip.mult.i0.state [0], 7'h00 };
+  assign \mchip.control.do_next  = io_in[7];
+  assign \mchip.do_next  = io_in[7];
+  assign \mchip.io_in  = io_in[11:0];
+  assign \mchip.io_out  = { \mchip.aa.adder.S4.carry_out , \mchip.control.state [0], \mchip.shiftout [0], \mchip.mult.i0.state [0], 8'h00 };
   assign \mchip.mac_carry_out  = \mchip.aa.adder.S4.carry_out ;
   assign \mchip.mac_res  = { \mchip.aa.accmulate.dff_gen[19].d2.Q , \mchip.aa.accmulate.dff_gen[18].d2.Q , \mchip.aa.accmulate.dff_gen[17].d2.Q , \mchip.aa.accmulate.dff_gen[16].d2.Q , \mchip.aa.accmulate.dff_gen[15].d2.Q , \mchip.aa.accmulate.dff_gen[14].d2.Q , \mchip.aa.accmulate.dff_gen[13].d2.Q , \mchip.aa.accmulate.dff_gen[12].d2.Q , \mchip.aa.accmulate.dff_gen[11].d2.Q , \mchip.aa.accmulate.dff_gen[10].d2.Q , \mchip.aa.accmulate.dff_gen[9].d2.Q , \mchip.aa.accmulate.dff_gen[8].d2.Q , \mchip.aa.accmulate.dff_gen[7].d2.Q , \mchip.aa.accmulate.dff_gen[6].d2.Q , \mchip.aa.accmulate.dff_gen[5].d2.Q , \mchip.aa.accmulate.dff_gen[4].d2.Q , \mchip.aa.accmulate.dff_gen[3].d2.Q , \mchip.aa.accmulate.dff_gen[2].d2.Q , \mchip.aa.accmulate.dff_gen[1].d2.Q , \mchip.aa.accmulate.dff_gen[0].d2.Q  };
-  assign \mchip.mult.Begin_mul  = \mchip.control.state [5];
+  assign \mchip.mult.Begin_mul  = \mchip.control.state [6];
   assign \mchip.mult.End_mul  = \mchip.mult.i0.state [0];
   assign \mchip.mult.LSB  = \mchip.mult.i3.temp_register [0];
   assign \mchip.mult.Load_mul  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.a_in  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q  };
-  assign \mchip.mult.a_out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
-  assign \mchip.mult.b_in  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q  };
+  assign \mchip.mult.a_in  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[6].d1.Q , \mchip.opa.dff_gen[5].d1.Q , \mchip.opa.dff_gen[4].d1.Q , \mchip.opa.dff_gen[3].d1.Q , \mchip.opa.dff_gen[2].d1.Q , \mchip.opa.dff_gen[1].d1.Q , \mchip.opa.dff_gen[0].d1.Q  };
+  assign \mchip.mult.a_out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q , \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
+  assign \mchip.mult.b_in  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[6].d1.Q , \mchip.opb.dff_gen[5].d1.Q , \mchip.opb.dff_gen[4].d1.Q , \mchip.opb.dff_gen[3].d1.Q , \mchip.opb.dff_gen[2].d1.Q , \mchip.opb.dff_gen[1].d1.Q , \mchip.opb.dff_gen[0].d1.Q  };
   assign \mchip.mult.b_out  = \mchip.mult.i3.temp_register [15:8];
   assign \mchip.mult.clk  = io_in[12];
   assign \mchip.mult.do_add  = \mchip.mult.i0.state [4];
   assign \mchip.mult.do_shift  = \mchip.mult.i0.state [1];
-  assign \mchip.mult.i0.Begin_mul  = \mchip.control.state [5];
+  assign \mchip.mult.i0.Begin_mul  = \mchip.control.state [6];
   assign \mchip.mult.i0.End_mul  = \mchip.mult.i0.state [0];
   assign \mchip.mult.i0.LSB  = \mchip.mult.i3.temp_register [0];
   assign \mchip.mult.i0.Load_mul  = \mchip.mult.i0.state [3];
@@ -3010,100 +3079,93 @@ module d18_nikhildj_mac(io_in, io_out);
   assign \mchip.mult.i0.do_add  = \mchip.mult.i0.state [4];
   assign \mchip.mult.i0.do_shift  = \mchip.mult.i0.state [1];
   assign \mchip.mult.i1.Load_mul  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.a_in  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q  };
-  assign \mchip.mult.i1.a_out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i1.a_in  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[6].d1.Q , \mchip.opa.dff_gen[5].d1.Q , \mchip.opa.dff_gen[4].d1.Q , \mchip.opa.dff_gen[3].d1.Q , \mchip.opa.dff_gen[2].d1.Q , \mchip.opa.dff_gen[1].d1.Q , \mchip.opa.dff_gen[0].d1.Q  };
+  assign \mchip.mult.i1.a_out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q , \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
   assign \mchip.mult.i1.r1.Load_op  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[0].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[0].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[0].d1.D  = \mchip.opa.dff_gen[0].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[0].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[1].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[1].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[1].d1.D  = \mchip.opa.dff_gen[1].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[1].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[2].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[2].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[2].d1.D  = \mchip.opa.dff_gen[2].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[2].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[3].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[3].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[3].d1.D  = \mchip.opa.dff_gen[3].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[3].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[4].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[4].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[4].d1.D  = \mchip.opa.dff_gen[4].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[4].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[5].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[5].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[5].d1.D  = \mchip.opa.dff_gen[5].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[5].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.dff_gen[6].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
-  assign \mchip.mult.i1.r1.dff_gen[6].d1.Q  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i1.r1.dff_gen[6].d1.D  = \mchip.opa.dff_gen[6].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[6].d1.clk  = \mchip.mult.i0.state [3];
   assign \mchip.mult.i1.r1.dff_gen[7].d1.D  = \mchip.opa.dff_gen[7].d1.Q ;
   assign \mchip.mult.i1.r1.dff_gen[7].d1.clk  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i1.r1.in  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q  };
-  assign \mchip.mult.i1.r1.out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
-  assign \mchip.mult.i1.r1.temp_out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
-  assign \mchip.mult.i2.S0.S0.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i1.r1.in  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[6].d1.Q , \mchip.opa.dff_gen[5].d1.Q , \mchip.opa.dff_gen[4].d1.Q , \mchip.opa.dff_gen[3].d1.Q , \mchip.opa.dff_gen[2].d1.Q , \mchip.opa.dff_gen[1].d1.Q , \mchip.opa.dff_gen[0].d1.Q  };
+  assign \mchip.mult.i1.r1.out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q , \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
+  assign \mchip.mult.i1.r1.temp_out  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q , \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
+  assign \mchip.mult.i2.S0.S0.a  = { \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
   assign \mchip.mult.i2.S0.S0.b  = \mchip.mult.i3.temp_register [11:8];
   assign \mchip.mult.i2.S0.S0.carry_in  = 1'h0;
-  assign \mchip.mult.i2.S0.S0.fa0.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S0.fa0.a  = \mchip.mult.i1.r1.dff_gen[0].d1.Q ;
   assign \mchip.mult.i2.S0.S0.fa0.b  = \mchip.mult.i3.temp_register [8];
   assign \mchip.mult.i2.S0.S0.fa0.carry_in  = 1'h0;
   assign \mchip.mult.i2.S0.S0.fa0.w3  = 1'h0;
-  assign \mchip.mult.i2.S0.S0.fa1.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S0.fa1.a  = \mchip.mult.i1.r1.dff_gen[1].d1.Q ;
   assign \mchip.mult.i2.S0.S0.fa1.b  = \mchip.mult.i3.temp_register [9];
-  assign \mchip.mult.i2.S0.S0.fa2.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S0.fa2.a  = \mchip.mult.i1.r1.dff_gen[2].d1.Q ;
   assign \mchip.mult.i2.S0.S0.fa2.b  = \mchip.mult.i3.temp_register [10];
-  assign \mchip.mult.i2.S0.S0.fa3.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S0.fa3.a  = \mchip.mult.i1.r1.dff_gen[3].d1.Q ;
   assign \mchip.mult.i2.S0.S0.fa3.b  = \mchip.mult.i3.temp_register [11];
-  assign \mchip.mult.i2.S0.S1.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i2.S0.S1.a  = { \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
   assign \mchip.mult.i2.S0.S1.b  = \mchip.mult.i3.temp_register [11:8];
   assign \mchip.mult.i2.S0.S1.carry_in  = 1'h1;
-  assign \mchip.mult.i2.S0.S1.fa0.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S1.fa0.a  = \mchip.mult.i1.r1.dff_gen[0].d1.Q ;
   assign \mchip.mult.i2.S0.S1.fa0.b  = \mchip.mult.i3.temp_register [8];
   assign \mchip.mult.i2.S0.S1.fa0.carry_in  = 1'h1;
-  assign \mchip.mult.i2.S0.S1.fa1.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S1.fa1.a  = \mchip.mult.i1.r1.dff_gen[1].d1.Q ;
   assign \mchip.mult.i2.S0.S1.fa1.b  = \mchip.mult.i3.temp_register [9];
-  assign \mchip.mult.i2.S0.S1.fa2.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S1.fa2.a  = \mchip.mult.i1.r1.dff_gen[2].d1.Q ;
   assign \mchip.mult.i2.S0.S1.fa2.b  = \mchip.mult.i3.temp_register [10];
-  assign \mchip.mult.i2.S0.S1.fa3.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S0.S1.fa3.a  = \mchip.mult.i1.r1.dff_gen[3].d1.Q ;
   assign \mchip.mult.i2.S0.S1.fa3.b  = \mchip.mult.i3.temp_register [11];
-  assign \mchip.mult.i2.S0.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i2.S0.a  = { \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
   assign \mchip.mult.i2.S0.b  = \mchip.mult.i3.temp_register [11:8];
   assign \mchip.mult.i2.S0.carry_in  = 1'h0;
-  assign \mchip.mult.i2.S1.S0.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i2.S1.S0.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q  };
   assign \mchip.mult.i2.S1.S0.b  = \mchip.mult.i3.temp_register [15:12];
   assign \mchip.mult.i2.S1.S0.carry_in  = 1'h0;
-  assign \mchip.mult.i2.S1.S0.fa0.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S1.S0.fa0.a  = \mchip.mult.i1.r1.dff_gen[4].d1.Q ;
   assign \mchip.mult.i2.S1.S0.fa0.b  = \mchip.mult.i3.temp_register [12];
   assign \mchip.mult.i2.S1.S0.fa0.carry_in  = 1'h0;
   assign \mchip.mult.i2.S1.S0.fa0.w3  = 1'h0;
-  assign \mchip.mult.i2.S1.S0.fa1.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S1.S0.fa1.a  = \mchip.mult.i1.r1.dff_gen[5].d1.Q ;
   assign \mchip.mult.i2.S1.S0.fa1.b  = \mchip.mult.i3.temp_register [13];
-  assign \mchip.mult.i2.S1.S0.fa2.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S1.S0.fa2.a  = \mchip.mult.i1.r1.dff_gen[6].d1.Q ;
   assign \mchip.mult.i2.S1.S0.fa2.b  = \mchip.mult.i3.temp_register [14];
   assign \mchip.mult.i2.S1.S0.fa3.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
   assign \mchip.mult.i2.S1.S0.fa3.b  = \mchip.mult.i3.temp_register [15];
   assign \mchip.mult.i2.S1.S0.sum  = 4'h0;
-  assign \mchip.mult.i2.S1.S1.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i2.S1.S1.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q  };
   assign \mchip.mult.i2.S1.S1.b  = \mchip.mult.i3.temp_register [15:12];
   assign \mchip.mult.i2.S1.S1.carry_in  = 1'h1;
-  assign \mchip.mult.i2.S1.S1.fa0.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S1.S1.fa0.a  = \mchip.mult.i1.r1.dff_gen[4].d1.Q ;
   assign \mchip.mult.i2.S1.S1.fa0.b  = \mchip.mult.i3.temp_register [12];
   assign \mchip.mult.i2.S1.S1.fa0.carry_in  = 1'h1;
-  assign \mchip.mult.i2.S1.S1.fa1.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S1.S1.fa1.a  = \mchip.mult.i1.r1.dff_gen[5].d1.Q ;
   assign \mchip.mult.i2.S1.S1.fa1.b  = \mchip.mult.i3.temp_register [13];
-  assign \mchip.mult.i2.S1.S1.fa2.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
+  assign \mchip.mult.i2.S1.S1.fa2.a  = \mchip.mult.i1.r1.dff_gen[6].d1.Q ;
   assign \mchip.mult.i2.S1.S1.fa2.b  = \mchip.mult.i3.temp_register [14];
   assign \mchip.mult.i2.S1.S1.fa3.a  = \mchip.mult.i1.r1.dff_gen[7].d1.Q ;
   assign \mchip.mult.i2.S1.S1.fa3.b  = \mchip.mult.i3.temp_register [15];
   assign \mchip.mult.i2.S1.S1.sum  = 4'h0;
   assign \mchip.mult.i2.S1.SUM0  = 4'h0;
   assign \mchip.mult.i2.S1.SUM1  = 4'h0;
-  assign \mchip.mult.i2.S1.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i2.S1.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q  };
   assign \mchip.mult.i2.S1.b  = \mchip.mult.i3.temp_register [15:12];
-  assign \mchip.mult.i2.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i2.a  = { \mchip.mult.i1.r1.dff_gen[7].d1.Q , \mchip.mult.i1.r1.dff_gen[6].d1.Q , \mchip.mult.i1.r1.dff_gen[5].d1.Q , \mchip.mult.i1.r1.dff_gen[4].d1.Q , \mchip.mult.i1.r1.dff_gen[3].d1.Q , \mchip.mult.i1.r1.dff_gen[2].d1.Q , \mchip.mult.i1.r1.dff_gen[1].d1.Q , \mchip.mult.i1.r1.dff_gen[0].d1.Q  };
   assign \mchip.mult.i2.b  = \mchip.mult.i3.temp_register [15:8];
   assign \mchip.mult.i2.carry_in  = 1'h0;
   assign \mchip.mult.i3.LSB  = \mchip.mult.i3.temp_register [0];
   assign \mchip.mult.i3.Load_mul  = \mchip.mult.i0.state [3];
-  assign \mchip.mult.i3.b_in  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q  };
+  assign \mchip.mult.i3.b_in  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[6].d1.Q , \mchip.opb.dff_gen[5].d1.Q , \mchip.opb.dff_gen[4].d1.Q , \mchip.opb.dff_gen[3].d1.Q , \mchip.opb.dff_gen[2].d1.Q , \mchip.opb.dff_gen[1].d1.Q , \mchip.opb.dff_gen[0].d1.Q  };
   assign \mchip.mult.i3.b_out  = \mchip.mult.i3.temp_register [15:8];
   assign \mchip.mult.i3.clk  = io_in[12];
   assign \mchip.mult.i3.do_add  = \mchip.mult.i0.state [4];
@@ -3112,63 +3174,47 @@ module d18_nikhildj_mac(io_in, io_out);
   assign \mchip.mult.i3.temp_register [16] = 1'h0;
   assign \mchip.mult.mult_out  = \mchip.mult.i3.temp_register [15:0];
   assign \mchip.mult_res  = \mchip.mult.i3.temp_register [15:0];
-  assign \mchip.op_a_in [7:1] = { \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0] };
-  assign \mchip.op_a_out  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q  };
-  assign \mchip.op_b_in [7:1] = { \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0] };
-  assign \mchip.op_b_out  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q  };
+  assign \mchip.op_a_out  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[6].d1.Q , \mchip.opa.dff_gen[5].d1.Q , \mchip.opa.dff_gen[4].d1.Q , \mchip.opa.dff_gen[3].d1.Q , \mchip.opa.dff_gen[2].d1.Q , \mchip.opa.dff_gen[1].d1.Q , \mchip.opa.dff_gen[0].d1.Q  };
+  assign \mchip.op_b_out  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[6].d1.Q , \mchip.opb.dff_gen[5].d1.Q , \mchip.opb.dff_gen[4].d1.Q , \mchip.opb.dff_gen[3].d1.Q , \mchip.opb.dff_gen[2].d1.Q , \mchip.opb.dff_gen[1].d1.Q , \mchip.opb.dff_gen[0].d1.Q  };
   assign \mchip.opa.Load_op  = \mchip.control.state [2];
   assign \mchip.opa.dff_gen[0].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[0].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
   assign \mchip.opa.dff_gen[0].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[1].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[1].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
+  assign \mchip.opa.dff_gen[1].d1.D  = \mchip.op_a_in [1];
   assign \mchip.opa.dff_gen[1].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[2].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[2].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
+  assign \mchip.opa.dff_gen[2].d1.D  = \mchip.op_a_in [2];
   assign \mchip.opa.dff_gen[2].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[3].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[3].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
+  assign \mchip.opa.dff_gen[3].d1.D  = \mchip.op_a_in [3];
   assign \mchip.opa.dff_gen[3].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[4].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[4].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
+  assign \mchip.opa.dff_gen[4].d1.D  = \mchip.op_a_in [4];
   assign \mchip.opa.dff_gen[4].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[5].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[5].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
+  assign \mchip.opa.dff_gen[5].d1.D  = \mchip.op_a_in [5];
   assign \mchip.opa.dff_gen[5].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[6].d1.D  = \mchip.op_a_in [0];
-  assign \mchip.opa.dff_gen[6].d1.Q  = \mchip.opa.dff_gen[7].d1.Q ;
+  assign \mchip.opa.dff_gen[6].d1.D  = \mchip.op_a_in [6];
   assign \mchip.opa.dff_gen[6].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.dff_gen[7].d1.D  = \mchip.op_a_in [0];
+  assign \mchip.opa.dff_gen[7].d1.D  = \mchip.op_a_in [7];
   assign \mchip.opa.dff_gen[7].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opa.in  = { \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0], \mchip.op_a_in [0] };
-  assign \mchip.opa.out  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q  };
-  assign \mchip.opa.temp_out  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[7].d1.Q  };
+  assign \mchip.opa.in  = \mchip.op_a_in ;
+  assign \mchip.opa.out  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[6].d1.Q , \mchip.opa.dff_gen[5].d1.Q , \mchip.opa.dff_gen[4].d1.Q , \mchip.opa.dff_gen[3].d1.Q , \mchip.opa.dff_gen[2].d1.Q , \mchip.opa.dff_gen[1].d1.Q , \mchip.opa.dff_gen[0].d1.Q  };
+  assign \mchip.opa.temp_out  = { \mchip.opa.dff_gen[7].d1.Q , \mchip.opa.dff_gen[6].d1.Q , \mchip.opa.dff_gen[5].d1.Q , \mchip.opa.dff_gen[4].d1.Q , \mchip.opa.dff_gen[3].d1.Q , \mchip.opa.dff_gen[2].d1.Q , \mchip.opa.dff_gen[1].d1.Q , \mchip.opa.dff_gen[0].d1.Q  };
   assign \mchip.opb.Load_op  = \mchip.control.state [2];
   assign \mchip.opb.dff_gen[0].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[0].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
   assign \mchip.opb.dff_gen[0].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[1].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[1].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
+  assign \mchip.opb.dff_gen[1].d1.D  = \mchip.op_b_in [1];
   assign \mchip.opb.dff_gen[1].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[2].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[2].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
+  assign \mchip.opb.dff_gen[2].d1.D  = \mchip.op_b_in [2];
   assign \mchip.opb.dff_gen[2].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[3].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[3].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
+  assign \mchip.opb.dff_gen[3].d1.D  = \mchip.op_b_in [3];
   assign \mchip.opb.dff_gen[3].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[4].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[4].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
+  assign \mchip.opb.dff_gen[4].d1.D  = \mchip.op_b_in [4];
   assign \mchip.opb.dff_gen[4].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[5].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[5].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
+  assign \mchip.opb.dff_gen[5].d1.D  = \mchip.op_b_in [5];
   assign \mchip.opb.dff_gen[5].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[6].d1.D  = \mchip.op_b_in [0];
-  assign \mchip.opb.dff_gen[6].d1.Q  = \mchip.opb.dff_gen[7].d1.Q ;
+  assign \mchip.opb.dff_gen[6].d1.D  = \mchip.op_b_in [6];
   assign \mchip.opb.dff_gen[6].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.dff_gen[7].d1.D  = \mchip.op_b_in [0];
+  assign \mchip.opb.dff_gen[7].d1.D  = \mchip.op_b_in [7];
   assign \mchip.opb.dff_gen[7].d1.clk  = \mchip.control.state [2];
-  assign \mchip.opb.in  = { \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0], \mchip.op_b_in [0] };
-  assign \mchip.opb.out  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q  };
-  assign \mchip.opb.temp_out  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[7].d1.Q  };
+  assign \mchip.opb.in  = \mchip.op_b_in ;
+  assign \mchip.opb.out  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[6].d1.Q , \mchip.opb.dff_gen[5].d1.Q , \mchip.opb.dff_gen[4].d1.Q , \mchip.opb.dff_gen[3].d1.Q , \mchip.opb.dff_gen[2].d1.Q , \mchip.opb.dff_gen[1].d1.Q , \mchip.opb.dff_gen[0].d1.Q  };
+  assign \mchip.opb.temp_out  = { \mchip.opb.dff_gen[7].d1.Q , \mchip.opb.dff_gen[6].d1.Q , \mchip.opb.dff_gen[5].d1.Q , \mchip.opb.dff_gen[4].d1.Q , \mchip.opb.dff_gen[3].d1.Q , \mchip.opb.dff_gen[2].d1.Q , \mchip.opb.dff_gen[1].d1.Q , \mchip.opb.dff_gen[0].d1.Q  };
   assign \mchip.reset  = io_in[13];
 endmodule
