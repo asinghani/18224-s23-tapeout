@@ -77579,7 +77579,31 @@ module d28_gvenkata_ucpu (
 	wire _0722_;
 	wire _0723_;
 	wire _0724_;
-	wire [3:0] _0725_;
+	wire _0725_;
+	wire _0726_;
+	wire _0727_;
+	wire _0728_;
+	wire _0729_;
+	wire _0730_;
+	wire _0731_;
+	wire _0732_;
+	wire _0733_;
+	wire _0734_;
+	wire _0735_;
+	wire _0736_;
+	wire _0737_;
+	wire _0738_;
+	wire _0739_;
+	wire _0740_;
+	wire _0741_;
+	wire _0742_;
+	wire _0743_;
+	wire _0744_;
+	wire _0745_;
+	wire _0746_;
+	wire _0747_;
+	wire _0748_;
+	wire [3:0] _0749_;
 	input wire [13:0] io_in;
 	output wire [13:0] io_out;
 	wire \mchip.clock ;
@@ -77620,22 +77644,25 @@ module d28_gvenkata_ucpu (
 	wire \mchip.micro_coded_cpu.alu_top.cc_equal_out ;
 	wire \mchip.micro_coded_cpu.alu_top.cc_greater ;
 	wire \mchip.micro_coded_cpu.alu_top.cc_greater_out ;
+	wire [3:0] \mchip.micro_coded_cpu.alu_top.cpu_state ;
 	wire \mchip.micro_coded_cpu.alu_top.sys_clk ;
 	wire \mchip.micro_coded_cpu.alu_top.sys_reset ;
 	wire [7:0] \mchip.micro_coded_cpu.branch_target_id ;
 	wire \mchip.micro_coded_cpu.cc_equal ;
 	wire \mchip.micro_coded_cpu.cc_greater ;
-	reg [7:0] \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state ;
+	wire [3:0] \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state ;
 	reg [4:0] \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 ;
 	reg [5:0] \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist ;
 	wire \mchip.micro_coded_cpu.cpu_fsm_top.is_micro_nop ;
 	wire \mchip.micro_coded_cpu.cpu_fsm_top.is_nop ;
 	wire \mchip.micro_coded_cpu.cpu_fsm_top.sys_clk ;
 	wire \mchip.micro_coded_cpu.cpu_fsm_top.sys_reset ;
+	wire [3:0] \mchip.micro_coded_cpu.cpu_state ;
 	wire [7:0] \mchip.micro_coded_cpu.imm ;
 	wire [7:0] \mchip.micro_coded_cpu.imm_id ;
 	wire [7:0] \mchip.micro_coded_cpu.imm_md ;
 	wire \mchip.micro_coded_cpu.inst_addr_stream ;
+	wire [3:0] \mchip.micro_coded_cpu.inst_to_bit.cpu_state ;
 	wire [7:0] \mchip.micro_coded_cpu.inst_to_bit.inst_addr ;
 	wire \mchip.micro_coded_cpu.inst_to_bit.inst_addr_stream ;
 	wire \mchip.micro_coded_cpu.inst_to_bit.sys_clk ;
@@ -77643,8 +77670,6 @@ module d28_gvenkata_ucpu (
 	wire [4:0] \mchip.micro_coded_cpu.inst_type ;
 	wire \mchip.micro_coded_cpu.instr_in ;
 	wire [31:0] \mchip.micro_coded_cpu.instr_reg ;
-	wire \mchip.micro_coded_cpu.instr_reg_en ;
-	wire \mchip.micro_coded_cpu.instr_reg_top.enable ;
 	wire \mchip.micro_coded_cpu.instr_reg_top.instr_in ;
 	reg [31:0] \mchip.micro_coded_cpu.instr_reg_top.instr_reg ;
 	wire \mchip.micro_coded_cpu.instr_reg_top.sys_clk ;
@@ -77683,6 +77708,7 @@ module d28_gvenkata_ucpu (
 	wire \mchip.micro_coded_cpu.m_inst_decode_top.reg_file_en_md ;
 	wire \mchip.micro_coded_cpu.m_inst_decode_top.reg_file_rw_md ;
 	wire [4:0] \mchip.micro_coded_cpu.m_inst_decode_top.reg_src_md ;
+	wire [3:0] \mchip.micro_coded_cpu.m_inst_to_bit.cpu_state ;
 	reg [3:0] \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index ;
 	wire [8:0] \mchip.micro_coded_cpu.m_inst_to_bit.m_inst_addr ;
 	wire \mchip.micro_coded_cpu.m_inst_to_bit.m_inst_addr_stream ;
@@ -77690,8 +77716,6 @@ module d28_gvenkata_ucpu (
 	wire \mchip.micro_coded_cpu.m_inst_to_bit.sys_reset ;
 	wire \mchip.micro_coded_cpu.m_instr_in ;
 	wire [43:0] \mchip.micro_coded_cpu.m_instr_reg ;
-	wire \mchip.micro_coded_cpu.m_instr_reg_en ;
-	wire \mchip.micro_coded_cpu.m_instr_reg_top.enable ;
 	reg [43:0] \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg ;
 	wire \mchip.micro_coded_cpu.m_instr_reg_top.minstr_in ;
 	wire \mchip.micro_coded_cpu.m_instr_reg_top.sys_clk ;
@@ -77739,6 +77763,7 @@ module d28_gvenkata_ucpu (
 	wire [4:0] \mchip.micro_coded_cpu.reg_dst_md ;
 	wire \mchip.micro_coded_cpu.reg_file_en ;
 	wire \mchip.micro_coded_cpu.reg_file_en_md ;
+	wire [3:0] \mchip.micro_coded_cpu.reg_file_interface.cpu_state ;
 	reg [7:0] \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] ;
 	reg [7:0] \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] ;
 	reg [7:0] \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] ;
@@ -77785,772 +77810,796 @@ module d28_gvenkata_ucpu (
 	wire \mchip.micro_coded_cpu.sys_clk ;
 	wire \mchip.micro_coded_cpu.sys_reset ;
 	wire \mchip.reset ;
-	assign _0725_[0] = ~\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0];
-	assign _0035_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1];
-	assign _0036_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] | ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3];
-	assign _0037_ = _0035_ & ~_0036_;
-	assign _0038_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4] | ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5];
-	assign _0039_ = _0037_ & ~_0038_;
-	assign _0040_ = _0039_ | io_in[13];
-	assign _0041_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1] & ~_0040_;
-	assign _0042_ = ~io_in[13];
-	assign _0043_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1];
-	assign _0044_ = ~(_0043_ | _0036_);
-	assign _0045_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4]);
-	assign _0046_ = ~_0045_;
-	assign _0047_ = _0044_ & ~_0046_;
-	assign _0048_ = ~(_0047_ & _0042_);
-	assign _0049_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6] & ~_0048_;
-	assign _0007_ = _0049_ | _0041_;
-	assign _0050_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4];
-	assign _0051_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1];
-	assign _0052_ = _0051_ | _0050_;
-	assign _0010_ = _0052_ | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6];
-	assign _0053_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7] & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0];
-	assign _0054_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [5] | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1];
-	assign _0055_ = _0053_ & ~_0054_;
-	assign _0056_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3] | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6];
-	assign _0057_ = _0056_ | _0050_;
-	assign _0014_ = _0055_ & ~_0057_;
-	assign _0015_ = io_in[13] | ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6];
-	assign _0058_ = ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3];
-	assign _0059_ = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [25] | ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [24];
-	assign _0060_ = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [23] | ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [22];
-	assign _0061_ = _0060_ | _0059_;
-	assign _0062_ = _0061_ | _0058_;
-	assign _0013_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en  & ~_0062_;
-	assign _0063_ = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [22] | ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [23];
-	assign _0064_ = _0063_ | _0059_;
-	assign _0065_ = _0064_ | _0058_;
-	assign _0012_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en  & ~_0065_;
-	assign _0066_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7] & ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_file_rw ;
-	assign _0067_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en ;
-	assign _0011_ = _0066_ & ~_0067_;
-	assign _0068_ = \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1];
-	assign _0069_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2] & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3]);
-	assign _0070_ = _0068_ & ~_0069_;
-	assign _0071_ = _0070_ & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4];
-	assign _0072_ = _0071_ | io_in[13];
-	assign _0073_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7] & ~_0072_;
-	assign _0074_ = _0047_ | io_in[13];
-	assign _0075_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6] & ~_0074_;
-	assign _0076_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] & ~io_in[13];
-	assign _0077_ = _0076_ | _0075_;
-	assign _0009_ = _0077_ | _0073_;
-	assign _0078_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] & ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3];
-	assign _0079_ = ~(_0078_ & _0035_);
-	assign _0080_ = _0079_ | _0046_;
-	assign _0081_ = ~(_0080_ & _0042_);
-	assign _0082_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] & ~_0081_;
-	assign _0006_ = _0082_ | io_in[13];
-	assign _0083_ = ~(_0071_ & _0042_);
-	assign _0084_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7] & ~_0083_;
-	assign _0085_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3] & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2]);
-	assign _0086_ = _0035_ & ~_0085_;
-	assign _0087_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] | ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4];
-	assign _0088_ = _0086_ & ~_0087_;
-	assign _0089_ = _0088_ | io_in[13];
-	assign _0090_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] & ~_0089_;
-	assign _0091_ = _0080_ | io_in[13];
-	assign _0092_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] & ~_0091_;
-	assign _0093_ = _0092_ | _0090_;
-	assign _0008_ = _0093_ | _0084_;
-	assign _0094_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.alu_en_A  | \mchip.micro_coded_cpu.mdecode_reg_top.alu_en_B );
-	assign _0018_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7] & ~_0094_;
-	assign _0017_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_en_B  & \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3];
-	assign _0016_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_en_A  & \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3];
-	assign _0095_ = ~\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [43];
-	assign _0096_ = ~(\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] & \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42]);
-	assign _0097_ = _0095_ & ~_0096_;
-	assign _0098_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] | ~\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42];
-	assign _0099_ = _0095_ & ~_0098_;
-	assign _0100_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42] | ~\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41];
-	assign _0101_ = _0095_ & ~_0100_;
-	assign _0102_ = _0101_ | _0099_;
-	assign \mchip.micro_coded_cpu.mdecode_reg_top.is_imm_active_md  = _0102_ | _0097_;
-	assign _0103_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [28] : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [29]);
-	assign _0104_ = _0103_ & ~io_in[13];
-	assign _0105_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [26] : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [27]);
-	assign _0106_ = _0105_ & ~io_in[13];
-	assign _0107_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [27] : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [28]);
-	assign _0108_ = _0107_ & ~io_in[13];
-	assign _0109_ = _0106_ & ~_0108_;
-	assign _0110_ = _0109_ & ~_0104_;
-	assign _0111_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [29] : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [30]);
-	assign _0112_ = _0111_ & ~io_in[13];
-	assign _0113_ = _0110_ & ~_0112_;
-	assign _0114_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [30] : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [31]);
-	assign _0115_ = _0114_ & ~io_in[13];
-	assign _0116_ = ~_0112_;
-	assign _0117_ = ~_0104_;
-	assign _0118_ = _0108_ & _0106_;
-	assign _0119_ = (_0104_ ? _0118_ : _0109_);
-	assign _0120_ = ~_0106_;
-	assign _0121_ = _0106_ | ~_0108_;
-	assign _0122_ = (_0104_ ? _0121_ : _0120_);
-	assign _0123_ = (_0112_ ? _0122_ : _0119_);
-	assign _0000_[0] = (_0115_ ? _0113_ : _0123_);
-	assign _0124_ = _0108_ | _0104_;
-	assign _0125_ = _0116_ & ~_0124_;
-	assign _0126_ = _0108_ & _0104_;
-	assign _0127_ = (_0106_ ? _0108_ : _0104_);
-	assign _0128_ = (_0112_ ? _0127_ : _0126_);
-	assign _0000_[1] = (_0115_ ? _0125_ : _0128_);
-	assign _0129_ = _0121_ | _0104_;
-	assign _0130_ = _0116_ & ~_0129_;
-	assign _0131_ = ~(_0108_ | _0106_);
-	assign _0132_ = _0131_ & ~_0104_;
-	assign _0133_ = _0112_ & ~_0132_;
-	assign _0000_[2] = (_0115_ ? _0130_ : _0133_);
-	assign _0134_ = _0118_ | _0104_;
-	assign _0135_ = _0116_ & ~_0134_;
-	assign _0136_ = _0109_ & ~_0117_;
-	assign _0137_ = _0131_ ^ _0104_;
-	assign _0138_ = (_0112_ ? _0137_ : _0136_);
-	assign _0000_[3] = (_0115_ ? _0135_ : _0138_);
-	assign _0139_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [0];
-	assign _0140_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0] & \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1]);
-	assign _0141_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [2] | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [3];
-	assign _0142_ = _0141_ | _0140_;
-	assign _0143_ = _0142_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [4];
-	assign _0144_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [0];
-	assign _0145_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1];
-	assign _0146_ = _0145_ | _0141_;
-	assign _0147_ = _0146_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [4];
-	assign _0148_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [4];
-	assign _0149_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [2] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [3];
-	assign _0150_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0] | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1];
-	assign _0151_ = _0150_ | _0149_;
-	assign _0152_ = _0148_ & ~_0151_;
-	assign _0153_ = _0152_ & \mchip.micro_coded_cpu.mdecode_reg_top.is_imm_active ;
-	assign _0154_ = (_0147_ ? _0153_ : \mchip.micro_coded_cpu.alu_top.alu_result [0]);
-	assign _0155_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0];
-	assign _0156_ = _0155_ | _0141_;
-	assign _0157_ = _0148_ & ~_0156_;
-	assign _0158_ = _0157_ | ~_0154_;
-	assign _0159_ = _0150_ | _0141_;
-	assign _0160_ = _0148_ & ~_0159_;
-	assign _0161_ = (_0160_ ? _0144_ : _0158_);
-	assign _0162_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [3] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [2];
-	assign _0163_ = _0162_ | _0150_;
-	assign _0164_ = _0148_ & ~_0163_;
-	assign _0165_ = _0164_ | _0161_;
-	assign _0166_ = _0143_ & ~_0165_;
-	assign _0167_ = ~(_0166_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [0]);
-	assign _0168_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [1];
-	assign _0169_ = _0147_ | ~\mchip.micro_coded_cpu.alu_top.alu_result [1];
-	assign _0170_ = _0169_ | _0157_;
-	assign _0171_ = (_0160_ ? _0168_ : _0170_);
-	assign _0172_ = _0171_ | _0164_;
-	assign _0173_ = _0143_ & ~_0172_;
-	assign _0174_ = _0173_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [1];
-	assign _0175_ = _0167_ & ~_0174_;
-	assign _0176_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [3];
-	assign _0177_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [3];
-	assign _0178_ = _0147_ | _0177_;
-	assign _0179_ = _0178_ | _0157_;
-	assign _0180_ = (_0160_ ? _0176_ : _0179_);
-	assign _0181_ = _0180_ | _0164_;
-	assign _0182_ = _0143_ & ~_0181_;
-	assign _0183_ = _0182_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [3];
-	assign _0184_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [2];
-	assign _0185_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [2];
-	assign _0186_ = _0147_ | _0185_;
-	assign _0187_ = _0186_ | _0157_;
-	assign _0188_ = (_0160_ ? _0184_ : _0187_);
-	assign _0189_ = _0188_ | _0164_;
-	assign _0190_ = _0143_ & ~_0189_;
-	assign _0191_ = _0190_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [2];
-	assign _0192_ = _0191_ | _0183_;
-	assign _0193_ = _0175_ & ~_0192_;
-	assign _0194_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [7];
-	assign _0195_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [7];
-	assign _0196_ = _0147_ | _0195_;
-	assign _0197_ = _0196_ | _0157_;
-	assign _0198_ = (_0160_ ? _0194_ : _0197_);
-	assign _0199_ = _0198_ | _0164_;
-	assign _0200_ = _0143_ & ~_0199_;
-	assign _0201_ = _0200_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [7];
-	assign _0202_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [6];
-	assign _0203_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [6];
-	assign _0204_ = _0147_ | _0203_;
-	assign _0205_ = _0204_ | _0157_;
-	assign _0206_ = (_0160_ ? _0202_ : _0205_);
-	assign _0207_ = _0206_ | _0164_;
-	assign _0208_ = _0143_ & ~_0207_;
-	assign _0209_ = _0208_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [6];
-	assign _0210_ = _0209_ | _0201_;
-	assign _0211_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [5];
-	assign _0212_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [5];
-	assign _0213_ = _0147_ | _0212_;
-	assign _0214_ = _0213_ | _0157_;
-	assign _0215_ = (_0160_ ? _0211_ : _0214_);
-	assign _0216_ = _0215_ | _0164_;
-	assign _0217_ = _0143_ & ~_0216_;
-	assign _0218_ = _0217_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [5];
-	assign _0219_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [4];
-	assign _0220_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [4];
-	assign _0221_ = _0147_ | _0220_;
-	assign _0222_ = _0221_ | _0157_;
-	assign _0223_ = (_0160_ ? _0219_ : _0222_);
-	assign _0224_ = _0223_ | _0164_;
-	assign _0225_ = _0143_ & ~_0224_;
-	assign _0226_ = _0225_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [4];
-	assign _0227_ = _0226_ | _0218_;
-	assign _0228_ = _0227_ | _0210_;
-	assign _0229_ = _0228_ | ~_0193_;
-	assign _0230_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3] & ~_0229_;
-	assign _0231_ = (_0230_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0] : _0139_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [0] = _0231_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
-	assign _0232_ = \mchip.micro_coded_cpu.m_pc_top.m_pc [1] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [0];
-	assign _0233_ = (_0230_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1] : _0232_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [1] = _0233_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
-	assign _0234_ = ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
-	assign _0235_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [2];
-	assign _0236_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [2];
-	assign _0237_ = \mchip.micro_coded_cpu.m_pc_top.m_pc [1] & \mchip.micro_coded_cpu.m_pc_top.m_pc [0];
-	assign _0238_ = _0237_ ^ _0236_;
-	assign _0239_ = (_0230_ ? _0235_ : _0238_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [2] = _0234_ & ~_0239_;
-	assign _0240_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [3];
-	assign _0241_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [3];
-	assign _0242_ = _0237_ & ~_0236_;
-	assign _0243_ = _0242_ ^ _0241_;
-	assign _0244_ = (_0230_ ? _0240_ : _0243_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [3] = _0234_ & ~_0244_;
-	assign _0245_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [4];
-	assign _0246_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [4];
-	assign _0247_ = ~(\mchip.micro_coded_cpu.m_pc_top.m_pc [3] & \mchip.micro_coded_cpu.m_pc_top.m_pc [2]);
-	assign _0248_ = _0237_ & ~_0247_;
-	assign _0249_ = _0248_ ^ _0246_;
-	assign _0250_ = (_0230_ ? _0245_ : _0249_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [4] = _0234_ & ~_0250_;
-	assign _0251_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [5];
-	assign _0252_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [5];
-	assign _0253_ = _0248_ & ~_0246_;
+	assign _0749_[0] = ~\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0];
+	assign _0041_ = ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
+	assign _0042_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] & \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1];
+	assign _0043_ = _0042_ & ~_0041_;
+	assign _0044_ = _0043_ & ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_file_rw ;
+	assign _0045_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en ;
+	assign _0046_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1] & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0];
+	assign _0047_ = _0046_ & ~_0041_;
+	assign _0048_ = _0047_ | _0045_;
+	assign _0003_ = _0044_ & ~_0048_;
+	assign _0049_ = ~io_in[13];
+	assign _0050_ = _0042_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
+	assign _0008_ = ~(_0050_ & _0049_);
+	assign _0051_ = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [25] | ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [24];
+	assign _0052_ = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [23] | ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [22];
+	assign _0053_ = ~(_0052_ | _0051_);
+	assign _0054_ = ~(_0053_ & _0047_);
+	assign _0005_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en  & ~_0054_;
+	assign _0055_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1];
+	assign _0030_ = _0055_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
+	assign _0056_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1]);
+	assign _0031_ = _0056_ & ~_0041_;
+	assign _0057_ = ~_0030_;
+	assign _0058_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1];
+	assign _0059_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3]);
+	assign _0060_ = _0058_ & ~_0059_;
+	assign _0061_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] | ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4];
+	assign _0062_ = _0060_ & ~_0061_;
+	assign _0063_ = _0062_ | _0057_;
+	assign _0064_ = _0056_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
+	assign _0065_ = ~_0064_;
+	assign _0066_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4]);
+	assign _0067_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] & ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3];
+	assign _0068_ = ~(_0067_ & _0058_);
+	assign _0069_ = _0066_ & ~_0068_;
+	assign _0070_ = (_0064_ ? _0069_ : _0063_);
+	assign _0071_ = _0046_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
+	assign _0072_ = ~(_0071_ | _0030_);
+	assign _0073_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] | ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3];
+	assign _0074_ = _0058_ & ~_0073_;
+	assign _0075_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4] | ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5];
+	assign _0076_ = _0074_ & ~_0075_;
+	assign _0077_ = _0076_ | ~_0031_;
+	assign _0078_ = _0072_ & ~_0077_;
+	assign _0079_ = _0064_ | _0050_;
+	assign _0080_ = _0078_ & ~_0079_;
+	assign _0081_ = ~_0050_;
+	assign _0082_ = \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1];
+	assign _0083_ = _0082_ | _0073_;
+	assign _0084_ = _0066_ & ~_0083_;
+	assign _0085_ = ~(_0084_ | _0081_);
+	assign _0086_ = ~(_0085_ & _0072_);
+	assign _0087_ = _0065_ & ~_0086_;
+	assign _0088_ = _0087_ | _0080_;
+	assign _0089_ = _0070_ & ~_0088_;
+	assign _0090_ = _0031_ | _0047_;
+	assign _0091_ = _0072_ & ~_0090_;
+	assign _0092_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] ? _0042_ : _0056_);
+	assign _0093_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] ? _0055_ : _0042_);
+	assign _0094_ = _0093_ | _0092_;
+	assign _0095_ = _0091_ & ~_0094_;
+	assign _0007_ = _0089_ & ~_0095_;
+	assign _0096_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] ? _0056_ : _0042_);
+	assign _0097_ = _0096_ | ~_0072_;
+	assign _0002_ = _0097_ | _0064_;
+	assign _0098_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] : \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1]);
+	assign _0099_ = _0055_ & ~_0041_;
+	assign _0100_ = _0099_ | ~_0043_;
+	assign _0101_ = _0100_ | _0046_;
+	assign _0006_ = _0098_ & ~_0101_;
+	assign _0102_ = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [22] | ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [23];
+	assign _0103_ = ~(_0102_ | _0051_);
+	assign _0104_ = ~(_0103_ & _0047_);
+	assign _0004_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en  & ~_0104_;
+	assign _0105_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.alu_en_A  | \mchip.micro_coded_cpu.mdecode_reg_top.alu_en_B );
+	assign _0011_ = _0043_ & ~_0105_;
+	assign _0010_ = _0047_ & \mchip.micro_coded_cpu.mdecode_reg_top.alu_en_B ;
+	assign _0009_ = _0047_ & \mchip.micro_coded_cpu.mdecode_reg_top.alu_en_A ;
+	assign _0106_ = ~\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [43];
+	assign _0107_ = ~(\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] & \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42]);
+	assign _0108_ = _0106_ & ~_0107_;
+	assign _0109_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] | ~\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42];
+	assign _0110_ = _0106_ & ~_0109_;
+	assign _0111_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42] | ~\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41];
+	assign _0112_ = _0106_ & ~_0111_;
+	assign _0113_ = _0112_ | _0110_;
+	assign \mchip.micro_coded_cpu.mdecode_reg_top.is_imm_active_md  = _0113_ | _0108_;
+	assign _0114_ = ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [28];
+	assign _0115_ = ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [29];
+	assign _0116_ = (_0030_ ? _0114_ : _0115_);
+	assign _0117_ = _0049_ & ~_0116_;
+	assign _0118_ = ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [26];
+	assign _0119_ = ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [27];
+	assign _0120_ = (_0030_ ? _0118_ : _0119_);
+	assign _0121_ = _0049_ & ~_0120_;
+	assign _0122_ = (_0030_ ? _0119_ : _0114_);
+	assign _0123_ = _0049_ & ~_0122_;
+	assign _0124_ = _0121_ & ~_0123_;
+	assign _0125_ = _0124_ & ~_0117_;
+	assign _0126_ = ~\mchip.micro_coded_cpu.instr_reg_top.instr_reg [30];
+	assign _0127_ = (_0030_ ? _0115_ : _0126_);
+	assign _0128_ = _0049_ & ~_0127_;
+	assign _0129_ = _0125_ & ~_0128_;
+	assign _0130_ = (_0030_ ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [30] : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [31]);
+	assign _0131_ = _0130_ & ~io_in[13];
+	assign _0132_ = ~_0128_;
+	assign _0133_ = ~_0117_;
+	assign _0134_ = _0123_ & _0121_;
+	assign _0135_ = (_0117_ ? _0134_ : _0124_);
+	assign _0136_ = ~_0121_;
+	assign _0137_ = _0121_ | ~_0123_;
+	assign _0138_ = (_0117_ ? _0137_ : _0136_);
+	assign _0139_ = (_0128_ ? _0138_ : _0135_);
+	assign _0000_[0] = (_0131_ ? _0129_ : _0139_);
+	assign _0140_ = _0123_ | _0117_;
+	assign _0141_ = _0132_ & ~_0140_;
+	assign _0142_ = _0123_ & _0117_;
+	assign _0143_ = (_0121_ ? _0123_ : _0117_);
+	assign _0144_ = (_0128_ ? _0143_ : _0142_);
+	assign _0000_[1] = (_0131_ ? _0141_ : _0144_);
+	assign _0145_ = _0137_ | _0117_;
+	assign _0146_ = _0132_ & ~_0145_;
+	assign _0147_ = ~(_0123_ | _0121_);
+	assign _0148_ = _0147_ & ~_0117_;
+	assign _0149_ = _0128_ & ~_0148_;
+	assign _0000_[2] = (_0131_ ? _0146_ : _0149_);
+	assign _0150_ = _0134_ | _0117_;
+	assign _0151_ = _0132_ & ~_0150_;
+	assign _0152_ = _0124_ & ~_0133_;
+	assign _0153_ = _0147_ ^ _0117_;
+	assign _0154_ = (_0128_ ? _0153_ : _0152_);
+	assign _0000_[3] = (_0131_ ? _0151_ : _0154_);
+	assign _0155_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [0];
+	assign _0156_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1] & \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0]);
+	assign _0157_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [3] | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [2];
+	assign _0158_ = _0157_ | _0156_;
+	assign _0159_ = _0158_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [4];
+	assign _0160_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [0];
+	assign _0161_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1];
+	assign _0162_ = _0161_ | _0157_;
+	assign _0163_ = _0162_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [4];
+	assign _0164_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [4];
+	assign _0165_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [2] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [3];
+	assign _0166_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1] | \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0];
+	assign _0167_ = _0166_ | _0165_;
+	assign _0168_ = _0164_ & ~_0167_;
+	assign _0169_ = _0168_ & \mchip.micro_coded_cpu.mdecode_reg_top.is_imm_active ;
+	assign _0170_ = (_0163_ ? _0169_ : \mchip.micro_coded_cpu.alu_top.alu_result [0]);
+	assign _0171_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [1] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [0];
+	assign _0172_ = _0171_ | _0157_;
+	assign _0173_ = _0164_ & ~_0172_;
+	assign _0174_ = _0173_ | ~_0170_;
+	assign _0175_ = _0166_ | _0157_;
+	assign _0176_ = _0164_ & ~_0175_;
+	assign _0177_ = (_0176_ ? _0160_ : _0174_);
+	assign _0178_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [3] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_dst [2];
+	assign _0179_ = _0178_ | _0166_;
+	assign _0180_ = _0164_ & ~_0179_;
+	assign _0181_ = _0180_ | _0177_;
+	assign _0182_ = _0159_ & ~_0181_;
+	assign _0183_ = ~(_0182_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [0]);
+	assign _0184_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [1];
+	assign _0185_ = _0163_ | ~\mchip.micro_coded_cpu.alu_top.alu_result [1];
+	assign _0186_ = _0185_ | _0173_;
+	assign _0187_ = (_0176_ ? _0184_ : _0186_);
+	assign _0188_ = _0187_ | _0180_;
+	assign _0189_ = _0159_ & ~_0188_;
+	assign _0190_ = _0189_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [1];
+	assign _0191_ = _0183_ & ~_0190_;
+	assign _0192_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [3];
+	assign _0193_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [3];
+	assign _0194_ = _0163_ | _0193_;
+	assign _0195_ = _0194_ | _0173_;
+	assign _0196_ = (_0176_ ? _0192_ : _0195_);
+	assign _0197_ = _0196_ | _0180_;
+	assign _0198_ = _0159_ & ~_0197_;
+	assign _0199_ = _0198_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [3];
+	assign _0200_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [2];
+	assign _0201_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [2];
+	assign _0202_ = _0163_ | _0201_;
+	assign _0203_ = _0202_ | _0173_;
+	assign _0204_ = (_0176_ ? _0200_ : _0203_);
+	assign _0205_ = _0204_ | _0180_;
+	assign _0206_ = _0159_ & ~_0205_;
+	assign _0207_ = _0206_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [2];
+	assign _0208_ = _0207_ | _0199_;
+	assign _0209_ = _0191_ & ~_0208_;
+	assign _0210_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [7];
+	assign _0211_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [7];
+	assign _0212_ = _0163_ | _0211_;
+	assign _0213_ = _0212_ | _0173_;
+	assign _0214_ = (_0176_ ? _0210_ : _0213_);
+	assign _0215_ = _0214_ | _0180_;
+	assign _0216_ = _0159_ & ~_0215_;
+	assign _0217_ = _0216_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [7];
+	assign _0218_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [6];
+	assign _0219_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [6];
+	assign _0220_ = _0163_ | _0219_;
+	assign _0221_ = _0220_ | _0173_;
+	assign _0222_ = (_0176_ ? _0218_ : _0221_);
+	assign _0223_ = _0222_ | _0180_;
+	assign _0224_ = _0159_ & ~_0223_;
+	assign _0225_ = _0224_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [6];
+	assign _0226_ = _0225_ | _0217_;
+	assign _0227_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [5];
+	assign _0228_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [5];
+	assign _0229_ = _0163_ | _0228_;
+	assign _0230_ = _0229_ | _0173_;
+	assign _0231_ = (_0176_ ? _0227_ : _0230_);
+	assign _0232_ = _0231_ | _0180_;
+	assign _0233_ = _0159_ & ~_0232_;
+	assign _0234_ = _0233_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [5];
+	assign _0235_ = ~\mchip.micro_coded_cpu.alu_top.A_reg [4];
+	assign _0236_ = ~\mchip.micro_coded_cpu.alu_top.alu_result [4];
+	assign _0237_ = _0163_ | _0236_;
+	assign _0238_ = _0237_ | _0173_;
+	assign _0239_ = (_0176_ ? _0235_ : _0238_);
+	assign _0240_ = _0239_ | _0180_;
+	assign _0241_ = _0159_ & ~_0240_;
+	assign _0242_ = _0241_ ^ \mchip.micro_coded_cpu.mdecode_reg_top.imm [4];
+	assign _0243_ = _0242_ | _0234_;
+	assign _0244_ = _0243_ | _0226_;
+	assign _0245_ = _0244_ | ~_0209_;
+	assign _0246_ = _0047_ & ~_0245_;
+	assign _0247_ = (_0246_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0] : _0155_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [0] = _0247_ & ~_0071_;
+	assign _0248_ = \mchip.micro_coded_cpu.m_pc_top.m_pc [1] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [0];
+	assign _0249_ = (_0246_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1] : _0248_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [1] = _0249_ & ~_0071_;
+	assign _0250_ = ~_0071_;
+	assign _0251_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [2];
+	assign _0252_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [2];
+	assign _0253_ = \mchip.micro_coded_cpu.m_pc_top.m_pc [1] & \mchip.micro_coded_cpu.m_pc_top.m_pc [0];
 	assign _0254_ = _0253_ ^ _0252_;
-	assign _0255_ = (_0230_ ? _0251_ : _0254_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [5] = _0234_ & ~_0255_;
-	assign _0256_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [6];
-	assign _0257_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [6];
-	assign _0258_ = ~(\mchip.micro_coded_cpu.m_pc_top.m_pc [5] & \mchip.micro_coded_cpu.m_pc_top.m_pc [4]);
-	assign _0259_ = _0248_ & ~_0258_;
-	assign _0260_ = _0259_ ^ _0257_;
-	assign _0261_ = (_0230_ ? _0256_ : _0260_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [6] = _0234_ & ~_0261_;
-	assign _0262_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7];
-	assign _0263_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [7];
-	assign _0264_ = _0259_ & ~_0257_;
-	assign _0265_ = _0264_ ^ _0263_;
-	assign _0266_ = (_0230_ ? _0262_ : _0265_);
-	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [7] = _0234_ & ~_0266_;
-	assign _0267_ = ~\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6];
-	assign _0268_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6] ? _0047_ : _0039_);
-	assign _0269_ = _0268_ | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0];
-	assign _0270_ = _0234_ & ~_0269_;
-	assign _0271_ = ~(_0088_ | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0]);
-	assign _0272_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? _0271_ : _0270_);
-	assign _0273_ = _0080_ & ~\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0];
-	assign _0024_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? _0273_ : _0272_);
-	assign _0274_ = _0035_ | ~_0043_;
-	assign _0275_ = _0274_ | _0268_;
-	assign _0276_ = _0234_ & ~_0275_;
-	assign _0277_ = ~(_0274_ | _0088_);
-	assign _0278_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? _0277_ : _0276_);
-	assign _0279_ = _0043_ & ~_0035_;
-	assign _0025_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? _0279_ : _0278_);
-	assign _0280_ = ~(_0035_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2]);
-	assign _0281_ = _0280_ | _0268_;
-	assign _0282_ = _0234_ & ~_0281_;
-	assign _0283_ = ~(_0280_ | _0088_);
-	assign _0284_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? _0283_ : _0282_);
-	assign _0285_ = _0080_ & ~_0280_;
-	assign _0026_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? _0285_ : _0284_);
-	assign _0286_ = ~(_0035_ & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2]);
-	assign _0287_ = _0286_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3];
-	assign _0288_ = _0287_ | _0268_;
-	assign _0289_ = _0234_ & ~_0288_;
-	assign _0290_ = ~(_0287_ | _0088_);
-	assign _0291_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? _0290_ : _0289_);
-	assign _0292_ = _0080_ & ~_0287_;
-	assign _0027_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? _0292_ : _0291_);
-	assign _0293_ = ~(_0086_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4]);
-	assign _0294_ = _0293_ | _0268_;
-	assign _0295_ = _0234_ & ~_0294_;
-	assign _0296_ = ~(_0293_ | _0088_);
-	assign _0297_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? _0296_ : _0295_);
-	assign _0298_ = _0080_ & ~_0293_;
-	assign _0028_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? _0298_ : _0297_);
-	assign _0299_ = ~(_0086_ & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4]);
-	assign _0300_ = _0299_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5];
-	assign _0301_ = _0300_ | _0268_;
-	assign _0302_ = _0234_ & ~_0301_;
-	assign _0303_ = ~(_0300_ | _0088_);
-	assign _0304_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] ? _0303_ : _0302_);
-	assign _0305_ = _0080_ & ~_0300_;
-	assign _0029_ = (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] ? _0305_ : _0304_);
-	assign _0019_ = ~(_0071_ | \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0]);
-	assign _0020_ = \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1];
-	assign _0306_ = _0068_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2];
-	assign _0021_ = _0306_ & ~_0071_;
-	assign _0307_ = _0068_ & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2];
-	assign _0308_ = _0307_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3];
-	assign _0022_ = _0308_ & ~_0071_;
-	assign _0023_ = _0070_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4];
-	assign _0309_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [0] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [1];
-	assign _0310_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2] & \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3]);
-	assign _0311_ = _0310_ | _0309_;
-	assign _0312_ = _0311_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4];
-	assign _0313_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2];
-	assign _0314_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [1] & \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [0]);
-	assign _0315_ = _0314_ | _0313_;
-	assign _0316_ = _0315_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4];
-	assign _0317_ = \mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [0] & ~_0316_;
-	assign _0318_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4];
-	assign _0319_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2] | \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3];
-	assign _0320_ = _0319_ | _0309_;
-	assign _0321_ = _0318_ & ~_0320_;
-	assign _0322_ = (_0321_ ? \mchip.micro_coded_cpu.alu_top.alu_result [0] : _0317_);
-	assign _0323_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [1] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [0];
-	assign _0324_ = _0323_ | _0319_;
-	assign _0325_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4] & ~_0324_;
-	assign _0326_ = (_0325_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0] : _0322_);
-	assign _0327_ = _0323_ | _0310_;
-	assign _0328_ = _0318_ & ~_0327_;
-	assign _0329_ = (_0328_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [0] : _0326_);
-	assign _0330_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3];
-	assign _0331_ = _0330_ | _0323_;
-	assign _0332_ = _0318_ & ~_0331_;
-	assign _0333_ = (_0332_ ? \mchip.micro_coded_cpu.mdecode_reg_top.imm [0] : _0329_);
-	assign _0334_ = _0314_ | _0310_;
-	assign _0335_ = _0318_ & ~_0334_;
-	assign _0336_ = (_0335_ ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [14] : _0333_);
-	assign _0337_ = (_0312_ ? _0336_ : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [18]);
-	assign _0338_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] | \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42];
-	assign _0339_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [43] & ~_0338_;
-	assign _0340_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0] : _0337_);
-	assign _0341_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [0] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [0] = (_0097_ ? _0341_ : _0340_);
-	assign _0342_ = \mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [1] & ~_0316_;
-	assign _0343_ = (_0321_ ? \mchip.micro_coded_cpu.alu_top.alu_result [1] : _0342_);
-	assign _0344_ = (_0325_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1] : _0343_);
-	assign _0345_ = (_0328_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [1] : _0344_);
-	assign _0346_ = (_0332_ ? \mchip.micro_coded_cpu.mdecode_reg_top.imm [1] : _0345_);
-	assign _0347_ = (_0335_ ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [15] : _0346_);
-	assign _0348_ = (_0312_ ? _0347_ : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [19]);
-	assign _0349_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1] : _0348_);
-	assign _0350_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [1] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [1] = (_0097_ ? _0350_ : _0349_);
-	assign _0351_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [2];
-	assign _0352_ = _0316_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [2];
-	assign _0353_ = (_0321_ ? _0185_ : _0352_);
-	assign _0354_ = (_0325_ ? _0235_ : _0353_);
-	assign _0355_ = (_0328_ ? _0236_ : _0354_);
-	assign _0356_ = (_0332_ ? _0351_ : _0355_);
-	assign _0357_ = _0356_ | _0335_;
-	assign _0358_ = _0312_ & ~_0357_;
-	assign _0359_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [2] : _0358_);
-	assign _0360_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [2] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [2]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [2] = (_0097_ ? _0360_ : _0359_);
-	assign _0361_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [3];
-	assign _0362_ = _0316_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [3];
-	assign _0363_ = (_0321_ ? _0177_ : _0362_);
-	assign _0364_ = (_0325_ ? _0240_ : _0363_);
-	assign _0365_ = (_0328_ ? _0241_ : _0364_);
-	assign _0366_ = (_0332_ ? _0361_ : _0365_);
-	assign _0367_ = _0366_ | _0335_;
-	assign _0368_ = _0312_ & ~_0367_;
-	assign _0369_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [3] : _0368_);
-	assign _0370_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [3] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [3]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [3] = (_0097_ ? _0370_ : _0369_);
-	assign _0371_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [4];
-	assign _0372_ = _0316_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [4];
-	assign _0373_ = (_0321_ ? _0220_ : _0372_);
-	assign _0374_ = (_0325_ ? _0245_ : _0373_);
-	assign _0375_ = (_0328_ ? _0246_ : _0374_);
-	assign _0376_ = (_0332_ ? _0371_ : _0375_);
-	assign _0377_ = _0376_ | _0335_;
-	assign _0378_ = _0312_ & ~_0377_;
-	assign _0379_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [4] : _0378_);
-	assign _0380_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [4] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [4]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [4] = (_0097_ ? _0380_ : _0379_);
-	assign _0381_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [5];
-	assign _0382_ = _0316_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [5];
-	assign _0383_ = (_0321_ ? _0212_ : _0382_);
-	assign _0384_ = (_0325_ ? _0251_ : _0383_);
-	assign _0385_ = (_0328_ ? _0252_ : _0384_);
-	assign _0386_ = (_0332_ ? _0381_ : _0385_);
-	assign _0387_ = _0386_ | _0335_;
-	assign _0388_ = _0312_ & ~_0387_;
-	assign _0389_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [5] : _0388_);
-	assign _0390_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [5] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [5]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [5] = (_0097_ ? _0390_ : _0389_);
-	assign _0391_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [6];
-	assign _0392_ = _0316_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [6];
-	assign _0393_ = (_0321_ ? _0203_ : _0392_);
-	assign _0394_ = (_0325_ ? _0256_ : _0393_);
-	assign _0395_ = (_0328_ ? _0257_ : _0394_);
-	assign _0396_ = (_0332_ ? _0391_ : _0395_);
-	assign _0397_ = _0396_ | _0335_;
-	assign _0398_ = _0312_ & ~_0397_;
-	assign _0399_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [6] : _0398_);
-	assign _0400_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [6] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [6]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [6] = (_0097_ ? _0400_ : _0399_);
-	assign _0401_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [7];
-	assign _0402_ = _0316_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [7];
-	assign _0403_ = (_0321_ ? _0195_ : _0402_);
-	assign _0404_ = (_0325_ ? _0262_ : _0403_);
-	assign _0405_ = (_0328_ ? _0263_ : _0404_);
-	assign _0406_ = (_0332_ ? _0401_ : _0405_);
-	assign _0407_ = _0406_ | _0335_;
-	assign _0408_ = _0312_ & ~_0407_;
-	assign _0409_ = (_0339_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7] : _0408_);
-	assign _0410_ = (_0229_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [7] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7]);
-	assign \mchip.micro_coded_cpu.alu_top.A_bus [7] = (_0097_ ? _0410_ : _0409_);
-	assign _0411_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [0] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [0]);
-	assign _0412_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [0] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [0]);
-	assign _0001_[0] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0412_ : _0411_);
-	assign _0413_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [1] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [1]);
-	assign _0414_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [1] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [1]);
-	assign _0001_[1] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0414_ : _0413_);
-	assign _0415_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [2] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [2]);
-	assign _0416_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [2] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [2]);
-	assign _0001_[2] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0416_ : _0415_);
-	assign _0417_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [3] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [3]);
-	assign _0418_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [3] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [3]);
-	assign _0001_[3] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0418_ : _0417_);
-	assign _0419_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [4] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [4]);
-	assign _0420_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [4] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [4]);
-	assign _0001_[4] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0420_ : _0419_);
-	assign _0421_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [5] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [5]);
-	assign _0422_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [5] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [5]);
-	assign _0001_[5] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0422_ : _0421_);
-	assign _0423_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [6] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [6]);
-	assign _0424_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [6] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [6]);
-	assign _0001_[6] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0424_ : _0423_);
-	assign _0425_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [7] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [7]);
-	assign _0426_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [7] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [7]);
-	assign _0001_[7] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0426_ : _0425_);
-	assign _0427_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [1];
-	assign _0428_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0427_ : _0139_);
-	assign _0429_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0241_ : _0236_);
-	assign _0430_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] ? _0429_ : _0428_);
-	assign _0431_ = ~(\mchip.micro_coded_cpu.m_inst_addr_offset [5] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [5]);
-	assign _0432_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0431_ : _0246_);
-	assign _0433_ = \mchip.micro_coded_cpu.m_inst_addr_offset [5] & \mchip.micro_coded_cpu.m_pc_top.m_pc [5];
-	assign _0434_ = \mchip.micro_coded_cpu.m_inst_addr_offset [6] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [6];
-	assign _0435_ = ~(_0434_ ^ _0433_);
-	assign _0436_ = \mchip.micro_coded_cpu.m_inst_addr_offset [6] & \mchip.micro_coded_cpu.m_pc_top.m_pc [6];
-	assign _0437_ = _0434_ & _0433_;
-	assign _0438_ = ~(_0437_ | _0436_);
-	assign _0439_ = ~(\mchip.micro_coded_cpu.m_inst_addr_offset [7] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [7]);
-	assign _0440_ = ~(_0439_ ^ _0438_);
-	assign _0441_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0440_ : _0435_);
-	assign _0442_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] ? _0441_ : _0432_);
-	assign _0443_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2] ? _0442_ : _0430_);
-	assign _0444_ = _0439_ | _0438_;
-	assign _0445_ = \mchip.micro_coded_cpu.m_inst_addr_offset [7] & \mchip.micro_coded_cpu.m_pc_top.m_pc [7];
-	assign _0446_ = _0444_ & ~_0445_;
-	assign _0447_ = _0446_ ^ \mchip.micro_coded_cpu.m_inst_addr_offset [8];
-	assign _0448_ = _0447_ | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0];
-	assign _0449_ = _0448_ | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1];
-	assign _0450_ = _0449_ | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2];
-	assign _0451_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3] ? _0450_ : _0443_);
-	assign _0452_ = _0451_ | _0267_;
-	assign \mchip.micro_coded_cpu.m_inst_addr_stream  = _0042_ & ~_0452_;
-	assign _0453_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2];
-	assign _0454_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] & \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0]);
-	assign _0455_ = _0453_ & ~_0454_;
-	assign _0456_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] | ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0];
-	assign _0457_ = _0453_ & ~_0456_;
-	assign _0458_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0] | ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1];
-	assign _0459_ = _0453_ & ~_0458_;
-	assign _0460_ = ~(_0459_ | _0457_);
-	assign _0461_ = _0455_ | ~_0460_;
-	assign _0462_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2] & ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1];
-	assign _0463_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] & \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2];
-	assign _0464_ = _0463_ | _0462_;
-	assign _0465_ = _0464_ | _0461_;
-	assign _0466_ = \mchip.micro_coded_cpu.alu_top.B_reg [0] & \mchip.micro_coded_cpu.alu_top.A_reg [0];
-	assign _0467_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [0] | \mchip.micro_coded_cpu.alu_top.A_reg [0]);
-	assign _0468_ = _0467_ | _0466_;
-	assign _0469_ = _0468_ | _0460_;
-	assign _0470_ = _0455_ & ~_0467_;
-	assign _0471_ = _0469_ & ~_0470_;
-	assign _0472_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] | \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0];
-	assign _0473_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2] & ~_0472_;
-	assign _0474_ = _0473_ & _0466_;
-	assign _0475_ = _0456_ | _0453_;
-	assign _0476_ = _0144_ & ~_0475_;
-	assign _0477_ = _0476_ | _0474_;
-	assign _0478_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2] & ~_0458_;
-	assign _0479_ = \mchip.micro_coded_cpu.alu_top.B_reg [6] | \mchip.micro_coded_cpu.alu_top.B_reg [7];
-	assign _0480_ = \mchip.micro_coded_cpu.alu_top.B_reg [4] | \mchip.micro_coded_cpu.alu_top.B_reg [5];
-	assign _0481_ = _0480_ | _0479_;
-	assign _0482_ = _0481_ | _0144_;
-	assign _0483_ = _0482_ | \mchip.micro_coded_cpu.alu_top.B_reg [0];
-	assign _0484_ = _0483_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
-	assign _0485_ = _0484_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0486_ = _0485_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0487_ = _0478_ & ~_0486_;
-	assign _0488_ = ~\mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0489_ = ~\mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0490_ = _0481_ | _0168_;
-	assign _0491_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0490_ : _0482_);
-	assign _0492_ = _0481_ | _0184_;
-	assign _0493_ = _0481_ | _0176_;
-	assign _0494_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0493_ : _0492_);
-	assign _0495_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0494_ : _0491_);
-	assign _0496_ = _0481_ | _0219_;
-	assign _0497_ = _0481_ | _0211_;
-	assign _0498_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0497_ : _0496_);
-	assign _0499_ = _0481_ | _0202_;
-	assign _0500_ = _0481_ | _0194_;
-	assign _0501_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0500_ : _0499_);
-	assign _0502_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0501_ : _0498_);
-	assign _0503_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0502_ : _0495_);
-	assign _0504_ = _0488_ & ~_0503_;
-	assign _0505_ = _0454_ | _0453_;
-	assign _0506_ = _0504_ & ~_0505_;
-	assign _0507_ = _0506_ | _0487_;
-	assign _0508_ = _0507_ | _0477_;
-	assign _0509_ = _0471_ & ~_0508_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [0] = _0465_ & ~_0509_;
-	assign _0510_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0492_ : _0490_);
-	assign _0511_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0496_ : _0493_);
-	assign _0512_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0511_ : _0510_);
-	assign _0513_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0499_ : _0497_);
-	assign _0514_ = _0500_ | \mchip.micro_coded_cpu.alu_top.B_reg [0];
-	assign _0515_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0514_ : _0513_);
-	assign _0516_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0515_ : _0512_);
-	assign _0517_ = _0516_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0518_ = _0517_ | _0505_;
-	assign _0519_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0482_ : _0490_);
-	assign _0520_ = _0519_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
-	assign _0521_ = _0520_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0522_ = _0521_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0523_ = _0478_ & ~_0522_;
-	assign _0524_ = _0518_ & ~_0523_;
-	assign _0525_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [1] & \mchip.micro_coded_cpu.alu_top.A_reg [1]);
-	assign _0526_ = _0473_ & ~_0525_;
-	assign _0527_ = _0168_ & ~_0475_;
-	assign _0528_ = _0527_ | _0526_;
-	assign _0529_ = _0524_ & ~_0528_;
-	assign _0530_ = ~_0460_;
-	assign _0531_ = \mchip.micro_coded_cpu.alu_top.A_reg [0] | ~\mchip.micro_coded_cpu.alu_top.B_reg [0];
-	assign _0532_ = \mchip.micro_coded_cpu.alu_top.B_reg [1] ^ \mchip.micro_coded_cpu.alu_top.B_reg [0];
-	assign _0533_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [1] : _0532_);
-	assign _0534_ = _0533_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [1];
-	assign _0535_ = _0534_ ^ _0531_;
-	assign _0536_ = _0530_ & ~_0535_;
-	assign _0537_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [1] | \mchip.micro_coded_cpu.alu_top.A_reg [1]);
-	assign _0538_ = _0455_ & ~_0537_;
-	assign _0539_ = _0538_ | _0536_;
-	assign _0540_ = _0529_ & ~_0539_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [1] = _0465_ & ~_0540_;
-	assign _0541_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0498_ : _0494_);
-	assign _0542_ = _0501_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
-	assign _0543_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0542_ : _0541_);
-	assign _0544_ = _0543_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0545_ = _0544_ | _0505_;
-	assign _0546_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0490_ : _0492_);
-	assign _0547_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0483_ : _0546_);
-	assign _0548_ = _0547_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0549_ = _0548_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0550_ = _0478_ & ~_0549_;
-	assign _0551_ = _0545_ & ~_0550_;
-	assign _0552_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [2] & \mchip.micro_coded_cpu.alu_top.A_reg [2]);
-	assign _0553_ = _0473_ & ~_0552_;
-	assign _0554_ = _0184_ & ~_0475_;
-	assign _0555_ = _0554_ | _0553_;
-	assign _0556_ = _0551_ & ~_0555_;
-	assign _0557_ = _0531_ & ~_0534_;
-	assign _0558_ = \mchip.micro_coded_cpu.alu_top.A_reg [1] & ~_0533_;
-	assign _0559_ = _0558_ | _0557_;
-	assign _0560_ = \mchip.micro_coded_cpu.alu_top.B_reg [1] | \mchip.micro_coded_cpu.alu_top.B_reg [0];
-	assign _0561_ = _0560_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0562_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [2] : _0561_);
-	assign _0563_ = _0562_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [2];
-	assign _0564_ = _0563_ ^ _0559_;
-	assign _0565_ = _0530_ & ~_0564_;
-	assign _0566_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [2] | \mchip.micro_coded_cpu.alu_top.A_reg [2]);
-	assign _0567_ = _0455_ & ~_0566_;
-	assign _0568_ = _0567_ | _0565_;
-	assign _0569_ = _0556_ & ~_0568_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [2] = _0465_ & ~_0569_;
-	assign _0570_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0513_ : _0511_);
-	assign _0571_ = _0514_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
-	assign _0572_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0571_ : _0570_);
-	assign _0573_ = _0572_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0574_ = _0573_ | _0505_;
-	assign _0575_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0492_ : _0493_);
-	assign _0576_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0519_ : _0575_);
-	assign _0577_ = _0576_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0255_ = (_0246_ ? _0251_ : _0254_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [2] = _0250_ & ~_0255_;
+	assign _0256_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [3];
+	assign _0257_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [3];
+	assign _0258_ = _0253_ & ~_0252_;
+	assign _0259_ = _0258_ ^ _0257_;
+	assign _0260_ = (_0246_ ? _0256_ : _0259_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [3] = _0250_ & ~_0260_;
+	assign _0261_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [4];
+	assign _0262_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [4];
+	assign _0263_ = ~(\mchip.micro_coded_cpu.m_pc_top.m_pc [3] & \mchip.micro_coded_cpu.m_pc_top.m_pc [2]);
+	assign _0264_ = _0253_ & ~_0263_;
+	assign _0265_ = _0264_ ^ _0262_;
+	assign _0266_ = (_0246_ ? _0261_ : _0265_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [4] = _0250_ & ~_0266_;
+	assign _0267_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [5];
+	assign _0268_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [5];
+	assign _0269_ = _0264_ & ~_0262_;
+	assign _0270_ = _0269_ ^ _0268_;
+	assign _0271_ = (_0246_ ? _0267_ : _0270_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [5] = _0250_ & ~_0271_;
+	assign _0272_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [6];
+	assign _0273_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [6];
+	assign _0274_ = ~(\mchip.micro_coded_cpu.m_pc_top.m_pc [5] & \mchip.micro_coded_cpu.m_pc_top.m_pc [4]);
+	assign _0275_ = _0264_ & ~_0274_;
+	assign _0276_ = _0275_ ^ _0273_;
+	assign _0277_ = (_0246_ ? _0272_ : _0276_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [6] = _0250_ & ~_0277_;
+	assign _0278_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7];
+	assign _0279_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [7];
+	assign _0280_ = _0275_ & ~_0273_;
+	assign _0281_ = _0280_ ^ _0279_;
+	assign _0282_ = (_0246_ ? _0278_ : _0281_);
+	assign \mchip.micro_coded_cpu.m_pc_top.next_m_pc [7] = _0250_ & ~_0282_;
+	assign _0283_ = _0099_ & ~_0031_;
+	assign _0284_ = _0081_ & ~_0283_;
+	assign _0285_ = _0250_ & ~_0284_;
+	assign _0286_ = _0057_ & ~_0285_;
+	assign _0023_ = _0286_ | _0064_;
+	assign _0287_ = \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1];
+	assign _0288_ = ~(\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2] & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3]);
+	assign _0289_ = _0287_ & ~_0288_;
+	assign _0290_ = _0289_ & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4];
+	assign _0291_ = _0290_ & ~_0047_;
+	assign _0292_ = _0291_ & ~_0099_;
+	assign _0293_ = _0292_ | _0031_;
+	assign _0294_ = _0081_ & ~_0293_;
+	assign _0295_ = _0294_ | _0071_;
+	assign _0296_ = _0057_ & ~_0295_;
+	assign _0024_ = _0065_ & ~_0296_;
+	assign _0297_ = _0099_ | _0047_;
+	assign _0298_ = _0297_ | _0031_;
+	assign _0299_ = _0081_ & ~_0298_;
+	assign _0300_ = _0299_ | _0071_;
+	assign _0301_ = _0300_ | _0030_;
+	assign _0025_ = _0065_ & ~_0301_;
+	assign _0302_ = (_0050_ ? _0084_ : _0076_);
+	assign _0303_ = _0302_ | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0];
+	assign _0304_ = _0250_ & ~_0303_;
+	assign _0305_ = ~(_0062_ | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0]);
+	assign _0306_ = (_0030_ ? _0305_ : _0304_);
+	assign _0307_ = ~(_0069_ | \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0]);
+	assign _0017_ = (_0064_ ? _0307_ : _0306_);
+	assign _0308_ = _0058_ | ~_0082_;
+	assign _0309_ = _0308_ | _0302_;
+	assign _0310_ = _0250_ & ~_0309_;
+	assign _0311_ = ~(_0308_ | _0062_);
+	assign _0312_ = (_0030_ ? _0311_ : _0310_);
+	assign _0313_ = ~(_0308_ | _0069_);
+	assign _0018_ = (_0064_ ? _0313_ : _0312_);
+	assign _0314_ = ~(_0058_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2]);
+	assign _0315_ = _0314_ | _0302_;
+	assign _0316_ = _0250_ & ~_0315_;
+	assign _0317_ = ~(_0314_ | _0062_);
+	assign _0318_ = (_0030_ ? _0317_ : _0316_);
+	assign _0319_ = ~(_0314_ | _0069_);
+	assign _0019_ = (_0064_ ? _0319_ : _0318_);
+	assign _0320_ = ~(_0058_ & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2]);
+	assign _0321_ = _0320_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3];
+	assign _0322_ = _0321_ | _0302_;
+	assign _0323_ = _0250_ & ~_0322_;
+	assign _0324_ = ~(_0321_ | _0062_);
+	assign _0325_ = (_0030_ ? _0324_ : _0323_);
+	assign _0326_ = ~(_0321_ | _0069_);
+	assign _0020_ = (_0064_ ? _0326_ : _0325_);
+	assign _0327_ = ~(_0060_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4]);
+	assign _0328_ = _0327_ | _0302_;
+	assign _0329_ = _0250_ & ~_0328_;
+	assign _0330_ = ~(_0327_ | _0062_);
+	assign _0331_ = (_0030_ ? _0330_ : _0329_);
+	assign _0332_ = ~(_0327_ | _0069_);
+	assign _0021_ = (_0064_ ? _0332_ : _0331_);
+	assign _0333_ = ~(_0060_ & \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4]);
+	assign _0334_ = _0333_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5];
+	assign _0335_ = _0334_ | _0302_;
+	assign _0336_ = _0250_ & ~_0335_;
+	assign _0337_ = ~(_0334_ | _0062_);
+	assign _0338_ = (_0030_ ? _0337_ : _0336_);
+	assign _0339_ = ~(_0334_ | _0069_);
+	assign _0022_ = (_0064_ ? _0339_ : _0338_);
+	assign _0012_ = ~(_0290_ | \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0]);
+	assign _0013_ = \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1];
+	assign _0340_ = _0287_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2];
+	assign _0014_ = _0340_ & ~_0290_;
+	assign _0341_ = _0287_ & \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2];
+	assign _0342_ = _0341_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3];
+	assign _0015_ = _0342_ & ~_0290_;
+	assign _0016_ = _0289_ ^ \mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4];
+	assign _0343_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [0] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [1];
+	assign _0344_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2] & \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3]);
+	assign _0345_ = _0344_ | _0343_;
+	assign _0346_ = _0345_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4];
+	assign _0347_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2];
+	assign _0348_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [1] & \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [0]);
+	assign _0349_ = _0348_ | _0347_;
+	assign _0350_ = _0349_ | \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4];
+	assign _0351_ = \mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [0] & ~_0350_;
+	assign _0352_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4];
+	assign _0353_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2] | \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3];
+	assign _0354_ = _0353_ | _0343_;
+	assign _0355_ = _0352_ & ~_0354_;
+	assign _0356_ = (_0355_ ? \mchip.micro_coded_cpu.alu_top.alu_result [0] : _0351_);
+	assign _0357_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [1] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [0];
+	assign _0358_ = _0357_ | _0353_;
+	assign _0359_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [4] & ~_0358_;
+	assign _0360_ = (_0359_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0] : _0356_);
+	assign _0361_ = _0357_ | _0344_;
+	assign _0362_ = _0352_ & ~_0361_;
+	assign _0363_ = (_0362_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [0] : _0360_);
+	assign _0364_ = \mchip.micro_coded_cpu.mdecode_reg_top.reg_src [2] | ~\mchip.micro_coded_cpu.mdecode_reg_top.reg_src [3];
+	assign _0365_ = _0364_ | _0357_;
+	assign _0366_ = _0352_ & ~_0365_;
+	assign _0367_ = (_0366_ ? \mchip.micro_coded_cpu.mdecode_reg_top.imm [0] : _0363_);
+	assign _0368_ = _0348_ | _0344_;
+	assign _0369_ = _0352_ & ~_0368_;
+	assign _0370_ = (_0369_ ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [14] : _0367_);
+	assign _0371_ = (_0346_ ? _0370_ : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [18]);
+	assign _0372_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] | \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42];
+	assign _0373_ = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [43] & ~_0372_;
+	assign _0374_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0] : _0371_);
+	assign _0375_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [0] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [0]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [0] = (_0108_ ? _0375_ : _0374_);
+	assign _0376_ = \mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [1] & ~_0350_;
+	assign _0377_ = (_0355_ ? \mchip.micro_coded_cpu.alu_top.alu_result [1] : _0376_);
+	assign _0378_ = (_0359_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1] : _0377_);
+	assign _0379_ = (_0362_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [1] : _0378_);
+	assign _0380_ = (_0366_ ? \mchip.micro_coded_cpu.mdecode_reg_top.imm [1] : _0379_);
+	assign _0381_ = (_0369_ ? \mchip.micro_coded_cpu.instr_reg_top.instr_reg [15] : _0380_);
+	assign _0382_ = (_0346_ ? _0381_ : \mchip.micro_coded_cpu.instr_reg_top.instr_reg [19]);
+	assign _0383_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1] : _0382_);
+	assign _0384_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [1] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [1]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [1] = (_0108_ ? _0384_ : _0383_);
+	assign _0385_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [2];
+	assign _0386_ = _0350_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [2];
+	assign _0387_ = (_0355_ ? _0201_ : _0386_);
+	assign _0388_ = (_0359_ ? _0251_ : _0387_);
+	assign _0389_ = (_0362_ ? _0252_ : _0388_);
+	assign _0390_ = (_0366_ ? _0385_ : _0389_);
+	assign _0391_ = _0390_ | _0369_;
+	assign _0392_ = _0346_ & ~_0391_;
+	assign _0393_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [2] : _0392_);
+	assign _0394_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [2] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [2]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [2] = (_0108_ ? _0394_ : _0393_);
+	assign _0395_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [3];
+	assign _0396_ = _0350_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [3];
+	assign _0397_ = (_0355_ ? _0193_ : _0396_);
+	assign _0398_ = (_0359_ ? _0256_ : _0397_);
+	assign _0399_ = (_0362_ ? _0257_ : _0398_);
+	assign _0400_ = (_0366_ ? _0395_ : _0399_);
+	assign _0401_ = _0400_ | _0369_;
+	assign _0402_ = _0346_ & ~_0401_;
+	assign _0403_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [3] : _0402_);
+	assign _0404_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [3] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [3]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [3] = (_0108_ ? _0404_ : _0403_);
+	assign _0405_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [4];
+	assign _0406_ = _0350_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [4];
+	assign _0407_ = (_0355_ ? _0236_ : _0406_);
+	assign _0408_ = (_0359_ ? _0261_ : _0407_);
+	assign _0409_ = (_0362_ ? _0262_ : _0408_);
+	assign _0410_ = (_0366_ ? _0405_ : _0409_);
+	assign _0411_ = _0410_ | _0369_;
+	assign _0412_ = _0346_ & ~_0411_;
+	assign _0413_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [4] : _0412_);
+	assign _0414_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [4] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [4]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [4] = (_0108_ ? _0414_ : _0413_);
+	assign _0415_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [5];
+	assign _0416_ = _0350_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [5];
+	assign _0417_ = (_0355_ ? _0228_ : _0416_);
+	assign _0418_ = (_0359_ ? _0267_ : _0417_);
+	assign _0419_ = (_0362_ ? _0268_ : _0418_);
+	assign _0420_ = (_0366_ ? _0415_ : _0419_);
+	assign _0421_ = _0420_ | _0369_;
+	assign _0422_ = _0346_ & ~_0421_;
+	assign _0423_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [5] : _0422_);
+	assign _0424_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [5] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [5]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [5] = (_0108_ ? _0424_ : _0423_);
+	assign _0425_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [6];
+	assign _0426_ = _0350_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [6];
+	assign _0427_ = (_0355_ ? _0219_ : _0426_);
+	assign _0428_ = (_0359_ ? _0272_ : _0427_);
+	assign _0429_ = (_0362_ ? _0273_ : _0428_);
+	assign _0430_ = (_0366_ ? _0425_ : _0429_);
+	assign _0431_ = _0430_ | _0369_;
+	assign _0432_ = _0346_ & ~_0431_;
+	assign _0433_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [6] : _0432_);
+	assign _0434_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [6] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [6]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [6] = (_0108_ ? _0434_ : _0433_);
+	assign _0435_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.imm [7];
+	assign _0436_ = _0350_ | ~\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [7];
+	assign _0437_ = (_0355_ ? _0211_ : _0436_);
+	assign _0438_ = (_0359_ ? _0278_ : _0437_);
+	assign _0439_ = (_0362_ ? _0279_ : _0438_);
+	assign _0440_ = (_0366_ ? _0435_ : _0439_);
+	assign _0441_ = _0440_ | _0369_;
+	assign _0442_ = _0346_ & ~_0441_;
+	assign _0443_ = (_0373_ ? \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7] : _0442_);
+	assign _0444_ = (_0245_ ? \mchip.micro_coded_cpu.m_pc_top.m_pc [7] : \mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7]);
+	assign \mchip.micro_coded_cpu.alu_top.A_bus [7] = (_0108_ ? _0444_ : _0443_);
+	assign _0445_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [0] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [0]);
+	assign _0446_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [0] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [0]);
+	assign _0001_[0] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0446_ : _0445_);
+	assign _0447_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [1] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [1]);
+	assign _0448_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [1] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [1]);
+	assign _0001_[1] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0448_ : _0447_);
+	assign _0449_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [2] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [2]);
+	assign _0450_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [2] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [2]);
+	assign _0001_[2] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0450_ : _0449_);
+	assign _0451_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [3] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [3]);
+	assign _0452_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [3] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [3]);
+	assign _0001_[3] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0452_ : _0451_);
+	assign _0453_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [4] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [4]);
+	assign _0454_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [4] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [4]);
+	assign _0001_[4] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0454_ : _0453_);
+	assign _0455_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [5] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [5]);
+	assign _0456_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [5] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [5]);
+	assign _0001_[5] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0456_ : _0455_);
+	assign _0457_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [6] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [6]);
+	assign _0458_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [6] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [6]);
+	assign _0001_[6] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0458_ : _0457_);
+	assign _0459_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [7] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [7]);
+	assign _0460_ = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] ? \mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [7] : \mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [7]);
+	assign _0001_[7] = (\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] ? _0460_ : _0459_);
+	assign _0461_ = ~\mchip.micro_coded_cpu.m_pc_top.m_pc [1];
+	assign _0462_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0461_ : _0155_);
+	assign _0463_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0257_ : _0252_);
+	assign _0464_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] ? _0463_ : _0462_);
+	assign _0465_ = ~(\mchip.micro_coded_cpu.m_inst_addr_offset [5] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [5]);
+	assign _0466_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0465_ : _0262_);
+	assign _0467_ = \mchip.micro_coded_cpu.m_inst_addr_offset [5] & \mchip.micro_coded_cpu.m_pc_top.m_pc [5];
+	assign _0468_ = \mchip.micro_coded_cpu.m_inst_addr_offset [6] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [6];
+	assign _0469_ = ~(_0468_ ^ _0467_);
+	assign _0470_ = \mchip.micro_coded_cpu.m_inst_addr_offset [6] & \mchip.micro_coded_cpu.m_pc_top.m_pc [6];
+	assign _0471_ = _0468_ & _0467_;
+	assign _0472_ = ~(_0471_ | _0470_);
+	assign _0473_ = ~(\mchip.micro_coded_cpu.m_inst_addr_offset [7] ^ \mchip.micro_coded_cpu.m_pc_top.m_pc [7]);
+	assign _0474_ = ~(_0473_ ^ _0472_);
+	assign _0475_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] ? _0474_ : _0469_);
+	assign _0476_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] ? _0475_ : _0466_);
+	assign _0477_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2] ? _0476_ : _0464_);
+	assign _0478_ = _0473_ | _0472_;
+	assign _0479_ = \mchip.micro_coded_cpu.m_inst_addr_offset [7] & \mchip.micro_coded_cpu.m_pc_top.m_pc [7];
+	assign _0480_ = _0478_ & ~_0479_;
+	assign _0481_ = _0480_ ^ \mchip.micro_coded_cpu.m_inst_addr_offset [8];
+	assign _0482_ = _0481_ | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0];
+	assign _0483_ = _0482_ | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1];
+	assign _0484_ = _0483_ | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2];
+	assign _0485_ = (\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3] ? _0484_ : _0477_);
+	assign _0486_ = _0485_ | _0081_;
+	assign \mchip.micro_coded_cpu.m_inst_addr_stream  = _0049_ & ~_0486_;
+	assign _0487_ = ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2];
+	assign _0488_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] & \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0]);
+	assign _0489_ = _0487_ & ~_0488_;
+	assign _0490_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] | ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0];
+	assign _0491_ = _0487_ & ~_0490_;
+	assign _0492_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0] | ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1];
+	assign _0493_ = _0487_ & ~_0492_;
+	assign _0494_ = ~(_0493_ | _0491_);
+	assign _0495_ = _0489_ | ~_0494_;
+	assign _0496_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2] & ~\mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1];
+	assign _0497_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] & \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2];
+	assign _0498_ = _0497_ | _0496_;
+	assign _0499_ = _0498_ | _0495_;
+	assign _0500_ = \mchip.micro_coded_cpu.alu_top.B_reg [0] & \mchip.micro_coded_cpu.alu_top.A_reg [0];
+	assign _0501_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [0] | \mchip.micro_coded_cpu.alu_top.A_reg [0]);
+	assign _0502_ = _0501_ | _0500_;
+	assign _0503_ = _0502_ | _0494_;
+	assign _0504_ = _0489_ & ~_0501_;
+	assign _0505_ = _0503_ & ~_0504_;
+	assign _0506_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [1] | \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [0];
+	assign _0507_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2] & ~_0506_;
+	assign _0508_ = _0507_ & _0500_;
+	assign _0509_ = _0490_ | _0487_;
+	assign _0510_ = _0160_ & ~_0509_;
+	assign _0511_ = _0510_ | _0508_;
+	assign _0512_ = \mchip.micro_coded_cpu.mdecode_reg_top.alu_op [2] & ~_0492_;
+	assign _0513_ = \mchip.micro_coded_cpu.alu_top.B_reg [6] | \mchip.micro_coded_cpu.alu_top.B_reg [7];
+	assign _0514_ = \mchip.micro_coded_cpu.alu_top.B_reg [4] | \mchip.micro_coded_cpu.alu_top.B_reg [5];
+	assign _0515_ = _0514_ | _0513_;
+	assign _0516_ = _0515_ | _0160_;
+	assign _0517_ = _0516_ | \mchip.micro_coded_cpu.alu_top.B_reg [0];
+	assign _0518_ = _0517_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
+	assign _0519_ = _0518_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0520_ = _0519_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0521_ = _0512_ & ~_0520_;
+	assign _0522_ = ~\mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0523_ = ~\mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0524_ = _0515_ | _0184_;
+	assign _0525_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0524_ : _0516_);
+	assign _0526_ = _0515_ | _0200_;
+	assign _0527_ = _0515_ | _0192_;
+	assign _0528_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0527_ : _0526_);
+	assign _0529_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0528_ : _0525_);
+	assign _0530_ = _0515_ | _0235_;
+	assign _0531_ = _0515_ | _0227_;
+	assign _0532_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0531_ : _0530_);
+	assign _0533_ = _0515_ | _0218_;
+	assign _0534_ = _0515_ | _0210_;
+	assign _0535_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0534_ : _0533_);
+	assign _0536_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0535_ : _0532_);
+	assign _0537_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0536_ : _0529_);
+	assign _0538_ = _0522_ & ~_0537_;
+	assign _0539_ = _0488_ | _0487_;
+	assign _0540_ = _0538_ & ~_0539_;
+	assign _0541_ = _0540_ | _0521_;
+	assign _0542_ = _0541_ | _0511_;
+	assign _0543_ = _0505_ & ~_0542_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [0] = _0499_ & ~_0543_;
+	assign _0544_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0526_ : _0524_);
+	assign _0545_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0530_ : _0527_);
+	assign _0546_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0545_ : _0544_);
+	assign _0547_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0533_ : _0531_);
+	assign _0548_ = _0534_ | \mchip.micro_coded_cpu.alu_top.B_reg [0];
+	assign _0549_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0548_ : _0547_);
+	assign _0550_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0549_ : _0546_);
+	assign _0551_ = _0550_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0552_ = _0551_ | _0539_;
+	assign _0553_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0516_ : _0524_);
+	assign _0554_ = _0553_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
+	assign _0555_ = _0554_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0556_ = _0555_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0557_ = _0512_ & ~_0556_;
+	assign _0558_ = _0552_ & ~_0557_;
+	assign _0559_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [1] & \mchip.micro_coded_cpu.alu_top.A_reg [1]);
+	assign _0560_ = _0507_ & ~_0559_;
+	assign _0561_ = _0184_ & ~_0509_;
+	assign _0562_ = _0561_ | _0560_;
+	assign _0563_ = _0558_ & ~_0562_;
+	assign _0564_ = ~_0494_;
+	assign _0565_ = \mchip.micro_coded_cpu.alu_top.A_reg [0] | ~\mchip.micro_coded_cpu.alu_top.B_reg [0];
+	assign _0566_ = \mchip.micro_coded_cpu.alu_top.B_reg [1] ^ \mchip.micro_coded_cpu.alu_top.B_reg [0];
+	assign _0567_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [1] : _0566_);
+	assign _0568_ = _0567_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [1];
+	assign _0569_ = _0568_ ^ _0565_;
+	assign _0570_ = _0564_ & ~_0569_;
+	assign _0571_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [1] | \mchip.micro_coded_cpu.alu_top.A_reg [1]);
+	assign _0572_ = _0489_ & ~_0571_;
+	assign _0573_ = _0572_ | _0570_;
+	assign _0574_ = _0563_ & ~_0573_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [1] = _0499_ & ~_0574_;
+	assign _0575_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0532_ : _0528_);
+	assign _0576_ = _0535_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
+	assign _0577_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0576_ : _0575_);
 	assign _0578_ = _0577_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0579_ = _0478_ & ~_0578_;
-	assign _0580_ = _0574_ & ~_0579_;
-	assign _0581_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [3] & \mchip.micro_coded_cpu.alu_top.A_reg [3]);
-	assign _0582_ = _0473_ & ~_0581_;
-	assign _0583_ = _0176_ & ~_0475_;
-	assign _0584_ = _0583_ | _0582_;
-	assign _0585_ = _0580_ & ~_0584_;
-	assign _0586_ = \mchip.micro_coded_cpu.alu_top.A_reg [2] & ~_0562_;
-	assign _0587_ = _0559_ & ~_0563_;
-	assign _0588_ = _0587_ | _0586_;
-	assign _0589_ = _0489_ & ~_0560_;
-	assign _0590_ = _0589_ ^ _0488_;
-	assign _0591_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [3] : _0590_);
-	assign _0592_ = _0591_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [3];
-	assign _0593_ = _0592_ ^ _0588_;
-	assign _0594_ = _0530_ & ~_0593_;
-	assign _0595_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [3] | \mchip.micro_coded_cpu.alu_top.A_reg [3]);
-	assign _0596_ = _0455_ & ~_0595_;
-	assign _0597_ = _0596_ | _0594_;
-	assign _0598_ = _0585_ & ~_0597_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [3] = _0465_ & ~_0598_;
-	assign _0599_ = _0502_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0600_ = _0599_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0601_ = _0600_ | _0505_;
-	assign _0602_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0493_ : _0496_);
-	assign _0603_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0546_ : _0602_);
-	assign _0604_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0484_ : _0603_);
-	assign _0605_ = _0604_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0606_ = _0478_ & ~_0605_;
-	assign _0607_ = _0601_ & ~_0606_;
-	assign _0608_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [4] & \mchip.micro_coded_cpu.alu_top.A_reg [4]);
-	assign _0609_ = _0473_ & ~_0608_;
-	assign _0610_ = _0219_ & ~_0475_;
-	assign _0611_ = _0610_ | _0609_;
-	assign _0612_ = _0607_ & ~_0611_;
-	assign _0613_ = \mchip.micro_coded_cpu.alu_top.A_reg [3] & ~_0591_;
-	assign _0614_ = _0586_ & ~_0592_;
-	assign _0615_ = _0614_ | _0613_;
-	assign _0616_ = _0592_ | _0563_;
-	assign _0617_ = _0559_ & ~_0616_;
-	assign _0618_ = _0617_ | _0615_;
-	assign _0619_ = \mchip.micro_coded_cpu.alu_top.B_reg [2] | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0620_ = _0619_ | _0560_;
-	assign _0621_ = _0620_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [4];
-	assign _0622_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [4] : _0621_);
-	assign _0623_ = _0622_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [4];
-	assign _0624_ = _0623_ ^ _0618_;
-	assign _0625_ = _0530_ & ~_0624_;
-	assign _0626_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [4] | \mchip.micro_coded_cpu.alu_top.A_reg [4]);
-	assign _0627_ = _0455_ & ~_0626_;
-	assign _0628_ = _0627_ | _0625_;
-	assign _0629_ = _0612_ & ~_0628_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [4] = _0465_ & ~_0629_;
-	assign _0630_ = _0515_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0631_ = _0630_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0632_ = _0631_ | _0505_;
-	assign _0633_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0496_ : _0497_);
-	assign _0634_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0575_ : _0633_);
-	assign _0635_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0520_ : _0634_);
-	assign _0636_ = _0635_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0637_ = _0478_ & ~_0636_;
-	assign _0638_ = _0632_ & ~_0637_;
-	assign _0639_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [5] & \mchip.micro_coded_cpu.alu_top.A_reg [5]);
-	assign _0640_ = _0473_ & ~_0639_;
-	assign _0641_ = _0211_ & ~_0475_;
-	assign _0642_ = _0641_ | _0640_;
-	assign _0643_ = _0638_ & ~_0642_;
-	assign _0644_ = \mchip.micro_coded_cpu.alu_top.A_reg [4] & ~_0622_;
-	assign _0645_ = _0618_ & ~_0623_;
-	assign _0646_ = _0645_ | _0644_;
-	assign _0647_ = _0620_ | \mchip.micro_coded_cpu.alu_top.B_reg [4];
-	assign _0648_ = _0647_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [5];
-	assign _0649_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [5] : _0648_);
-	assign _0650_ = _0649_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [5];
-	assign _0651_ = _0650_ ^ _0646_;
-	assign _0652_ = _0530_ & ~_0651_;
-	assign _0653_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [5] | \mchip.micro_coded_cpu.alu_top.A_reg [5]);
-	assign _0654_ = _0455_ & ~_0653_;
-	assign _0655_ = _0654_ | _0652_;
-	assign _0656_ = _0643_ & ~_0655_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [5] = _0465_ & ~_0656_;
-	assign _0657_ = _0542_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0658_ = _0657_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0659_ = _0658_ | _0505_;
-	assign _0660_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0497_ : _0499_);
-	assign _0661_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0602_ : _0660_);
-	assign _0662_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0547_ : _0661_);
-	assign _0663_ = _0662_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0664_ = _0478_ & ~_0663_;
-	assign _0665_ = _0659_ & ~_0664_;
-	assign _0666_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [6] & \mchip.micro_coded_cpu.alu_top.A_reg [6]);
-	assign _0667_ = _0473_ & ~_0666_;
-	assign _0668_ = _0202_ & ~_0475_;
-	assign _0669_ = _0668_ | _0667_;
-	assign _0670_ = _0665_ & ~_0669_;
-	assign _0671_ = \mchip.micro_coded_cpu.alu_top.A_reg [5] & ~_0649_;
-	assign _0672_ = _0644_ & ~_0650_;
-	assign _0673_ = _0672_ | _0671_;
-	assign _0674_ = _0650_ | _0623_;
-	assign _0675_ = _0618_ & ~_0674_;
-	assign _0676_ = _0675_ | _0673_;
-	assign _0677_ = ~(_0620_ | _0480_);
-	assign _0678_ = ~(_0677_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [6]);
-	assign _0679_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [6] : _0678_);
-	assign _0680_ = _0679_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [6];
-	assign _0681_ = _0680_ ^ _0676_;
-	assign _0682_ = _0530_ & ~_0681_;
-	assign _0683_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [6] | \mchip.micro_coded_cpu.alu_top.A_reg [6]);
-	assign _0684_ = _0455_ & ~_0683_;
-	assign _0685_ = _0684_ | _0682_;
-	assign _0686_ = _0670_ & ~_0685_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [6] = _0465_ & ~_0686_;
-	assign _0687_ = _0571_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
-	assign _0688_ = _0687_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0689_ = _0688_ | _0505_;
-	assign _0690_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0499_ : _0500_);
-	assign _0691_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0633_ : _0690_);
-	assign _0692_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0576_ : _0691_);
-	assign _0693_ = _0692_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
-	assign _0694_ = _0478_ & ~_0693_;
-	assign _0695_ = _0689_ & ~_0694_;
-	assign _0696_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [7] & \mchip.micro_coded_cpu.alu_top.A_reg [7]);
-	assign _0697_ = _0473_ & ~_0696_;
-	assign _0698_ = _0194_ & ~_0475_;
-	assign _0699_ = _0698_ | _0697_;
-	assign _0700_ = _0695_ & ~_0699_;
-	assign _0701_ = _0676_ & ~_0680_;
-	assign _0702_ = \mchip.micro_coded_cpu.alu_top.A_reg [6] & ~_0679_;
+	assign _0579_ = _0578_ | _0539_;
+	assign _0580_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0524_ : _0526_);
+	assign _0581_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0517_ : _0580_);
+	assign _0582_ = _0581_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0583_ = _0582_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0584_ = _0512_ & ~_0583_;
+	assign _0585_ = _0579_ & ~_0584_;
+	assign _0586_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [2] & \mchip.micro_coded_cpu.alu_top.A_reg [2]);
+	assign _0587_ = _0507_ & ~_0586_;
+	assign _0588_ = _0200_ & ~_0509_;
+	assign _0589_ = _0588_ | _0587_;
+	assign _0590_ = _0585_ & ~_0589_;
+	assign _0591_ = _0565_ & ~_0568_;
+	assign _0592_ = \mchip.micro_coded_cpu.alu_top.A_reg [1] & ~_0567_;
+	assign _0593_ = _0592_ | _0591_;
+	assign _0594_ = \mchip.micro_coded_cpu.alu_top.B_reg [1] | \mchip.micro_coded_cpu.alu_top.B_reg [0];
+	assign _0595_ = _0594_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0596_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [2] : _0595_);
+	assign _0597_ = _0596_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [2];
+	assign _0598_ = _0597_ ^ _0593_;
+	assign _0599_ = _0564_ & ~_0598_;
+	assign _0600_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [2] | \mchip.micro_coded_cpu.alu_top.A_reg [2]);
+	assign _0601_ = _0489_ & ~_0600_;
+	assign _0602_ = _0601_ | _0599_;
+	assign _0603_ = _0590_ & ~_0602_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [2] = _0499_ & ~_0603_;
+	assign _0604_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0547_ : _0545_);
+	assign _0605_ = _0548_ | \mchip.micro_coded_cpu.alu_top.B_reg [1];
+	assign _0606_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0605_ : _0604_);
+	assign _0607_ = _0606_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0608_ = _0607_ | _0539_;
+	assign _0609_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0526_ : _0527_);
+	assign _0610_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0553_ : _0609_);
+	assign _0611_ = _0610_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0612_ = _0611_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0613_ = _0512_ & ~_0612_;
+	assign _0614_ = _0608_ & ~_0613_;
+	assign _0615_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [3] & \mchip.micro_coded_cpu.alu_top.A_reg [3]);
+	assign _0616_ = _0507_ & ~_0615_;
+	assign _0617_ = _0192_ & ~_0509_;
+	assign _0618_ = _0617_ | _0616_;
+	assign _0619_ = _0614_ & ~_0618_;
+	assign _0620_ = \mchip.micro_coded_cpu.alu_top.A_reg [2] & ~_0596_;
+	assign _0621_ = _0593_ & ~_0597_;
+	assign _0622_ = _0621_ | _0620_;
+	assign _0623_ = _0523_ & ~_0594_;
+	assign _0624_ = _0623_ ^ _0522_;
+	assign _0625_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [3] : _0624_);
+	assign _0626_ = _0625_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [3];
+	assign _0627_ = _0626_ ^ _0622_;
+	assign _0628_ = _0564_ & ~_0627_;
+	assign _0629_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [3] | \mchip.micro_coded_cpu.alu_top.A_reg [3]);
+	assign _0630_ = _0489_ & ~_0629_;
+	assign _0631_ = _0630_ | _0628_;
+	assign _0632_ = _0619_ & ~_0631_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [3] = _0499_ & ~_0632_;
+	assign _0633_ = _0536_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0634_ = _0633_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0635_ = _0634_ | _0539_;
+	assign _0636_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0527_ : _0530_);
+	assign _0637_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0580_ : _0636_);
+	assign _0638_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0518_ : _0637_);
+	assign _0639_ = _0638_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0640_ = _0512_ & ~_0639_;
+	assign _0641_ = _0635_ & ~_0640_;
+	assign _0642_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [4] & \mchip.micro_coded_cpu.alu_top.A_reg [4]);
+	assign _0643_ = _0507_ & ~_0642_;
+	assign _0644_ = _0235_ & ~_0509_;
+	assign _0645_ = _0644_ | _0643_;
+	assign _0646_ = _0641_ & ~_0645_;
+	assign _0647_ = \mchip.micro_coded_cpu.alu_top.A_reg [3] & ~_0625_;
+	assign _0648_ = _0620_ & ~_0626_;
+	assign _0649_ = _0648_ | _0647_;
+	assign _0650_ = _0626_ | _0597_;
+	assign _0651_ = _0593_ & ~_0650_;
+	assign _0652_ = _0651_ | _0649_;
+	assign _0653_ = \mchip.micro_coded_cpu.alu_top.B_reg [2] | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0654_ = _0653_ | _0594_;
+	assign _0655_ = _0654_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [4];
+	assign _0656_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [4] : _0655_);
+	assign _0657_ = _0656_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [4];
+	assign _0658_ = _0657_ ^ _0652_;
+	assign _0659_ = _0564_ & ~_0658_;
+	assign _0660_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [4] | \mchip.micro_coded_cpu.alu_top.A_reg [4]);
+	assign _0661_ = _0489_ & ~_0660_;
+	assign _0662_ = _0661_ | _0659_;
+	assign _0663_ = _0646_ & ~_0662_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [4] = _0499_ & ~_0663_;
+	assign _0664_ = _0549_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0665_ = _0664_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0666_ = _0665_ | _0539_;
+	assign _0667_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0530_ : _0531_);
+	assign _0668_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0609_ : _0667_);
+	assign _0669_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0554_ : _0668_);
+	assign _0670_ = _0669_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0671_ = _0512_ & ~_0670_;
+	assign _0672_ = _0666_ & ~_0671_;
+	assign _0673_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [5] & \mchip.micro_coded_cpu.alu_top.A_reg [5]);
+	assign _0674_ = _0507_ & ~_0673_;
+	assign _0675_ = _0227_ & ~_0509_;
+	assign _0676_ = _0675_ | _0674_;
+	assign _0677_ = _0672_ & ~_0676_;
+	assign _0678_ = \mchip.micro_coded_cpu.alu_top.A_reg [4] & ~_0656_;
+	assign _0679_ = _0652_ & ~_0657_;
+	assign _0680_ = _0679_ | _0678_;
+	assign _0681_ = _0654_ | \mchip.micro_coded_cpu.alu_top.B_reg [4];
+	assign _0682_ = _0681_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [5];
+	assign _0683_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [5] : _0682_);
+	assign _0684_ = _0683_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [5];
+	assign _0685_ = _0684_ ^ _0680_;
+	assign _0686_ = _0564_ & ~_0685_;
+	assign _0687_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [5] | \mchip.micro_coded_cpu.alu_top.A_reg [5]);
+	assign _0688_ = _0489_ & ~_0687_;
+	assign _0689_ = _0688_ | _0686_;
+	assign _0690_ = _0677_ & ~_0689_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [5] = _0499_ & ~_0690_;
+	assign _0691_ = _0576_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0692_ = _0691_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0693_ = _0692_ | _0539_;
+	assign _0694_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0531_ : _0533_);
+	assign _0695_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0636_ : _0694_);
+	assign _0696_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0581_ : _0695_);
+	assign _0697_ = _0696_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0698_ = _0512_ & ~_0697_;
+	assign _0699_ = _0693_ & ~_0698_;
+	assign _0700_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [6] & \mchip.micro_coded_cpu.alu_top.A_reg [6]);
+	assign _0701_ = _0507_ & ~_0700_;
+	assign _0702_ = _0218_ & ~_0509_;
 	assign _0703_ = _0702_ | _0701_;
-	assign _0704_ = _0677_ & ~\mchip.micro_coded_cpu.alu_top.B_reg [6];
-	assign _0705_ = ~(_0704_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [7]);
-	assign _0706_ = (_0459_ ? \mchip.micro_coded_cpu.alu_top.B_reg [7] : _0705_);
-	assign _0707_ = _0706_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [7];
-	assign _0708_ = _0707_ ^ _0703_;
-	assign _0709_ = _0530_ & ~_0708_;
-	assign _0710_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [7] | \mchip.micro_coded_cpu.alu_top.A_reg [7]);
-	assign _0711_ = _0455_ & ~_0710_;
-	assign _0712_ = _0711_ | _0709_;
-	assign _0713_ = _0700_ & ~_0712_;
-	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [7] = _0465_ & ~_0713_;
-	assign _0714_ = ~(_0088_ & _0042_);
-	assign _0002_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] & ~_0714_;
-	assign _0715_ = ~(\mchip.micro_coded_cpu.mdecode_reg_top.reg_file_rw  & \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7]);
-	assign _0716_ = _0058_ & ~_0715_;
-	assign _0717_ = ~(_0716_ & \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en );
-	assign _0718_ = _0042_ & ~_0717_;
-	assign _0719_ = ~(\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] & \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0]);
-	assign _0033_ = _0718_ & ~_0719_;
-	assign _0005_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3] & ~io_in[13];
-	assign \mchip.micro_coded_cpu.load_m_pc_en  = _0230_ | \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2];
-	assign _0720_ = \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] | ~\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1];
-	assign _0032_ = _0718_ & ~_0720_;
-	assign _0721_ = \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] | ~\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0];
-	assign _0031_ = _0718_ & ~_0721_;
-	assign _0722_ = ~(_0039_ & _0042_);
-	assign _0004_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1] & ~_0722_;
-	assign _0723_ = \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] | \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0];
-	assign _0030_ = _0718_ & ~_0723_;
-	assign _0003_ = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [5] & ~io_in[13];
-	assign _0725_[1] = ~(\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] ^ \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0]);
-	assign _0724_ = ~(\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0]);
-	assign _0725_[2] = _0724_ ^ \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2];
-	assign _0034_ = _0724_ & ~\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2];
-	assign _0725_[3] = _0034_ ^ \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3];
+	assign _0704_ = _0699_ & ~_0703_;
+	assign _0705_ = \mchip.micro_coded_cpu.alu_top.A_reg [5] & ~_0683_;
+	assign _0706_ = _0678_ & ~_0684_;
+	assign _0707_ = _0706_ | _0705_;
+	assign _0708_ = _0684_ | _0657_;
+	assign _0709_ = _0652_ & ~_0708_;
+	assign _0710_ = _0709_ | _0707_;
+	assign _0711_ = ~(_0654_ | _0514_);
+	assign _0712_ = ~(_0711_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [6]);
+	assign _0713_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [6] : _0712_);
+	assign _0714_ = _0713_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [6];
+	assign _0715_ = _0714_ ^ _0710_;
+	assign _0716_ = _0564_ & ~_0715_;
+	assign _0717_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [6] | \mchip.micro_coded_cpu.alu_top.A_reg [6]);
+	assign _0718_ = _0489_ & ~_0717_;
+	assign _0719_ = _0718_ | _0716_;
+	assign _0720_ = _0704_ & ~_0719_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [6] = _0499_ & ~_0720_;
+	assign _0721_ = _0605_ | \mchip.micro_coded_cpu.alu_top.B_reg [2];
+	assign _0722_ = _0721_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0723_ = _0722_ | _0539_;
+	assign _0724_ = (\mchip.micro_coded_cpu.alu_top.B_reg [0] ? _0533_ : _0534_);
+	assign _0725_ = (\mchip.micro_coded_cpu.alu_top.B_reg [1] ? _0667_ : _0724_);
+	assign _0726_ = (\mchip.micro_coded_cpu.alu_top.B_reg [2] ? _0610_ : _0725_);
+	assign _0727_ = _0726_ | \mchip.micro_coded_cpu.alu_top.B_reg [3];
+	assign _0728_ = _0512_ & ~_0727_;
+	assign _0729_ = _0723_ & ~_0728_;
+	assign _0730_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [7] & \mchip.micro_coded_cpu.alu_top.A_reg [7]);
+	assign _0731_ = _0507_ & ~_0730_;
+	assign _0732_ = _0210_ & ~_0509_;
+	assign _0733_ = _0732_ | _0731_;
+	assign _0734_ = _0729_ & ~_0733_;
+	assign _0735_ = _0710_ & ~_0714_;
+	assign _0736_ = \mchip.micro_coded_cpu.alu_top.A_reg [6] & ~_0713_;
+	assign _0737_ = _0736_ | _0735_;
+	assign _0738_ = _0711_ & ~\mchip.micro_coded_cpu.alu_top.B_reg [6];
+	assign _0739_ = ~(_0738_ ^ \mchip.micro_coded_cpu.alu_top.B_reg [7]);
+	assign _0740_ = (_0493_ ? \mchip.micro_coded_cpu.alu_top.B_reg [7] : _0739_);
+	assign _0741_ = _0740_ ^ \mchip.micro_coded_cpu.alu_top.A_reg [7];
+	assign _0742_ = _0741_ ^ _0737_;
+	assign _0743_ = _0564_ & ~_0742_;
+	assign _0744_ = ~(\mchip.micro_coded_cpu.alu_top.B_reg [7] | \mchip.micro_coded_cpu.alu_top.A_reg [7]);
+	assign _0745_ = _0489_ & ~_0744_;
+	assign _0746_ = _0745_ | _0743_;
+	assign _0747_ = _0734_ & ~_0746_;
+	assign \mchip.micro_coded_cpu.alu_top.alu_result_out [7] = _0499_ & ~_0747_;
+	assign _0748_ = ~(_0043_ & \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_rw );
+	assign _0032_ = _0748_ | _0047_;
+	assign _0033_ = _0032_ | _0045_;
+	assign _0034_ = _0049_ & ~_0033_;
+	assign _0035_ = ~(\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] & \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0]);
+	assign _0029_ = _0034_ & ~_0035_;
+	assign \mchip.micro_coded_cpu.load_m_pc_en  = _0246_ | _0071_;
+	assign _0036_ = \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] | ~\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1];
+	assign _0028_ = _0034_ & ~_0036_;
+	assign _0037_ = \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] | ~\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0];
+	assign _0027_ = _0034_ & ~_0037_;
+	assign _0038_ = \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] | \mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0];
+	assign _0026_ = _0034_ & ~_0038_;
+	assign _0749_[1] = ~(\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] ^ \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0]);
+	assign _0039_ = ~(\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] | \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0]);
+	assign _0749_[2] = _0039_ ^ \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2];
+	assign _0040_ = _0039_ & ~\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2];
+	assign _0749_[3] = _0040_ ^ \mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3];
 	reg \mchip.micro_coded_cpu.m_inst_addr_offset_reg[5] ;
 	always @(posedge io_in[12]) \mchip.micro_coded_cpu.m_inst_addr_offset_reg[5]  <= _0000_[0];
 	assign \mchip.micro_coded_cpu.m_inst_addr_offset [5] = \mchip.micro_coded_cpu.m_inst_addr_offset_reg[5] ;
@@ -78563,14 +78612,6 @@ module d28_gvenkata_ucpu (
 	reg \mchip.micro_coded_cpu.m_inst_addr_offset_reg[8] ;
 	always @(posedge io_in[12]) \mchip.micro_coded_cpu.m_inst_addr_offset_reg[8]  <= _0000_[3];
 	assign \mchip.micro_coded_cpu.m_inst_addr_offset [8] = \mchip.micro_coded_cpu.m_inst_addr_offset_reg[8] ;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] <= _0006_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1] <= _0007_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] <= _0002_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3] <= _0003_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4] <= _0008_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [5] <= _0004_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [6] <= _0009_;
-	always @(posedge io_in[12]) \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [7] <= _0005_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.mdecode_reg_top.alu_en_B  <= 1'h0;
@@ -78579,162 +78620,162 @@ module d28_gvenkata_ucpu (
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [0] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [0] <= io_in[0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [1] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [1] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [2] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [2] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [3] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [3] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [4] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [4] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [5] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [5] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [6] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [6] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [7] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [7] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [8] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [8] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [9] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [9] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [8];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [10] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [10] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [9];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [11] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [11] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [10];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [12] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [12] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [11];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [13] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [13] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [12];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [14] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [14] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [13];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [15] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [15] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [14];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [16] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [16] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [15];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [17] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [17] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [16];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [18] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [18] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [17];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [19] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [19] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [18];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [20] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [20] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [19];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [21] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [21] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [20];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [22] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [22] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [21];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [23] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [23] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [22];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [24] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [24] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [23];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [25] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [25] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [24];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [26] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [26] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [25];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [27] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [27] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [26];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [28] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [28] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [27];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [29] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [29] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [28];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [30] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [30] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [29];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [31] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4])
+		else if (_0030_)
 			\mchip.micro_coded_cpu.instr_reg_top.instr_reg [31] <= \mchip.micro_coded_cpu.instr_reg_top.instr_reg [30];
 	always @(posedge io_in[12])
 		if (io_in[13])
@@ -78779,559 +78820,559 @@ module d28_gvenkata_ucpu (
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [0] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [0] <= io_in[1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [1] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [1] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [2] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [2] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [3] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [3] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [4] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [4] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [5] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [5] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [6] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [6] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [7] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [7] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [8] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [8] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [9] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [9] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [8];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [10] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [10] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [9];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [11] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [11] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [10];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [12] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [12] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [11];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [13] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [13] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [12];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [14] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [14] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [13];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [15] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [15] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [14];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [16] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [16] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [15];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [17] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [17] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [16];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [18] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [18] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [17];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [19] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [19] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [18];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [20] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [20] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [19];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [21] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [21] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [20];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [22] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [22] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [21];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [23] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [23] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [22];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [24] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [24] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [23];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [25] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [25] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [24];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [26] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [26] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [25];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [27] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [27] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [26];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [28] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [28] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [27];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [29] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [29] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [28];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [30] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [30] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [29];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [31] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [31] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [30];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [32] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [32] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [31];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [33] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [33] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [32];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [34] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [34] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [33];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [35] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [35] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [34];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [36] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [36] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [35];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [37] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [37] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [36];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [38] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [38] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [37];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [39] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [39] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [38];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [40] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [40] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [39];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [40];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [41];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [43] <= 1'h0;
-		else if (\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1])
+		else if (_0031_)
 			\mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [43] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [42];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] <= 1'h0;
-		else if (_0014_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] <= _0019_;
+		else if (_0006_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [0] <= _0012_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1] <= 1'h0;
-		else if (_0014_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1] <= _0020_;
+		else if (_0006_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [1] <= _0013_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2] <= 1'h0;
-		else if (_0014_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2] <= _0021_;
+		else if (_0006_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [2] <= _0014_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3] <= 1'h0;
-		else if (_0014_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3] <= _0022_;
+		else if (_0006_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [3] <= _0015_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4] <= 1'h0;
-		else if (_0014_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4] <= _0023_;
+		else if (_0006_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.current_minst_1 [4] <= _0016_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] <= 1'h0;
-		else if (_0010_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] <= _0024_;
+		else if (_0002_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [0] <= _0017_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1] <= 1'h0;
-		else if (_0010_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1] <= _0025_;
+		else if (_0002_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [1] <= _0018_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] <= 1'h0;
-		else if (_0010_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] <= _0026_;
+		else if (_0002_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [2] <= _0019_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3] <= 1'h0;
-		else if (_0010_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3] <= _0027_;
+		else if (_0002_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [3] <= _0020_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4] <= 1'h0;
-		else if (_0010_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4] <= _0028_;
+		else if (_0002_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [4] <= _0021_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] <= 1'h0;
-		else if (_0010_)
-			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] <= _0029_;
+		else if (_0002_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.fsm_assist [5] <= _0022_;
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [0] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [0] <= \mchip.micro_coded_cpu.alu_top.A_bus [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [1] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [1] <= \mchip.micro_coded_cpu.alu_top.A_bus [1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [2] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [2] <= \mchip.micro_coded_cpu.alu_top.A_bus [2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [3] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [3] <= \mchip.micro_coded_cpu.alu_top.A_bus [3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [4] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [4] <= \mchip.micro_coded_cpu.alu_top.A_bus [4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [5] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [5] <= \mchip.micro_coded_cpu.alu_top.A_bus [5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [6] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [6] <= \mchip.micro_coded_cpu.alu_top.A_bus [6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [7] <= 1'h0;
-		else if (_0012_)
+		else if (_0004_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [7] <= \mchip.micro_coded_cpu.alu_top.A_bus [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] <= 1'h0;
-		else if (_0013_)
+		else if (_0005_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [0] <= \mchip.micro_coded_cpu.alu_top.A_bus [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] <= 1'h0;
-		else if (_0013_)
+		else if (_0005_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_sel_in [1] <= \mchip.micro_coded_cpu.alu_top.A_bus [1];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [0] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [0];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [1] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [1];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [2] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [2];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [3] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [3];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [4] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [4];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [5] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [5];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [6] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [6];
 	always @(posedge io_in[12])
-		if (_0033_)
+		if (_0029_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[3] [7] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [0] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [0] <= \mchip.micro_coded_cpu.alu_top.A_bus [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [1] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [1] <= \mchip.micro_coded_cpu.alu_top.A_bus [1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [2] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [2] <= \mchip.micro_coded_cpu.alu_top.A_bus [2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [3] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [3] <= \mchip.micro_coded_cpu.alu_top.A_bus [3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [4] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [4] <= \mchip.micro_coded_cpu.alu_top.A_bus [4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [5] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [5] <= \mchip.micro_coded_cpu.alu_top.A_bus [5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [6] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [6] <= \mchip.micro_coded_cpu.alu_top.A_bus [6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.B_reg [7] <= 1'h0;
-		else if (_0017_)
+		else if (_0010_)
 			\mchip.micro_coded_cpu.alu_top.B_reg [7] <= \mchip.micro_coded_cpu.alu_top.A_bus [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [0] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [0] <= \mchip.micro_coded_cpu.alu_top.A_bus [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [1] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [1] <= \mchip.micro_coded_cpu.alu_top.A_bus [1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [2] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [2] <= \mchip.micro_coded_cpu.alu_top.A_bus [2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [3] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [3] <= \mchip.micro_coded_cpu.alu_top.A_bus [3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [4] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [4] <= \mchip.micro_coded_cpu.alu_top.A_bus [4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [5] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [5] <= \mchip.micro_coded_cpu.alu_top.A_bus [5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [6] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [6] <= \mchip.micro_coded_cpu.alu_top.A_bus [6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.A_reg [7] <= 1'h0;
-		else if (_0016_)
+		else if (_0009_)
 			\mchip.micro_coded_cpu.alu_top.A_reg [7] <= \mchip.micro_coded_cpu.alu_top.A_bus [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [0] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [0] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [1] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [1] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [2] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [2] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [3] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [3] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [4] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [4] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [5] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [5] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [6] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [6] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.alu_top.alu_result [7] <= 1'h0;
-		else if (_0018_)
+		else if (_0011_)
 			\mchip.micro_coded_cpu.alu_top.alu_result [7] <= \mchip.micro_coded_cpu.alu_top.alu_result_out [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [0] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [0] <= _0001_[0];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [1] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [1] <= _0001_[1];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [2] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [2] <= _0001_[2];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [3] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [3] <= _0001_[3];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [4] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [4] <= _0001_[4];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [5] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [5] <= _0001_[5];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [6] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [6] <= _0001_[6];
 	always @(posedge io_in[12])
 		if (io_in[13])
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [7] <= 1'h0;
-		else if (_0011_)
+		else if (_0003_)
 			\mchip.micro_coded_cpu.reg_file_interface.reg_rd_data_out [7] <= _0001_[7];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [0] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [0];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [1] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [1];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [2] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [2];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [3] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [3];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [4] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [4];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [5] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [5];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [6] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [6];
 	always @(posedge io_in[12])
-		if (_0032_)
+		if (_0028_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[2] [7] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [7];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [0] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [0];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [1] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [1];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [2] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [2];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [3] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [3];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [4] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [4];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [5] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [5];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [6] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [6];
 	always @(posedge io_in[12])
-		if (_0031_)
+		if (_0027_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[1] [7] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [7];
 	always @(posedge io_in[12])
 		if (io_in[13])
@@ -79499,53 +79540,74 @@ module d28_gvenkata_ucpu (
 		else
 			\mchip.micro_coded_cpu.mdecode_reg_top.mbranch_target [7] <= \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [17];
 	always @(posedge io_in[12])
-		if (_0015_)
+		if (_0008_)
 			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] <= 1'h0;
 		else
-			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] <= _0725_[0];
+			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [0] <= _0749_[0];
 	always @(posedge io_in[12])
-		if (_0015_)
+		if (_0008_)
 			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] <= 1'h0;
 		else
-			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] <= _0725_[1];
+			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [1] <= _0749_[1];
 	always @(posedge io_in[12])
-		if (_0015_)
+		if (_0008_)
 			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2] <= 1'h0;
 		else
-			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2] <= _0725_[2];
+			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [2] <= _0749_[2];
 	always @(posedge io_in[12])
-		if (_0015_)
+		if (_0008_)
 			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3] <= 1'h1;
 		else
-			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3] <= _0725_[3];
+			\mchip.micro_coded_cpu.m_inst_to_bit.current_bit_index [3] <= _0749_[3];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [0] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [0];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [1] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [1];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [2] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [2];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [3] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [3];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [4] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [4];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [5] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [5];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [6] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [6];
 	always @(posedge io_in[12])
-		if (_0030_)
+		if (_0026_)
 			\mchip.micro_coded_cpu.reg_file_interface.mreg_file[0] [7] <= \mchip.micro_coded_cpu.reg_file_interface.reg_wr_data_in [7];
-	assign io_out = {12'h000, \mchip.micro_coded_cpu.m_inst_addr_stream , 1'h0};
+	reg \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[0] ;
+	always @(posedge io_in[12])
+		if (io_in[13])
+			\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[0]  <= 1'h0;
+		else if (_0007_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[0]  <= _0023_;
+	assign \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [0] = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[0] ;
+	reg \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[1] ;
+	always @(posedge io_in[12])
+		if (io_in[13])
+			\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[1]  <= 1'h0;
+		else if (_0007_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[1]  <= _0024_;
+	assign \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1] = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[1] ;
+	reg \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[2] ;
+	always @(posedge io_in[12])
+		if (io_in[13])
+			\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[2]  <= 1'h0;
+		else if (_0007_)
+			\mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[2]  <= _0025_;
+	assign \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2] = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state_reg[2] ;
+	assign io_out = {9'h000, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0], \mchip.micro_coded_cpu.m_inst_addr_stream , 1'h0};
 	assign \mchip.clock  = io_in[12];
 	assign \mchip.io_in  = io_in[11:0];
-	assign \mchip.io_out  = {10'h000, \mchip.micro_coded_cpu.m_inst_addr_stream , 1'h0};
+	assign \mchip.io_out  = {7'h00, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0], \mchip.micro_coded_cpu.m_inst_addr_stream , 1'h0};
 	assign \mchip.micro_coded_cpu.A_reg  = \mchip.micro_coded_cpu.alu_top.A_reg ;
 	assign \mchip.micro_coded_cpu.B_Reg  = 1'h0;
 	assign \mchip.micro_coded_cpu.B_reg  = \mchip.micro_coded_cpu.alu_top.B_reg ;
@@ -79576,19 +79638,23 @@ module d28_gvenkata_ucpu (
 	assign \mchip.micro_coded_cpu.alu_top.cc_equal_out  = 1'h0;
 	assign \mchip.micro_coded_cpu.alu_top.cc_greater  = 1'h0;
 	assign \mchip.micro_coded_cpu.alu_top.cc_greater_out  = 1'h0;
+	assign \mchip.micro_coded_cpu.alu_top.cpu_state  = {1'h0, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0]};
 	assign \mchip.micro_coded_cpu.alu_top.sys_clk  = io_in[12];
 	assign \mchip.micro_coded_cpu.alu_top.sys_reset  = io_in[13];
 	assign \mchip.micro_coded_cpu.branch_target_id  = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [7:0];
 	assign \mchip.micro_coded_cpu.cc_equal  = 1'h0;
 	assign \mchip.micro_coded_cpu.cc_greater  = 1'h0;
+	assign \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [3] = 1'h0;
 	assign \mchip.micro_coded_cpu.cpu_fsm_top.is_micro_nop  = 1'h0;
 	assign \mchip.micro_coded_cpu.cpu_fsm_top.is_nop  = 1'h0;
 	assign \mchip.micro_coded_cpu.cpu_fsm_top.sys_clk  = io_in[12];
 	assign \mchip.micro_coded_cpu.cpu_fsm_top.sys_reset  = io_in[13];
+	assign \mchip.micro_coded_cpu.cpu_state  = {1'h0, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0]};
 	assign \mchip.micro_coded_cpu.imm  = \mchip.micro_coded_cpu.mdecode_reg_top.imm ;
 	assign \mchip.micro_coded_cpu.imm_id  = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [7:0];
 	assign \mchip.micro_coded_cpu.imm_md  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [27:20];
 	assign \mchip.micro_coded_cpu.inst_addr_stream  = 1'h0;
+	assign \mchip.micro_coded_cpu.inst_to_bit.cpu_state  = {1'h0, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0]};
 	assign \mchip.micro_coded_cpu.inst_to_bit.inst_addr  = 8'h00;
 	assign \mchip.micro_coded_cpu.inst_to_bit.inst_addr_stream  = 1'h0;
 	assign \mchip.micro_coded_cpu.inst_to_bit.sys_clk  = io_in[12];
@@ -79596,8 +79662,6 @@ module d28_gvenkata_ucpu (
 	assign \mchip.micro_coded_cpu.inst_type  = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [31:27];
 	assign \mchip.micro_coded_cpu.instr_in  = io_in[0];
 	assign \mchip.micro_coded_cpu.instr_reg  = \mchip.micro_coded_cpu.instr_reg_top.instr_reg ;
-	assign \mchip.micro_coded_cpu.instr_reg_en  = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4];
-	assign \mchip.micro_coded_cpu.instr_reg_top.enable  = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [4];
 	assign \mchip.micro_coded_cpu.instr_reg_top.instr_in  = io_in[0];
 	assign \mchip.micro_coded_cpu.instr_reg_top.sys_clk  = io_in[12];
 	assign \mchip.micro_coded_cpu.instr_reg_top.sys_reset  = io_in[13];
@@ -79633,14 +79697,13 @@ module d28_gvenkata_ucpu (
 	assign \mchip.micro_coded_cpu.m_inst_decode_top.reg_file_en_md  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [4];
 	assign \mchip.micro_coded_cpu.m_inst_decode_top.reg_file_rw_md  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [5];
 	assign \mchip.micro_coded_cpu.m_inst_decode_top.reg_src_md  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [40:36];
+	assign \mchip.micro_coded_cpu.m_inst_to_bit.cpu_state  = {1'h0, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0]};
 	assign \mchip.micro_coded_cpu.m_inst_to_bit.m_inst_addr  = {4'h0, \mchip.micro_coded_cpu.m_pc_top.m_pc [4:0]};
 	assign \mchip.micro_coded_cpu.m_inst_to_bit.m_inst_addr_stream  = \mchip.micro_coded_cpu.m_inst_addr_stream ;
 	assign \mchip.micro_coded_cpu.m_inst_to_bit.sys_clk  = io_in[12];
 	assign \mchip.micro_coded_cpu.m_inst_to_bit.sys_reset  = io_in[13];
 	assign \mchip.micro_coded_cpu.m_instr_in  = io_in[1];
 	assign \mchip.micro_coded_cpu.m_instr_reg  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg ;
-	assign \mchip.micro_coded_cpu.m_instr_reg_en  = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1];
-	assign \mchip.micro_coded_cpu.m_instr_reg_top.enable  = \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [1];
 	assign \mchip.micro_coded_cpu.m_instr_reg_top.minstr_in  = io_in[1];
 	assign \mchip.micro_coded_cpu.m_instr_reg_top.sys_clk  = io_in[12];
 	assign \mchip.micro_coded_cpu.m_instr_reg_top.sys_reset  = io_in[13];
@@ -79674,6 +79737,7 @@ module d28_gvenkata_ucpu (
 	assign \mchip.micro_coded_cpu.reg_dst_md  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [35:31];
 	assign \mchip.micro_coded_cpu.reg_file_en  = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en ;
 	assign \mchip.micro_coded_cpu.reg_file_en_md  = \mchip.micro_coded_cpu.m_instr_reg_top.m_instr_reg [4];
+	assign \mchip.micro_coded_cpu.reg_file_interface.cpu_state  = {1'h0, \mchip.micro_coded_cpu.cpu_fsm_top.cpu_state [2:0]};
 	assign \mchip.micro_coded_cpu.reg_file_interface.reg_dst  = \mchip.micro_coded_cpu.instr_reg_top.instr_reg [25:22];
 	assign \mchip.micro_coded_cpu.reg_file_interface.reg_file_en  = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_en ;
 	assign \mchip.micro_coded_cpu.reg_file_interface.reg_file_rw  = \mchip.micro_coded_cpu.mdecode_reg_top.reg_file_rw ;

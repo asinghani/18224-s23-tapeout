@@ -25,7 +25,8 @@ module my_chip (
                         .instr_in(io_in[0]),
                         .m_instr_in(io_in[1]),
                         .inst_addr_stream(io_out[0]),
-                        .m_inst_addr_stream(io_out[1])
+                        .m_inst_addr_stream(io_out[1]),
+                        .cpu_state(io_out[5:2])
                         );
     /*
     wire [6:0] led_out;

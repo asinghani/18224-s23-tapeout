@@ -105,8 +105,8 @@ module top_cpu(
     instr_in,
     m_instr_in,
     inst_addr_stream, 
-    m_inst_addr_stream
-
+    m_inst_addr_stream,
+    cpu_state
 );
     input sys_clk, sys_reset;
     //Instruction sequence
@@ -117,9 +117,9 @@ module top_cpu(
     output inst_addr_stream;
     //Micro-instruction address sequence
     output m_inst_addr_stream;
-    
+
     // Register to Track CPU FSM state
-    reg [$clog2(`CPU_STATES)-1:0] cpu_state;
+    output reg [$clog2(`CPU_STATES)-1:0] cpu_state;
 
     //Signal to track if current instruction/micro-instruction is a NOP
 
