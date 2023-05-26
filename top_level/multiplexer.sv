@@ -24,9 +24,9 @@ module multiplexer (
         des_sel_dec[des_sel] <= 1;
 
         // 3FF sync the inputs
-        io_in_sync3 <= {reset, io_in_sync2};
+        io_in_sync3 <= io_in_sync2;
         io_in_sync2 <= io_in_sync1;
-        io_in_sync1 <= io_in;
+        io_in_sync1 <= {reset, io_in};
     end
 
     integer i;
@@ -40,7 +40,7 @@ module multiplexer (
 
             // hold_if_not_sel will hold all others
             // in reset with all-zero inputs when set
-            if (hold_if_not_sel && (!des_sel_dec[i])) begin
+            if (hold_if_not_sel && (!(des_sel_dec[i]))) begin
                 des_io_in[i] = '0;
                 des_reset[i] = '1;
             end

@@ -109500,9 +109500,9 @@ module multiplexer (
 	always @(posedge clock) begin
 		des_sel_dec <= 1'sb0;
 		des_sel_dec[des_sel] <= 1;
-		io_in_sync3 <= {reset, io_in_sync2};
+		io_in_sync3 <= io_in_sync2;
 		io_in_sync2 <= io_in_sync1;
-		io_in_sync1 <= io_in;
+		io_in_sync1 <= {reset, io_in};
 	end
 	integer i;
 	always @(*) begin
