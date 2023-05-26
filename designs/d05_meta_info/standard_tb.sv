@@ -21,10 +21,10 @@ module standard_tb (
 
         for (idx = 0; idx < 64; idx++) begin
             $write("proj_idx=%d msg=", idx);
-            repeat(2) @(posedge clock);
+            repeat(3) @(posedge clock);
 
             for (chr = 0; chr < 63; chr++) begin
-                repeat(2) @(posedge clock);
+                repeat(3) @(posedge clock);
                 if (io_out[7:0] == 0) break;
                 $write("%c", io_out[7:0]);
             end

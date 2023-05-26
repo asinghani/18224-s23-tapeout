@@ -32,6 +32,25 @@ def write_wrapper(name, topname):
     with open(f"{name}/src/wrapper.v", "w+") as f:
         f.write(wrapper)
 
+def write_wrapper_clocked(name, topname):
+    wrapper = """
+        module toplevel_chip (
+            input [13:0] io_in,
+            output [13:0] io_out
+        );
+
+            // CLOCKED
+            CHIPNAME mchip (
+                .io_in({io_in[7:1], io_in[12]}),
+                .io_out(io_out[7:0])
+            );
+
+        endmodule
+    """.replace("CHIPNAME", topname)
+
+    with open(f"{name}/src/wrapper.v", "w+") as f:
+        f.write(wrapper)
+
 if len(sys.argv) > 1:
     g = sys.argv[1]
 else:
@@ -41,12 +60,20 @@ for des in sorted(list(glob.glob(g))):
     with open(f"{des}/info.yaml") as f:
         data = yaml.load(f, Loader=yaml.Loader)
 
-    if "tt02_fmt" in data["project"] and data["project"]["tt02_fmt"]:
-        print("Processing OLD", des)
+    if "tt02_fmt" in data["project"] and data["project"]["tt02_fmt"] == "clocked":
+        print("Processing OLD (clocked)", des)
+        sources = data["project"]["source_files"] + ["wrapper.v"]
+
+        write_wrapper_clocked(des, data["project"]["top_module"])
+        run_yosys(des, sources)
+
+    elif "tt02_fmt" in data["project"] and data["project"]["tt02_fmt"]:
+        print("Processing OLD (async)", des)
         sources = data["project"]["source_files"] + ["wrapper.v"]
 
         write_wrapper(des, data["project"]["top_module"])
         run_yosys(des, sources)
+
     else:
         print("Processing NEW", des)
         assert data["project"]["top_module"] == "toplevel_chip"

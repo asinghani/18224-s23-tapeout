@@ -1,0 +1,26 @@
+=== d07_demo_vgarunner ===
+
+   Number of wires:               3726
+   Number of wire bits:           4431
+   Number of public wires:          94
+   Number of public wire bits:     638
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3984
+     $_ANDNOT_                     946
+     $_AND_                        166
+     $_DFFE_PN_                     23
+     $_MUX_                        772
+     $_NAND_                       215
+     $_NOR_                        238
+     $_NOT_                        125
+     $_ORNOT_                      207
+     $_OR_                         588
+     $_SDFFE_PP0P_                 190
+     $_SDFFE_PP1P_                  10
+     $_SDFF_PN0_                     1
+     $_SDFF_PP0_                    38
+     $_SDFF_PP1_                     1
+     $_XNOR_                       118
+     $_XOR_                        346

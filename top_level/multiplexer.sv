@@ -6,6 +6,7 @@ module multiplexer (
 
 	input logic [5:0] des_sel,
 	input logic hold_if_not_sel,
+    input logic sync_inputs,
 
 	output logic [11:0] des_io_in[0:63],
 	output logic des_reset[0:63],
@@ -14,10 +15,18 @@ module multiplexer (
 	input logic clock, reset
 );
 
+    logic [12:0] io_in_sync1, io_in_sync2, io_in_sync3;
     logic [63:0] des_sel_dec;
     always_ff @(posedge clock) begin
+        // Select which project to activate.
+        // One-hot decoded for simplicity of `hold_if_not_sel`
         des_sel_dec <= '0;
         des_sel_dec[des_sel] <= 1;
+
+        // 3FF sync the inputs
+        io_in_sync3 <= {reset, io_in_sync2};
+        io_in_sync2 <= io_in_sync1;
+        io_in_sync1 <= io_in;
     end
 
     integer i;
@@ -37,8 +46,8 @@ module multiplexer (
             end
 
             else begin
-                des_io_in[i] = io_in;
-                des_reset[i] = reset;
+                des_io_in[i] = (sync_inputs ? io_in_sync3[11:0] : io_in);
+                des_reset[i] = (sync_inputs ? io_in_sync3[12] : reset);
             end
         end
     end

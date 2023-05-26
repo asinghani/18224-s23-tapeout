@@ -6,4 +6,4 @@ project:
     - game.sv
   top_module:  "stroucki_top"
 
-  tt02_fmt: true
+  tt02_fmt: clocked

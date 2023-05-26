@@ -5,4 +5,4 @@ project:
     - async-fifo.sv
   top_module:  "jonpaolo02_async_fifo"
 
-  tt02_fmt: true
+  tt02_fmt: clocked

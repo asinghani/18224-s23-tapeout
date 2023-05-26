@@ -4,5 +4,5 @@ project:
     - chip.v
   top_module:  "mmx_chip"
 
-  tt02_fmt: true
+  tt02_fmt: clocked
 

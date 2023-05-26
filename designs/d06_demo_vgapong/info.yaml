@@ -1,0 +1,8 @@
+--- 
+project:
+  source_files:
+    - toplevel_chip.v
+    - chip.sv
+    - game.v
+  top_module:  "toplevel_chip"
+

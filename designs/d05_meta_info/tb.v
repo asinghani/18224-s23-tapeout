@@ -19,10 +19,11 @@ module tb;
 
         for (int id = 0; id < 64; id++) begin
             proj_idx = id;
+            repeat(3) @(posedge clock);
             $write("proj_idx=%d msg=", proj_idx);
 
             for (chr_idx = 0; chr_idx < 63; chr_idx++) begin
-                repeat(2) @(posedge clock);
+                repeat(3) @(posedge clock);
                 if (chr == 0) break;
                 $write("%c", chr);
             end

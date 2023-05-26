@@ -6,6 +6,7 @@ module design_instantiations (
 
 	input logic [5:0] des_sel,
 	input logic hold_if_not_sel,
+	input logic sync_inputs,
 
 	input logic clock, reset
 );
@@ -62,13 +63,19 @@ d05_meta_info inst5 (
 
 
 // Design #6
-// Unpopulated design slot
-assign des_io_out[6] = 12'h000;
+// Design name d06_demo_vgapong
+d06_demo_vgapong inst6 (
+    .io_in({des_reset[6], clock, des_io_in[6]}),
+    .io_out(des_io_out[6])
+);
 
 
 // Design #7
-// Unpopulated design slot
-assign des_io_out[7] = 12'h000;
+// Design name d07_demo_vgarunner
+d07_demo_vgarunner inst7 (
+    .io_in({des_reset[7], clock, des_io_in[7]}),
+    .io_out(des_io_out[7])
+);
 
 
 // Design #8

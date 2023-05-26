@@ -1,0 +1,15 @@
+--- 
+project:
+  source_files:
+    - dinosprite.v
+    - jumping.v
+    - rendering.v
+    - rng.v
+    - score.v
+    - scroll.v
+    - vga.v
+    - dinogame.v
+    - chip.sv
+    - toplevel_chip.v
+  top_module:  "toplevel_chip"
+

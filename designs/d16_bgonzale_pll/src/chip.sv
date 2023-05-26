@@ -134,19 +134,8 @@ module my_chip (
 );
 	
     	// we run at a 1 kHz clock
-    	reg new_clock;
-	reg [8:0] counter;
-	always @(posedge clock) begin
-		counter <= counter + 1;
-		if (counter == 500)
-			begin
-				counter <= 0;
-				new_clock <= !new_clock;
-			end
-	end
-		
     
-	phase_locked_loop PLL(.i_sys_clk(new_clock),
+	phase_locked_loop PLL(.i_sys_clk(clock),
 			  .i_rst(!reset),
 			  .i_ref_clk(io_in[0]),
 			  .i_loop_gain(io_in[3:1]),

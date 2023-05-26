@@ -4,4 +4,4 @@ project:
     - mul.sv
   top_module:  "jxli_fp8mul"
 
-  tt02_fmt: true
+  tt02_fmt: clocked

@@ -4,5 +4,5 @@ project:
     - math.sv
   top_module:  "sophialiCMU_math"
 
-  tt02_fmt: true
+  tt02_fmt: clocked
 

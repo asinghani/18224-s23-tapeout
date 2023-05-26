@@ -6,6 +6,7 @@ module design_instantiations (
 
 	input logic [5:0] des_sel,
 	input logic hold_if_not_sel,
+	input logic sync_inputs,
 
 	input logic clock, reset
 );

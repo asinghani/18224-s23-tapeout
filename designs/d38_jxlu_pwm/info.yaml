@@ -5,5 +5,5 @@ project:
     - pwm_generator.v
   top_module:  "poisonninja_top"
 
-  tt02_fmt: true
+  tt02_fmt: clocked
 

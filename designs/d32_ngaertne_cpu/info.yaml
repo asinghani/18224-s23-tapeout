@@ -4,4 +4,4 @@ project:
     - cpu.sv
   top_module:  "noahgaertner_cpu"
 
-  tt02_fmt: true
+  tt02_fmt: clocked
