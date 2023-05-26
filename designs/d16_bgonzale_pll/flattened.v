@@ -4,7 +4,6 @@
 /* src = "d16_bgonzale_pll/src/toplevel_chip.v:4.1-18.10" */
 module d16_bgonzale_pll(io_in, io_out);
   wire _000_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:144.18-144.28" */
   wire _001_;
   wire _002_;
   wire _003_;
@@ -12,19 +11,19 @@ module d16_bgonzale_pll(io_in, io_out);
   wire _005_;
   wire _006_;
   wire _007_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:64.8-64.26|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire _008_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:66.13-66.37|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire _009_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:64.8-64.26|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:138.20-145.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
   wire _010_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:66.13-66.37|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:138.20-145.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
   wire _011_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:149.20-156.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:138.20-145.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
   wire _012_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:149.20-156.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:138.20-145.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
   wire _013_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:149.20-156.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
   wire _014_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:93.20-93.46|d16_bgonzale_pll/src/chip.sv:149.20-156.32|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:106.2-119.5" */
   wire _015_;
   wire _016_;
   wire _017_;
@@ -174,29 +173,6 @@ module d16_bgonzale_pll(io_in, io_out);
   wire _161_;
   wire _162_;
   wire _163_;
-  wire _164_;
-  wire _165_;
-  wire _166_;
-  wire _167_;
-  wire _168_;
-  wire _169_;
-  wire _170_;
-  wire _171_;
-  wire _172_;
-  wire _173_;
-  wire _174_;
-  wire _175_;
-  wire _176_;
-  wire _177_;
-  wire _178_;
-  wire _179_;
-  wire _180_;
-  /* force_downto = 32'd1 */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:140.14-140.25|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:270.23-270.24" */
-  wire [8:0] _181_;
-  /* force_downto = 32'd1 */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:140.14-140.25|/Users/anish/workspace/oss-cad-suite/libexec/../share/yosys/techmap.v:270.26-270.27" */
-  wire [8:0] _182_;
   /* src = "d16_bgonzale_pll/src/toplevel_chip.v:5.18-5.23" */
   input [13:0] io_in;
   wire [13:0] io_in;
@@ -204,420 +180,347 @@ module d16_bgonzale_pll(io_in, io_out);
   output [13:0] io_out;
   wire [13:0] io_out;
   /* hdlname = "mchip PLL dig_osc ctr" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:110.13-110.16|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:110.13-110.16|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   reg [7:0] \mchip.PLL.dig_osc.ctr ;
   /* hdlname = "mchip PLL dig_osc freq_step" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:103.21-103.30|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:103.21-103.30|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire [7:0] \mchip.PLL.dig_osc.freq_step ;
   /* hdlname = "mchip PLL dig_osc i_sys_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:101.15-101.24|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:101.15-101.24|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.dig_osc.i_sys_clk ;
   /* hdlname = "mchip PLL dig_osc lead_or_lag" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:106.15-106.26|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:106.15-106.26|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.dig_osc.lead_or_lag ;
   /* hdlname = "mchip PLL dig_osc out_of_phase" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:105.15-105.27|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:105.15-105.27|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.dig_osc.out_of_phase ;
   /* hdlname = "mchip PLL dig_osc phase_corr" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:104.21-104.31|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:104.21-104.31|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire [7:0] \mchip.PLL.dig_osc.phase_corr ;
   /* hdlname = "mchip PLL dig_osc rec_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:107.16-107.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:107.16-107.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.dig_osc.rec_clk ;
   /* hdlname = "mchip PLL i_freq_step" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:16.20-16.31|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:16.20-16.31|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire [7:0] \mchip.PLL.i_freq_step ;
   /* hdlname = "mchip PLL i_loop_gain" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:15.20-15.31|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:15.20-15.31|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire [2:0] \mchip.PLL.i_loop_gain ;
   /* hdlname = "mchip PLL i_ref_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:14.14-14.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:14.14-14.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.i_ref_clk ;
   /* hdlname = "mchip PLL i_sys_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:12.14-12.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:12.14-12.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.i_sys_clk ;
   /* hdlname = "mchip PLL lead_or_lag" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:24.7-24.18|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:24.7-24.18|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.lead_or_lag ;
   /* hdlname = "mchip PLL loop_fil i_sys_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:85.16-85.25|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:85.16-85.25|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.loop_fil.i_sys_clk ;
   /* hdlname = "mchip PLL loop_fil loop_gain" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:86.22-86.31|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:86.22-86.31|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire [2:0] \mchip.PLL.loop_fil.loop_gain ;
   /* hdlname = "mchip PLL loop_fil phase_corr" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:87.22-87.32|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:87.22-87.32|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   reg [7:0] \mchip.PLL.loop_fil.phase_corr  = 8'h00;
   /* hdlname = "mchip PLL o_lead_or_lag" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:18.15-18.28|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:18.15-18.28|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.o_lead_or_lag ;
   /* hdlname = "mchip PLL o_phase_error" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:19.15-19.28|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:19.15-19.28|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.o_phase_error ;
   /* hdlname = "mchip PLL o_rec_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:17.14-17.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:17.14-17.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.o_rec_clk ;
   /* hdlname = "mchip PLL out_of_phase" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:23.8-23.20|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:23.8-23.20|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.out_of_phase ;
   /* hdlname = "mchip PLL phase_corr" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:29.13-29.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:29.13-29.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire [7:0] \mchip.PLL.phase_corr ;
   /* hdlname = "mchip PLL phase_det i_sys_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:52.16-52.25|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:52.16-52.25|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.phase_det.i_sys_clk ;
   /* hdlname = "mchip PLL phase_det lead_or_lag" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:55.16-55.27|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:55.16-55.27|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.phase_det.lead_or_lag ;
   /* hdlname = "mchip PLL phase_det matched" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:58.7-58.14|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:58.7-58.14|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   reg \mchip.PLL.phase_det.matched  = 1'h0;
   /* hdlname = "mchip PLL phase_det out_of_phase" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:56.17-56.29|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:56.17-56.29|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.phase_det.out_of_phase ;
   /* hdlname = "mchip PLL phase_det rec_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:54.16-54.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:54.16-54.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.phase_det.rec_clk ;
   /* hdlname = "mchip PLL phase_det ref_clk" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:53.16-53.23|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:53.16-53.23|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   wire \mchip.PLL.phase_det.ref_clk ;
   /* hdlname = "mchip clock" */
   /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:132.17-132.22" */
   wire \mchip.clock ;
-  /* hdlname = "mchip counter" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:138.12-138.19" */
-  reg [8:0] \mchip.counter ;
   /* hdlname = "mchip io_in" */
   /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:130.24-130.29" */
   wire [11:0] \mchip.io_in ;
   /* hdlname = "mchip io_out" */
   /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:131.25-131.31" */
   wire [11:0] \mchip.io_out ;
-  /* hdlname = "mchip new_clock" */
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:137.10-137.19" */
-  reg \mchip.new_clock ;
   /* hdlname = "mchip reset" */
   /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:133.17-133.22" */
   wire \mchip.reset ;
-  assign _148_ = \mchip.PLL.dig_osc.ctr [5] & io_in[9];
-  assign _149_ = \mchip.PLL.dig_osc.ctr [4] & io_in[8];
-  assign _150_ = \mchip.PLL.dig_osc.ctr [5] ^ io_in[9];
-  assign _151_ = _150_ & _149_;
-  assign _152_ = _151_ | _148_;
-  assign _153_ = ~(\mchip.PLL.dig_osc.ctr [3] & io_in[7]);
-  assign _154_ = \mchip.PLL.dig_osc.ctr [2] & io_in[6];
-  assign _155_ = \mchip.PLL.dig_osc.ctr [3] ^ io_in[7];
-  assign _156_ = _155_ & _154_;
-  assign _157_ = _153_ & ~(_156_);
-  assign _158_ = \mchip.PLL.dig_osc.ctr [2] ^ io_in[6];
-  assign _159_ = _158_ & _155_;
-  assign _160_ = ~(io_in[5] & \mchip.PLL.dig_osc.ctr [1]);
-  assign _161_ = io_in[4] & \mchip.PLL.dig_osc.ctr [0];
-  assign _162_ = io_in[5] ^ \mchip.PLL.dig_osc.ctr [1];
-  assign _163_ = _162_ & _161_;
-  assign _164_ = _160_ & ~(_163_);
-  assign _165_ = _159_ & ~(_164_);
-  assign _166_ = _157_ & ~(_165_);
-  assign _167_ = \mchip.PLL.dig_osc.ctr [4] ^ io_in[8];
-  assign _168_ = ~(_150_ & _167_);
-  assign _169_ = ~(_168_ | _166_);
-  assign _170_ = _169_ | _152_;
-  assign _171_ = ~(io_in[10] ^ \mchip.PLL.dig_osc.ctr [6]);
-  assign _172_ = ~(_171_ ^ _170_);
-  assign _173_ = ~\mchip.PLL.loop_fil.phase_corr [4];
-  assign _174_ = ~(\mchip.PLL.loop_fil.phase_corr [1] | \mchip.PLL.loop_fil.phase_corr [0]);
-  assign _175_ = \mchip.PLL.loop_fil.phase_corr [2] | \mchip.PLL.loop_fil.phase_corr [3];
-  assign _176_ = _174_ & ~(_175_);
-  assign _177_ = ~(_176_ & _173_);
-  assign _178_ = _177_ ^ \mchip.PLL.loop_fil.phase_corr [5];
-  assign _179_ = \mchip.PLL.dig_osc.ctr [7] & ~(io_in[0]);
-  assign _180_ = io_in[0] & ~(\mchip.PLL.dig_osc.ctr [7]);
-  assign \mchip.PLL.dig_osc.lead_or_lag  = \mchip.PLL.phase_det.matched  ? _180_ : _179_;
-  assign _016_ = ~(\mchip.PLL.loop_fil.phase_corr [7] ^ io_in[11]);
-  assign _017_ = io_in[10] ^ \mchip.PLL.loop_fil.phase_corr [6];
-  assign _018_ = _016_ & ~(_017_);
-  assign _019_ = \mchip.PLL.loop_fil.phase_corr [4] ^ io_in[8];
-  assign _020_ = io_in[9] ^ \mchip.PLL.loop_fil.phase_corr [5];
-  assign _021_ = _020_ | _019_;
-  assign _022_ = _018_ & ~(_021_);
-  assign _023_ = \mchip.PLL.loop_fil.phase_corr [0] ^ io_in[4];
-  assign _024_ = \mchip.PLL.loop_fil.phase_corr [1] ^ io_in[5];
-  assign _025_ = ~(_024_ | _023_);
-  assign _026_ = ~(io_in[6] ^ \mchip.PLL.loop_fil.phase_corr [2]);
-  assign _027_ = io_in[7] ^ \mchip.PLL.loop_fil.phase_corr [3];
-  assign _028_ = _026_ & ~(_027_);
-  assign _029_ = ~(_028_ & _025_);
-  assign _030_ = _022_ & ~(_029_);
-  assign _031_ = \mchip.PLL.loop_fil.phase_corr [7] | ~(io_in[11]);
-  assign _032_ = \mchip.PLL.loop_fil.phase_corr [6] | ~(io_in[10]);
-  assign _033_ = _016_ & ~(_032_);
-  assign _034_ = _031_ & ~(_033_);
-  assign _035_ = \mchip.PLL.loop_fil.phase_corr [5] | ~(io_in[9]);
-  assign _036_ = io_in[8] & ~(\mchip.PLL.loop_fil.phase_corr [4]);
-  assign _037_ = _036_ & ~(_020_);
-  assign _038_ = _035_ & ~(_037_);
-  assign _039_ = _018_ & ~(_038_);
-  assign _040_ = _034_ & ~(_039_);
-  assign _041_ = \mchip.PLL.loop_fil.phase_corr [3] | ~(io_in[7]);
-  assign _042_ = io_in[6] & ~(\mchip.PLL.loop_fil.phase_corr [2]);
-  assign _043_ = _042_ & ~(_027_);
-  assign _044_ = _041_ & ~(_043_);
-  assign _045_ = \mchip.PLL.loop_fil.phase_corr [1] | ~(io_in[5]);
-  assign _046_ = io_in[4] | ~(\mchip.PLL.loop_fil.phase_corr [0]);
-  assign _047_ = _046_ & ~(_024_);
-  assign _048_ = _045_ & ~(_047_);
-  assign _049_ = _028_ & ~(_048_);
-  assign _050_ = _044_ & ~(_049_);
-  assign _051_ = _022_ & ~(_050_);
-  assign _052_ = _040_ & ~(_051_);
-  assign _053_ = _052_ | _030_;
-  assign _054_ = \mchip.PLL.dig_osc.lead_or_lag  & ~(_053_);
-  assign _055_ = _054_ ? \mchip.PLL.loop_fil.phase_corr [5] : _178_;
-  assign _056_ = _167_ & ~(_166_);
-  assign _057_ = ~(_056_ | _149_);
-  assign _058_ = ~(_150_ ^ _057_);
-  assign _059_ = _058_ & ~(_055_);
-  assign _060_ = _176_ ^ _173_;
-  assign _061_ = _054_ ? \mchip.PLL.loop_fil.phase_corr [4] : _060_;
-  assign _062_ = ~(_166_ ^ _167_);
-  assign _063_ = _062_ & ~(_061_);
-  assign _064_ = _058_ ^ _055_;
-  assign _065_ = _063_ & ~(_064_);
-  assign _066_ = _065_ | _059_;
-  assign _067_ = ~\mchip.PLL.loop_fil.phase_corr [1];
-  assign _068_ = \mchip.PLL.loop_fil.phase_corr [1] ^ \mchip.PLL.loop_fil.phase_corr [0];
-  assign _069_ = ~_068_;
-  assign _070_ = _054_ ? _067_ : _069_;
-  assign _071_ = _162_ ^ _161_;
-  assign _072_ = _071_ ^ _070_;
-  assign _073_ = io_in[4] ^ \mchip.PLL.dig_osc.ctr [0];
-  assign _074_ = \mchip.PLL.loop_fil.phase_corr [0] & ~(_073_);
-  assign _075_ = _072_ & ~(_074_);
-  assign _076_ = _071_ & _070_;
-  assign _077_ = _076_ | _075_;
-  assign _078_ = \mchip.PLL.loop_fil.phase_corr [2] | ~(_174_);
-  assign _079_ = _078_ ^ \mchip.PLL.loop_fil.phase_corr [3];
-  assign _080_ = _054_ ? \mchip.PLL.loop_fil.phase_corr [3] : _079_;
-  assign _081_ = ~_158_;
-  assign _082_ = _164_ | _081_;
-  assign _083_ = _082_ & ~(_154_);
-  assign _084_ = ~(_083_ ^ _155_);
-  assign _085_ = _084_ ^ _080_;
-  assign _086_ = ~(_174_ ^ \mchip.PLL.loop_fil.phase_corr [2]);
-  assign _087_ = _054_ ? \mchip.PLL.loop_fil.phase_corr [2] : _086_;
-  assign _088_ = _164_ ^ _081_;
-  assign _089_ = _088_ ^ _087_;
-  assign _090_ = _089_ | _085_;
-  assign _091_ = _077_ & ~(_090_);
-  assign _092_ = _084_ & ~(_080_);
-  assign _093_ = _087_ | ~(_088_);
-  assign _094_ = ~(_093_ | _085_);
-  assign _095_ = _094_ | _092_;
-  assign _096_ = _095_ | _091_;
-  assign _097_ = _062_ ^ _061_;
-  assign _098_ = _097_ | _064_;
-  assign _099_ = _096_ & ~(_098_);
-  assign _100_ = _099_ | _066_;
-  assign _101_ = ~\mchip.PLL.loop_fil.phase_corr [6];
-  assign _102_ = \mchip.PLL.loop_fil.phase_corr [4] | \mchip.PLL.loop_fil.phase_corr [5];
-  assign _103_ = _176_ & ~(_102_);
-  assign _104_ = _103_ ^ \mchip.PLL.loop_fil.phase_corr [6];
-  assign _105_ = _054_ ? _101_ : _104_;
-  assign _106_ = _172_ ^ _105_;
-  assign _107_ = _106_ ^ _100_;
-  assign _108_ = ~(_180_ | _179_);
-  assign _008_ = _108_ ? _172_ : _107_;
-  assign _109_ = _170_ & ~(_171_);
-  assign _110_ = io_in[10] & \mchip.PLL.dig_osc.ctr [6];
-  assign _111_ = _110_ | _109_;
-  assign _112_ = \mchip.PLL.dig_osc.ctr [7] ^ io_in[11];
-  assign _113_ = _112_ ^ _111_;
-  assign _114_ = _172_ & _105_;
-  assign _115_ = _106_ & _100_;
-  assign _116_ = _115_ | _114_;
-  assign _117_ = ~\mchip.PLL.loop_fil.phase_corr [7];
-  assign _118_ = _103_ & ~(\mchip.PLL.loop_fil.phase_corr [6]);
-  assign _119_ = _118_ ^ \mchip.PLL.loop_fil.phase_corr [7];
-  assign _120_ = _054_ ? _117_ : _119_;
-  assign _121_ = _113_ ^ _120_;
-  assign _122_ = _121_ ^ _116_;
-  assign _009_ = _108_ ? _113_ : _122_;
-  assign _182_[1] = \mchip.counter [0] ^ \mchip.counter [1];
-  assign _123_ = \mchip.counter [0] & \mchip.counter [1];
-  assign _182_[2] = _123_ ^ \mchip.counter [2];
-  assign _124_ = _123_ & \mchip.counter [2];
-  assign _182_[3] = _124_ ^ \mchip.counter [3];
-  assign _125_ = ~(\mchip.counter [3] & \mchip.counter [2]);
-  assign _126_ = _123_ & ~(_125_);
-  assign _182_[4] = _126_ ^ \mchip.counter [4];
-  assign _127_ = _126_ & \mchip.counter [4];
-  assign _182_[5] = _127_ ^ \mchip.counter [5];
-  assign _128_ = ~(\mchip.counter [5] & \mchip.counter [4]);
-  assign _129_ = _126_ & ~(_128_);
-  assign _182_[6] = _129_ ^ \mchip.counter [6];
-  assign _130_ = _129_ & \mchip.counter [6];
-  assign _182_[7] = _130_ ^ \mchip.counter [7];
-  assign _131_ = ~(\mchip.counter [7] & \mchip.counter [6]);
-  assign _132_ = _131_ | _128_;
-  assign _133_ = _126_ & ~(_132_);
-  assign _182_[8] = _133_ ^ \mchip.counter [8];
-  assign _012_ = io_in[1] & io_in[2];
-  assign _013_ = io_in[2] & ~(io_in[1]);
-  assign _014_ = io_in[1] & ~(io_in[2]);
-  assign _015_ = ~(io_in[1] | io_in[2]);
-  assign _181_[0] = ~\mchip.counter [0];
-  assign _134_ = \mchip.counter [3] | ~(\mchip.counter [2]);
-  assign _135_ = \mchip.counter [0] | \mchip.counter [1];
-  assign _136_ = _135_ | _134_;
-  assign _137_ = ~(_136_ | _132_);
-  assign _000_ = ~(_137_ & \mchip.counter [8]);
-  assign _001_ = ~\mchip.new_clock ;
-  assign _011_ = ~(io_in[0] | \mchip.PLL.dig_osc.ctr [7]);
-  assign _010_ = io_in[0] & \mchip.PLL.dig_osc.ctr [7];
-  assign \mchip.PLL.dig_osc.out_of_phase  = ~_108_;
-  assign _138_ = _073_ ^ \mchip.PLL.loop_fil.phase_corr [0];
-  assign _002_ = _108_ ? _073_ : _138_;
-  assign _139_ = ~(_074_ ^ _072_);
-  assign _003_ = _108_ ? _071_ : _139_;
-  assign _140_ = ~(_089_ ^ _077_);
-  assign _004_ = _108_ ? _088_ : _140_;
-  assign _141_ = _077_ & ~(_089_);
-  assign _142_ = _093_ & ~(_141_);
-  assign _143_ = _142_ ^ _085_;
-  assign _005_ = _108_ ? _084_ : _143_;
-  assign _144_ = ~(_097_ ^ _096_);
-  assign _006_ = _108_ ? _062_ : _144_;
-  assign _145_ = _097_ | ~(_096_);
-  assign _146_ = _145_ & ~(_063_);
-  assign _147_ = _146_ ^ _064_;
-  assign _007_ = _108_ ? _058_ : _147_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+  assign _003_ = _116_ ? _036_ : _044_;
+  assign _045_ = \mchip.PLL.dig_osc.ctr [3] & io_in[7];
+  assign _046_ = _035_ & _032_;
+  assign _047_ = _046_ | _045_;
+  assign _048_ = _035_ & _022_;
+  assign _049_ = _048_ & ~(_021_);
+  assign _050_ = _049_ | _047_;
+  assign _051_ = \mchip.PLL.dig_osc.ctr [4] ^ io_in[8];
+  assign _052_ = _051_ ^ _050_;
+  assign _053_ = _043_ | _030_;
+  assign _054_ = _026_ & ~(_053_);
+  assign _055_ = _036_ & ~(_042_);
+  assign _056_ = _037_ & ~(_043_);
+  assign _057_ = _056_ | _055_;
+  assign _058_ = _057_ | _054_;
+  assign _059_ = ~\mchip.PLL.loop_fil.phase_corr [4];
+  assign _060_ = \mchip.PLL.loop_fil.phase_corr [2] | \mchip.PLL.loop_fil.phase_corr [3];
+  assign _061_ = _027_ & ~(_060_);
+  assign _062_ = _061_ ^ \mchip.PLL.loop_fil.phase_corr [4];
+  assign _063_ = _014_ ? _059_ : _062_;
+  assign _064_ = ~(_052_ ^ _063_);
+  assign _065_ = ~(_064_ ^ _058_);
+  assign _004_ = _116_ ? _052_ : _065_;
+  assign _066_ = \mchip.PLL.dig_osc.ctr [4] & io_in[8];
+  assign _067_ = _051_ & _050_;
+  assign _068_ = ~(_067_ | _066_);
+  assign _069_ = \mchip.PLL.dig_osc.ctr [5] ^ io_in[9];
+  assign _070_ = ~(_069_ ^ _068_);
+  assign _071_ = _052_ & _063_;
+  assign _072_ = _058_ & ~(_064_);
+  assign _073_ = ~(_072_ | _071_);
+  assign _074_ = ~(_061_ & _059_);
+  assign _075_ = _074_ ^ \mchip.PLL.loop_fil.phase_corr [5];
+  assign _076_ = _014_ ? \mchip.PLL.loop_fil.phase_corr [5] : _075_;
+  assign _077_ = _070_ ^ _076_;
+  assign _078_ = _077_ ^ _073_;
+  assign _005_ = _116_ ? _070_ : _078_;
+  assign _079_ = \mchip.PLL.dig_osc.ctr [5] & io_in[9];
+  assign _080_ = _069_ & _066_;
+  assign _081_ = _080_ | _079_;
+  assign _082_ = ~(_069_ & _051_);
+  assign _083_ = _050_ & ~(_082_);
+  assign _084_ = _083_ | _081_;
+  assign _085_ = ~(\mchip.PLL.dig_osc.ctr [6] ^ io_in[10]);
+  assign _086_ = ~(_085_ ^ _084_);
+  assign _087_ = _070_ & ~(_076_);
+  assign _088_ = _071_ & ~(_077_);
+  assign _089_ = _088_ | _087_;
+  assign _090_ = _077_ | _064_;
+  assign _091_ = _058_ & ~(_090_);
+  assign _092_ = _091_ | _089_;
+  assign _093_ = ~\mchip.PLL.loop_fil.phase_corr [6];
+  assign _094_ = \mchip.PLL.loop_fil.phase_corr [4] | \mchip.PLL.loop_fil.phase_corr [5];
+  assign _095_ = _061_ & ~(_094_);
+  assign _096_ = _095_ ^ \mchip.PLL.loop_fil.phase_corr [6];
+  assign _097_ = _014_ ? _093_ : _096_;
+  assign _098_ = _086_ ^ _097_;
+  assign _099_ = _098_ ^ _092_;
+  assign _006_ = _116_ ? _086_ : _099_;
+  assign _100_ = _084_ & ~(_085_);
+  assign _101_ = \mchip.PLL.dig_osc.ctr [6] & io_in[10];
+  assign _102_ = _101_ | _100_;
+  assign _103_ = io_in[11] ^ \mchip.PLL.dig_osc.ctr [7];
+  assign _104_ = _103_ ^ _102_;
+  assign _105_ = _086_ & _097_;
+  assign _106_ = _098_ & _092_;
+  assign _107_ = _106_ | _105_;
+  assign _108_ = ~\mchip.PLL.loop_fil.phase_corr [7];
+  assign _109_ = _095_ & ~(\mchip.PLL.loop_fil.phase_corr [6]);
+  assign _110_ = _109_ ^ \mchip.PLL.loop_fil.phase_corr [7];
+  assign _111_ = _014_ ? _108_ : _110_;
+  assign _112_ = _104_ ^ _111_;
+  assign _113_ = _112_ ^ _107_;
+  assign _007_ = _116_ ? _104_ : _113_;
+  assign _010_ = io_in[1] & io_in[2];
+  assign _011_ = io_in[2] & ~(io_in[1]);
+  assign _012_ = io_in[1] & ~(io_in[2]);
+  assign _013_ = ~(io_in[1] | io_in[2]);
+  assign _009_ = ~(io_in[0] | \mchip.PLL.dig_osc.ctr [7]);
+  assign _114_ = \mchip.PLL.dig_osc.ctr [7] & ~(io_in[0]);
+  assign _115_ = io_in[0] & ~(\mchip.PLL.dig_osc.ctr [7]);
+  assign \mchip.PLL.dig_osc.lead_or_lag  = \mchip.PLL.phase_det.matched  ? _115_ : _114_;
+  assign _008_ = io_in[0] & \mchip.PLL.dig_osc.ctr [7];
+  assign _116_ = ~(_115_ | _114_);
+  assign \mchip.PLL.dig_osc.out_of_phase  = ~_116_;
+  assign _117_ = io_in[4] ^ \mchip.PLL.dig_osc.ctr [0];
+  assign _118_ = _117_ ^ \mchip.PLL.loop_fil.phase_corr [0];
+  assign _000_ = _116_ ? _117_ : _118_;
+  assign _119_ = io_in[4] & \mchip.PLL.dig_osc.ctr [0];
+  assign _120_ = io_in[5] ^ \mchip.PLL.dig_osc.ctr [1];
+  assign _121_ = _120_ ^ _119_;
+  assign _122_ = \mchip.PLL.loop_fil.phase_corr [0] & ~(_117_);
+  assign _123_ = ~\mchip.PLL.loop_fil.phase_corr [1];
+  assign _124_ = \mchip.PLL.loop_fil.phase_corr [1] ^ \mchip.PLL.loop_fil.phase_corr [0];
+  assign _125_ = ~_124_;
+  assign _126_ = ~(io_in[11] ^ \mchip.PLL.loop_fil.phase_corr [7]);
+  assign _127_ = io_in[10] ^ \mchip.PLL.loop_fil.phase_corr [6];
+  assign _128_ = _126_ & ~(_127_);
+  assign _129_ = \mchip.PLL.loop_fil.phase_corr [4] ^ io_in[8];
+  assign _130_ = io_in[9] ^ \mchip.PLL.loop_fil.phase_corr [5];
+  assign _131_ = _130_ | _129_;
+  assign _132_ = _128_ & ~(_131_);
+  assign _133_ = \mchip.PLL.loop_fil.phase_corr [0] ^ io_in[4];
+  assign _134_ = \mchip.PLL.loop_fil.phase_corr [1] ^ io_in[5];
+  assign _135_ = ~(_134_ | _133_);
+  assign _136_ = ~(io_in[6] ^ \mchip.PLL.loop_fil.phase_corr [2]);
+  assign _137_ = io_in[7] ^ \mchip.PLL.loop_fil.phase_corr [3];
+  assign _138_ = _136_ & ~(_137_);
+  assign _139_ = ~(_138_ & _135_);
+  assign _140_ = _132_ & ~(_139_);
+  assign _141_ = \mchip.PLL.loop_fil.phase_corr [7] | ~(io_in[11]);
+  assign _142_ = \mchip.PLL.loop_fil.phase_corr [6] | ~(io_in[10]);
+  assign _143_ = _126_ & ~(_142_);
+  assign _144_ = _141_ & ~(_143_);
+  assign _145_ = \mchip.PLL.loop_fil.phase_corr [5] | ~(io_in[9]);
+  assign _146_ = io_in[8] & ~(\mchip.PLL.loop_fil.phase_corr [4]);
+  assign _147_ = _146_ & ~(_130_);
+  assign _148_ = _145_ & ~(_147_);
+  assign _149_ = _128_ & ~(_148_);
+  assign _150_ = _144_ & ~(_149_);
+  assign _151_ = \mchip.PLL.loop_fil.phase_corr [3] | ~(io_in[7]);
+  assign _152_ = io_in[6] & ~(\mchip.PLL.loop_fil.phase_corr [2]);
+  assign _153_ = _152_ & ~(_137_);
+  assign _154_ = _151_ & ~(_153_);
+  assign _155_ = \mchip.PLL.loop_fil.phase_corr [1] | ~(io_in[5]);
+  assign _156_ = io_in[4] | ~(\mchip.PLL.loop_fil.phase_corr [0]);
+  assign _157_ = _156_ & ~(_134_);
+  assign _158_ = _155_ & ~(_157_);
+  assign _159_ = _138_ & ~(_158_);
+  assign _160_ = _154_ & ~(_159_);
+  assign _161_ = _132_ & ~(_160_);
+  assign _162_ = _150_ & ~(_161_);
+  assign _163_ = _162_ | _140_;
+  assign _014_ = \mchip.PLL.dig_osc.lead_or_lag  & ~(_163_);
+  assign _015_ = _014_ ? _123_ : _125_;
+  assign _016_ = ~_121_;
+  assign _017_ = _016_ ^ _015_;
+  assign _018_ = _017_ ^ _122_;
+  assign _001_ = _116_ ? _121_ : _018_;
+  assign _019_ = io_in[5] & \mchip.PLL.dig_osc.ctr [1];
+  assign _020_ = _120_ & _119_;
+  assign _021_ = ~(_020_ | _019_);
+  assign _022_ = \mchip.PLL.dig_osc.ctr [2] ^ io_in[6];
+  assign _023_ = ~(_022_ ^ _021_);
+  assign _024_ = ~(_017_ | _122_);
+  assign _025_ = _015_ & ~(_016_);
+  assign _026_ = _025_ | _024_;
+  assign _027_ = ~(\mchip.PLL.loop_fil.phase_corr [1] | \mchip.PLL.loop_fil.phase_corr [0]);
+  assign _028_ = ~(_027_ ^ \mchip.PLL.loop_fil.phase_corr [2]);
+  assign _029_ = _014_ ? \mchip.PLL.loop_fil.phase_corr [2] : _028_;
+  assign _030_ = _023_ ^ _029_;
+  assign _031_ = ~(_030_ ^ _026_);
+  assign _002_ = _116_ ? _023_ : _031_;
+  assign _032_ = \mchip.PLL.dig_osc.ctr [2] & io_in[6];
+  assign _033_ = _022_ & ~(_021_);
+  assign _034_ = ~(_033_ | _032_);
+  assign _035_ = \mchip.PLL.dig_osc.ctr [3] ^ io_in[7];
+  assign _036_ = ~(_035_ ^ _034_);
+  assign _037_ = _023_ & ~(_029_);
+  assign _038_ = _026_ & ~(_030_);
+  assign _039_ = ~(_038_ | _037_);
+  assign _040_ = _027_ & ~(\mchip.PLL.loop_fil.phase_corr [2]);
+  assign _041_ = ~(_040_ ^ \mchip.PLL.loop_fil.phase_corr [3]);
+  assign _042_ = _014_ ? \mchip.PLL.loop_fil.phase_corr [3] : _041_;
+  assign _043_ = _036_ ^ _042_;
+  assign _044_ = _043_ ^ _039_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [0] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [0] <= _002_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [0] <= _000_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [1] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [1] <= _003_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [1] <= _001_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [2] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [2] <= _004_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [2] <= _002_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [3] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [3] <= _005_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [3] <= _003_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [4] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [4] <= _006_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [4] <= _004_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [5] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [5] <= _007_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [5] <= _005_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [6] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [6] <= _008_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.dig_osc.ctr [6] <= _006_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:34.22-36.53|d16_bgonzale_pll/src/chip.sv:112.3-123.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[13]) \mchip.PLL.dig_osc.ctr [7] <= 1'h0;
-    else \mchip.PLL.dig_osc.ctr [7] <= _009_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:62.3-68.6|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
-    if (_010_) \mchip.PLL.phase_det.matched  <= 1'h1;
-    else if (_011_) \mchip.PLL.phase_det.matched  <= 1'h0;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
+    else \mchip.PLL.dig_osc.ctr [7] <= _007_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:25.18-26.88|d16_bgonzale_pll/src/chip.sv:62.3-68.6|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [0] <= 1'h0;
-    else \mchip.counter [0] <= _181_[0];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
+    if (_008_) \mchip.PLL.phase_det.matched  <= 1'h1;
+    else if (_009_) \mchip.PLL.phase_det.matched  <= 1'h0;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
   always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [1] <= 1'h0;
-    else \mchip.counter [1] <= _182_[1];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [2] <= 1'h0;
-    else \mchip.counter [2] <= _182_[2];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [3] <= 1'h0;
-    else \mchip.counter [3] <= _182_[3];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [4] <= 1'h0;
-    else \mchip.counter [4] <= _182_[4];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [5] <= 1'h0;
-    else \mchip.counter [5] <= _182_[5];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [6] <= 1'h0;
-    else \mchip.counter [6] <= _182_[6];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [7] <= 1'h0;
-    else \mchip.counter [7] <= _182_[7];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.counter [8] <= 1'h0;
-    else \mchip.counter [8] <= _182_[8];
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:139.2-146.5" */
-  always @(posedge io_in[12])
-    if (!_000_) \mchip.new_clock  <= _001_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
     if (io_in[3]) \mchip.PLL.loop_fil.phase_corr [7] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [7] <= _015_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [7] <= _013_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[3]) \mchip.PLL.loop_fil.phase_corr [0] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [0] <= _012_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [0] <= _010_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[3]) \mchip.PLL.loop_fil.phase_corr [1] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [1] <= _013_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [1] <= _011_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[3]) \mchip.PLL.loop_fil.phase_corr [2] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [2] <= _014_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [2] <= _012_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (!io_in[3]) \mchip.PLL.loop_fil.phase_corr [3] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [3] <= _015_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [3] <= _013_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (io_in[3]) \mchip.PLL.loop_fil.phase_corr [4] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [4] <= _012_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [4] <= _010_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (io_in[3]) \mchip.PLL.loop_fil.phase_corr [5] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [5] <= _013_;
-  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:149.20-156.32" */
-  always @(posedge \mchip.new_clock )
+    else \mchip.PLL.loop_fil.phase_corr [5] <= _011_;
+  /* src = "d16_bgonzale_pll/src/toplevel_chip.v:9.13-14.6|d16_bgonzale_pll/src/chip.sv:30.15-31.57|d16_bgonzale_pll/src/chip.sv:92.3-93.48|d16_bgonzale_pll/src/chip.sv:138.20-145.32" */
+  always @(posedge io_in[12])
     if (io_in[3]) \mchip.PLL.loop_fil.phase_corr [6] <= 1'h0;
-    else \mchip.PLL.loop_fil.phase_corr [6] <= _014_;
-  assign _181_[8:1] = \mchip.counter [8:1];
-  assign _182_[0] = _181_[0];
+    else \mchip.PLL.loop_fil.phase_corr [6] <= _012_;
   assign io_out = { 11'h000, \mchip.PLL.dig_osc.out_of_phase , \mchip.PLL.dig_osc.lead_or_lag , \mchip.PLL.dig_osc.ctr [7] };
   assign \mchip.PLL.dig_osc.freq_step  = io_in[11:4];
-  assign \mchip.PLL.dig_osc.i_sys_clk  = \mchip.new_clock ;
+  assign \mchip.PLL.dig_osc.i_sys_clk  = io_in[12];
   assign \mchip.PLL.dig_osc.phase_corr  = \mchip.PLL.loop_fil.phase_corr ;
   assign \mchip.PLL.dig_osc.rec_clk  = \mchip.PLL.dig_osc.ctr [7];
   assign \mchip.PLL.i_freq_step  = io_in[11:4];
   assign \mchip.PLL.i_loop_gain  = io_in[3:1];
   assign \mchip.PLL.i_ref_clk  = io_in[0];
-  assign \mchip.PLL.i_sys_clk  = \mchip.new_clock ;
+  assign \mchip.PLL.i_sys_clk  = io_in[12];
   assign \mchip.PLL.lead_or_lag  = \mchip.PLL.dig_osc.lead_or_lag ;
-  assign \mchip.PLL.loop_fil.i_sys_clk  = \mchip.new_clock ;
+  assign \mchip.PLL.loop_fil.i_sys_clk  = io_in[12];
   assign \mchip.PLL.loop_fil.loop_gain  = io_in[3:1];
   assign \mchip.PLL.o_lead_or_lag  = \mchip.PLL.dig_osc.lead_or_lag ;
   assign \mchip.PLL.o_phase_error  = \mchip.PLL.dig_osc.out_of_phase ;
   assign \mchip.PLL.o_rec_clk  = \mchip.PLL.dig_osc.ctr [7];
   assign \mchip.PLL.out_of_phase  = \mchip.PLL.dig_osc.out_of_phase ;
   assign \mchip.PLL.phase_corr  = \mchip.PLL.loop_fil.phase_corr ;
-  assign \mchip.PLL.phase_det.i_sys_clk  = \mchip.new_clock ;
+  assign \mchip.PLL.phase_det.i_sys_clk  = io_in[12];
   assign \mchip.PLL.phase_det.lead_or_lag  = \mchip.PLL.dig_osc.lead_or_lag ;
   assign \mchip.PLL.phase_det.out_of_phase  = \mchip.PLL.dig_osc.out_of_phase ;
   assign \mchip.PLL.phase_det.rec_clk  = \mchip.PLL.dig_osc.ctr [7];
