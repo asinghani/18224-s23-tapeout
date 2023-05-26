@@ -7,7 +7,8 @@ module my_chip (
     design_instantiations dut (
         .io_in, .io_out,
         .clock, .reset,
-        .des_sel(6'd`DES_NUM), .hold_if_not_sel(1'b0)
+        .des_sel(6'd`DES_NUM), .hold_if_not_sel(1'b0),
+        .sync_inputs(1'b0)
     );
 
 endmodule
