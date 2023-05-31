@@ -18,12 +18,13 @@ module game
   typedef enum logic [2:0] {IDLE, SETUP, KICK, WAIT, GAME} state_t;
   state_t state = SETUP, nextState;
 
-  logic [3:0] horsepos;
-  logic [3:0] cowboypos;
+  //logic [3:0] horsepos;
+  //logic [3:0] cowboypos;
 
   logic targetGameover, targetLostwon, targetReady;
-  logic [2:0] targetKickflight, targetKickcount, targetMove, targetCowboyHitpoints;
+  logic [2:0] targetKickflight, targetKickcount, targetCowboyHitpoints;
   logic [3:0] targetCowboypos, targetHorsepos;
+  logic [2:0] targetMove; // needed?
 
   // need random numbers 0 to 9,
   // 3 bits + 2 bits?
@@ -31,8 +32,8 @@ module game
   LFSR #(5) lfsrinstance(.i_Clk(clock), .i_Enable(1'b0),
     .o_LFSR_Data(lfsrout));
 
-  logic [30:0] p = { 4'd0, 4'd1, 4'd2, 4'd3, 4'd3, 4'd2, 4'd2, 4'd1, 4'd0, -4'd1 };
-  logic [30:0] q = { 4'd1, 4'd2, 4'd3, 4'd4, 4'd5, 4'd4, 4'd3, 4'd2, 4'd1, 4'd0 };
+  logic [40:0] p = { 4'd0, 4'd1, 4'd2, 4'd3, 4'd3, 4'd2, 4'd2, 4'd1, 4'd0, -4'd1 };
+  logic [40:0] q = { 4'd1, 4'd2, 4'd3, 4'd4, 4'd5, 4'd4, 4'd3, 4'd2, 4'd1, 4'd0 };
 
   logic [3:0] pVal, qVal;
   logic [4:0] randomVal;
@@ -85,8 +86,8 @@ module game
     end else cowboyInBound = 0;
   endfunction
 
-  function automatic boundHorse;
-    integer horsePos;
+  function automatic integer boundHorse;
+    input [3:0] horsePos;
     integer targetHorsePos;
     targetHorsePos = horsePos;
     if (horsePos < 0) targetHorsePos = 0;
@@ -107,8 +108,8 @@ module game
     targetGameover = gameover;
     targetKickflight = kickflight;
     targetKickcount = kickcount;
-    targetCowboypos = cowboypos;
-    targetHorsepos = horsepos;
+    targetCowboypos = cowboyPos;
+    targetHorsepos = horsePos;
     targetLostwon = lostwon;
     targetMove = move;
     targetCowboyHitpoints = cowboyHitpoints;
@@ -116,7 +117,7 @@ module game
     kickdead = (kickcount > cowboyHitpoints);
     // used for game decision, so should be next values
     distance = (targetCowboypos > targetHorsepos) ? targetCowboypos - targetHorsepos : targetHorsepos - targetCowboypos;
-    cowboyLeftOfHorse = (cowboypos > horsepos) ? 0 : 1;
+    cowboyLeftOfHorse = (cowboyPos > horsePos) ? 1'b0 : 1'b1;
 // IDLE, SETUP, KICK, WAIT, GAME
     unique case (state)
       IDLE: if (enter && move > 3'd0 && move < 3'd6 && cowboyInBound(cowboyLeftOfHorse, cowboyPos, move))
@@ -137,7 +138,7 @@ module game
           nextState = SETUP;
         end
         else begin
-           targetKickflight = kickflight - 1;
+           targetKickflight = kickflight - 1'b1;
            nextState = KICK;
            if (targetKickflight == 0) nextState = IDLE;
            if (cowboyLeftOfHorse) begin
@@ -148,7 +149,7 @@ module game
         end
       GAME: begin
         targetCowboypos = cowboyDest(cowboyLeftOfHorse, cowboyPos, move);
-        targetHorsepos = boundHorse(horsepos + (cowboyLeftOfHorse ? pVal : -pVal));
+        targetHorsepos = boundHorse(horsePos + (cowboyLeftOfHorse ? pVal : -pVal));
 	if (distance < (move << 1) && distance > 1) begin
           // bolt
           targetHorsepos = boundHorse(boltDest(cowboyLeftOfHorse, horsePos));
@@ -177,11 +178,11 @@ module game
         end
       end
       SETUP: begin
-        targetGameover = 1;
-        targetCowboypos <= 4'd0;
-        targetKickflight <= 3'd0;
-        targetKickcount <= 3'd0;
-        targetCowboyHitpoints <= 3'd2 + pVal;
+        targetGameover = 0;
+        targetCowboypos = 4'd0;
+        targetKickflight = 3'd0;
+        targetKickcount = 3'd0;
+        targetCowboyHitpoints = 3'd2 + pVal;
         // was 13
         targetHorsepos = 4'd10 + (randomVal > 5 ? qVal : -qVal);
         nextState = WAIT;
@@ -190,9 +191,13 @@ module game
     end
 
   // state transition  
-  always @(posedge clock) begin
+  always @(posedge clock, negedge reset_n) begin
     if (~reset_n) begin
       lostwon <= 1;
+      ready <= 0;
+      cowboyPos <= 0;
+      horsePos <= 0;
+      gameover <= 0;
       state <= SETUP;
     end
     else begin
@@ -200,9 +205,10 @@ module game
       gameover <= targetGameover;
       kickflight <= targetKickflight;
       kickcount <= targetKickcount;
-      cowboypos <= targetCowboypos;
-      horsepos <= targetHorsepos;
+      cowboyPos <= targetCowboypos;
+      horsePos <= targetHorsepos;
       lostwon <= targetLostwon;
+      ready <= targetReady;
       cowboyHitpoints <= targetCowboyHitpoints;
     end
   end

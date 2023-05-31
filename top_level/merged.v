@@ -108738,20 +108738,20 @@ module d41_stroucki_corralgame (
 	wire _003_;
 	wire _004_;
 	wire _005_;
-	wire _006_;
-	wire _007_;
-	wire _008_;
-	wire _009_;
-	wire _010_;
-	wire _011_;
-	wire _012_;
-	wire _013_;
-	wire _014_;
-	wire _015_;
-	wire _016_;
-	wire _017_;
-	wire _018_;
-	wire _019_;
+	reg _006_;
+	reg _007_;
+	reg _008_;
+	reg _009_;
+	reg _010_;
+	reg _011_;
+	reg _012_;
+	reg _013_;
+	reg _014_;
+	reg _015_;
+	reg _016_;
+	reg _017_;
+	reg _018_;
+	reg _019_;
 	wire _020_;
 	wire _021_;
 	wire _022_;
@@ -108830,47 +108830,181 @@ module d41_stroucki_corralgame (
 	wire _095_;
 	wire _096_;
 	wire _097_;
-	wire [31:0] _098_;
-	wire [2:0] _099_;
-	wire [2:0] _100_;
+	wire _098_;
+	wire _099_;
+	wire _100_;
+	wire _101_;
+	wire _102_;
+	wire _103_;
+	wire _104_;
+	wire _105_;
+	wire _106_;
+	wire _107_;
+	wire _108_;
+	wire _109_;
+	wire _110_;
+	wire _111_;
+	wire _112_;
+	wire _113_;
+	wire _114_;
+	wire _115_;
+	wire _116_;
+	wire _117_;
+	wire _118_;
+	wire _119_;
+	wire _120_;
+	wire _121_;
+	wire _122_;
+	wire _123_;
+	wire _124_;
+	wire _125_;
+	wire _126_;
+	wire _127_;
+	wire _128_;
+	wire _129_;
+	wire _130_;
+	wire _131_;
+	wire _132_;
+	wire _133_;
+	wire _134_;
+	wire _135_;
+	wire _136_;
+	wire _137_;
+	wire _138_;
+	wire _139_;
+	wire _140_;
+	wire _141_;
+	wire _142_;
+	wire _143_;
+	wire _144_;
+	wire _145_;
+	wire _146_;
+	wire _147_;
+	wire _148_;
+	wire _149_;
+	wire _150_;
+	wire _151_;
+	wire _152_;
+	wire _153_;
+	wire _154_;
+	wire _155_;
+	wire _156_;
+	wire _157_;
+	wire _158_;
+	wire _159_;
+	wire _160_;
+	wire _161_;
+	wire _162_;
+	wire _163_;
+	wire _164_;
+	wire _165_;
+	wire _166_;
+	wire _167_;
+	wire _168_;
+	wire _169_;
+	wire _170_;
+	wire _171_;
+	wire _172_;
+	wire _173_;
+	wire _174_;
+	wire _175_;
+	wire _176_;
+	wire _177_;
+	wire _178_;
+	wire _179_;
+	wire _180_;
+	wire _181_;
+	wire _182_;
+	wire _183_;
+	wire _184_;
+	wire _185_;
+	wire _186_;
+	wire _187_;
+	wire _188_;
+	wire _189_;
+	wire _190_;
+	wire _191_;
+	wire _192_;
+	wire _193_;
+	wire _194_;
+	wire _195_;
+	wire _196_;
+	wire _197_;
+	wire _198_;
+	wire _199_;
+	wire _200_;
+	wire _201_;
+	wire _202_;
+	wire _203_;
+	wire _204_;
+	wire _205_;
+	wire _206_;
+	wire _207_;
+	wire _208_;
+	wire _209_;
+	wire _210_;
+	wire _211_;
+	wire _212_;
+	wire _213_;
+	wire _214_;
+	wire _215_;
+	wire _216_;
+	wire _217_;
+	wire _218_;
+	wire _219_;
+	wire _220_;
+	wire _221_;
+	wire _222_;
+	wire _223_;
+	wire _224_;
+	wire _225_;
+	wire _226_;
+	wire _227_;
+	wire _228_;
+	wire _229_;
+	wire _230_;
+	wire _231_;
+	wire _232_;
+	wire [2:0] _233_;
+	wire [2:0] _234_;
+	reg _235_ = 1'h1;
+	reg _236_ = 1'h1;
+	reg _237_;
+	reg _238_;
+	reg _239_ = 1'h1;
+	reg _240_ = 1'h0;
+	reg _241_ = 1'h0;
 	input wire [13:0] io_in;
 	output wire [13:0] io_out;
 	wire \mchip.clock ;
-	wire [3:0] \mchip.cowboypos ;
 	wire [3:0] \mchip.data ;
 	wire \mchip.enter ;
-	wire \mchip.gameenter ;
 	wire \mchip.gamegameover ;
-	wire [31:0] \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:154$21.boltStrength ;
-	wire \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:154$21.cowboyLeftOfHorse ;
-	wire [3:0] \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:154$21.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:144$17.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:144$17.targetHorsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:146$18.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:146$18.targetHorsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:151$20.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:151$20.targetHorsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:154$22.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:154$22.targetHorsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:156$23.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:156$23.targetHorsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:175$24.horsePos ;
-	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:175$24.targetHorsePos ;
+	wire [31:0] \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:155$21.boltStrength ;
+	wire \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:155$21.cowboyLeftOfHorse ;
+	wire [3:0] \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:155$21.horsePos ;
+	wire [3:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:145$17.horsePos ;
+	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:145$17.targetHorsePos ;
+	wire [3:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:147$18.horsePos ;
+	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:147$18.targetHorsePos ;
+	wire [3:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:152$20.horsePos ;
+	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:152$20.targetHorsePos ;
+	wire [3:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:155$22.horsePos ;
+	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:155$22.targetHorsePos ;
+	wire [3:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:157$23.horsePos ;
+	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:157$23.targetHorsePos ;
+	wire [3:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:176$24.horsePos ;
+	wire [31:0] \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:176$24.targetHorsePos ;
 	wire \mchip.gameinstance.clock ;
-	wire \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:150$19.cowboyLeftOfHorse ;
-	wire [3:0] \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:150$19.cowboyPos ;
-	wire [3:0] \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:150$19.move ;
+	wire \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:151$19.cowboyLeftOfHorse ;
+	wire [3:0] \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:151$19.cowboyPos ;
+	wire [3:0] \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:151$19.move ;
 	wire [2:0] \mchip.gameinstance.cowboyHitpoints ;
-	wire \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.cowboyLeftOfHorse ;
-	wire [3:0] \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.cowboyPos ;
-	wire [31:0] \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.dest ;
-	wire [3:0] \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.move ;
-	wire [3:0] \mchip.gameinstance.cowboyPos ;
-	reg [3:0] \mchip.gameinstance.cowboypos ;
-	wire [3:0] \mchip.gameinstance.distance ;
-	wire \mchip.gameinstance.enter ;
+	wire \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.cowboyLeftOfHorse ;
+	wire [3:0] \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.cowboyPos ;
+	wire [31:0] \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.dest ;
+	wire [3:0] \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.move ;
 	wire \mchip.gameinstance.gameover ;
-	wire [3:0] \mchip.gameinstance.horsepos ;
 	reg [2:0] \mchip.gameinstance.kickcount ;
 	reg [2:0] \mchip.gameinstance.kickflight ;
 	wire \mchip.gameinstance.lfsrinstance.i_Clk ;
@@ -108878,168 +109012,298 @@ module d41_stroucki_corralgame (
 	wire [4:0] \mchip.gameinstance.lfsrinstance.o_LFSR_Data ;
 	wire [5:1] \mchip.gameinstance.lfsrinstance.r_LFSR ;
 	wire [4:0] \mchip.gameinstance.lfsrout ;
-	reg \mchip.gameinstance.lostwon ;
-	wire [2:0] \mchip.gameinstance.move ;
 	wire [2:0] \mchip.gameinstance.nextState ;
-	wire [30:0] \mchip.gameinstance.p ;
+	wire [40:0] \mchip.gameinstance.p ;
 	wire [3:0] \mchip.gameinstance.pVal ;
-	wire [30:0] \mchip.gameinstance.q ;
+	wire [40:0] \mchip.gameinstance.q ;
 	wire [3:0] \mchip.gameinstance.qVal ;
 	wire [4:0] \mchip.gameinstance.randomVal ;
-	wire \mchip.gameinstance.ready ;
-	reg [2:0] \mchip.gameinstance.state  = 3'h1;
+	wire [3:0] \mchip.gameinstance.targetCowboypos ;
 	wire \mchip.gameinstance.targetGameover ;
 	wire [3:0] \mchip.gameinstance.targetHorsepos ;
 	wire [2:0] \mchip.gameinstance.targetKickflight ;
 	wire \mchip.gameinstance.targetLostwon ;
-	wire [2:0] \mchip.gameinstance.targetMove ;
-	wire \mchip.gamelostwon ;
-	wire [2:0] \mchip.gamemove ;
+	wire \mchip.gameinstance.targetReady ;
 	wire \mchip.gameover ;
-	wire \mchip.gameready ;
 	wire [7:0] \mchip.io_in ;
 	wire [7:0] \mchip.io_out ;
 	reg \mchip.lostwon ;
 	wire [2:0] \mchip.move ;
-	wire \mchip.ready ;
+	wire [3:0] \mchip.nextData ;
+	wire [2:0] \mchip.nextState ;
+	reg \mchip.ready ;
 	wire \mchip.reset ;
 	wire [2:0] \mchip.state ;
-	assign _099_[0] = ~\mchip.gameinstance.kickcount [0];
-	assign _042_ = ~(\mchip.gameinstance.state [1] | \mchip.gameinstance.state [0]);
-	assign _043_ = _042_ & ~\mchip.gameinstance.state [2];
-	assign _044_ = ~\mchip.gameinstance.state [2];
-	assign _045_ = ~(\mchip.gameinstance.state [1] & \mchip.gameinstance.state [0]);
-	assign _046_ = _044_ & ~_045_;
-	assign _047_ = \mchip.gameinstance.state [0] | ~\mchip.gameinstance.state [1];
-	assign _048_ = _044_ & ~_047_;
-	assign _049_ = ~(_048_ | _046_);
-	assign _050_ = _049_ & ~_043_;
-	assign _002_ = _050_ & ~io_in[1];
-	assign \mchip.gameinstance.move [0] = io_in[2] & io_in[5];
-	assign _051_ = _042_ & ~_044_;
-	assign _052_ = ~\mchip.gameinstance.cowboypos [2];
-	assign _053_ = \mchip.gameinstance.cowboypos [1] | ~\mchip.gameinstance.horsepos [1];
-	assign _054_ = ~\mchip.gameinstance.cowboypos [0];
-	assign _055_ = \mchip.gameinstance.cowboypos [1] ^ \mchip.gameinstance.horsepos [1];
-	assign _056_ = _054_ & ~_055_;
-	assign _057_ = _056_ | ~_053_;
-	assign _058_ = ~(_057_ & _052_);
-	assign _059_ = \mchip.gameinstance.horsepos [1] ^ \mchip.gameinstance.cowboypos [3];
-	assign _060_ = _059_ ^ _058_;
-	assign _061_ = \mchip.gameinstance.cowboypos [3] | ~\mchip.gameinstance.horsepos [1];
-	assign _062_ = _059_ | \mchip.gameinstance.cowboypos [2];
-	assign _063_ = _057_ & ~_062_;
-	assign _064_ = _061_ & ~_063_;
-	assign _065_ = _052_ & ~_053_;
-	assign _066_ = _065_ ^ _059_;
-	assign _067_ = (_064_ ? _066_ : _060_);
-	assign _068_ = _055_ ^ \mchip.gameinstance.cowboypos [0];
-	assign _069_ = (_064_ ? _055_ : _068_);
-	assign _070_ = (_064_ ? _053_ : _057_);
-	assign _071_ = _070_ ^ \mchip.gameinstance.cowboypos [2];
-	assign _072_ = _069_ | ~_071_;
-	assign _073_ = ~(_072_ | _067_);
-	assign _074_ = io_in[5] & io_in[4];
-	assign _075_ = ~_074_;
-	assign _076_ = _075_ ^ _067_;
-	assign _077_ = io_in[3] & io_in[5];
-	assign _078_ = _077_ | _071_;
-	assign _079_ = _077_ ^ _071_;
-	assign _080_ = \mchip.gameinstance.move [0] & ~_069_;
-	assign _081_ = _079_ & ~_080_;
-	assign _082_ = _078_ & ~_081_;
-	assign _083_ = _076_ & ~_082_;
-	assign _084_ = _067_ & ~_074_;
-	assign _085_ = _084_ | _083_;
-	assign _086_ = _085_ | _073_;
-	assign _087_ = _051_ & ~_086_;
-	assign _088_ = _069_ & ~_054_;
-	assign _089_ = _067_ | ~_071_;
-	assign _090_ = _089_ | _088_;
-	assign _091_ = ~(_090_ & _086_);
-	assign _092_ = _051_ & ~_091_;
-	assign _093_ = _092_ | _087_;
-	assign _000_ = _002_ & ~_093_;
-	assign _094_ = (\mchip.gameinstance.state [0] ? \mchip.gameinstance.state [2] : \mchip.gameinstance.state [1]);
-	assign _095_ = ~(\mchip.gameinstance.kickcount [2] | \mchip.gameinstance.kickcount [1]);
-	assign _096_ = ~_095_;
-	assign _097_ = _048_ & ~_096_;
-	assign _004_ = _094_ & ~_097_;
-	assign _005_ = ~(_046_ | _043_);
-	assign _006_ = _048_ & ~_095_;
-	assign _007_ = _006_ | io_in[1];
-	assign _003_ = _005_ & ~_007_;
-	assign _008_ = _007_ | _093_;
-	assign _001_ = _005_ & ~_008_;
-	assign _009_ = \mchip.gameinstance.state [0] & ~\mchip.gameinstance.state [1];
-	assign \mchip.gameinstance.targetHorsepos [3] = _009_ & ~\mchip.gameinstance.state [2];
-	assign _010_ = _077_ ^ \mchip.gameinstance.move [0];
-	assign _098_[1] = (_064_ ? _010_ : _077_);
-	assign _011_ = ~(_077_ | \mchip.gameinstance.move [0]);
-	assign _012_ = _011_ ^ _075_;
-	assign _098_[2] = (_064_ ? _012_ : _074_);
-	assign _013_ = _011_ & ~_074_;
-	assign _098_[31] = _064_ & ~_013_;
-	assign _014_ = ~\mchip.gameinstance.kickflight [0];
-	assign _015_ = (\mchip.gameinstance.state [2] ? _042_ : _009_);
-	assign \mchip.gameinstance.targetKickflight [0] = (_015_ ? _051_ : _014_);
-	assign _016_ = ~(\mchip.gameinstance.kickflight [1] ^ \mchip.gameinstance.kickflight [0]);
-	assign \mchip.gameinstance.targetKickflight [1] = _016_ & ~_015_;
-	assign _017_ = ~(\mchip.gameinstance.kickflight [1] | \mchip.gameinstance.kickflight [0]);
-	assign _018_ = _017_ ^ \mchip.gameinstance.kickflight [2];
-	assign \mchip.gameinstance.targetKickflight [2] = _018_ & ~_015_;
-	assign _019_ = ~io_in[5];
-	assign _020_ = _046_ & ~_019_;
-	assign _021_ = _020_ | _006_;
-	assign _022_ = _086_ & ~_090_;
-	assign _023_ = _051_ & ~_022_;
-	assign _024_ = _023_ | \mchip.gameinstance.targetHorsepos [3];
-	assign _025_ = _024_ | _021_;
-	assign _026_ = _049_ & ~_015_;
-	assign \mchip.gameinstance.nextState [0] = _025_ & ~_026_;
-	assign _027_ = \mchip.gameinstance.kickflight [0] & ~\mchip.gameinstance.kickflight [1];
-	assign _028_ = _027_ & ~_018_;
-	assign _029_ = _028_ | _096_;
-	assign _030_ = _048_ & ~_029_;
-	assign _031_ = ~(_030_ | _020_);
-	assign _032_ = _031_ & ~_015_;
-	assign \mchip.gameinstance.nextState [1] = ~(_032_ | _026_);
-	assign _033_ = ~(_098_[31] | _098_[2]);
-	assign _034_ = _098_[1] | \mchip.gameinstance.move [0];
-	assign _035_ = _033_ & ~_034_;
-	assign _036_ = _035_ | _098_[31];
-	assign _037_ = _077_ & _074_;
-	assign _038_ = _013_ | _019_;
-	assign _039_ = _038_ | _037_;
-	assign _040_ = _039_ | _036_;
-	assign \mchip.gameinstance.nextState [2] = _026_ & ~_040_;
-	assign _100_[1] = \mchip.gameinstance.kickcount [1] ^ \mchip.gameinstance.kickcount [0];
-	assign _041_ = \mchip.gameinstance.kickcount [1] & \mchip.gameinstance.kickcount [0];
-	assign _100_[2] = _041_ ^ \mchip.gameinstance.kickcount [2];
+	assign _202_ = _241_ & ~io_in[1];
+	assign _203_ = _239_ | io_in[1];
+	assign _204_ = _240_ & ~io_in[1];
+	assign _205_ = ~(_204_ & _203_);
+	assign _206_ = ~(_205_ | _202_);
+	assign _207_ = ~(_203_ | _202_);
+	assign _005_ = _207_ | _206_;
+	assign _208_ = ~_202_;
+	assign _209_ = ~(_204_ | _203_);
+	assign _210_ = _209_ & ~_208_;
+	assign _211_ = io_in[1] | ~_013_;
+	assign _212_ = _008_ & ~io_in[1];
+	assign _213_ = _212_ & _211_;
+	assign _214_ = ~(_212_ | _211_);
+	assign _215_ = _214_ | _213_;
+	assign _216_ = io_in[1] | ~_012_;
+	assign _217_ = _007_ & ~io_in[1];
+	assign _218_ = ~(_217_ & _216_);
+	assign _219_ = _217_ ^ _216_;
+	assign _220_ = _011_ & ~io_in[1];
+	assign _221_ = _006_ & ~io_in[1];
+	assign _222_ = _220_ & ~_221_;
+	assign _223_ = _219_ & ~_222_;
+	assign _224_ = _223_ | ~_218_;
+	assign _225_ = _014_ & ~io_in[1];
+	assign _226_ = _009_ & ~io_in[1];
+	assign _227_ = _226_ & ~_225_;
+	assign _228_ = _226_ ^ _225_;
+	assign _229_ = _213_ & ~_228_;
+	assign _230_ = _229_ | _227_;
+	assign _231_ = _228_ | _215_;
+	assign _232_ = _224_ & ~_231_;
+	assign _020_ = _232_ | _230_;
+	assign _021_ = _217_ | _216_;
+	assign _022_ = _221_ & ~_220_;
+	assign _023_ = _219_ & ~_022_;
+	assign _024_ = _023_ | ~_021_;
+	assign _025_ = (_020_ ? _224_ : _024_);
+	assign _026_ = _025_ ^ _215_;
+	assign _027_ = _224_ & ~_215_;
+	assign _028_ = _027_ | _213_;
+	assign _029_ = _024_ & ~_215_;
+	assign _030_ = _029_ | _214_;
+	assign _031_ = (_020_ ? _028_ : _030_);
+	assign _032_ = ~(_031_ ^ _228_);
+	assign _033_ = _026_ & ~_032_;
+	assign _034_ = _022_ | _222_;
+	assign _035_ = (_020_ ? _222_ : _022_);
+	assign _036_ = _035_ ^ _219_;
+	assign _037_ = _034_ & ~_036_;
+	assign _038_ = _033_ & ~_037_;
+	assign _039_ = ~(_036_ & _026_);
+	assign _040_ = _039_ | _032_;
+	assign _041_ = io_in[5] & io_in[4];
+	assign _042_ = ~(_235_ | io_in[1]);
+	assign _043_ = ~(_236_ | io_in[1]);
+	assign _044_ = _043_ | _042_;
+	assign _045_ = _041_ & ~_044_;
+	assign _046_ = ~_045_;
+	assign _047_ = _046_ ^ _032_;
+	assign _048_ = ~(io_in[3] & io_in[5]);
+	assign _049_ = ~(_048_ | _044_);
+	assign _050_ = _049_ | _026_;
+	assign _051_ = _049_ ^ _026_;
+	assign _052_ = ~(io_in[2] & io_in[5]);
+	assign _053_ = ~(_052_ | _044_);
+	assign _054_ = _053_ & _036_;
+	assign _055_ = _051_ & ~_054_;
+	assign _056_ = _050_ & ~_055_;
+	assign _057_ = _047_ & ~_056_;
+	assign _058_ = _032_ & ~_045_;
+	assign _059_ = _058_ | _057_;
+	assign _060_ = _040_ & ~_059_;
+	assign _061_ = _060_ | _038_;
+	assign _062_ = _210_ & ~_061_;
+	assign _063_ = ~(_062_ | io_in[1]);
+	assign _064_ = _060_ & _210_;
+	assign _065_ = _064_ | _005_;
+	assign _000_ = _063_ & ~_065_;
+	assign _066_ = (_203_ ? _202_ : _204_);
+	assign _067_ = _203_ | ~_204_;
+	assign _068_ = _208_ & ~_067_;
+	assign _069_ = ~(\mchip.gameinstance.kickcount [2] | \mchip.gameinstance.kickcount [1]);
+	assign _070_ = ~_069_;
+	assign _071_ = _068_ & ~_070_;
+	assign _003_ = _066_ & ~_071_;
+	assign _072_ = _209_ & ~_202_;
+	assign _073_ = ~(_072_ | _206_);
+	assign _074_ = _073_ & ~io_in[1];
+	assign _075_ = _064_ | _062_;
+	assign _076_ = _074_ & ~_075_;
+	assign _077_ = _068_ & ~_069_;
+	assign _001_ = _076_ & ~_077_;
+	assign _078_ = _210_ | _072_;
+	assign _079_ = ~(_078_ | _206_);
+	assign _002_ = _079_ & ~_071_;
+	assign _080_ = _073_ & ~_077_;
+	assign _081_ = _203_ & ~_204_;
+	assign _082_ = (_202_ ? _209_ : _081_);
+	assign _083_ = _020_ & ~_082_;
+	assign _004_ = _080_ & ~_083_;
+	assign \mchip.gameinstance.targetGameover  = ~(_081_ & _208_);
+	assign _084_ = _204_ & ~_202_;
+	assign _085_ = ~(_084_ | _082_);
+	assign _086_ = ~_085_;
+	assign _087_ = ~(_053_ | _049_);
+	assign _088_ = _087_ & ~_045_;
+	assign _089_ = ~io_in[5];
+	assign _090_ = _044_ | _089_;
+	assign _091_ = ~(_090_ | _088_);
+	assign _092_ = _049_ & _045_;
+	assign _093_ = _091_ & ~_092_;
+	assign _094_ = ~(_088_ | _020_);
+	assign _095_ = ~_094_;
+	assign _096_ = ~_225_;
+	assign _097_ = _094_ ^ _096_;
+	assign _098_ = _087_ ^ _046_;
+	assign _099_ = (_020_ ? _045_ : _098_);
+	assign _100_ = _099_ ^ _211_;
+	assign _101_ = _100_ | _097_;
+	assign _102_ = _053_ ^ _049_;
+	assign _103_ = (_020_ ? _049_ : _102_);
+	assign _104_ = _216_ | ~_103_;
+	assign _105_ = _103_ ^ _216_;
+	assign _106_ = ~(_053_ & _220_);
+	assign _107_ = ~_106_;
+	assign _108_ = _107_ & ~_105_;
+	assign _109_ = _104_ & ~_108_;
+	assign _110_ = _109_ | _101_;
+	assign _111_ = _211_ | ~_099_;
+	assign _112_ = ~(_111_ | _097_);
+	assign _113_ = _094_ & ~_096_;
+	assign _114_ = _113_ | _112_;
+	assign _115_ = _110_ & ~_114_;
+	assign _116_ = _095_ & ~_115_;
+	assign _117_ = _115_ & ~_095_;
+	assign _118_ = _107_ ^ _105_;
+	assign _119_ = _053_ ^ _220_;
+	assign _120_ = _118_ & ~_119_;
+	assign _121_ = _109_ ^ _100_;
+	assign _122_ = ~(_109_ | _100_);
+	assign _123_ = _111_ & ~_122_;
+	assign _124_ = _123_ ^ _097_;
+	assign _125_ = _124_ | _121_;
+	assign _126_ = _120_ & ~_125_;
+	assign _127_ = _117_ | _116_;
+	assign _128_ = _126_ & ~_127_;
+	assign _129_ = _128_ | _117_;
+	assign _130_ = _129_ | _116_;
+	assign _131_ = _130_ | ~_093_;
+	assign \mchip.gameinstance.targetReady  = _131_ & ~_086_;
+	assign \mchip.gameinstance.targetCowboypos [0] = _119_ & \mchip.gameinstance.targetGameover ;
+	assign \mchip.gameinstance.targetCowboypos [1] = \mchip.gameinstance.targetGameover  & ~_118_;
+	assign \mchip.gameinstance.targetCowboypos [2] = _121_ & \mchip.gameinstance.targetGameover ;
+	assign \mchip.gameinstance.targetCowboypos [3] = _124_ & \mchip.gameinstance.targetGameover ;
+	assign _132_ = _236_ | io_in[1];
+	assign _133_ = ~(_220_ & io_in[5]);
+	assign _134_ = _132_ & ~_133_;
+	assign _135_ = _043_ & _042_;
+	assign \mchip.nextData [0] = (_135_ ? _221_ : _134_);
+	assign _136_ = _216_ | _089_;
+	assign _137_ = _132_ & ~_136_;
+	assign \mchip.nextData [1] = (_135_ ? _217_ : _137_);
+	assign _138_ = _211_ | _089_;
+	assign _139_ = _132_ & ~_138_;
+	assign \mchip.nextData [2] = (_135_ ? _212_ : _139_);
+	assign _140_ = ~(_225_ & io_in[5]);
+	assign _141_ = _132_ & ~_140_;
+	assign \mchip.nextData [3] = (_135_ ? _226_ : _141_);
+	assign \mchip.nextState [0] = (_043_ ? _042_ : _089_);
+	assign _142_ = ~_042_;
+	assign \mchip.nextState [1] = (_043_ ? _142_ : _089_);
+	assign _143_ = ~\mchip.gameinstance.kickflight [0];
+	assign \mchip.gameinstance.targetKickflight [0] = (_082_ ? _210_ : _143_);
+	assign _144_ = ~(\mchip.gameinstance.kickflight [1] ^ \mchip.gameinstance.kickflight [0]);
+	assign \mchip.gameinstance.targetKickflight [1] = _144_ & ~_082_;
+	assign _145_ = ~(\mchip.gameinstance.kickflight [1] | \mchip.gameinstance.kickflight [0]);
+	assign _146_ = _145_ ^ \mchip.gameinstance.kickflight [2];
+	assign \mchip.gameinstance.targetKickflight [2] = _146_ & ~_082_;
+	assign _147_ = ~_082_;
+	assign _148_ = _210_ & ~_221_;
+	assign _149_ = _221_ & ~_020_;
+	assign \mchip.gameinstance.targetHorsepos [0] = (_082_ ? _148_ : _149_);
+	assign _150_ = _217_ & ~_020_;
+	assign _151_ = _020_ ^ _217_;
+	assign _152_ = _151_ ^ _221_;
+	assign _153_ = ~(_020_ ^ _217_);
+	assign _154_ = _153_ ^ _221_;
+	assign _155_ = _154_ | _038_;
+	assign _156_ = _038_ & ~_154_;
+	assign _157_ = _155_ & ~_156_;
+	assign _158_ = (_060_ ? _152_ : _157_);
+	assign _159_ = _210_ & ~_158_;
+	assign _160_ = _159_ | ~\mchip.gameinstance.targetGameover ;
+	assign \mchip.gameinstance.targetHorsepos [1] = (_082_ ? _160_ : _150_);
+	assign _161_ = _212_ & ~_020_;
+	assign _162_ = _221_ & ~_151_;
+	assign _163_ = _162_ | _150_;
+	assign _164_ = ~(_020_ ^ _212_);
+	assign _165_ = _164_ ^ _163_;
+	assign _166_ = ~_164_;
+	assign _167_ = ~(_020_ & _217_);
+	assign _168_ = _221_ & ~_153_;
+	assign _169_ = _167_ & ~_168_;
+	assign _170_ = _169_ ^ _166_;
+	assign _171_ = _169_ ^ _164_;
+	assign _172_ = (_038_ ? _171_ : _170_);
+	assign _173_ = (_060_ ? _165_ : _172_);
+	assign _174_ = _210_ & ~_173_;
+	assign \mchip.gameinstance.targetHorsepos [2] = (_082_ ? _174_ : _161_);
+	assign _175_ = _226_ & ~_020_;
+	assign _176_ = _163_ & ~_164_;
+	assign _177_ = _020_ & _212_;
+	assign _178_ = _177_ | _176_;
+	assign _179_ = _166_ & ~_169_;
+	assign _180_ = _177_ | _179_;
+	assign _181_ = _164_ & ~_169_;
+	assign _182_ = _181_ | _161_;
+	assign _183_ = (_038_ ? _182_ : _180_);
+	assign _184_ = (_060_ ? _178_ : _183_);
+	assign _185_ = ~(_020_ ^ _226_);
+	assign _186_ = _185_ ^ _184_;
+	assign _187_ = _210_ & ~_186_;
+	assign _188_ = _187_ | ~\mchip.gameinstance.targetGameover ;
+	assign \mchip.gameinstance.targetHorsepos [3] = (_082_ ? _188_ : _175_);
+	assign _189_ = _038_ & ~_060_;
+	assign _190_ = _210_ & ~_189_;
+	assign _191_ = \mchip.gameinstance.targetGameover  & ~_190_;
+	assign _192_ = _206_ & ~_090_;
+	assign _193_ = _192_ | _077_;
+	assign _194_ = _191_ & ~_193_;
+	assign \mchip.gameinstance.nextState [0] = _086_ & ~_194_;
+	assign _195_ = \mchip.gameinstance.kickflight [0] & ~\mchip.gameinstance.kickflight [1];
+	assign _196_ = _195_ & ~_146_;
+	assign _197_ = _196_ | _070_;
+	assign _198_ = _068_ & ~_197_;
+	assign _199_ = _198_ | _192_;
+	assign _200_ = _147_ & ~_199_;
+	assign \mchip.gameinstance.nextState [1] = _086_ & ~_200_;
+	assign \mchip.gameinstance.nextState [2] = _085_ & ~_131_;
+	assign _233_[0] = ~\mchip.gameinstance.kickcount [0];
+	assign _234_[1] = \mchip.gameinstance.kickcount [0] ^ \mchip.gameinstance.kickcount [1];
+	assign _201_ = \mchip.gameinstance.kickcount [0] & \mchip.gameinstance.kickcount [1];
+	assign _234_[2] = _201_ ^ \mchip.gameinstance.kickcount [2];
+	assign \mchip.gameinstance.gameover  = _010_ & ~io_in[1];
+	assign io_out[0] = _015_ & ~io_in[1];
+	assign io_out[1] = _016_ & ~io_in[1];
+	assign io_out[2] = _017_ & ~io_in[1];
+	assign io_out[3] = _018_ & ~io_in[1];
+	assign \mchip.gameover  = _019_ | io_in[1];
 	always @(posedge io_in[12])
-		if (_002_)
-			if (\mchip.gameinstance.targetHorsepos [3])
-				\mchip.gameinstance.cowboypos [0] <= 1'h0;
-			else
-				\mchip.gameinstance.cowboypos [0] <= \mchip.gameinstance.move [0];
+		if (io_in[1])
+			_006_ <= 1'h0;
+		else if (_004_)
+			_006_ <= \mchip.gameinstance.targetHorsepos [0];
 	always @(posedge io_in[12])
-		if (_002_)
-			if (\mchip.gameinstance.targetHorsepos [3])
-				\mchip.gameinstance.cowboypos [1] <= 1'h0;
-			else
-				\mchip.gameinstance.cowboypos [1] <= _098_[1];
+		if (io_in[1])
+			_007_ <= 1'h0;
+		else if (_004_)
+			_007_ <= \mchip.gameinstance.targetHorsepos [1];
 	always @(posedge io_in[12])
-		if (_002_)
-			if (\mchip.gameinstance.targetHorsepos [3])
-				\mchip.gameinstance.cowboypos [2] <= 1'h0;
-			else
-				\mchip.gameinstance.cowboypos [2] <= _098_[2];
+		if (io_in[1])
+			_008_ <= 1'h0;
+		else if (_004_)
+			_008_ <= \mchip.gameinstance.targetHorsepos [2];
 	always @(posedge io_in[12])
-		if (_002_)
-			if (\mchip.gameinstance.targetHorsepos [3])
-				\mchip.gameinstance.cowboypos [3] <= 1'h0;
-			else
-				\mchip.gameinstance.cowboypos [3] <= _098_[31];
+		if (io_in[1])
+			_009_ <= 1'h0;
+		else if (_004_)
+			_009_ <= \mchip.gameinstance.targetHorsepos [3];
 	always @(posedge io_in[12])
 		if (_001_)
 			\mchip.gameinstance.kickflight [0] <= \mchip.gameinstance.targetKickflight [0];
@@ -109050,116 +109314,168 @@ module d41_stroucki_corralgame (
 		if (_001_)
 			\mchip.gameinstance.kickflight [2] <= \mchip.gameinstance.targetKickflight [2];
 	always @(posedge io_in[12])
+		if (io_in[1])
+			_235_ <= 1'h1;
+		else
+			_235_ <= \mchip.nextState [0];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_236_ <= 1'h1;
+		else
+			_236_ <= \mchip.nextState [1];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_237_ <= 1'h0;
+		else
+			_237_ <= \mchip.gameinstance.targetReady ;
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_238_ <= 1'h1;
+		else if (_003_)
+			_238_ <= 1'h0;
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_239_ <= 1'h1;
+		else
+			_239_ <= \mchip.gameinstance.nextState [0];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_240_ <= 1'h0;
+		else
+			_240_ <= \mchip.gameinstance.nextState [1];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_241_ <= 1'h0;
+		else
+			_241_ <= \mchip.gameinstance.nextState [2];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_010_ <= 1'h0;
+		else if (_002_)
+			_010_ <= \mchip.gameinstance.targetGameover ;
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_011_ <= 1'h0;
+		else if (!_005_)
+			_011_ <= \mchip.gameinstance.targetCowboypos [0];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_012_ <= 1'h0;
+		else if (!_005_)
+			_012_ <= \mchip.gameinstance.targetCowboypos [1];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_013_ <= 1'h0;
+		else if (!_005_)
+			_013_ <= \mchip.gameinstance.targetCowboypos [2];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_014_ <= 1'h0;
+		else if (!_005_)
+			_014_ <= \mchip.gameinstance.targetCowboypos [3];
+	always @(posedge io_in[12])
 		if (_000_)
-			if (\mchip.gameinstance.targetHorsepos [3])
+			if (!\mchip.gameinstance.targetGameover )
 				\mchip.gameinstance.kickcount [0] <= 1'h0;
 			else
-				\mchip.gameinstance.kickcount [0] <= _099_[0];
+				\mchip.gameinstance.kickcount [0] <= _233_[0];
 	always @(posedge io_in[12])
 		if (_000_)
-			if (\mchip.gameinstance.targetHorsepos [3])
+			if (!\mchip.gameinstance.targetGameover )
 				\mchip.gameinstance.kickcount [1] <= 1'h0;
 			else
-				\mchip.gameinstance.kickcount [1] <= _100_[1];
+				\mchip.gameinstance.kickcount [1] <= _234_[1];
 	always @(posedge io_in[12])
 		if (_000_)
-			if (\mchip.gameinstance.targetHorsepos [3])
+			if (!\mchip.gameinstance.targetGameover )
 				\mchip.gameinstance.kickcount [2] <= 1'h0;
 			else
-				\mchip.gameinstance.kickcount [2] <= _100_[2];
-	reg \mchip.gameinstance.horsepos_reg[1] ;
-	always @(posedge io_in[12])
-		if (_003_)
-			\mchip.gameinstance.horsepos_reg[1]  <= \mchip.gameinstance.targetHorsepos [3];
-	assign \mchip.gameinstance.horsepos [1] = \mchip.gameinstance.horsepos_reg[1] ;
+				\mchip.gameinstance.kickcount [2] <= _234_[2];
 	always @(posedge io_in[12])
 		if (io_in[1])
-			\mchip.gameinstance.lostwon  <= 1'h1;
-		else if (_004_)
-			\mchip.gameinstance.lostwon  <= 1'h0;
-	always @(posedge io_in[12])
-		if (io_in[1])
-			\mchip.gameinstance.state [0] <= 1'h1;
+			_015_ <= 1'h0;
 		else
-			\mchip.gameinstance.state [0] <= \mchip.gameinstance.nextState [0];
+			_015_ <= \mchip.nextData [0];
 	always @(posedge io_in[12])
 		if (io_in[1])
-			\mchip.gameinstance.state [1] <= 1'h0;
+			_016_ <= 1'h0;
 		else
-			\mchip.gameinstance.state [1] <= \mchip.gameinstance.nextState [1];
+			_016_ <= \mchip.nextData [1];
 	always @(posedge io_in[12])
 		if (io_in[1])
-			\mchip.gameinstance.state [2] <= 1'h0;
+			_017_ <= 1'h0;
 		else
-			\mchip.gameinstance.state [2] <= \mchip.gameinstance.nextState [2];
+			_017_ <= \mchip.nextData [2];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_018_ <= 1'h0;
+		else
+			_018_ <= \mchip.nextData [3];
+	always @(posedge io_in[12])
+		if (io_in[1])
+			_019_ <= 1'h1;
+		else
+			_019_ <= \mchip.gameinstance.gameover ;
 	always @(posedge io_in[12])
 		if (!io_in[1])
-			\mchip.lostwon  <= \mchip.gameinstance.lostwon ;
-	assign {_098_[30:3], _098_[0]} = {_098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], _098_[31], \mchip.gameinstance.move [0]};
-	assign _099_[2:1] = \mchip.gameinstance.kickcount [2:1];
-	assign _100_[0] = _099_[0];
-	assign io_out = {8'h00, \mchip.lostwon , 5'h10};
+			if (io_in[1])
+				\mchip.ready  <= 1'h0;
+			else
+				\mchip.ready  <= _237_;
+	always @(posedge io_in[12])
+		if (!io_in[1])
+			if (io_in[1])
+				\mchip.lostwon  <= 1'h1;
+			else
+				\mchip.lostwon  <= _238_;
+	assign _233_[2:1] = \mchip.gameinstance.kickcount [2:1];
+	assign _234_[0] = _233_[0];
+	assign io_out[13:4] = {7'h00, \mchip.ready , \mchip.lostwon , \mchip.gameover };
 	assign \mchip.clock  = io_in[12];
-	assign \mchip.cowboypos  = 4'h0;
-	assign \mchip.data  = 4'h0;
+	assign \mchip.data  = io_out[3:0];
 	assign \mchip.enter  = io_in[5];
-	assign \mchip.gameenter  = io_in[5];
-	assign \mchip.gamegameover  = 1'h1;
-	assign \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:154$21.boltStrength  = 32'd0;
-	assign \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:154$21.cowboyLeftOfHorse  = 1'h0;
-	assign \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:154$21.horsePos  = 4'h0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:144$17.horsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:144$17.targetHorsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:146$18.horsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:146$18.targetHorsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:151$20.horsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:151$20.targetHorsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:154$22.horsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:154$22.targetHorsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:156$23.horsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:156$23.targetHorsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:175$24.horsePos  = 32'd0;
-	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:175$24.targetHorsePos  = 32'd0;
+	assign \mchip.gamegameover  = \mchip.gameinstance.gameover ;
+	assign \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:155$21.boltStrength  = 32'd0;
+	assign \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:155$21.cowboyLeftOfHorse  = 1'h0;
+	assign \mchip.gameinstance.boltDest$func$d41_stroucki_corralgame/src/game.sv:155$21.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:145$17.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:145$17.targetHorsePos  = 32'd0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:147$18.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:147$18.targetHorsePos  = 32'd0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:152$20.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:152$20.targetHorsePos  = 32'd0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:155$22.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:155$22.targetHorsePos  = 32'd0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:157$23.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:157$23.targetHorsePos  = 32'd0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:176$24.horsePos  = 4'h0;
+	assign \mchip.gameinstance.boundHorse$func$d41_stroucki_corralgame/src/game.sv:176$24.targetHorsePos  = 32'd0;
 	assign \mchip.gameinstance.clock  = io_in[12];
-	assign \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:150$19.cowboyLeftOfHorse  = 1'h0;
-	assign \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:150$19.cowboyPos  = 4'h0;
-	assign \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:150$19.move  = 4'h0;
+	assign \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:151$19.cowboyLeftOfHorse  = 1'h0;
+	assign \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:151$19.cowboyPos  = 4'h0;
+	assign \mchip.gameinstance.cowboyDest$func$d41_stroucki_corralgame/src/game.sv:151$19.move  = 4'h0;
 	assign \mchip.gameinstance.cowboyHitpoints  = 3'h1;
-	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.cowboyLeftOfHorse  = 1'h0;
-	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.cowboyPos  = 4'h0;
-	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.dest  = 32'd0;
-	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:122$16.move  = 4'h0;
-	assign \mchip.gameinstance.cowboyPos  = 4'h0;
-	assign \mchip.gameinstance.distance  = {3'h0, \mchip.gameinstance.cowboypos [0]};
-	assign \mchip.gameinstance.enter  = io_in[5];
-	assign \mchip.gameinstance.gameover  = 1'h1;
-	assign {\mchip.gameinstance.horsepos [3:2], \mchip.gameinstance.horsepos [0]} = {\mchip.gameinstance.horsepos [1], 2'h0};
+	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.cowboyLeftOfHorse  = 1'h0;
+	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.cowboyPos  = 4'h0;
+	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.dest  = 32'd0;
+	assign \mchip.gameinstance.cowboyInBound$func$d41_stroucki_corralgame/src/game.sv:123$16.move  = 4'h0;
 	assign \mchip.gameinstance.lfsrinstance.i_Clk  = io_in[12];
 	assign \mchip.gameinstance.lfsrinstance.i_Enable  = 1'h0;
 	assign \mchip.gameinstance.lfsrinstance.o_LFSR_Data  = 5'h00;
 	assign \mchip.gameinstance.lfsrinstance.r_LFSR  = 5'h00;
 	assign \mchip.gameinstance.lfsrout  = 5'h00;
-	assign \mchip.gameinstance.move [2:1] = 2'h0;
-	assign \mchip.gameinstance.p  = 31'h2332210f;
+	assign \mchip.gameinstance.p  = 41'h0012332210f;
 	assign \mchip.gameinstance.pVal  = 4'hf;
-	assign \mchip.gameinstance.q  = 31'h34543210;
+	assign \mchip.gameinstance.q  = 41'h01234543210;
 	assign \mchip.gameinstance.qVal  = 4'h0;
 	assign \mchip.gameinstance.randomVal  = 5'h00;
-	assign \mchip.gameinstance.ready  = 1'h0;
-	assign \mchip.gameinstance.targetGameover  = 1'h1;
-	assign \mchip.gameinstance.targetHorsepos [2:0] = {1'h0, \mchip.gameinstance.targetHorsepos [3], 1'h0};
 	assign \mchip.gameinstance.targetLostwon  = 1'h0;
-	assign \mchip.gameinstance.targetMove  = {2'h0, \mchip.gameinstance.move [0]};
-	assign \mchip.gamelostwon  = \mchip.gameinstance.lostwon ;
-	assign \mchip.gamemove  = {2'h0, \mchip.gameinstance.move [0]};
-	assign \mchip.gameover  = 1'h1;
-	assign \mchip.gameready  = 1'h0;
 	assign \mchip.io_in  = {io_in[7:1], io_in[12]};
-	assign \mchip.io_out  = {2'h0, \mchip.lostwon , 5'h10};
+	assign \mchip.io_out  = {1'h0, \mchip.ready , \mchip.lostwon , \mchip.gameover , io_out[3:0]};
 	assign \mchip.move  = io_in[4:2];
-	assign \mchip.ready  = 1'h0;
+	assign \mchip.nextState [2] = 1'h0;
 	assign \mchip.reset  = io_in[1];
-	assign \mchip.state  = 3'h3;
+	assign \mchip.state [2] = 1'h0;
 endmodule
 module d42_qilins_sevenseg (
 	io_in,
