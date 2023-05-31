@@ -16,7 +16,6 @@ The final chip, taped out through the Skywater foundry (via the Efabless ChipIgn
 
 Following is a list of student designs on the chip, along with the design indices (which must be selected on the `des_sel` pins on the chip to enable a particular design).
 
-|-----------|--------------------------------------|-------------------------|--------------------------------------------------------------|
 | **Index** | **Project**                          | **Student**             | **Link**                                                     |
 |-----------|--------------------------------------|-------------------------|--------------------------------------------------------------|
 | 1         | 6-Bit Combinational Adder            | (demo)                  | [d01_example_adder](designs/d01_example_adder)               |
@@ -26,7 +25,7 @@ Following is a list of student designs on the chip, along with the design indice
 | 5         | Tapeout Meta-Info                    | (demo)                  | [d05_meta_info](designs/d05_meta_info)                       |
 | 6         | Pong Game with VGA                   | (demo)                  | [d06_demo_vgapong](designs/d06_demo_vgapong)                 |
 | 7         | Endless Runner Game with VGA         | (demo)                  | [d07_demo_vgarunner](designs/d07_demo_vgarunner)             |
-|-----------|--------------------------------------|-------------------------|--------------------------------------------------------------|
+|           |                                      |                         |                                                              |
 | 10        | Tic-Tac-Toe Game                     | Wahib Abib              | [d10_wabib_tictactoe](designs/d10_wabib_tictactoe)           |
 | 11        | Brainfuck CPU                        | Gary Bailey             | [d11_gbailey_bfchip](designs/d11_gbailey_bfchip)             |
 | 12        | I2C Peripheral                       | Owen Ball               | [d12_oball_i2c](designs/d12_oball_i2c)                       |
@@ -48,7 +47,7 @@ Following is a list of student designs on the chip, along with the design indice
 | 28        | Microcoded CPU                       | Ganesh Venkatachalam    | [d28_gvenkata_ucpu](designs/d28_gvenkata_ucpu)               |
 | 29        | Intel 8008-based CPU                 | Brendan Wilhelm         | [d29_bwilhelm_i8008](designs/d29_bwilhelm_i8008)             |
 | 30        | Tiny FPGA                            | Yu-Ching Wu             | [d30_yuchingw_fpga](designs/d30_yuchingw_fpga)               |
-|-----------|--------------------------------------|-------------------------|--------------------------------------------------------------|
+|           |                                      |                         |                                                              |
 | 31        | Linear Feedback Shift Register       | Mihir Dhamankar         | [d31_mdhamank_lfsr](designs/d31_mdhamank_lfsr)               |
 | 32        | 4-bit CPU                            | Noah Gaertner           | [d32_ngaertne_cpu](designs/d32_ngaertne_cpu)                 |
 | 33        | Adder Architecture in Wokwi          | Michael Gee             | [d33_mgee3_adder](designs/d33_mgee3_adder)                   |
@@ -62,7 +61,6 @@ Following is a list of student designs on the chip, along with the design indice
 | 41        | "Corral" Game                        | Michael Stroucken       | [d41_stroucki_corralgame](designs/d41_stroucki_corralgame)   |
 | 42        | Hex to Seven-Segment                 | Samuel Sun              | [d42_qilins_sevenseg](designs/d42_qilins_sevenseg)           |
 | 43        | Counter                              | Mason Xiao              | [d43_mmx_counter](designs/d43_mmx_counter)                   |
-|-----------|--------------------------------------|-------------------------|--------------------------------------------------------------|
 
 
 
