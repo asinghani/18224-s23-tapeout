@@ -47,11 +47,8 @@ d03_example_beepboop inst3 (
 
 
 // Design #4
-// Design name d04_example_aes128sca
-d04_example_aes128sca inst4 (
-    .io_in({des_reset[4], clock, des_io_in[4]}),
-    .io_out(des_io_out[4])
-);
+// Unpopulated design slot
+assign des_io_out[4] = 12'h000;
 
 
 // Design #5

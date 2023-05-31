@@ -5,7 +5,7 @@ sources = []
 
 insts = ["" for _ in range(64)]
 
-SKIP_DESIGNS = ["d10_wabib_tictactoe"]
+SKIP_DESIGNS = ["d10_wabib_tictactoe", "d04_example_aes128sca"]
 
 # Populate all slots with placeholder
 # which will be replaced if there exists a design
