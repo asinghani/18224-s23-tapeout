@@ -60,11 +60,8 @@ d05_meta_info inst5 (
 
 
 // Design #6
-// Design name d06_demo_vgapong
-d06_demo_vgapong inst6 (
-    .io_in({des_reset[6], clock, des_io_in[6]}),
-    .io_out(des_io_out[6])
-);
+// Unpopulated design slot
+assign des_io_out[6] = 12'h000;
 
 
 // Design #7
