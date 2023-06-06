@@ -6,7 +6,7 @@ This repository contains the tapeout infrastructure and student designs from the
 
 The course was run for the first time in Spring 2023 as a way to introduce students to chip design who might not otherwise get that exposure and give them an opportunity to do mini-tapeout project. Students were taught a variety of tools including Yosys, OpenLANE/OpenROAD, NextPNR, Verilator, CocoTB, MCY, Chisel, Amaranth, LiteX, and more.
 
-The course culminated in a final project where students were given a limited area (around ~4000 standard cells) in which to design a chip of their choosing. Students chose a variety of projects ranging from games to CPUs to accelerators.
+The course culminated in a final project where students were given a limited area (equivalent to ~4000 standard cells) in which to design a chip of their choosing. Students chose a variety of projects ranging from games to CPUs to accelerators.
 
 ## The Chip
 
@@ -14,7 +14,9 @@ The final chip, taped out through the Skywater foundry (via the Efabless ChipIgn
 
 ## Index of Designs
 
-Following is a list of student designs on the chip, along with the design indices (which must be selected on the `des_sel` pins on the chip to enable a particular design).
+Following is a list of student designs on the chip, along with the design indices (The `des_sel` pins on the chip are used to enable a particular design).
+
+Designs \#1-\#7 are example designs and test-structures used for teaching purposes. \#10-\#30 are student designs from the Spring 2023 course, and \#31-\#43 are from a similar workshop taught in Fall 2022.
 
 | **Index** | **Project**                          | **Student**             | **Link**                                                     |
 |-----------|--------------------------------------|-------------------------|--------------------------------------------------------------|
