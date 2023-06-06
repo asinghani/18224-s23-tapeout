@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module test;
 
     logic reset, clock;
@@ -16,15 +18,17 @@ module test;
 
     initial begin
         clock = 0;
-        forever #5 clock = ~clock;
+        forever #50000 clock = ~clock;
     end
 
     task shiftIn (input [7:0] d1, input [7:0] d2);
         begin
             for (int i = 0; i < 8; i += 1) begin
                 shiftA = d1[7-i]; shiftB = d2[7-i];
-                shift = 1; @(posedge clock); @(posedge clock);
-                shift = 0; @(posedge clock); @(posedge clock);
+                @(negedge clock);
+                @(negedge clock);
+                shift = 1; @(negedge clock); @(negedge clock);
+                shift = 0; @(negedge clock); @(negedge clock);
             end
             
         end
@@ -35,8 +39,10 @@ module test;
         begin
             for (int i = 0; i < 20; i += 1) begin
                 dout[i] = shiftout;
-                shift = 1; @(posedge clock); @(posedge clock);
-                shift = 0; @(posedge clock); @(posedge clock);
+                @(negedge clock);
+                @(negedge clock);
+                shift = 1; @(negedge clock); @(negedge clock);
+                shift = 0; @(negedge clock); @(negedge clock);
             end
             
         end
@@ -53,33 +59,67 @@ module test;
         $monitor($time,, "finish=%d, end_mul=%d, shiftout=%d, start=%d, shiftA=%d, shiftB=%d, shift=%d",
             finish, end_mul, shiftout, start, shiftA, shiftB, shift);
 
-        @(posedge clock)
-        @(posedge clock)
+        @(negedge clock)
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock)
         reset = 0;
-        @(posedge clock)
-        @(posedge clock)
+        @(negedge clock)
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock)
 
         
         start = 1;
-        @(posedge clock);
+        @(negedge clock);
         start = 0;
-        @(posedge clock);
-        @(posedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
 
-        repeat(100) @(posedge clock);
+        repeat(100) @(negedge clock);
 
         for (int i = 0; i < 9; i++) begin
             shiftIn(i+2, i+3);
-            repeat(20) @(posedge clock);
+            repeat(20) @(negedge clock);
             do_next = 1;
-            @(posedge clock)
+            @(negedge clock)
+            @(negedge clock)
+            @(negedge clock)
             do_next = 0;
-            repeat(100) @(posedge clock);
+            repeat(100) @(negedge clock);
         end
 
-        while (!finish) @(posedge clock);
-        @(posedge clock);
-        @(posedge clock);
+        while (!finish) @(negedge clock);
+        @(negedge clock);
+        @(negedge clock);
         shiftOut();
         $display("result = %d (exp = 438)", dout);
 

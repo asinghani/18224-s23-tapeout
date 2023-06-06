@@ -16,7 +16,7 @@ logic clock;
 
 logic [15:0] received_result;
 integer counter;
-always #0.5 clock = ~clock;
+always #500000 clock = ~clock;
 
 my_chip inst_fpu1 (
 	.io_in(io_in),

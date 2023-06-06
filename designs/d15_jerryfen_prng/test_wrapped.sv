@@ -13,33 +13,54 @@ module prng_test;
 
     initial begin
         clk <= 0;
-        forever #10 clk <= ~clk;
+        forever #1000000 clk <= ~clk;
     end
 
     // prng_test.dut.
     initial begin
         reset = 1;
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        reset = 0;
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        reset = 1;
 
         $monitor($time, " :rand_num = %b, valid = %b\n", rand_num, valid);
 
-        @(posedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
         reset = 0;
-        @(posedge clk)
+       // @(negedge clk)
+       // @(negedge clk)
+       // @(negedge clk)
 
-        en <= 1;
-        sel <= 0;
-        seed <= 8'b11001100;
+        en = 1;
+        sel = 0;
+        seed = 8'b11001100;
         // seed <= 8'b00011000;
         // seed <= 8'b10101010;
         
-        @(posedge clk)
-        en <= 0;
+        @(negedge clk)
+        @(negedge clk)
+        @(negedge clk)
+        en = 0;
         
         repeat (50) begin
             en = 1;
-            @(posedge clk)
+            @(negedge clk)
+            @(negedge clk)
+            @(negedge clk)
             en = 0;
-            repeat (100) @(posedge clk);
+            repeat (100) @(negedge clk);
         end
         
         $finish;

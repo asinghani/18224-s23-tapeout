@@ -11,7 +11,7 @@ module tb;
         .io_out(chr)
     );
 
-    initial forever #5 clock = !clock;
+    initial forever #500 clock = !clock;
 
     initial begin
         clock = 0;

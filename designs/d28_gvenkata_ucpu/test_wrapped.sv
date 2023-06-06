@@ -80,6 +80,8 @@
 `define LOCAL_DIR ""
 `endif
 
+`timescale 1ns/1ps
+
 module tb_topcpu;
     reg sys_clk, sys_reset;
     localparam INST_MEM_SIZE = 1024;
@@ -113,9 +115,9 @@ module tb_topcpu;
         sys_clk = 1'b0;  
         sys_reset = 1'b1;
     
-        #10
+        #10000
         sys_clk = 1'b1;
-        #10  
+        #10000  
         sys_clk = 1'b0;  
         sys_reset = 1'b0;
     
@@ -126,9 +128,9 @@ module tb_topcpu;
             $display("cpu_state = %h",cpu_state);
             $display("inst_addr_stream = %b",inst_addr_stream);
             instr_add_reg <= {instr_add_reg[`PC_WIDTH-2:0], inst_addr_stream};
-            #10
+            #10000
             sys_clk = 1'b1;
-            #10  
+            #10000  
             sys_clk = 1'b0;  
         end 
         $display("Completed receiving instruction address from CPU, CPU_STATE = %h",cpu_state);
@@ -141,20 +143,20 @@ module tb_topcpu;
         for(int i = 0; i<`INST_WIDTH;i++) begin
         $display("CPU_STATE = %h",cpu_state);
             instr_in = inst_mem[instr_add_reg][`INST_WIDTH-1-i];
-            #10
+            #10000
             $display(" i = %0d, instr_in bit = %b",i, instr_in);
-            #10
+            #10000
             sys_clk = 1'b1;
-            #10  
+            #10000  
             sys_clk = 1'b0;  
         end 
         $display("Completed sending instruction address from CPU, CPU_STATE = %h",cpu_state);
         $display("***************************************");
         $display("Decoding instruction in CPU and populating decode registers ");
         $display("CPU_STATE = %h",cpu_state);
-        #10
+        #10000
         sys_clk = 1'b1;
-        #10  
+        #10000  
         sys_clk = 1'b0;
         $display("Finished Decoding instruction in CPU and populating decode registers, CPU_STATE = %h",cpu_state);
         $display("***************************************");
@@ -167,9 +169,9 @@ module tb_topcpu;
                     $display("cpu_state = %h",cpu_state);
                     $display("m_inst_addr_stream = %b",m_inst_addr_stream);
                     m_instr_add_reg <= {m_instr_add_reg[`M_INST_ADDR_WIDTH-2:0], m_inst_addr_stream};
-                    #10
+                    #10000
                     sys_clk = 1'b1;
-                    #10  
+                    #10000  
                     sys_clk = 1'b0;  
                 end 
                 $display("Completed receiving micro-instruction address from CPU, CPU_STATE = %h",cpu_state);
@@ -182,11 +184,11 @@ module tb_topcpu;
                 for(int i = 0; i<`MINST_WIDTH;i++) begin
                 $display("CPU_STATE = %h",cpu_state);
                     m_instr_in = m_inst_mem[m_instr_add_reg][`MINST_WIDTH-1-i];
-                    #10
+                    #10000
                     $display(" i = %0d, m_instr_in bit = %b",`MINST_WIDTH-1-i, m_instr_in);
-                    #10
+                    #10000
                     sys_clk = 1'b1;
-                    #10  
+                    #10000  
                     sys_clk = 1'b0;  
                 end 
                 $display("Completed Sending microinstruction to CPU, CPU_STATE = %h",cpu_state);
@@ -195,28 +197,28 @@ module tb_topcpu;
             if(cpu_state == `DECODE_MINST) begin
                 $display("Decoding micro-instruction in CPU and populating micro-decode registers ");
                 $display("CPU_STATE = %h",cpu_state);
-                #10
+                #10000
                 sys_clk = 1'b1;
-                #10  
+                #10000  
                 sys_clk = 1'b0;
                 $display("Finished Decoding micro-instruction in CPU and populating micro-decode registers, CPU_STATE = %h",cpu_state);
                 $display("***************************************");
             end
             if(cpu_state == `EXECUTE1) begin
                 $display("In EXECUTE-1 state of Micro-instruction in CPU, CPU_STATE = %h",cpu_state);
-                #10
+                #10000
                 
                 sys_clk = 1'b1;
-                #10  
+                #10000  
                 sys_clk = 1'b0;
                 $display("Completed EXECUTE-1 for Micro-instruction in CPU, CPU_STATE = %h",cpu_state);
                 $display("***************************************");
             end
             if(cpu_state == `EXECUTE2) begin
                 $display("In EXECUTE-2 state of Micro-instruction in CPU, CPU_STATE = %h",cpu_state);
-                #10
+                #10000
                 sys_clk = 1'b1;
-                #10  
+                #10000  
                 sys_clk = 1'b0;  
                 $display("Completed EXECUTE-2 for Micro-instruction in CPU, CPU_STATE = %h",cpu_state);
                 $display("***************************************");
