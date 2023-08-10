@@ -2,7 +2,7 @@
 
 This repository contains the tapeout infrastructure and student designs from the Spring 2023 18-224/18-624/98-154 course "Intro to Open-Source Chip Design" at Carnegie Mellon.
 
-(For questions or concerns: `anish [at] anishsinghani [dot] com`)
+(For questions or interest, email me: `anish [at] anishsinghani [dot] com`)
 
 ## The Course
 
