@@ -2,6 +2,8 @@
 
 This repository contains the tapeout infrastructure and student designs from the Spring 2023 18-224/18-624/98-154 course "Intro to Open-Source Chip Design" at Carnegie Mellon.
 
+(For questions or concerns: `anish [at] anishsinghani [dot] com`)
+
 ## The Course
 
 The course was run for the first time in Spring 2023 as a way to introduce students to chip design who might not otherwise get that exposure and give them an opportunity to do mini-tapeout project. Students were taught a variety of tools including Yosys, OpenLANE/OpenROAD, NextPNR, Verilator, CocoTB, MCY, Chisel, Amaranth, LiteX, and more.
